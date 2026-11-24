@@ -1,0 +1,412 @@
+{
+  "id": "overleaf",
+  "name": "Overleaf",
+  "website": "https://www.overleaf.com",
+  "tagline": "Online collaborative LaTeX editor for writing and sharing documents in the browser, with optional AI writing tools and a free plan",
+  "category": "reference",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Digital Science UK Limited",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "Digital Science UK Limited (doing business as Overleaf) is a limited company registered in England and Wales", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "For some billing addresses (for example US, Canada, South Africa) the service is provided by Digital Science & Research Solutions Inc (US affiliate), per the terms."
+    },
+    "vendor_country": {
+      "value": "GB",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "Digital Science UK Limited (doing business as Overleaf) is a limited company registered in England and Wales", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "parent_company": {
+      "value": "unknown",
+      "note": "Overleaf is part of Digital Science, but no cached primary page names the ultimate owner. A web search result (Wikipedia, not a primary source) names Holtzbrinck Publishing Group; not recorded as a fact."
+    },
+    "parent_country": {
+      "value": "unknown",
+      "note": "Depends on parent_company, which could not be confirmed from a primary source."
+    },
+    "eu_representative": {
+      "value": "named",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "If you are located within the EEA, you may also contact our EU representative: DS Digital Science GmbH", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Named by company, marked FAO Overleaf GDPR Representative."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "To make any requests regarding your personal data, please email us at privacy@overleaf.com", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Privacy contact address only; no named DPO found."
+    },
+    "hosting_regions": {
+      "value": ["US"],
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "much of our product infrastructure is based elsewhere, including the United States", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The privacy notice says product infrastructure is much based elsewhere, including the US. The exact storage region is not stated on cached pages."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "Overleaf uses Google Cloud Platform for data storage", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Projects are stored on vendor servers. The working-offline docs say Overleaf currently offers basic support for working offline (a limited offline mode, not a local-first design)."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "note": "No option to keep customer content in the EU/EEA found on cached pages."
+    },
+    "cloud_providers": {
+      "value": ["gcp", "aws", "other"],
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "Overleaf uses Google Cloud Platform for data storage", "retrievedAt": "2026-11-16" },
+        { "url": "https://docs.overleaf.com/accounts-and-security/overleaf-data-processors", "quote": "Amazon Web Services US Hosting", "retrievedAt": "2026-11-16" },
+        { "url": "https://docs.overleaf.com/accounts-and-security/overleaf-data-processors", "quote": "Heroku US Hosting", "retrievedAt": "2026-11-16" },
+        { "url": "https://docs.overleaf.com/accounts-and-security/overleaf-data-processors", "quote": "MongoDB Atlas US Hosting", "retrievedAt": "2026-11-16" }
+      ],
+      "others": ["Heroku", "MongoDB Atlas"]
+    },
+    "transfer_mechanism": {
+      "value": ["dpf"],
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "Digital Science US participates in the EU-US Data Privacy Framework and the UK Extension", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Covers transfers to Digital Science US. The privacy notice also refers generically to model form contracts; SCCs are not named."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://docs.overleaf.com/accounts-and-security/overleaf-data-processors", "quote": "Overleaf may engage the entities listed below to assist it in connection with its products and services", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "subprocessors_count": {
+      "value": 20,
+      "evidence": [
+        { "url": "https://docs.overleaf.com/accounts-and-security/overleaf-data-processors", "quote": "Overleaf may engage the entities listed below to assist it in connection with its products and services", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "20 third-party entities in the table. Group companies listed separately are not counted."
+    },
+    "subprocessors_non_eea": {
+      "value": 20,
+      "evidence": [
+        { "url": "https://docs.overleaf.com/accounts-and-security/overleaf-data-processors", "quote": "Amazon Web Services US Hosting", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Every listed sub-processor is shown with location US."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        { "url": "https://docs.overleaf.com/accounts-and-security/overleaf-data-processors", "quote": "To receive notifications when this page is updated, please subscribe here", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "A subscription sends notices of page updates. No advance notice period before a new sub-processor is stated."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://www.overleaf.com/for/customers/dpa", "quote": "Current version of Data Processing Addendum", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Customer DPA page lists a current Digital Science DPA and an archive of earlier PDFs. The current PDF was not read. The sub-processor page says a DPA can be executed by following a link if none is in place."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal/terms/Overleaf-Online-DPA-0620v1.pdf", "quote": "Where Overleaf Processes Personal Information on your behalf, it shall do so", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.overleaf.com/legal", "quote": "to combine the account, usage or other personal data we have collected in connection with Overleaf", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Processor for customer data under the DPA (archived 2020 version read). Controller for account and usage data under the privacy notice."
+    },
+    "privacy_policy_date": {
+      "value": "2026-06-11",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "Last Modified: 11 June 2026", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "We only keep your personal data for as long as it is necessary for the purposes for which it was collected", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Retention for personal data. No fixed period for project content."
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "note": "Terms say Overleaf will try to delete your stuff quickly but there might be latency in deletions from our servers, and backed-up versions might persist. No time frame is stated."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://docs.overleaf.com/managing-projects-and-files/downloading-a-project", "quote": "Here we show how to download your current project as a .zip file", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Projects download as zip archives. No account-wide export of all data is described."
+    },
+    "breach_notice": {
+      "value": "without undue delay (archived DPA)",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal/terms/Overleaf-Online-DPA-0620v1.pdf", "quote": "inform you without undue delay and provide details of the breach", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "From the archived 2020 DPA. The current Digital Science DPA was not read."
+    },
+    "governing_law": {
+      "value": ["GB", "US"],
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "governed by and construed in accordance with English law", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.overleaf.com/legal", "quote": "the laws of the State of New York, shall apply", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "English law generally; New York law for US Users (US billing address or service via Digital Science US)."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        { "url": "https://docs.overleaf.com/integrations-and-add-ons/ai-features", "quote": "Overleaf offers a range of AI features that are available for free within daily limits", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "ai_providers": {
+      "value": ["openai", "anthropic"],
+      "evidence": [
+        { "url": "https://docs.overleaf.com/accounts-and-security/overleaf-data-processors", "quote": "OpenAI US Data processing", "retrievedAt": "2026-11-16" },
+        { "url": "https://docs.overleaf.com/accounts-and-security/overleaf-data-processors", "quote": "Anthropic US Data processing", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Named as data-processing sub-processors. The About AI page says some features use third-party services like OpenAI, and Writefull uses a GPT model."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "We will not use your Inputs or Outputs to train or develop AI models except where this is part of the Services", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Exception only where training is part of the service for the user's own benefit. Model providers may not use the content for their own training."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "note": "No zero-retention statement found for the AI providers on cached pages."
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://docs.overleaf.com/integrations-and-add-ons/ai-features", "quote": "the administrator can set AI features as unavailable for members of the subscription", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act statement found on cached pages."
+    },
+    "certifications": {
+      "value": ["iso27001"],
+      "evidence": [
+        { "url": "https://www.digital-science.com/security-certifications/", "quote": "product divisions: Dimensions, ReadCube, Overleaf, Symplectic, Figshare, Altmetric and Metaphacts", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "ISO 27001:2022 certificate held by Digital Science, scope includes Overleaf. The ISO 27701 scope lists only Dimensions. Overleaf's own security overview does not mention ISO."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "Overleaf Security Overview", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "encryption": {
+      "value": ["in-transit"],
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "using 256-bit TLS (Transport Layer Security) encryption where supported", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Encryption at rest is not stated."
+    },
+    "pentest": {
+      "value": "unknown",
+      "note": "No penetration test summary found on cached pages."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "report security issues to security at (our domain)", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Contact-based reporting. No bug bounty found. security.txt returned 404."
+    },
+    "incidents": {
+      "value": "June 2026: Digital Science CRM supply-chain incident. Vendor notice says a limited set of CRM business contact data was accessed on 11-12 June 2026, and Digital Science products were not impacted.",
+      "evidence": [
+        { "url": "https://www.digital-science.com/security-update/", "quote": "Digital Science products and associated data have not been impacted by this incident", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Source: Digital Science's own security update page (primary). Overleaf's own page does not describe it. No regulator decision or court record found."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.overleaf.com/", "quote": "Website status", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "sso": {
+      "value": ["saml", "google"],
+      "evidence": [
+        { "url": "https://www.overleaf.com/user/subscription/plans", "quote": "SAML SSO (single sign-on) improves security and streamlines logins", "retrievedAt": "2026-11-16" },
+        { "url": "https://docs.overleaf.com/accounts-and-security/keeping-your-account-secure", "quote": "Overleaf also provides options to log in with Google or ORCID", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "SAML SSO is for some subscription types. Google login is available to all users. ORCID login is not in the option list."
+    },
+    "federation": {
+      "value": ["none-found"],
+      "note": "Institutional SSO is described for selected institutions, but no eduGAIN, SWAMID, Haka, Feide, WAYF, InCommon or UK Federation membership is named on cached pages."
+    },
+    "scim": {
+      "value": "unknown",
+      "note": "No SCIM provisioning found on cached pages."
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "No two-factor or multi-factor authentication statement found on cached pages."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "Importantly, the Manager Organization will have admin rights over your account and control over your stuff", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.overleaf.com/legal", "quote": "who may have access to information such as: your email address, profile information, and statistics on usage", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Admin rights for managed subscriptions and group administrators get usage statistics."
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.overleaf.com/user/subscription/plans", "quote": "Administrator access to logs of key subscription lifecycle events", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Limited to subscription lifecycle events, not all user actions."
+    },
+    "lms_integration": {
+      "value": ["none-found"],
+      "note": "No LTI, Canvas, Moodle, Blackboard, Brightspace or itslearning integration found on cached pages."
+    },
+    "vpat": {
+      "value": "none-found",
+      "evidence": [
+        { "url": "https://docs.overleaf.com/writing-and-editing/creating-accessible-pdfs", "quote": "Our latest completed Voluntary Product Accessibility Template (VPAT) shows conformance with Web Content Accessibility Guidelines (WCAG) 2.2 Level AA", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Overleaf says it has a completed VPAT, but no copy was found and the accessibility page returned 404. Ask Overleaf for the report."
+    },
+    "wcag_level": {
+      "value": "2.2-aa",
+      "evidence": [
+        { "url": "https://docs.overleaf.com/writing-and-editing/creating-accessible-pdfs", "quote": "Our latest completed Voluntary Product Accessibility Template (VPAT) shows conformance with Web Content Accessibility Guidelines (WCAG) 2.2 Level AA", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "note": "overleaf.com/accessibility returned 404. No accessibility statement found on cached pages."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "Searched web for an Overleaf HECVAT. None found. Overleaf docs and university library pages do not mention one."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "evidence": [
+        { "url": "https://www.overleaf.com/legal", "quote": "educational records (as that term is defined under FERPA)", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The acceptable use policy tells users not to upload educational records under FERPA. No FERPA compliance statement or school-official terms found."
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "Not stated on cached pages."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "No HIPAA statement found on cached pages."
+    },
+    "state_privacy": {
+      "value": "unknown",
+      "note": "Privacy notice links to a jurisdiction page that was not read. No SDPC, CCPA or NY Ed Law 2-d terms found on cached pages."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "note": "Privacy notice says transfers from the UK rely on safeguards such as adequacy or model contracts, but names no IDTA or UK addendum."
+    },
+    "au_privacy": {
+      "value": "unknown",
+      "note": "No Australian privacy statement or IRAP assessment found on cached pages."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "Not stated on cached pages."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.overleaf.com/user/subscription/plans", "quote": "A great way to start writing research papers.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Student plan is free, with 1 collaborator per project and basic AI allowance."
+    },
+    "price_individual": {
+      "value": "USD 16.75 per month billed yearly (USD 199 per year); USD 25 per month billed monthly (Standard plan)",
+      "evidence": [
+        { "url": "https://www.overleaf.com/user/subscription/plans", "quote": "$16.75 /month", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.overleaf.com/user/subscription/plans", "quote": "$199/year", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Lowest paid individual plan on the page. Prices shown as published, excluding taxes."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://docs.overleaf.com/integrations-and-add-ons/ai-features", "quote": "Commons and Commons AI are institutional plans, not individual ones", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.overleaf.com/user/subscription/plans", "quote": "Our group subscriptions allow you to purchase access to our premium features for multiple people", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.overleaf.com/user/subscription/plans", "quote": "Available to students currently enrolled at a degree-granting institution", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.overleaf.com/user/subscription/plans", "quote": "Simple pricing for individuals and teams", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "capabilities": {
+      "value": ["academic-writing", "reference-management", "collaboration-docs", "citation-formatting", "paraphrasing", "grammar", "paper-chat"],
+      "evidence": [
+        { "url": "https://docs.overleaf.com/integrations-and-add-ons/reference-manager-integrations", "quote": "Overleaf offers integrations with popular reference management tools", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.overleaf.com/about/features-overview", "quote": "Multiple people can edit and comment on shared LaTeX documents simultaneously", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.overleaf.com/about/features-overview", "quote": "Easily manage your bibliographies, citations, and cross-referencing with LaTeX", "retrievedAt": "2026-11-16" },
+        { "url": "https://docs.overleaf.com/integrations-and-add-ons/ai-features", "quote": "Paraphrase; Make concise; Make scientific; Split long sentences; Join short sentences", "retrievedAt": "2026-11-16" },
+        { "url": "https://docs.overleaf.com/integrations-and-add-ons/ai-features", "quote": "Grammar and fluency edits tailored to academic writing", "retrievedAt": "2026-11-16" },
+        { "url": "https://docs.overleaf.com/integrations-and-add-ons/ai-features", "quote": "Chat with your document, ask questions, get help with LaTeX", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Paper-chat is the AI assistant that chats with the user's own document, not general AI chat."
+    },
+    "primary_capability": {
+      "value": "academic-writing",
+      "evidence": [
+        { "url": "https://www.overleaf.com/about/features-overview", "quote": "Easily manage your bibliographies, citations, and cross-referencing with LaTeX", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.overleaf.com/about/features-overview", "quote": "Multiple people can edit and comment on shared LaTeX documents simultaneously", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "platforms": {
+      "value": ["web"],
+      "evidence": [
+        { "url": "https://docs.overleaf.com/writing-and-editing/creating-accessible-pdfs", "quote": "As a web application, Overleaf leverages", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "languages": {
+      "value": "15 languages in the site menu (English plus 14)",
+      "evidence": [
+        { "url": "https://www.overleaf.com/", "quote": "Čeština", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Count is for the website language menu on the homepage, not the editor interface."
+    },
+    "api": {
+      "value": "unknown",
+      "note": "No public API documentation found. The acceptable use policy prohibits using the services as a processing engine or API for external systems."
+    },
+    "open_source": {
+      "value": "unknown",
+      "note": "An on-premises Community Edition exists, but the cached pages do not state its licence."
+    },
+    "self_host": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.overleaf.com/for/enterprises", "quote": "Server Pro is Overleaf hosted in your own secure environment", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Server Pro and Community Edition run on the institution's own servers, including air-gapped."
+    }
+  }
+}

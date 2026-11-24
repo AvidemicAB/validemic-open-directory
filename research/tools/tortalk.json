@@ -1,0 +1,383 @@
+{
+  "id": "tortalk",
+  "name": "TorTalk",
+  "website": "https://www.tortalk.se",
+  "tagline": "Swedish text-to-speech desktop and mobile apps that read web pages, PDFs, e-books and scanned text aloud, sold per licence or subscription",
+  "category": "productivity",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "TorTalk AB",
+      "evidence": [
+        {
+          "url": "https://tortalk.se/om-tortalk/",
+          "quote": "Sedan 2013 utvecklar svenska TorTalk AB kraftfulla talsyntesprogram",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Named as the provider in the terms, privacy policy and about page. Swedish company, org. no. 556939-5469 on the about page."
+    },
+    "vendor_country": {
+      "value": "SE",
+      "evidence": [
+        {
+          "url": "https://tortalk.se/om-tortalk/",
+          "quote": "De gamlas väg 11 121 34 ENSKEDEDALEN",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "note": "Read the homepage, about page, privacy policy and terms. No parent or owner named. Not checked in the Swedish company register."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [
+        {
+          "url": "https://tortalk.se/privacy-policy/?lang=en",
+          "quote": "TorTalk AB built the TorTalk app as a Commercial app.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No separate parent company found (see Parent company), so the vendor country applies."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        {
+          "url": "https://tortalk.se/om-tortalk/",
+          "quote": "De gamlas väg 11 121 34 ENSKEDEDALEN",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vendor is established in Sweden (EU)."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://tortalk.se/privacy-policy/?lang=en",
+          "quote": "email: info@TorTalk.se",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "General info@ address for privacy questions. No named DPO found."
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "note": "Privacy policy, terms and product pages do not say where data is stored. Not in the cached pages."
+    },
+    "local_first": {
+      "value": "unknown",
+      "note": "FAQ says the Windows version can be installed offline by an administrator, but no page says content stays on the device or what leaves it. Read homepage, FAQ, product pages and terms."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "note": "No statement on data location or EU residency in the cached pages."
+    },
+    "cloud_providers": {
+      "value": "unknown",
+      "note": "No infrastructure provider named on the vendor pages checked."
+    },
+    "transfer_mechanism": {
+      "value": "unknown",
+      "note": "No transfer mechanism stated. Payment provider DIBS is named in the terms, but no transfer statement is given."
+    },
+    "subprocessors_public": {
+      "value": "none-found",
+      "note": "Tried /subprocessors/ (404). The privacy policy says third parties process data for TorTalk but names none. Web search found no list."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "note": "No sub-processor list published. The terms name DIBS only as the card-payment partner."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "note": "No sub-processor list published."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "note": "No sub-processor list or notice process found."
+    },
+    "dpa": {
+      "value": "none-found",
+      "note": "Tried /dpa/ (404). The privacy policy and terms do not mention a data processing agreement. Web search found none."
+    },
+    "role": {
+      "value": "controller",
+      "evidence": [
+        {
+          "url": "https://tortalk.se/anvandarvillkor/",
+          "quote": "vi lagrar och använder dina uppgifter i vår verksamhet",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated for order and account data (name, email, purchase history). Role for other customer content is not stated."
+    },
+    "privacy_policy_date": {
+      "value": "unknown",
+      "note": "Neither the Swedish nor the English privacy policy shows a last-updated date."
+    },
+    "retention_stated": {
+      "value": "unknown",
+      "note": "Privacy policy says data is retained, with no period or criteria. Terms say nothing on retention."
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "note": "No deletion-on-termination wording found in the terms or privacy policy."
+    },
+    "data_export": {
+      "value": "unknown",
+      "note": "No export of account or content data described. FAQ says saving audio files is not offered."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "note": "No breach-notification commitment in the privacy policy or terms."
+    },
+    "governing_law": {
+      "value": ["SE"],
+      "evidence": [
+        {
+          "url": "https://tortalk.se/terms-and-conditions/",
+          "quote": "This Agreement shall be governed by the laws of Sweden.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The English terms are the SPI standard licence text. Disputes go to the Swedish court where the licensor has its seat (section 17.2)."
+    },
+    "ai_features": {
+      "value": "unknown",
+      "note": "No generative AI feature named on the homepage, product, FAQ or terms pages. Text-to-speech voices are described, but not as AI."
+    },
+    "ai_providers": {
+      "value": "unknown",
+      "note": "No AI model provider named on the pages checked."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "note": "No statement on training or model improvement on the pages checked."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "note": "No AI provider named, so no retention statement."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "note": "No AI feature described, so no admin control."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act statement found on the pages checked."
+    },
+    "certifications": {
+      "value": "none-found",
+      "note": "No certification named on the vendor pages checked. Web search for ISO 27001 found nothing for TorTalk."
+    },
+    "trust_page": {
+      "value": "unknown",
+      "note": "Tried /trust/ and /security/ (both 404). No trust centre found."
+    },
+    "encryption": {
+      "value": "unknown",
+      "note": "Privacy policy says only 'commercially acceptable means' to protect data. No encryption statement."
+    },
+    "pentest": {
+      "value": "unknown",
+      "note": "No penetration test mentioned on the pages checked."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "note": "Tried /.well-known/security.txt (404). Bug reporting page exists (/rapportera_en_bugg/) but it is a support form, not a disclosure policy."
+    },
+    "incidents": {
+      "value": "none found",
+      "note": "One web search for TorTalk breaches and IMY decisions returned nothing relevant. Only the vendor pages were read beyond that."
+    },
+    "status_page": {
+      "value": "unknown",
+      "note": "No status page linked from the homepage or footer."
+    },
+    "sso": {
+      "value": "unknown",
+      "note": "No SSO protocol mentioned. Sign-in is via a 'Mina sidor' account page and a licence key."
+    },
+    "federation": {
+      "value": "none-found",
+      "note": "Searched for TorTalk in SWAMID and eduGAIN. Nothing found. Not checked against the federation member lists themselves."
+    },
+    "scim": {
+      "value": "unknown",
+      "note": "No user provisioning described on the school or company pages."
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "No MFA statement on the pages checked."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "note": "School and company licence described as 'utbildning och support', no admin console mentioned."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "note": "No audit logs mentioned."
+    },
+    "lms_integration": {
+      "value": "unknown",
+      "note": "No LMS integration named on the school or student pages."
+    },
+    "vpat": {
+      "value": "none-found",
+      "note": "Tried /accessibility/ and /tillganglighet/ (404). Web search found no VPAT for TorTalk."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "note": "No WCAG conformance claim found on the vendor pages checked."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "note": "No EU accessibility statement found on the vendor site."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "Web search for TorTalk HECVAT found nothing."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "note": "No FERPA statement on the pages checked. Vendor is Swedish."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "No HIPAA or BAA statement on the pages checked."
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "No Section 508 statement on the pages checked."
+    },
+    "state_privacy": {
+      "value": "none-found",
+      "note": "No US state privacy terms, SDPC agreement or NY Ed Law 2-d statement found."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "note": "No UK transfer terms mentioned."
+    },
+    "au_privacy": {
+      "value": "none-found",
+      "note": "No Australian privacy statement, IRAP or AU hosting found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "No NIS2 statement on the pages checked."
+    },
+    "free_plan": {
+      "value": "trial-only",
+      "evidence": [
+        {
+          "url": "https://tortalk.se/produkter/",
+          "quote": "Prova gratis, sedan 29 kr/ månad.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Mobile apps: free trial, then 29 kr a month. Desktop: one month for 9 kr. Terms offer a 14-day trial with no charge."
+    },
+    "price_individual": {
+      "value": "29 kr per month (mobile apps, iOS and Android); 69 kr per month for Windows and Mac (up to three devices)",
+      "evidence": [
+        {
+          "url": "https://tortalk.se/produkter/",
+          "quote": "Prova gratis, sedan 29 kr/ månad.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Lowest paid individual price is the mobile app. Yearly desktop plan is 690 kr a year on the product page."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://tortalk.se/skolor-och-universitet/",
+          "quote": "Skollicens per år.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "School and company licence with price set by organisation size. Invoice payment is offered for organisations."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "note": "No student or education discount named. Student page lists the same consumer prices."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://tortalk.se/produkter/",
+          "quote": "Kostnad utifrån organisationens storlek.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Individual prices are published. School and company licences are priced on request."
+    },
+    "capabilities": {
+      "value": "unknown",
+      "note": "The product reads text aloud from web pages, PDFs, e-books and images (OCR). None of these jobs appears in the option list, so no option is ticked."
+    },
+    "primary_capability": {
+      "value": "other",
+      "others": ["Text-to-speech reading"],
+      "evidence": [
+        {
+          "url": "https://tortalk.se/produkt/tortalk-subscription-win-och-mac/",
+          "quote": "är det enklaste och smidigaste verktyget för dig som vill lyssna på text",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": ["windows", "macos", "ios", "android"],
+      "evidence": [
+        {
+          "url": "https://tortalk.se/produkt/tortalk-subscription-win-och-mac/",
+          "quote": "TorTalk för Windows och Mac",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://tortalk.se/produkter/",
+          "quote": "Mobilappar för iOS / Android",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Windows and Mac are one desktop product with separate builds. iOS and Android are separate mobile apps."
+    },
+    "languages": {
+      "value": "20 languages for desktop (60 voices); 10 languages for iOS (25 voices)",
+      "evidence": [
+        {
+          "url": "https://tortalk.se/produkt/tortalk-subscription-win-och-mac/",
+          "quote": "Runt 60 talsyntesröster på 20 språk.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "These are voice languages. The interface language is not stated."
+    },
+    "api": {
+      "value": "unknown",
+      "note": "No developer API or documentation found on the pages checked."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://tortalk.se/terms-and-conditions/",
+          "quote": "All components accompanying the software are copyrighted by TorTalk AB",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Proprietary licence. Licence terms restrict copying and reverse engineering."
+    },
+    "self_host": {
+      "value": "unknown",
+      "note": "Windows can be installed offline by an administrator (FAQ 19). No server component is described, so self-hosting in the institution sense is not addressed."
+    }
+  }
+}

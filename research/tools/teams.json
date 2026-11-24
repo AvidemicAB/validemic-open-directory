@@ -1,0 +1,644 @@
+{
+  "id": "teams",
+  "name": "Microsoft Teams",
+  "website": "https://www.microsoft.com/microsoft-teams",
+  "tagline": "Chat, video meetings, calls and file collaboration app in Microsoft 365, with a free version for eligible education accounts",
+  "category": "meetings",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Microsoft Corporation",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Corporation complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Teams is part of Microsoft 365; the contracting entity for enterprise terms is named in the Product Terms, which were not in the cache."
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Corporation, One Microsoft Way, Redmond, Washington 98052, USA",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Read the privacy statement, services agreement, trust centre and Learn pages. No owner or parent above Microsoft Corporation is named."
+    },
+    "parent_country": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No parent is named (see parent_company), so no parent country is stated on the pages checked."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "The privacy statement names Microsoft Ireland Operations Limited as controller for the EEA; no Art. 27 representative wording found in the cached pages."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Ireland Operations Limited, Attn: Data Protection Officer, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Contact address and web form only; no named DPO found."
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/privacy/location-of-data-in-teams",
+          "quote": "Data in Teams resides in the geographic region associated with your Microsoft 365 or Office 365 organization.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Storage country follows the region of the customer's tenant, so no single default country is stated. Multi-Geo and third-party storage are outside this answer."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/teams-security-guide",
+          "quote": "Teams data is encrypted in transit and at rest in Microsoft services",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Teams content is stored in Microsoft services; no local-only mode is described on the pages checked."
+    },
+    "eu_residency": {
+      "value": "option",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/privacy/location-of-data-in-teams",
+          "quote": "Teams currently offers data residency in Australia, Brazil, Canada, France, Germany",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Tenant region can be chosen for new tenants in listed EU/EFTA countries (France, Germany, Italy, Norway, Poland, Sweden, Switzerland). Existing EMEA tenants keep EMEA storage. The EU Data Boundary page covers Microsoft 365 by sign-up location but does not name Teams."
+    },
+    "cloud_providers": {
+      "value": [
+        "own"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft maintains major data centers in Australia, Austria, Brazil, Canada, Finland",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Microsoft's own data centres are named. Use of Azure for Teams storage is not stated on the pages checked."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "dpf",
+        "sccs"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Corporation complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF)",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/trust-center/privacy/data-location",
+          "quote": "many Microsoft business cloud services offer customers EU Standard Contractual Clauses",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The cached DPF list page is a shell that loads the list in JavaScript, so the active status of Microsoft Corporation was not confirmed there. SCCs are offered for in-scope cloud services; Teams is not named in that sentence."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://servicetrust.microsoft.com",
+          "quote": "The Microsoft Online Services Subprocessor List identifies subprocessors authorized to subprocess customer data",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "subprocessor_notice": {
+      "value": "page-only",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/compliance/assurance/assurance-supplier-management",
+          "quote": "Microsoft provides notice by updating the Microsoft Online Services Subprocessor List",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The same page says the DPA commits to at least six months' advance notice for new subprocessors that process Customer Data, and 30 days' notice for AI subprocessors."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA",
+          "quote": "The current and archived editions of the DPA are available for download.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The DPA text is a downloadable DOCX linked from this page. It was not downloaded, so clause-level DPA answers below use Microsoft Learn and Trust Center pages."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "When Microsoft is a controller, unless otherwise stated,",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/compliance/regulatory/gdpr-breach-office365",
+          "quote": "As a data processor, Office 365 ensures that customers can meet the GDPR's breach notification requirements as data controllers.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Processor for Office 365 service data per the breach page; controller for personal data collected through the products covered by the privacy statement."
+    },
+    "privacy_policy_date": {
+      "value": "November 2026",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Last Updated: November 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The day is not stated on the cached page."
+    },
+    "retention_stated": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The privacy statement says retention periods vary and points to product documentation. Teams retention is set by admin retention policies (security overview). No fixed period for customer content found on the pages checked."
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The DPA text (downloadable DOCX) was not read. No deletion-after-termination time frame found on the pages checked."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/security-compliance-overview",
+          "quote": "Export of Teams data:",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Export is through Microsoft Purview eDiscovery (chats, messaging and files, meeting and call summaries) and content search. Open file formats are not stated in the pages checked."
+    },
+    "breach_notice": {
+      "value": "Notify customers of a personal data breach within 72 hours of a breach being declared.",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/compliance/regulatory/gdpr-breach-office365",
+          "quote": "Notify customers of a personal data breach within 72 hours of a breach being declared.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated for Office 365 under GDPR; Teams is part of Microsoft 365."
+    },
+    "governing_law": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/servicesagreement",
+          "quote": "If you live in (or, if a business, your principal place of business is in) the United States",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "This is the Microsoft Services Agreement (consumer terms). The enterprise Product Terms that govern Teams for organizations were not in the cache. The clause says the law of the state where the customer is based governs."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-licensing",
+          "quote": "Microsoft Copilot is available with Microsoft 365 E7 or as an add-on for eligible",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Copilot features in Teams are part of the optional Copilot licence. Teams core chat and meetings are described without AI as a requirement."
+    },
+    "ai_providers": {
+      "value": [
+        "openai",
+        "anthropic",
+        "own"
+      ],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy",
+          "quote": "For information about models provided by OpenAI as a subprocessor within Microsoft Copilot experiences",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-subprocessor-overview",
+          "quote": "Copilot Cowork uses Anthropic models to help securely carry out tasks across Microsoft 365 apps including Outlook, Teams",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy",
+          "quote": "We may deploy other AI models for Microsoft Copilot to use that are hosted and operated by Microsoft.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "These providers are listed for Microsoft 365 Copilot, which is the AI layer used in Teams. The pages do not list providers for Teams features without Copilot."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy",
+          "quote": "Prompts, responses, and data accessed through Microsoft Graph aren't used to train foundation LLMs, including those used by Microsoft Copilot.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated for Copilot prompts and Microsoft Graph data. Teams chats and files are accessed through Microsoft Graph. The cached pages do not state a separate clause for Teams content outside Copilot."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Abuse monitoring at Azure OpenAI is described; the Copilot services are said to have opted out of it. No zero-data-retention statement found."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Admins manage Copilot settings in the Microsoft 365 admin center and link to the Teams admin center for Copilot in Teams. No explicit switch to disable AI features in Teams was quoted."
+    },
+    "ai_act_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/trust-center/compliance/eu-ai-act",
+          "quote": "Microsoft is committed to building products and solutions that comply with the EU AI Act",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "certifications": {
+      "value": [
+        "iso27001",
+        "iso27017",
+        "iso27018",
+        "iso27701",
+        "soc2-type2",
+        "csa-star"
+      ],
+      "evidence": [
+        {
+          "url": "https://servicetrust.microsoft.com",
+          "quote": "Microsoft 365 - ISO 27001:2022 Certificate (2024-2027)",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://servicetrust.microsoft.com",
+          "quote": "ISO 27001, 27017, 27018 and 27701 Statement of Applicability (Dated 02.25.2026)",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://servicetrust.microsoft.com",
+          "quote": "Microsoft 365 Central Services - SOC 2 Type 2 Report (9-30-2025)",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/security-compliance-overview",
+          "quote": "Teams also supports Cloud Security Alliance compliance.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The 27017, 27018 and 27701 statement covers Microsoft Azure, Dynamics and Online Services; Teams is named in the Microsoft 365 scope on the security overview, not on that line. CSA STAR is stated as support, not as a listed certificate."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/security-compliance-overview",
+          "quote": "Teams follows the same guidance and principles as the Microsoft Trust Center.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest",
+        "customer-keys",
+        "e2e"
+      ],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/security-compliance-overview",
+          "quote": "Encryption of data in transit and at rest.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/security-compliance-overview",
+          "quote": "Customer Key encrypts Teams files stored in SharePoint at the application level",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/teams-security-guide",
+          "quote": "End-to-end encrypted calls include a 20-digit security code",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "End-to-end encryption is described for calls and meetings that use it, not for all Teams content. Customer Key is listed as a tenant-level option."
+    },
+    "pentest": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Searched the cached Teams, trust centre and Service Trust pages for penetration testing wording. None found."
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/msrc/bounty",
+          "quote": "Microsoft Bounty Programs",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Coordinated vulnerability disclosure policy is also published on MSRC."
+    },
+    "incidents": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Searched the cached Microsoft pages (incident management, GDPR breach notice) for incidents. No regulator decision, court record or vendor notice naming Teams was checked. Not searched further."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://status.cloud.microsoft",
+          "quote": "Service Health Status",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "sso": {
+      "value": [
+        "microsoft"
+      ],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/security-compliance-overview",
+          "quote": "Single sign-on through Microsoft Entra ID.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/security-compliance-overview",
+          "quote": "Team-wide and organization-wide two-factor authentication.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/teams-overview",
+          "quote": "As the admin, you manage Teams through the Teams admin center.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/security-compliance-overview",
+          "quote": "Microsoft Purview Audit (Standard), Microsoft Purview Audit (Premium), and audit log search plug right into Microsoft Purview.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/trust-center/compliance/accessibility",
+          "quote": "Microsoft publishes Accessibility Conformance Reports (ACRs) describing how our products and services support the criteria of the European accessibility standard",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Microsoft publishes conformance reports for its products. A Teams-specific report was not opened, so the Teams report itself is not confirmed."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The WCAG pages describe conformance reports in general. No Teams-specific WCAG level was read."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/accessibility",
+          "quote": "Learn how we prepared for the European Accessibility Act, investing in updates across products like Windows, Teams, and Outlook",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "hecvat": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Microsoft HECVAT pages in the cache returned 404. No HECVAT found in the pages checked."
+    },
+    "ferpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Microsoft FERPA pages in the cache returned 404. No FERPA statement found in the pages checked."
+    },
+    "hipaa_baa": {
+      "value": "available",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-hipaa-hitech",
+          "quote": "Microsoft Entra ID, Microsoft Purview portal, Microsoft Teams, MyAnalytics",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The page lists Microsoft Teams among the in-scope Commercial services under the BAA."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The Section 508 page says Microsoft publishes conformance reports for government customers. No explicit conformance claim for Teams was read."
+    },
+    "state_privacy": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Searched the cached Teams and Microsoft pages for Student Data Privacy Consortium, NY Ed Law 2-d and CCPA terms. None found."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The UK Trust Center page returned 404. The privacy statement mentions the UK Extension to the EU-U.S. DPF, which is not an IDTA or UK addendum. No UK transfer addendum found."
+    },
+    "au_privacy": {
+      "value": [
+        "au-hosting"
+      ],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/privacy/location-of-data-in-teams",
+          "quote": "Teams currently offers data residency in Australia, Brazil, Canada, France, Germany",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Australian tenant data residency is listed for new tenants. The Australia privacy page returned 404."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The NIS2 page describes Microsoft security products for NIS2 compliance. No supply-chain statement was found."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/education/products/teams",
+          "quote": "Students and educators can use the free version of Microsoft Teams with an eligible, active education email address.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The free version is stated for eligible education accounts. The consumer free plan was not confirmed. source blocked: https://www.microsoft.com/en-us/microsoft-teams/free"
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The education page offers Teams free with an institution email. No site or campus licence wording found. source blocked: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options"
+    },
+    "price_individual": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/pricing"
+    },
+    "pricing_public": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/pricing"
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software"
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/education/products/teams",
+          "quote": "Students and educators can use the free version of Microsoft Teams with an eligible, active education email address.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Free for eligible education accounts. Paid education plans were not read."
+    },
+    "capabilities": {
+      "value": [
+        "video-meetings",
+        "collaboration-docs",
+        "notes",
+        "storage"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/education/products/teams",
+          "quote": "Video collaboration, chat, assignments, class materials, and notes are all built into the app",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/teams-overview",
+          "quote": "Teams is the place to have informal chats, iterate quickly on a project, work with team files, and collaborate on shared deliverables.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/teams-overview",
+          "quote": "A SharePoint site and document library to store team files.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/teams-overview",
+          "quote": "A OneNote notebook.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "primary_capability": {
+      "value": "video-meetings",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/education/products/teams",
+          "quote": "Video collaboration, chat, assignments, class materials, and notes are all built into the app",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The vendor lists video, chat, assignments and notes together. Video meetings is the first item and the main use named on the education page."
+    },
+    "platforms": {
+      "value": [
+        "web",
+        "windows",
+        "macos"
+      ],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/teams-security-guide",
+          "quote": "The Teams clients across PC and mobile, and the web client, all support MA",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/security-compliance-overview",
+          "quote": "Microsoft Teams desktop clients for Windows and Mac support modern authentication.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Mobile clients are mentioned without naming iOS or Android. Linux and browser extensions are not named."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/teams-overview",
+          "quote": "Teams offers a robust development platform so you can build the teamwork hub you need for your organization.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Teams is built on Microsoft Graph (teams overview). Graph API documentation was not opened."
+    },
+    "open_source": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No open-source licence statement for Teams found in the cached pages."
+    },
+    "self_host": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/security-compliance-overview",
+          "quote": "Microsoft Teams is built on the Microsoft 365 and Office 365 hyper-scale, enterprise-grade cloud",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    }
+  }
+}

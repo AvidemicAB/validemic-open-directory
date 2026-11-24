@@ -1,0 +1,327 @@
+{
+  "id": "stata",
+  "name": "Stata",
+  "website": "https://www.stata.com",
+  "tagline": "Desktop statistics and data analysis software with a command language, graphics and reporting tools, sold as annual or multiyear licences",
+  "category": "statistics",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "StataCorp LLC",
+      "evidence": [
+        { "url": "https://www.stata.com/privacy-policy/", "quote": "StataCorp LLC (StataCorp) strives to provide our users with exceptional products and services", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        { "url": "https://www.stata.com/privacy-policy/", "quote": "StataCorp LLC 4905 Lakeway Drive College Station, Texas 77845-4512 USA", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Read privacy policy, terms, end-user licence agreement and product pages. No parent or owner named."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "note": "No separate parent company found (see Parent company), so the vendor country applies."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Vendor is US-based. No Article 27 EU representative named in the privacy policy or terms read."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        { "url": "https://www.stata.com/privacy-policy/", "quote": "You may request to obtain the personal information we maintain on you by emailing", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Privacy contact is an email address (obfuscated in the cached copy). No named DPO found."
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "note": "Privacy policy says personal information is kept on computers in a secure environment; no region named."
+    },
+    "local_first": {
+      "value": "unknown",
+      "note": "Vendor calls Stata an off-the-shelf desktop application, but the pages read do not say whether licence checks or updates send data to the vendor."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "note": "No statement on storing customer data inside the EU/EEA found."
+    },
+    "cloud_providers": {
+      "value": "unknown",
+      "note": "No infrastructure provider named on the pages read."
+    },
+    "transfer_mechanism": {
+      "value": "unknown",
+      "note": "No Data Privacy Framework, SCC or BCR statement found on the privacy policy or terms read."
+    },
+    "subprocessors_public": {
+      "value": "none-found",
+      "note": "stata.com/subprocessors returns 404; privacy policy does not list subprocessors."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "note": "No subprocessor list found."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "note": "No subprocessor list found."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "note": "No subprocessor notice process found."
+    },
+    "dpa": {
+      "value": "none-found",
+      "note": "stata.com/dpa returns 404; privacy policy and EULA read; web search found no StataCorp DPA."
+    },
+    "role": {
+      "value": "unknown",
+      "note": "Privacy policy covers StataCorp's own customer account and order data; no processor role for customer research content is stated."
+    },
+    "privacy_policy_date": {
+      "value": "2022-11-16",
+      "evidence": [
+        { "url": "https://www.stata.com/privacy-policy/", "quote": "Last updated: 16 November 2022", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.stata.com/privacy-policy/", "quote": "but we will keep it no longer than is necessary", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Qualitative statement only; no fixed period given."
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://www.stata.com/privacy-policy/", "quote": "You may request that StataCorp update, correct, or remove your personal information by emailing", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Deletion on request; no time frame after termination stated."
+    },
+    "data_export": {
+      "value": "unknown",
+      "note": "Privacy policy describes obtaining personal information on request, not export of user research files."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "note": "No breach-notification window stated in the privacy policy or EULA read."
+    },
+    "governing_law": {
+      "value": ["US"],
+      "evidence": [
+        { "url": "https://www.stata.com/order/end-user-license-agreement/19eula2025.pdf", "quote": "will be governed by and construed in accordance with the laws of the State of Texas and the federal U.S. laws", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Governing law of the licence agreement is Texas. Website terms also apply Texas law."
+    },
+    "ai_features": {
+      "value": "none-found",
+      "evidence": [
+        { "url": "https://www.stata.com/stata-news/news41-2/community-corner-ai-tools/", "quote": "The Stata community has a long history of extending the software’s capabilities through community-contributed tools", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No vendor-built generative AI feature found. The AI page describes community-built tools that call third-party models."
+    },
+    "ai_providers": {
+      "value": ["none-found"],
+      "note": "No vendor AI model provider named. Community tools linked on the AI page are not vendor services."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "note": "No statement on model training, as no vendor AI feature was found."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "note": "No statement found."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "note": "No vendor AI feature found to disable."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act statement found."
+    },
+    "certifications": {
+      "value": ["none-found"],
+      "note": "stata.com/trust and /security return 404; web search for ISO, SOC or similar found no StataCorp certification."
+    },
+    "trust_page": {
+      "value": "unknown",
+      "note": "stata.com/trust and stata.com/security return 404. No trust or security centre found."
+    },
+    "encryption": {
+      "value": ["in-transit"],
+      "evidence": [
+        { "url": "https://www.stata.com/privacy-policy/", "quote": "Wherever we collect sensitive information (such as credit card data), that information is encrypted and transmitted to us in a secure way", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Stated for sensitive information collected on the website. No at-rest or customer-key statement."
+    },
+    "pentest": {
+      "value": "unknown",
+      "note": "No penetration test statement found."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "note": "stata.com/.well-known/security.txt returns 404. Copyright agent contact in terms is for DMCA notices only."
+    },
+    "incidents": {
+      "value": "none found",
+      "note": "Web search for StataCorp breaches or regulator fines found none. No primary source found."
+    },
+    "status_page": {
+      "value": "unknown",
+      "note": "stata.com/status returns 404; no public uptime page found."
+    },
+    "sso": {
+      "value": ["none-found"],
+      "note": "No SSO protocol described on the pages read."
+    },
+    "federation": {
+      "value": ["none-found"],
+      "note": "No research federation membership found."
+    },
+    "scim": {
+      "value": "unknown",
+      "note": "No provisioning statement found."
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "No statement on multi-factor sign-in found."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "note": "Licence and site administration described only as Stata's own licence activation; no admin console found."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "note": "No audit log statement found."
+    },
+    "lms_integration": {
+      "value": ["none-found"],
+      "note": "No LMS integration found on the pages read."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://www.stata.com/features/section-508-compliance-19/", "quote": "Download a copy of Stata's VPAT.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Stata 19 accessibility conformance report dated 4/8/2025, VPAT 2.5 basis."
+    },
+    "wcag_level": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://www.stata.com/features/section-508-compliance-19/Stata_ACR.pdf", "quote": "Partially Supports : Some functionality of the product does not meet the criterion.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Report is audited against WCAG 2.2 Level AA, but several criteria are marked Partially Supports."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "note": "stata.com/accessibility returns 404. A Section 508 statement exists, but no EU accessibility statement found."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "No HECVAT found; web search returned none for StataCorp."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "note": "No FERPA statement or school-official terms found in the pages read."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "No statement on BAA found."
+    },
+    "section_508": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.stata.com/features/section-508-compliance-19/", "quote": "including a complete Voluntary Product Accessibility Template (VPAT) documenting compliance", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "state_privacy": {
+      "value": ["none-found"],
+      "note": "Privacy policy has a California notice only; no SDPC, NY Ed Law 2-d or similar agreement found."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "note": "No UK transfer terms found."
+    },
+    "au_privacy": {
+      "value": ["none-found"],
+      "note": "No Australian privacy statement, IRAP or AU hosting found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "No NIS2 statement found."
+    },
+    "free_plan": {
+      "value": "unknown",
+      "note": "No free plan or trial found on the order and product pages read."
+    },
+    "price_individual": {
+      "value": "$995.00 per year, Stata/MP4 annual licence (download), as shown in the cart on the product pages",
+      "evidence": [
+        { "url": "https://www.stata.com/order/", "quote": "Stata/MP4 Annual License (download) $995.00", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Prices are set per country on the order page; the cart line is the only price text in the cached copy."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.stata.com/statanow/", "quote": "whether your institution has a site license", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "note": "Only training courses are stated to have no student discount. No software student price found."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://www.stata.com/order/", "quote": "Please select your country to view pricing and order StataNow", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "capabilities": {
+      "value": ["statistics", "data-visualization"],
+      "evidence": [
+        { "url": "https://www.stata.com/features/section-508-compliance-19/Stata_ACR.pdf", "quote": "Stata is a complete, integrated software package that provides all the tools data science professionals need", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.stata.com/features/section-508-compliance-19/Stata_ACR.pdf", "quote": "manipulation, visualization, statistics, and automated reporting", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "primary_capability": {
+      "value": "statistics",
+      "evidence": [
+        { "url": "https://www.stata.com/features/section-508-compliance-19/Stata_ACR.pdf", "quote": "Stata is a complete, integrated software package that provides all the tools data science professionals need", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "platforms": {
+      "value": ["windows", "macos", "linux"],
+      "evidence": [
+        { "url": "https://www.stata.com/products/which-stata-is-right-for-me/", "quote": "All Stata licenses run on all three platforms", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "languages": {
+      "value": "unknown",
+      "note": "No interface language list found on the pages read."
+    },
+    "api": {
+      "value": "unknown",
+      "note": "No vendor public API documentation found on the pages read."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.stata.com/order/end-user-license-agreement/19eula2025.pdf", "quote": "shall retain all right, title, and interest, including all intellectual property rights, in and to the Licensed Software", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "self_host": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.stata.com/order/end-user-license-agreement/19eula2025.pdf", "quote": "Customer is authorized by StataCorp to install the Licensed Software on an unlimited number of machines", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Desktop software installed on the institution's own machines; network licences limited to one local site."
+    }
+  }
+}

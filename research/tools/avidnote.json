@@ -1,0 +1,436 @@
+{
+  "id": "avidnote",
+  "name": "Avidnote",
+  "website": "https://avidnote.com",
+  "tagline": "Web app for researchers and students to upload papers, chat with them, take notes, write with AI templates and transcribe interviews",
+  "category": "ai",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Avidemic AB (publ)",
+      "evidence": [
+        { "url": "https://avidnote.com/terms-of-service/", "quote": "Avidemic AB (publ), Reg number: 559252-4267, a Swedish limited liability company", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/legal/Avidnote-DPA-2026-10.pdf", "quote": "Avidemic AB (\"Data Processor\"), a company incorporated under the laws of Sweden", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Terms write \"Avidemic AB (publ)\"; the DPA and the company's annual reports name it \"Avidemic AB\" (same registration number 559252-4267)."
+    },
+    "vendor_country": {
+      "value": "SE",
+      "evidence": [
+        { "url": "https://avidnote.com/legal/Avidnote-DPA-2026-10.pdf", "quote": "a company incorporated under the laws of Sweden, having its principal place of business at Ovädersgatan 8B, 418 34 Göteborg, Sweden", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "note": "Checked the about page, terms, privacy policy, DPA, subprocessor page and the annual reports for 2023 and 2024 (risika.dk copies of the filed årsredovisning). No parent, owner or group (koncern) is named. The about page names ZenDev only as a development partner, not as owner. Shareholders are not listed in any of these."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://avidnote.com/terms-of-service/", "quote": "Avidemic AB (publ), Reg number: 559252-4267, a Swedish limited liability company", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No separate parent found, so the vendor country applies."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        { "url": "https://avidnote.com/dpa/", "quote": "Avidnote is provided by Avidemic AB, a company based in Sweden and subject to the GDPR.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Vendor is established in Sweden (EU)."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        { "url": "https://avidnote.com/privacy/", "quote": "Questions about the Privacy Policy should be sent to us from our contact page.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/legal/Avidnote-DPA-2026-10.pdf", "quote": "Contact for questions about Subprocessors: team@avidnote.com.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No named DPO in the privacy policy, DPA, terms or EU hosting page. Privacy policy gives an email address and the contact form."
+    },
+    "hosting_regions": {
+      "value": ["SE", "DE"],
+      "evidence": [
+        { "url": "https://avidnote.com/privacy/", "quote": "The notes and research data that you upload to Avidnote are stored on our servers in Sweden, hosted by Hostup AB, a Swedish company.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/privacy/", "quote": "Backups are kept in EU data centres operated by Bunny (BunnyWay d.o.o., Slovenia) in Stockholm, Sweden, with redundancy in Germany.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/legal/Avidnote-DPA-2026-10.pdf", "quote": "Personal Data shall at all times be stored within the European Union.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Primary storage in Sweden (Hostup AB). Backups in Stockholm, Sweden, with redundancy in Germany (Bunny); the subprocessor page says backups include user data."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://avidnote.com/pricing/", "quote": "Avidnote is entirely web-based, so do you do not need to download anything.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/privacy/", "quote": "The notes and research data that you upload to Avidnote are stored on our servers in Sweden", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No local-only or offline mode stated. The free tools on /tools run in the browser, but they are separate from the main app."
+    },
+    "eu_residency": {
+      "value": "default",
+      "evidence": [
+        { "url": "https://avidnote.com/legal/Avidnote-DPA-2026-10.pdf", "quote": "Personal Data shall at all times be stored within the European Union.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/eu-hosting/", "quote": "Processed and stored in the EU, with no transfer outside the EEA. The default for EU/EEA institutions.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Stored data stays in the EU for all accounts. AI processing stays in the EU by default for EU/EEA institutions with a DPA (Azure OpenAI, Sweden). Other accounts use OpenAI Ireland Ltd, and that AI processing may take place in the USA.",
+      "note": "Institutional answer given. Institutions can ask for the Azure EU endpoint for every user with their email domain."
+    },
+    "cloud_providers": {
+      "value": ["other"],
+      "others": ["Hostup AB", "BunnyWay d.o.o."],
+      "evidence": [
+        { "url": "https://avidnote.com/legal/Avidnote-DPA-2026-10.pdf", "quote": "Personal Data processed by the Data Processor is stored on servers operated by Hostup AB in data centres in Sweden", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/subprocessors/", "quote": "Content delivery, DNS and protection against cyber-attacks. Also provides redundancy and backup hosting and storage.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Hosting by Hostup AB; CDN, DNS and backup by BunnyWay (Bunny). Microsoft Azure OpenAI is listed as an AI provider, not as infrastructure."
+    },
+    "transfer_mechanism": {
+      "value": ["sccs"],
+      "evidence": [
+        { "url": "https://avidnote.com/subprocessors/", "quote": "Transfers are covered by OpenAI’s DPA and the EU Standard Contractual Clauses.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/subprocessors/", "quote": "Covered by a DPA and Standard Contractual Clauses.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "SCCs are named for OpenAI and AssemblyAI. DPA section 10.2 names the EU-US Data Privacy Framework only as a general example of a safeguard, with no named certified recipient. dataprivacyframework.gov was not searched. Under the institutional DPA, Annex 1 lists no processing outside the EU."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://avidnote.com/subprocessors/", "quote": "We use the subprocessors below to deliver the service.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "subprocessors_count": {
+      "value": 7,
+      "evidence": [
+        { "url": "https://avidnote.com/subprocessors/", "quote": "Sub-processor 7: Stripe (self-serve purchases only)", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "The DPA's Annex 1 (institutional customers) lists 5: Hostup, Microsoft (Azure OpenAI), AssemblyAI, Bunny and Visma. The public page adds OpenAI (standard accounts) and Stripe (self-serve purchases).",
+      "note": "Counted as third-party companies on the public page: Hostup, Microsoft Ireland (Azure OpenAI), OpenAI Ireland, AssemblyAI, BunnyWay, Visma, Stripe. No group companies (none exist on the pages). Website cookie tools named in the privacy policy (Clicky, Google Tag Manager) are not on the list."
+    },
+    "subprocessors_non_eea": {
+      "value": 2,
+      "evidence": [
+        { "url": "https://avidnote.com/subprocessors/", "quote": "Location of processing : EU / USA. Processing may take place in the USA.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/subprocessors/", "quote": "Location of processing : EU / USA.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Under the institutional DPA (Annex 1) none of the listed subprocessors processes outside the EU. AssemblyAI is a US company but its listed location of processing is the EU.",
+      "note": "Counted by the location each entry lists: OpenAI (EU / USA) and Stripe (EU / USA)."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        { "url": "https://avidnote.com/dpa/", "quote": "New subprocessors are announced in advance (at least 30 days for hosting and storage), subscribers are notified by email, and you can object within 14 days.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/legal/Avidnote-DPA-2026-10.pdf", "quote": "shall automatically notify subscribers when it is updated", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Email notice goes to subscribers; subscribing is by writing to the vendor with the subject \"Subprocessor updates\". Notice is formally given by publishing on the page."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://avidnote.com/dpa/", "quote": "Below you can download our standard Data Processing Agreement (DPA).", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Standard DPA PDF (October 2026). Signed copies and special provisions on request."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        { "url": "https://avidnote.com/legal/Avidnote-DPA-2026-10.pdf", "quote": "This Agreement governs the processing of personal data by the Data Processor on behalf of the Data Controller", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/terms-of-service/", "quote": "what type of personal data we process as controllers in relation to Team Members", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Processor for customer content under the DPA. Controller for team member and site data according to the terms. Without a signed DPA, the privacy policy is the default agreement for all users."
+    },
+    "privacy_policy_date": {
+      "value": "2026-10-27",
+      "evidence": [
+        { "url": "https://avidnote.com/privacy/", "quote": "Last updated: 27 October 2026.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "retention_stated": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://avidnote.com/legal/Avidnote-DPA-2026-10.pdf", "quote": "The Data Processor shall retain Personal Data only for as long as necessary to fulfill the purposes outlined in this Agreement", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No retention period in days or months stated for customer content. Privacy policy keeps subscription information until the user asks for deletion. OpenAI's 30-day abuse-monitoring retention is a provider statement, see ai_zero_retention."
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://avidnote.com/legal/Avidnote-DPA-2026-10.pdf", "quote": "Upon termination of this Agreement or upon the Data Controller’s request, the Data Processor will delete or return all Personal Data", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Deletion or return on termination or on request. No time frame stated. Terms 19.2: termination by email, with all data removed."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://avidnote.com/pricing/", "quote": "You can export all of your documents and data as Word files or PDFs.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/eu-hosting/", "quote": "Export to Word or PDF, or delete it, at any time.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Export to Word or PDF. No open or machine-readable export (e.g. of references) stated."
+    },
+    "breach_notice": {
+      "value": "promptly, no fixed window stated",
+      "evidence": [
+        { "url": "https://avidnote.com/legal/Avidnote-DPA-2026-10.pdf", "quote": "The Data Processor shall promptly notify the Data Controller in writing upon becoming aware of any personal data breach", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "governing_law": {
+      "value": "SE",
+      "evidence": [
+        { "url": "https://avidnote.com/terms-of-service/", "quote": "The Terms is governed by and construed in accordance with the substantive laws of Sweden", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Disputes go to arbitration under the Stockholm Chamber of Commerce expedited rules. The DPA is also governed by Swedish law."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        { "url": "https://avidnote.com/about/", "quote": "Avidnote is an AI platform for researchers developed in Sweden with users from all over the world.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "ai_providers": {
+      "value": ["azure-openai", "openai", "other"],
+      "others": ["AssemblyAI"],
+      "evidence": [
+        { "url": "https://avidnote.com/privacy/", "quote": "Microsoft Azure OpenAI in Sweden. Processing stays within the EU.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/privacy/", "quote": "This is the default for universities and organisations in the EU/EEA that have a data processing agreement with us", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/privacy/", "quote": "OpenAI (OpenAI Ireland Ltd). Used for other accounts.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/subprocessors/", "quote": "Speech-to-text transcription through AssemblyAI’s EU endpoint.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "University and enterprise accounts in the EU/EEA with a DPA use the Azure OpenAI endpoint in Sweden: processing and storage stay in the EU. Other (individual) accounts use OpenAI through OpenAI Ireland Ltd, under OpenAI's DPA and Standard Contractual Clauses; that processing may take place in the USA.",
+      "note": "Each account uses one AI endpoint. The DPA (October 2026) names only Azure OpenAI for AI. AssemblyAI is used for transcription, not chat."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://avidnote.com/privacy/", "quote": "If you use any of our AI functionalities, the data that you input is never used to train the AI.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/subprocessors/", "quote": "Used through OpenAI’s business API, where content is not used for model training.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Azure OpenAI and AssemblyAI entries also say not used for model training. The privacy policy's \"improve our services\" wording covers device and usage information, not a licence to train on content; terms 5.2 say Avidnote receives no right to use the user's content."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [
+        { "url": "https://avidnote.com/subprocessors/", "quote": "OpenAI may keep API data for up to 30 days for abuse monitoring, after which it is deleted.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "For other (individual) accounts on the OpenAI standard endpoint, the vendor states OpenAI may keep API data for up to 30 days for abuse monitoring, so zero retention does not apply there.",
+      "note": "Institutional answer: retention at Azure OpenAI (the institutional endpoint) and at AssemblyAI is not stated on the subprocessor page, DPA or privacy policy."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "note": "No admin switch to disable AI features found in the terms, privacy policy, DPA, pricing, EU hosting or AI pages."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act statement found in the AI, privacy, terms, DPA, EU hosting or subprocessor pages."
+    },
+    "certifications": {
+      "value": ["none-found"],
+      "note": "No ISO, SOC or other certification named in the pages checked (privacy, terms, DPA, subprocessors, EU hosting, pricing, about)."
+    },
+    "trust_page": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://avidnote.com/trust", "quote": "This page is not here.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "/trust and /security return 404. The EU hosting & GDPR page collects the DPA, subprocessor list and VPAT for procurement but is not a security page."
+    },
+    "encryption": {
+      "value": ["at-rest"],
+      "evidence": [
+        { "url": "https://avidnote.com/privacy/", "quote": "everything you write on Avidnote is stored in encrypted, GDPR-compliant data centres in Sweden", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The pricing FAQ mentions \"industry level security and encryption measures\" without detail. No statement on encryption in transit or customer-managed keys found."
+    },
+    "pentest": {
+      "value": "unknown",
+      "note": "No penetration test statement found in the pages checked. The DPA allows customer audits and a yearly questionnaire (section 17)."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        { "url": "https://avidnote.com/.well-known/security.txt", "quote": "Contact: mailto:hello@avidnote.com", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "security.txt present, Expires 2027-10-21, Policy link points to the contact page. No bug bounty found."
+    },
+    "incidents": {
+      "value": "none found",
+      "note": "Searched the vendor pages and the web (WebSearch 2026-11-17, including IMY). No vendor notice, regulator decision or court record naming Avidnote or Avidemic AB found."
+    },
+    "status_page": {
+      "value": "no",
+      "note": "No status page link on the homepage, footer or legal pages; status.avidnote.com does not resolve (checked 2026-11-17)."
+    },
+    "sso": {
+      "value": ["unknown"],
+      "evidence": [
+        { "url": "https://app.avidnote.com/login", "quote": "Sign in with SSO", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The app login page has a \"Sign in with SSO\" button, but no public page names the protocol (SAML, OIDC) or identity providers."
+    },
+    "federation": {
+      "value": ["none-found"],
+      "note": "No eduGAIN, SWAMID or other federation membership stated on the pages checked. Federation metadata was not searched."
+    },
+    "scim": {
+      "value": "unknown",
+      "note": "No SCIM or user provisioning mention found in the pages checked."
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "No customer-account MFA statement found in the pages checked; the login page shows email and password only."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "evidence": [
+        { "url": "https://avidnote.com/terms-of-service/", "quote": "through the administrator(s) appointed by you control, administer", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Team Workspace administrators can control, suspend and remove team member accounts (terms section 6). No usage reports or admin console described."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "note": "No admin-visible audit log described in the pages checked."
+    },
+    "lms_integration": {
+      "value": ["unknown"],
+      "note": "No LMS or LTI integration named in the pages checked."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://avidnote.com/vpat/", "quote": "Name of Product : Avidnote", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Short self-assessment covering selected WCAG 2.1, Section 508 and EN 301 549 criteria. Linked from the EU hosting page."
+    },
+    "wcag_level": {
+      "value": "none-claimed",
+      "evidence": [
+        { "url": "https://avidnote.com/vpat/", "quote": "This VPAT document is a general overview and does not encompass every detail of Avidnote’s accessibility features.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The VPAT marks a handful of WCAG 2.1 criteria as Supports but states no overall conformance level."
+    },
+    "accessibility_statement": {
+      "value": "no",
+      "note": "/accessibility and /accessibility-statement return 404; no accessibility statement linked from the homepage, footer or legal pages. The VPAT is the only accessibility document."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "No HECVAT published or mentioned on the pages checked or in web search."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "note": "No FERPA statement or school-official terms in the terms, privacy policy, DPA or subprocessor pages."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "No HIPAA or BAA mention found in the pages checked."
+    },
+    "section_508": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://avidnote.com/vpat/", "quote": "1194.21 Software Applications and Operating Systems", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Claimed in the vendor's VPAT (self-assessment, against the older 1194 Section 508 standards), not independently verified."
+    },
+    "state_privacy": {
+      "value": ["ccpa"],
+      "evidence": [
+        { "url": "https://avidnote.com/privacy/", "quote": "This is done in order to comply with other national data regulations, including the CCPA and the Australian Privacy Act.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "A general statement in the privacy policy, not contract terms. No SDPC or NY Ed Law 2-d agreements found."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "note": "No UK addendum or IDTA mention found in the pages checked."
+    },
+    "au_privacy": {
+      "value": ["app-statement"],
+      "evidence": [
+        { "url": "https://avidnote.com/privacy/", "quote": "This is done in order to comply with other national data regulations, including the CCPA and the Australian Privacy Act.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Statement of intent to comply with the Australian Privacy Act. No IRAP assessment or Australian hosting found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "No NIS2 statement found in the pages checked."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://avidnote.com/pricing/", "quote": "Start out free. Upgrade anytime.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Free plan with 20,000 AI words per month and 10 AI reading questions per month."
+    },
+    "price_individual": {
+      "value": "$19 per month (Professional plan)",
+      "evidence": [
+        { "url": "https://avidnote.com/pricing/", "quote": "$19 month", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Premium is $59 per month and Ultimate $99 per month, shown in USD. Terms say prices exclude VAT."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://avidnote.com/pricing/", "quote": "For group prices and enterprise. Please contact us .", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/terms-of-service/", "quote": "the Free Version, the Basic Version (Beginner Version), the Pro Version (Professional Version), and the Enterprise Version", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Group and enterprise licences on request; multi-licence purchases get a Team Workspace. No published site or campus licence terms."
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://avidnote.com/pricing/", "quote": "We give discounts to groups as well as students.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://avidnote.com/pricing/", "quote": "$99 month", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Amounts shown for Professional, Premium and Ultimate. Group and enterprise prices on request."
+    },
+    "capabilities": {
+      "value": ["paper-chat", "summarize-papers", "literature-search", "reference-management", "citation-formatting", "academic-writing", "paraphrasing", "grammar", "interview-transcription", "qualitative-coding", "notes", "storage"],
+      "evidence": [
+        { "url": "https://avidnote.com/ai-research/", "quote": "Chat with your connected documents. When answering, the AI uses the whole document as context", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/ai-research/", "quote": "Summarize anything, proofread text, find research gaps and get explanations for difficult passages.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/pricing/", "quote": "Find new papers", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/pricing/", "quote": "Manage references", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/tools/", "quote": "Cite ChatGPT, Claude, Gemini or any AI tool in APA 7, MLA 9 or Chicago style", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/ai-research/", "quote": "Describe your study (or paste text), and the AI generates text, rewrites, lit reviews, discussion and more.", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/ai-research/", "quote": "the AI returns a rewritten version of that text", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/pricing/", "quote": "Transcribe automatically", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/pricing/", "quote": "AI Code / Analyze Interviews", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/pricing/", "quote": "Take notes papers / docs", "retrievedAt": "2026-11-17" },
+        { "url": "https://avidnote.com/pricing/", "quote": "300 MB storage", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Taken from the product, pricing and free tools pages. Grammar is from \"proofread text\"; paraphrasing from the \"Rewrite this\" template. The citation generator is a separate free tool on /tools. AI data analysis (\"find correlations\") is described but not listed as statistics."
+    },
+    "primary_capability": {
+      "value": "paper-chat",
+      "evidence": [
+        { "url": "https://avidnote.com/tools/", "quote": "Avidnote is an AI workspace for research: chat with your PDFs and get answers with citations.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "platforms": {
+      "value": ["web"],
+      "evidence": [
+        { "url": "https://avidnote.com/pricing/", "quote": "Avidnote is entirely web-based, so do you do not need to download anything.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No native app or browser extension mentioned."
+    },
+    "languages": {
+      "value": "unknown",
+      "note": "Interface languages are not stated on the homepage, pricing, product or help pages. The homepage line \"Supports numerous languages\" is about interview transcription, not the interface."
+    },
+    "api": {
+      "value": "unknown",
+      "note": "No public API documentation found. The only API mention is the OpenAI business API used as a subprocessor."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://avidnote.com/terms-of-service/", "quote": "Avidnote (or when applicable our licensors) retain all rights and title to the Services we provide", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Terms reserve all rights to the Services and forbid deriving source code."
+    },
+    "self_host": {
+      "value": "unknown",
+      "note": "No self-hosted option found. The service runs on the vendor's Hostup and Bunny infrastructure."
+    }
+  }
+}

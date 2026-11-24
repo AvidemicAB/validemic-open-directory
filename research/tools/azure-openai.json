@@ -1,0 +1,774 @@
+{
+  "id": "azure-openai",
+  "name": "Azure OpenAI",
+  "website": "https://azure.microsoft.com/en-us/products/ai-services/openai-service",
+  "tagline": "OpenAI models such as GPT run by Microsoft in its Azure cloud, used by developers to build their own apps",
+  "category": "ai",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Microsoft Corporation",
+      "evidence": [
+        {
+          "url": "https://azure.microsoft.com/en-us/support/legal/subscription-agreement/",
+          "quote": "This Microsoft Online Subscription Agreement is between the entity you represent",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://azure.microsoft.com/en-us/support/legal/subscription-agreement/",
+          "quote": "and Microsoft Corporation (\"Microsoft\", \"we\", \"us\", or \"our\")",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Contracting party in the online (pay-as-you-go) Azure subscription agreement. Institutions buying through an Enterprise Agreement or Microsoft Customer Agreement in their region may contract with a regional Microsoft affiliate; those agreement texts were not readable here."
+    },
+    "vendor_country": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Corporation, One Microsoft Way, Redmond, Washington 98052",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Microsoft Corporation is itself the top-level company; no owner above it is named in the privacy statement, DPA or subscription agreement. OpenAI supplies the models but does not own or operate the service (data privacy page: models do not interact with services operated by OpenAI)."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "note": "No separate parent company (see Parent company); the vendor country applies."
+    },
+    "eu_representative": {
+      "value": "named",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx",
+          "quote": "Microsoft Ireland Operations Limited is Microsoft's data protection representative for the European Economic Area and Switzerland.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Named in the DPA \"How to Contact Microsoft\" section. The privacy statement also gives Microsoft Ireland Operations Limited as the EEA contact."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Ireland Operations Limited, Attn: Data Protection Officer, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "A DPO is reachable by address (and the privacy web form); no DPO is named as a person."
+    },
+    "hosting_regions": {
+      "value": [
+        "EU"
+      ],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+          "quote": "Is stored at rest in the Foundry resource in the customer's Azure tenant, within the same geography as the resource",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+          "quote": "any data stored at rest, such as uploaded data, and including the abuse monitoring data store created for Global and DataZone deployments, is stored in the customer-designated geography",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Storage follows the Azure region the customer picks for the resource; EU is the answer for an institution that creates its resource in an EU region. Processing location depends on deployment type (see EU residency).",
+      "footnote": "Customers choose the region; resources can equally be created in the US, APAC or other Azure geographies."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+          "quote": "Microsoft hosts the Models sold by Azure in Microsoft's Azure environment",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Cloud API only; no local or on-device mode found."
+    },
+    "eu_residency": {
+      "value": "option",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/deployment-types",
+          "quote": "Data Zone types: The service processes data only within the Microsoft-specified data zone (US, EU, or Asia Pacific (APAC)).",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+          "quote": "For any deployment type labeled 'Global,' prompts and responses may be processed in any geography where the relevant model sold by Azure is deployed",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Chosen per deployment: Standard (regional) and DataZone EU keep processing in the EU; Global deployments (and Batch, which is Global) may process prompts outside the EU while stored data stays in the chosen geography. For EU deployments, human abuse reviewers are in the EEA."
+    },
+    "cloud_providers": {
+      "value": [
+        "azure"
+      ],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+          "quote": "Models sold by Azure are also hosted by Azure and operated by Azure as part of the Foundry Models service.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "transfer_mechanism": {
+      "value": [
+        "sccs",
+        "dpf"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx",
+          "quote": "are subject to the terms of the 2021 Standard Contractual Clauses implemented by Microsoft",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Corporation complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "SCCs from the DPA (Data Transfer section). DPF from the privacy statement; the dataprivacyframework.gov list page did not render entries, so the listing was not separately confirmed."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://servicetrust.microsoft.com/",
+          "quote": "Microsoft General - Online Services Subprocessors List (2026-11-04)",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://api.servicetrust.microsoft.com/api/v2/downloadDocuments/f2cc90fe-471f-4f07-a9ae-af71ebce8486/7b1d8c02-6105-4be4-9995-ff01f87443bc",
+          "quote": "Microsoft Online Services Subprocessors",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Published on the Service Trust Portal. The edition that could be downloaded is dated February 28, 2025; the current 2026-11-04 edition listed on the portal could not be opened."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Current (2026-11-04) list not readable. The readable edition dated 2025-02-28 lists 46 distinct third-party companies (7 integrated-technology, 6 ancillary, 33 contract-staff firms; Accenture counted once), plus Microsoft datacenter group entities not counted. Most entries apply only to specific services (e.g. Azure Maps, Databricks); the list does not single out Azure OpenAI."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Current list not readable. In the 2025-02-28 edition most third-party subprocessors are US-headquartered and list US or worldwide processing; not counted because the current edition could not be checked."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx",
+          "quote": "provide Customer with a mechanism to obtain notice of that update of any new Subprocessor at least 6 months in advance",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://api.servicetrust.microsoft.com/api/v2/downloadDocuments/f2cc90fe-471f-4f07-a9ae-af71ebce8486/7b1d8c02-6105-4be4-9995-ff01f87443bc",
+          "quote": "may sign up to receive notifications of updates to this disclosure via My Library on the Service Trust Portal",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Azure (PaaS) customers subscribe through My Library; automatic Message Center notices are for Microsoft 365/Dynamics tenants. The DPA gives 30 days' notice for subprocessors that support AI functionality."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA",
+          "quote": "The current and archived editions of the DPA are available for download.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+          "quote": "Please also see Microsoft Products and Services Data Protection Addendum , which governs data processing by Models sold by Azure.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx",
+          "quote": "Customer and Microsoft agree that Customer is the controller of Personal Data and Microsoft is the processor of such data",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Microsoft is subprocessor when the customer is itself a processor. Some data for Microsoft's legitimate business operations is handled under the DPA's separate terms."
+    },
+    "privacy_policy_date": {
+      "value": "2026-11",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Last Updated: November 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Microsoft Privacy Statement gives month only. The Azure OpenAI data, privacy and security page was last updated 2026-06-05; the DPA is dated November 1, 2026."
+    },
+    "retention_stated": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/terms/productoffering/MicrosoftAzure/EAEAS",
+          "quote": "Microsoft will temporarily store Input and Output Content",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+          "quote": "Can be deleted by the customer at any time.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Prompts and outputs kept for abuse monitoring are stored \"temporarily\" with no period stated in the pages read. Data stored for features (files, Responses API, threads, stored completions, fine-tuning) stays until the customer deletes it."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx",
+          "quote": "Microsoft will retain Customer Data that remains stored in Online Services in a limited function account for 90 days after expiration or termination",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx",
+          "quote": "Customer Data and Personal Data stored in Online Services within an additional 90 days",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "90 days for extraction, then deletion within a further 90 days (excludes free trials)."
+    },
+    "data_export": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The DPA gives a 90-day post-termination window to extract data and EU Data Act export rights, but no export format for Azure OpenAI content is stated in the pages read."
+    },
+    "breach_notice": {
+      "value": "without undue delay, max 72 hours",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx",
+          "quote": "will be made without undue delay and, in any event, within 72 hours.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx",
+          "quote": "Microsoft will promptly and without undue delay (1) notify Customer of the Security Incident",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "From the DPA (Security Incident Notification and Appendix A)."
+    },
+    "governing_law": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://azure.microsoft.com/en-us/support/legal/subscription-agreement/",
+          "quote": "This agreement is governed by Washington law, without regard to its conflict of laws principles",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Washington State law under the online subscription agreement (US version). Enterprise or regional agreements may name other law; not read. The DPA GDPR Terms are governed by EU or Member State law."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+          "quote": "Azure OpenAI is powered by a diverse set of models with different capabilities and price points.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "ai_providers": {
+      "value": [
+        "azure-openai"
+      ],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+          "quote": "are NOT available to OpenAI or other providers of Models sold by Azure.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+          "quote": "Models sold by Azure are also hosted by Azure and operated by Azure as part of the Foundry Models service.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "OpenAI-developed models hosted and operated by Microsoft; they do not call OpenAI's own services."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+          "quote": "are NOT used to train any generative AI foundation models without your permission or instruction.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.microsoft.com/licensing/terms/product/ForallOnlineServices/all",
+          "quote": "Microsoft Generative AI Services will not use Customer Data to train any generative AI foundation model, except pursuant to Customer’s documented instructions.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Also: not used by model providers to improve their models, and not used to improve Microsoft or third-party products without explicit permission. Fine-tuning on customer data happens only when the customer runs it, and the fine-tuned model is only for that customer."
+    },
+    "ai_zero_retention": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/terms/productoffering/MicrosoftAzure/EAEAS",
+          "quote": "Microsoft will temporarily store Input and Output Content",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+          "quote": "If the customer has been approved for modified abuse monitoring (learn more at Abuse Monitoring )), the data storage and human review process described above is not performed.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "By default flagged prompts and outputs can be stored for human abuse review in the resource's geography. Customers approved under Limited Access for modified abuse monitoring avoid that storage (automated review still runs). The models themselves are stateless."
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry-classic/openai/how-to/role-based-access-control",
+          "quote": "Azure OpenAI supports Azure role-based access control (Azure RBAC), an authorization system for managing individual access to Azure resources.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The whole service is AI; there is no separate AI toggle. Admins control who can use a resource through Azure RBAC (and Azure Policy), or do not create the resource."
+    },
+    "ai_act_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/trust-center/compliance/eu-ai-act",
+          "quote": "Microsoft is committed to building products and solutions that comply with the EU AI Act and helping our customers use AI compliantly.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Microsoft-wide Trust Center page, not specific to Azure OpenAI. Microsoft also publishes a transparency note for Azure OpenAI (linked from the data privacy page; not cached)."
+    },
+    "certifications": {
+      "value": [
+        "iso27001",
+        "iso27701",
+        "soc2-type2"
+      ],
+      "evidence": [
+        {
+          "url": "https://servicetrust.microsoft.com/",
+          "quote": "Azure - Dynamics 365 - Online Services - ISO 27001 and ISO 27701 Certificate (6.25.2026)",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-soc-2",
+          "quote": "Microsoft Azure, Dynamics 365, and other Microsoft cloud services undergo rigorous independent third-party SOC 2 Type 2 audits",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Azure-wide certificates and audits. Whether Azure OpenAI / Foundry is in each audit scope is listed in the certificates and the \"cloud services in audit scope\" page, which were not readable. The DPA also commits to ISO 27001, 27002 and 27018 controls."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://servicetrust.microsoft.com/",
+          "quote": "Learn how Microsoft cloud services protect your data, and how you can manage cloud data security and compliance for your organization.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest",
+        "customer-keys"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx",
+          "quote": "in transit over public networks between Customer and Microsoft, or between Microsoft data centers, is encrypted by default.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+          "quote": "Is always encrypted at rest with Microsoft's AES-256-encryption by default, with the option of using a customer managed key",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Some preview features may not support customer-managed keys."
+    },
+    "pentest": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Azure penetration-testing page covers customers testing their own resources, not Microsoft's own tests. The DPA describes independent audits with reports on the Service Trust Portal but no penetration-test summary was found."
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/msrc/bounty",
+          "quote": "Earn up to $250,000 USD in bug bounty awards",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+          "quote": "To report security vulnerabilities or safety problems in Foundry Models sold by Azure, go to the Microsoft Security Response Center (MSRC)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "MSRC bounty programs include an Azure cloud program; the data privacy page points vulnerability reports for these models to MSRC."
+    },
+    "incidents": {
+      "value": "Vendor notice (Feb 2025): the Storm-2139 group used customer credentials scraped from public sources to abuse Azure OpenAI; Microsoft sued the actors (E.D. Va., Dec 2024; allegations, not ruled). No regulator decision found.",
+      "evidence": [
+        {
+          "url": "https://blogs.microsoft.com/on-the-issues/2025/02/27/disrupting-cybercrime-abusing-gen-ai/",
+          "quote": "Members of Storm-2139 exploited exposed customer credentials scraped from public sources to unlawfully access accounts with certain generative AI services.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Microsoft is the plaintiff; the case concerns misuse of leaked customer keys, not a breach of Microsoft systems. One web search for Azure OpenAI breaches or fines; press-only reports not used."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://status.cloud.microsoft/",
+          "quote": "Service Health Status",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Microsoft service health page; links to Azure Service Health for Azure detail."
+    },
+    "sso": {
+      "value": [
+        "microsoft"
+      ],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry-classic/openai/how-to/managed-identity",
+          "quote": "Microsoft Entra ID is the identity platform. Every token-based call to Azure OpenAI goes through it, no matter which identity you use.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Sign-in and token auth through Microsoft Entra ID (institution can federate its own IdP into Entra). API keys also exist."
+    },
+    "federation": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/architecture/multilateral-federation-baseline",
+          "quote": "Multilateral federation Solution 2: Microsoft Entra ID with Shibboleth as a Security Assertion Markup Language (SAML) proxy",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Not listed in eduGAIN/national federations; Microsoft guidance uses a bridge (e.g. Shibboleth proxy) to connect Entra ID to multilateral federations."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Users are Entra ID identities in the institution's own tenant; no SCIM provisioning specific to Azure OpenAI described in the pages read."
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks",
+          "quote": "The verification prompts are part of the Microsoft Entra sign-in, which automatically requests and processes the MFA challenge when needed.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Through Microsoft Entra ID sign-in to Azure."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry-classic/openai/how-to/role-based-access-control",
+          "quote": "Using Azure RBAC, you assign different team members different levels of permissions based on their needs for a given project.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry-classic/openai/how-to/monitor-openai",
+          "quote": "Platform metrics and the Azure Monitor activity log are collected and stored automatically.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Azure portal / Foundry portal with role assignments and usage metrics."
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry-classic/openai/how-to/monitor-openai",
+          "quote": "You can configure Azure Monitor to generate data in activity logs, resource logs, virtual machine logs, and platform metrics.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Activity log is automatic; resource logs need a diagnostic setting (extra cost)."
+    },
+    "lms_integration": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "Developer API; no LMS integration on the product, pricing or docs pages read."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-section-508-vpats",
+          "quote": "Microsoft publishes Accessibility Conformance Reports describing the extent to which our products and services support the criteria of Section 508.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-section-508-vpats",
+          "quote": "Azure and Azure Government",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Azure-level ACRs; no report specific to Azure OpenAI or the Foundry portal confirmed."
+    },
+    "wcag_level": {
+      "value": "none-claimed",
+      "evidence": [],
+      "note": "Microsoft publishes WCAG ACRs for Azure that describe the extent of support; no overall conformance level is claimed on the pages read."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Microsoft Trust Center accessibility page and EN 301 549 ACRs exist (Microsoft-wide); no accessibility statement specific to Azure OpenAI or the Foundry portal found."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Microsoft Trust Center and Learn HECVAT pages return 404; no HECVAT listed on the Service Trust Portal page read; web search found none."
+    },
+    "ferpa": {
+      "value": "school-official-terms",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx",
+          "quote": "Microsoft is a “school official” with “legitimate educational interests” in the Customer Data",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "hipaa_baa": {
+      "value": "available",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx",
+          "quote": "execution of Customer’s agreement includes execution of the HIPAA Business Associate Agreement",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "BAA scope lists covered services (aka.ms/BAA, not read)."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Microsoft publishes Section 508 ACRs for Azure describing the extent of support; no conformance claim found."
+    },
+    "state_privacy": {
+      "value": [
+        "ccpa"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx",
+          "quote": "If Microsoft is processing Personal Data within the scope of the CCPA, Microsoft makes the following additional commitments to Customer.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No SDPC or NY Ed Law 2-d agreement found."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx",
+          "quote": "transfers from the United Kingdom are subject to the terms of the IDTA implemented by Microsoft.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "au_privacy": {
+      "value": [
+        "au-hosting"
+      ],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+          "quote": "Australia East",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Australia East is an Azure region in the model availability tables. No Australian Privacy Principles statement or IRAP page for Azure OpenAI read (Azure IRAP page returned 404)."
+    },
+    "nis2": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/trust-center/compliance/nis2-compliance",
+          "quote": "Microsoft is here to help accelerate your compliance journey and build lasting resilience with our NIS2 research report and NIS2 cybersecurity blog.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Microsoft-wide NIS2 page aimed at customer compliance; no NIS2-specific supplier terms found in the DPA."
+    },
+    "free_plan": {
+      "value": "trial-only",
+      "evidence": [
+        {
+          "url": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
+          "quote": "Get free cloud services and a $200 credit to explore Azure for 30 days.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Azure free account credit; no permanent free Azure OpenAI tier found."
+    },
+    "price_individual": {
+      "value": "pay-as-you-go per 1M tokens, varies by model",
+      "evidence": [
+        {
+          "url": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
+          "quote": "Pricing (1M Tokens)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Per-token prices load dynamically and were not readable in the cached page."
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Azure is sold as metered consumption (also under Enterprise Agreement terms); no campus or site licence for Azure OpenAI found."
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://azure.microsoft.com/en-us/free/students/",
+          "quote": "Access to full catalog of services up to free amounts and $100 credit",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Azure for Students credit (no credit card). Whether Azure OpenAI is usable under that offer is not stated on the page read."
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
+          "quote": "Pricing (1M Tokens)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Public pricing page; amounts render dynamically."
+    },
+    "capabilities": {
+      "value": [
+        "general-ai-chat"
+      ],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+          "quote": "Capable Azure OpenAI models with multimodal versions, which can accept both text and images as input.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Model API (chat, reasoning, embeddings, image and audio models). Not an end-user app."
+    },
+    "primary_capability": {
+      "value": "other",
+      "evidence": [
+        {
+          "url": "https://azure.microsoft.com/en-us/products/ai-foundry/models/openai/",
+          "quote": "Deploy the latest reasoning series and foundational models. Integrate AI agents seamlessly into your apps.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Developer API for building apps on OpenAI models hosted by Azure."
+    },
+    "platforms": {
+      "value": [
+        "web"
+      ],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/azure-portal/set-preferences",
+          "quote": "Choose the language used in the Azure portal.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Managed in the Azure portal and Foundry portal (web); used through REST API and SDKs."
+    },
+    "languages": {
+      "value": "Azure portal: English plus 18 languages",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/azure-portal/set-preferences",
+          "quote": "The Azure portal supports the following 18 languages in addition to English",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/reference",
+          "quote": "Azure OpenAI image and audio REST API reference",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+          "quote": "Microsoft hosts the Models sold by Azure in Microsoft's Azure environment",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Proprietary Microsoft cloud service; no open-source licence found for the service."
+    },
+    "self_host": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+          "quote": "Microsoft hosts the Models sold by Azure in Microsoft's Azure environment",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Cloud-only; no on-premises or self-hosted option found."
+    }
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "id": "deepl",
+  "name": "DeepL",
+  "website": "https://www.deepl.com",
+  "tagline": "Machine translation of text and documents, AI writing help and real-time speech translation, with a free version and paid Pro plans",
+  "category": "ai",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "DeepL SE",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-license", "quote": "DeepL SE, Maarweg 165, 50825 Cologne, Germany", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Contracting entity for DeepL Pro in the terms. The privacy policy also names DeepL AI GmbH (Cologne) and other group entities (UK, NL, PL, US, JP)."
+    },
+    "vendor_country": {
+      "value": "DE",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-license", "quote": "DeepL SE, Maarweg 165, 50825 Cologne, Germany", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/privacy", "quote": "The DeepL group is made up of different legal entities, which are:", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/press-release/deepl-announces-300-million-investment-at-2-billion-valuation-fueled-by-global-demand-for-ai-language-solutions", "quote": "Led by Index Ventures, the heavily oversubscribed round attracted strong support from new investors", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Checked the privacy policy group list, the imprint (deepl.com/en/publisher), the terms and DeepL's own funding press release. DeepL SE heads the group it lists and is funded by several venture investors; no parent or controlling owner is named. There is no about page (/en/about returns 404)."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/privacy", "quote": "The DeepL group is made up of different legal entities, which are:", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No separate parent named (see parent_company)."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/privacy", "quote": "DeepL SE and DeepL AI GmbH of Maarweg 165, 50825 Cologne", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Established in Germany (EU)."
+    },
+    "dpo_contact": {
+      "value": "named",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/privacy", "quote": "DeepL's external corporate Data Protection Officer, Dr. Christian Lenz, can be contacted at the following address", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "External DPO (dhpg IT-Services GmbH). Privacy contact is privacy@deepl.com."
+    },
+    "hosting_regions": {
+      "value": ["EU"],
+      "evidence": [
+        { "url": "https://developers.deepl.com/llms-full.txt", "quote": "currently only accesses the European Union data center", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/privacy", "quote": "processed on our infrastructure in the EEA", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "API docs list the EU endpoint as the default; US and Japan regional endpoints exist only for customers who sign a regional deployment addendum. Pro terms 3.1.3 say DeepL may also process on third-party cloud infrastructure and determines the processing location. Voice for Meetings uses Microsoft or AWS to host its Teams bot."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/privacy", "quote": "The transmission of this content is necessary in order for us to provide the translation or improvement", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Translation runs on DeepL's servers. The mobile apps keep saved translations on the device, but translation itself is server-side."
+    },
+    "eu_residency": {
+      "value": "default",
+      "evidence": [
+        { "url": "https://developers.deepl.com/llms-full.txt", "quote": "currently only accesses the European Union data center", "retrievedAt": "2026-11-17" },
+        { "url": "https://developers.deepl.com/llms-full.txt", "quote": "Regional endpoints are only available to customers who have signed a regional deployment addendum.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The web app uses only the EU data centre and the standard API endpoint is the EU one; US/JP processing needs a signed addendum. Caveat: Pro terms 3.1.3 reserve DeepL's right to determine the processing location, including third-party cloud infrastructure. The DPA (which sets processing locations) was not readable: source blocked: https://deepl.safebase.us/item/data-processing-agreement"
+    },
+    "cloud_providers": {
+      "value": ["own", "aws", "other"],
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-license", "quote": "DeepL may process Content, Processed Content and Customer Training Data on its servers as well as on technical infrastructure", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/privacy", "quote": "Amazon Web Services EMEA SARL", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/privacy", "quote": "The cloud services are provided by Microsoft Ireland Operations Limited", "retrievedAt": "2026-11-17" }
+      ],
+      "others": ["Microsoft Ireland Operations Limited"],
+      "note": "Microsoft and AWS are named only for hosting the Voice for Meetings bot. The terms name no other third-party cloud providers. Cloudflare (CDN) not counted."
+    },
+    "transfer_mechanism": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The privacy policy names no DPF certification or SCCs for customer content (only an adequacy decision for the Bettermode community platform). source blocked: https://trust.deepl.com/ and source blocked: https://support.deepl.com/hc/en-us/articles/26380849099932-DeepL-infrastructure-and-data-protection"
+    },
+    "subprocessors_public": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The DORA page says sub-processors are listed in Annex 1 of the DPA, which sits in the trust centre. source blocked: https://deepl.safebase.us/item/data-processing-agreement (deepl.com/en/subprocessors returns 404)"
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://deepl.safebase.us/item/data-processing-agreement"
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://deepl.safebase.us/item/data-processing-agreement"
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/dora-info", "quote": "Changes will be communicated to you in advance with reasonable notice (2 weeks), giving you the opportunity to object.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Stated on DeepL's DORA addendum page, summarising the DPA. The DPA itself was not readable."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-license", "quote": "available for download in the DeepL Trust Centre", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Terms say the DPA is downloadable from the trust centre and forms part of the Pro agreement. The DPA itself was not read: source blocked: https://deepl.safebase.us/item/data-processing-agreement. Privacy policy also says to contact privacy@deepl.com for an Art. 28 agreement."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/privacy", "quote": "we act in our capacity as processor", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/privacy", "quote": "acts as controller of, and is responsible for processing your personal data", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Processor for customer content under the DPA; controller for website, account and marketing data, and for content in the free version."
+    },
+    "privacy_policy_date": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Privacy policy says 'Last update: October 2026' with no day, so a YYYY-MM-DD date cannot be set."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-license", "quote": "DeepL will only temporarily store Content or Processed Content to the extent technically required to provide its Services", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Content saved at the customer's request (saved translations, glossaries) is kept until deleted or the agreement ends. Voice transcripts: admin-set retention from 20 seconds to 30 days."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-license", "quote": "this will be deleted 90 days after the end of the Agreement", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Applies to content saved at the customer's request. Other data is covered by the DPA, which was not readable."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://developers.deepl.com/llms-full.txt", "quote": "Retrieve the term pairs stored in a v3 multilingual glossary dictionary, returned in TSV format.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Glossaries (TSV) and translation memories can be read back through the API. Terms 3.1.5 say Customer Training Data 'cannot be returned to the Customer'. No general export of saved translations found."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No breach notification window in the privacy policy, Pro terms or DORA page. The DPA, where it would normally be, was not readable: source blocked: https://deepl.safebase.us/item/data-processing-agreement"
+    },
+    "governing_law": {
+      "value": ["GB"],
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-license", "quote": "shall be governed by and construed in accordance with the law of England and Wales", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Pro terms, clause 17. Exclusive jurisdiction of the courts of England and Wales; mandatory consumer law of the consumer's country unaffected."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-license", "quote": "specialises in services based on machine learning, e.g., machine translation services", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "ai_providers": {
+      "value": ["own", "other"],
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-license", "quote": "The third party data processing may utilise DeepL's proprietary models", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/privacy", "quote": "we use backup voices provided by our subprocessor ElevenLabs", "retrievedAt": "2026-11-17" }
+      ],
+      "others": ["ElevenLabs"],
+      "note": "ElevenLabs is used only for backup voices in the Voice product, for languages without a DeepL voice."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro", "quote": "it's never used to train DeepL's AI models", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/privacy", "quote": "your texts will not be used to improve the quality of our services", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/privacy", "quote": "We process the content you upload and their translations or improvements for a limited period of time to train and improve our neural networks", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Institutional (Pro/API Pro) answer: no training. The data-security page words it as 'never stored or used for model training without your consent'.",
+      "footnote": "The free version is different: the privacy policy says free-service texts and corrections are used to train DeepL's neural networks, and the terms forbid entering personal data there."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "DeepL runs its own models and says Pro content is stored only temporarily and deleted after processing, but no zero-retention statement for the third-party voice provider (ElevenLabs) was found."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No admin setting to disable AI features found on the Pro, Enterprise, data-security or developer pages; AI is the product itself."
+    },
+    "ai_act_statement": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-license", "quote": "The Services are not intended for high-risk use as set out in Article 6 of the EU AI Act", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Contract clause 8.1.2. No separate AI Act transparency statement found."
+    },
+    "certifications": {
+      "value": ["iso27001", "soc2-type2", "bsi-c5"],
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro", "quote": "ISO 27001 certified", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/pro-data-security", "quote": "SOC 2 Type II", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/press-release/deepl-achieves-c5-type-2-attestation-cementing-its-position-as-the-enterprise-language-ai-solution-of-choice-in-germany", "quote": "today announced it has successfully obtained the C5 Type 2", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Claimed on vendor pages (C5 Type 2 announced 2025-08-26). DeepL also claims HIPAA compliance. Certificates and reports were not checked: source blocked: https://trust.deepl.com/"
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-data-security", "quote": "Visit our Trust Center to access documents and reports", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Trust centre at trust.deepl.com (redirects to a SafeBase portal). Blocked for reading."
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest", "customer-keys"],
+      "evidence": [
+        { "url": "https://www.deepl.com/en/privacy", "quote": "your translation requests and other customer data are encrypted between your end device and the DeepL servers", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/blog/safeguard-health-data-hipaa", "quote": "We encrypt all these devices with highly secure AES-256", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/pro-data-security", "quote": "with support for Bring Your Own Key (BYOK)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "At rest: DeepL's HIPAA blog says devices that store PHI are encrypted with AES-256. BYOK is listed on the Enterprise plan."
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-data-security", "quote": "Regular penetration testing", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/pro-data-security", "quote": "Both internal and external experts continually assess our systems.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The page offers a 'security assessment' download in the trust centre, which was not readable."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        { "url": "https://www.deepl.com/.well-known/security.txt", "quote": "Policy: https://dee.pl/vuln-policy", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The policy link redirects to the trust centre, which was not readable: source blocked: https://dee.pl/vuln-policy"
+    },
+    "incidents": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Web search found no breach notice or EU regulator fine. A third-party policy tracker reports a Korean PIPC ruling on DeepL dated 2024-06-13; the PIPC decision itself was not found or read, so nothing is recorded. Trust centre blocked: source blocked: https://trust.deepl.com/"
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://status.deepl.com/", "quote": "DeepL Status", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "sso": {
+      "value": ["saml", "oidc"],
+      "evidence": [
+        { "url": "https://www.deepl.com/en/features/sso", "quote": "DeepL SSO supports OpenID connect v1.0 and SAML v2.0", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Team plan and above."
+    },
+    "federation": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Not listed on vendor pages. Federation metadata lists were not checked."
+    },
+    "scim": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro", "quote": "User provisioning (SCIM)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Listed on the Business plan."
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-data-security", "quote": "Multifactor authentication for non-SSO users", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-data-security", "quote": "Manage permissions and access across your business with DeepL's robust administrative tools", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/pro", "quote": "Analytics and reporting", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Team administration and analytics and reporting are listed on the Team plan and above."
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/enterprise", "quote": "Transparent, auditable processes with detailed audit logs and activity reporting", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "lms_integration": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No LMS integration named on vendor pages (integrations listed: Microsoft Word, Google Workspace, Microsoft 365, AI agents)."
+    },
+    "vpat": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The accessibility page links no VPAT and web search found none. Trust centre, where documents are held, blocked: source blocked: https://trust.deepl.com/"
+    },
+    "wcag_level": {
+      "value": "2.1-aa",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/accessibility", "quote": "We’ve made the Web Content Accessibility Guidelines (WCAG) 2.1 – Level AA an integral part", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Stated as a design target in the development process, not as a tested conformance claim."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/accessibility", "quote": "We strive to make our products accessible for users regardless of physical, visual, hearing, or cognitive impairments.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "A published accessibility commitment page with a contact (accessibility@deepl.com). It does not cite the EU Web Accessibility Directive or the European Accessibility Act, and lists no known limitations."
+    },
+    "hecvat": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Web search found no DeepL HECVAT. Trust centre blocked: source blocked: https://trust.deepl.com/"
+    },
+    "ferpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not found on vendor pages. Trust centre blocked: source blocked: https://trust.deepl.com/"
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "DeepL announces HIPAA compliance (press release 2025-05-14, HIPAA blog, enterprise page), but none of these pages says whether it signs a Business Associate Agreement. Trust centre blocked: source blocked: https://trust.deepl.com/"
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not found on the accessibility page. Trust centre blocked: source blocked: https://trust.deepl.com/"
+    },
+    "state_privacy": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No CCPA, NY Ed Law 2-d or SDPC terms found on vendor pages. Trust centre blocked: source blocked: https://trust.deepl.com/"
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The privacy policy lists a UK entity but no UK transfer addendum. DPA blocked: source blocked: https://deepl.safebase.us/item/data-processing-agreement"
+    },
+    "au_privacy": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No Australian privacy statement, IRAP assessment or Australian hosting found in the privacy policy or the regional endpoint list (EU, US, Japan)."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on vendor pages; a DORA addendum is offered for financial-sector customers, but NIS2 is not mentioned. Trust centre blocked: source blocked: https://trust.deepl.com/"
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/privacy", "quote": "When using our free services", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Free version of the translator and writing tool, with limits. Individual and Team Pro have a 30-day trial."
+    },
+    "price_individual": {
+      "value": "€7.49 per month, billed annually",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro", "quote": "€7.49 per month, billed annually", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Individual plan, Germany pricing in EUR, as shown on the pricing page."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro", "quote": "Bring the power of DeepL to your entire organization", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Enterprise plan with custom pricing. Team (€24.99) and Business (€49.99) are priced per user per month. No campus-wide licence wording found."
+    },
+    "edu_discount": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No student or academic discount on deepl.com (/en/education returns 404). The pricing FAQ mentions discounts only for large numbers of users, case by case. Reseller and university pages mention an education tariff, but no vendor page states one."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro", "quote": "Custom pricing", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Individual, Team and Business prices are published. Enterprise is custom pricing."
+    },
+    "capabilities": {
+      "value": ["translation", "grammar", "paraphrasing", "academic-writing"],
+      "evidence": [
+        { "url": "https://www.deepl.com/en", "quote": "Translate securely, efficiently, and accurately", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/products/write", "quote": "Instant error correction : detects and corrects grammar, punctuation, and spelling mistakes as you type", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/products/write", "quote": "AI-driven text enhancement: improve text clarity and quality with sophisticated AI corrections and paraphrasing", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/products/write", "quote": "optimized styles for Business, Academic, Casual writing, and more", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Document translation and real-time speech translation (DeepL Voice, including inside Microsoft Teams) are also offered. Voice adds translation to meetings but is not itself a video-meeting tool, so video-meetings is not listed."
+    },
+    "primary_capability": {
+      "value": "other",
+      "evidence": [
+        { "url": "https://www.deepl.com/en", "quote": "Translate securely, efficiently, and accurately", "retrievedAt": "2026-11-17" }
+      ],
+      "others": ["translation"]
+    },
+    "platforms": {
+      "value": ["web", "windows", "macos", "ios", "android", "browser-extension", "word-addin"],
+      "evidence": [
+        { "url": "https://www.deepl.com/en", "quote": "Translate securely, efficiently, and accurately", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.deepl.com/en/windows-app", "quote": "DeepL for Windows | Translation and writing improvement", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.deepl.com/en/macos-app", "quote": "DeepL for Mac | Translation and writing improvement", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.deepl.com/en/ios-app", "quote": "DeepL for iOS: accurate translation and writing improvement", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.deepl.com/en/android-app", "quote": "DeepL for Android: accurate translation and writing improvement", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.deepl.com/en/chrome-extension", "quote": "DeepL for Chrome: communicate with the world in your browser", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.deepl.com/en/word-addin", "quote": "DeepL for Microsoft Word: AI writing and translation tool", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No Linux app found (/en/linux-app returns 404)."
+    },
+    "languages": {
+      "value": "19 website languages (German, English, Spanish, Japanese, French, Italian, Indonesian, Korean, Dutch, Czech, Swedish, Polish, Portuguese (BR and PT), Turkish, Russian, Simplified Chinese, Ukrainian, Arabic)",
+      "evidence": [
+        { "url": "https://www.deepl.com/en", "quote": "Deutsch English Español 日本語 Français Italiano Bahasa Indonesia 한국어 Nederlands Čeština Svenska Polski", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Counted from the site's language menu. Translation itself covers 'over 100 languages' (whydeepl page); that is not the interface language count."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/products/api", "quote": "Developers and technical teams alike can easily integrate accurate, secure Language AI", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Public API docs at developers.deepl.com."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.deepl.com/en/pro-license", "quote": "The third party data processing may utilise DeepL's proprietary models", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The service and models are proprietary. Client libraries and the DeepL CLI are open source (MIT for the CLI), but the product is not."
+    },
+    "self_host": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No self-hosted option found. The service is described as run on DeepL's servers and third-party cloud providers."
+    }
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "id": "inspera-assessment",
+  "name": "Inspera Assessment",
+  "website": "https://www.inspera.com",
+  "tagline": "Cloud platform for writing, running and marking exams, quizzes and coursework, sold to universities and awarding bodies",
+  "category": "exam",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Inspera AS",
+      "evidence": [
+        { "url": "https://inspera.com/legal/privacy-notice/", "quote": "Inspera AS and its subsidiaries (collectively referred to as “Inspera”, “We”, “Us”) are committed to protecting and respecting your right to privacy.", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/legal/dpa/", "quote": "between the Data Controller (customer organisation) and the Data Processor (Inspera)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The privacy notice names Inspera AS for the website. No public product terms name the contracting entity for Inspera Assessment; the group's subsidiaries (Sweden, Denmark, UK, Australia, USA, Portugal, India) are listed as sub-processors."
+    },
+    "vendor_country": {
+      "value": "NO",
+      "evidence": [
+        { "url": "https://inspera.com/about-inspera/", "quote": "Founded in 1999 in Oslo, Norway", "retrievedAt": "2026-11-17" },
+        { "url": "https://cge-partners.com/portfolio/inspera/", "quote": "HQ Oslo, Norway", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "parent_company": {
+      "value": "CGE Partners (private equity investor since 2021)",
+      "evidence": [
+        { "url": "https://inspera.com/press-releases/inspera-appoints-richard-petti-as-chief-executive-officer-to-lead-next-phase-of-global-growth/", "quote": "Backed by CGE Partners, Inspera provides an end-to-end cloud platform", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.inspera.com/?p=2717", "quote": "Inspera has received a significant growth capital investment from CGE Partners, a London-based private equity fund.", "retrievedAt": "2026-11-17" },
+        { "url": "https://cge-partners.com/portfolio/inspera/", "quote": "Investment Year 2021 Investment Status Current Investment", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Neither Inspera nor CGE states the size of CGE's stake. CGE's homepage says it typically invests 'for majority positions', and its portfolio page says CGE 'backed' Inspera's acquisitions of CrossPlag (2023) and Graide (2026), but no page says CGE owns a majority of Inspera AS. The old record had none-found."
+    },
+    "parent_country": {
+      "value": "GB",
+      "evidence": [
+        { "url": "https://cge-partners.com/about-us/", "quote": "Founded in 2018 and based in London", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.inspera.com/?p=2717", "quote": "CGE Partners, a London-based private equity fund", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Country of the private equity investor named in parent_company. Its stake size is not stated."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        { "url": "https://inspera.com/about-inspera/", "quote": "Founded in 1999 in Oslo, Norway", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Norway is in the EEA, so no Article 27 representative is needed."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        { "url": "https://inspera.com/legal/privacy-notice/", "quote": "The same details can be used to contact our Data Protection Officer (DPO).", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Contact is privacy@inspera.no. The DPO is not named."
+    },
+    "hosting_regions": {
+      "value": ["EU"],
+      "evidence": [
+        { "url": "https://inspera.com/legal/security/", "quote": "All Inspera Assessment Cloud data is hosted within the European Union for technical, security, and privacy reasons.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The sub-processor table lists AWS EMEA SARL with processing in Ireland, Germany and Italy."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://inspera.com/legal/security/", "quote": "Inspera Assessment is a cloud-based Software as a Service (SaaS) solution for educational assessments hosted entirely on Amazon Web Services (AWS).", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The product page mentions offline capability with automatic sync when connectivity returns, so content still goes to the cloud."
+    },
+    "eu_residency": {
+      "value": "default",
+      "evidence": [
+        { "url": "https://inspera.com/legal/security/", "quote": "All Inspera Assessment Cloud data is hosted within the European Union for technical, security, and privacy reasons.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Hosting is in the EU, but the sub-processor table lists group companies and support, monitoring and other vendors with processing locations outside the EEA (see subprocessors_non_eea)."
+    },
+    "cloud_providers": {
+      "value": ["aws"],
+      "evidence": [
+        { "url": "https://inspera.com/legal/security/", "quote": "hosted entirely on Amazon Web Services (AWS)", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "transfer_mechanism": {
+      "value": ["sccs", "dpf", "adequacy"],
+      "evidence": [
+        { "url": "https://inspera.com/legal/dpa/", "quote": "Standard Contractual Clauses (SCCs)", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/legal/dpa/", "quote": "EU-US Data Privacy Framework and Standard Contractual Clauses", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/legal/dpa/", "quote": "UK Adequacy Decision", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Mechanisms are listed per sub-processor in the DPA page table. DPF is given only for Zendesk, Atlassian, Google Cloud and Microsoft, together with SCCs; adequacy only for Inspera UK Ltd. The dataprivacyframework.gov list was not checked."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://inspera.com/legal/dpa/", "quote": "Inspera utilises several types of subprocessors. The specific subprocessors utilised depend directly on the particular services each Inspera customer purchases.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "subprocessors_count": {
+      "value": 15,
+      "evidence": [
+        { "url": "https://inspera.com/legal/dpa/", "quote": "Amazon Web Services EMEA SARL", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/legal/dpa/", "quote": "Talview Inc.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "15 third-party companies: AWS, TrackJS, Harness, Elasticsearch, Databricks, Zendesk, SA Tech Software India, CXG Outsourcing, P92 Group UK, Atlassian, Google Cloud, Microsoft, Platforma Akademia, Pangram, Talview. The table has 22 rows in total; the other 7 are Inspera group companies (Sweden, Denmark, UK, Australia, USA, Portugal, India), which are not counted here. The list covers all Inspera products; which ones apply depends on what the customer buys."
+    },
+    "subprocessors_non_eea": {
+      "value": 11,
+      "evidence": [
+        { "url": "https://inspera.com/legal/dpa/", "quote": "Ireland, Germany and USA", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/legal/dpa/", "quote": "Luan Haradinaj street, Youth and Sports Center, 10000 Prishtinë, Kosovo", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Third-party companies whose listed processing location includes a country outside the EU/EEA: TrackJS (USA), Harness (USA), Databricks (Ireland and USA), Zendesk (incl. USA), SA Tech Software India (India), P92 Group UK (UK and Hungary), Atlassian (incl. USA, Australia), Google Cloud (incl. USA), Microsoft (incl. USA, Switzerland), Platforma Akademia (Kosovo), Talview (USA). Including the 4 group companies in the UK, Australia, USA and India the figure is 15. Pangram is listed as EEA-only. The security statement separately says Inspera does not transfer data outside the AWS cloud."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "note": "The DPA page does not say how customers are told about new sub-processors. Looked at the DPA page, GDPR page, security statement and privacy notice. source blocked: https://support.inspera.com/hc/en-us"
+    },
+    "dpa": {
+      "value": "unknown",
+      "evidence": [
+        { "url": "https://inspera.com/gdpr/", "quote": "We have Data Processing Agreements (DPAs) with customers in place that regulate how personal data is defined and how we process this data.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "DPAs exist with customers, but no DPA document is published and the pages do not say whether it is signed online or on request (the DPA page only says to contact privacy@inspera.no for more information). source blocked: https://support.inspera.com/hc/en-us"
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        { "url": "https://inspera.com/legal/dpa/", "quote": "between the Data Controller (customer organisation) and the Data Processor (Inspera)", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/legal/privacy-notice/", "quote": "Please note that for much of our business, Inspera acts as a processor on behalf of customers.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Inspera is controller only for its website and marketing, per the privacy notice."
+    },
+    "privacy_policy_date": {
+      "value": "2025-11-21",
+      "evidence": [
+        { "url": "https://inspera.com/legal/privacy-notice/", "quote": "Last updated at November 21, 2025 - 11:00 A.M.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Website privacy notice. The sub-processor/DPA page is dated November 21, 2025 - 10:00 AM; the security statement August 06, 2025."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://inspera.com/gdpr/", "quote": "Upon termination of an account, all data connected to that account is immediately anonymised within a period of maximum 180 days.", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/legal/security/", "quote": "Backup lifetime is 7 days and is only used for disaster recovery.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Retention during the contract is not stated; the stated periods are for termination and backups."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        { "url": "https://inspera.com/gdpr/", "quote": "Upon termination of an account, all data connected to that account is immediately anonymised within a period of maximum 180 days.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The page says anonymised, not deleted. The GDPR page dates from 2018."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://inspera.com/online-assessments/online-assessment-techology-standards/", "quote": "Inspera uses IMS Question and Test Interoperability Specification (QTI) to allow you to import questions from other assessment platforms and export to them.", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/online-assessments/online-assessment-techology-standards/", "quote": "Support for retrieving test results, including learner responses, their scores, and metadata", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Questions export as QTI; results and responses can be pulled through the open REST API. A full account export is not described. Help centre blocked: https://support.inspera.com/hc/en-us"
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "note": "No breach-notification window in the DPA page, GDPR page, security statement or privacy notice; the DPA itself is not published. source blocked: https://support.inspera.com/hc/en-us"
+    },
+    "governing_law": {
+      "value": "unknown",
+      "note": "No product terms are published on inspera.com (/legal/terms-and-conditions/ returns 404; the legal overview has no terms link). An older Inspera Assessment Terms & Conditions PDF on the vendor's HubSpot account was noted by the earlier run but not read. Help centre blocked: https://support.inspera.com/hc/en-us"
+    },
+    "ai_features": {
+      "value": "none",
+      "evidence": [
+        { "url": "https://inspera.com/inspera-assessment/", "quote": "Author questions, deliver exams, and grade collaboratively, all while keeping academic judgment where it belongs: in human hands, not algorithms.", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/inspera-graide/", "quote": "We are working on integrating Inspera Graide with Inspera Assessment and our powerful new grading workflows capabilities.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No generative AI feature is described for Inspera Assessment.",
+      "footnote": "Separate Inspera products use AI: Inspera Graide (classification AI for marking suggestions, 'not generative AI', not yet integrated with Assessment) and Inspera Originality (AI-authorship prediction powered by Pangram, which integrates with Assessment)."
+    },
+    "ai_providers": {
+      "value": "unknown",
+      "note": "No AI model provider is named for Inspera Assessment itself, which describes no AI feature. Looked at the product, Graide, Originality, DPA and security pages. source blocked: https://support.inspera.com/hc/en-us",
+      "footnote": "Inspera Originality's AI-content prediction uses Pangram, Inc., listed as a sub-processor with EEA-only processing."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "note": "Nothing about model training for Inspera Assessment in the privacy notice, DPA page, security statement or product page. source blocked: https://support.inspera.com/hc/en-us",
+      "footnote": "For the separate Graide product, the vendor says 'The classification AI builds a model per question using only that institution’s marking data' and approved suggestions are used to retrain it. For Originality, Inspera says it is imperative that Pangram never use customer data to train AI models."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "note": "No AI model provider retention statement found for Inspera Assessment. source blocked: https://support.inspera.com/hc/en-us"
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "note": "No AI feature or admin AI setting described for Inspera Assessment. source blocked: https://support.inspera.com/hc/en-us"
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act statement found on the legal pages, product pages or press releases. source blocked: https://support.inspera.com/hc/en-us"
+    },
+    "certifications": {
+      "value": ["cyber-essentials"],
+      "evidence": [
+        { "url": "https://inspera.com/legal/security/", "quote": "Inspera is certified (PDF) as Cyber Essentials Plus according to the UK National Cyber Security Centre (NCSC) certification scheme.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The ISMS is described as 'aligned with the requirements of ISO/IEC 27001:2022', not certified, so ISO 27001 is not recorded. AWS's ISO 27001 and SOC 3 reports cover AWS, not Inspera. The certificate PDF was not opened."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://inspera.com/legal/security/", "quote": "Security Statement - Inspera", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "A security statement page; /trust/ returns 404."
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest"],
+      "evidence": [
+        { "url": "https://inspera.com/legal/security/", "quote": "Data at rest in the Inspera Assessment cloud is encrypted following the industry standards.", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/legal/security/", "quote": "all communications with the Inspera Assessment cloud are protected with HTTPS using TLS", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        { "url": "https://inspera.com/legal/security/", "quote": "Inspera Assessment cloud services are tested regularly by external parties, such as third parties conducting penetration tests and regular audits.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No summary or report is published or offered."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "note": "No vulnerability disclosure policy or bug bounty on the legal or security pages. /.well-known/security.txt returns 404."
+    },
+    "incidents": {
+      "value": "none found",
+      "note": "Web searches for Datatilsynet decisions and Inspera breach notices found nothing. No vendor notice on the press releases page. This is a search result, not a check of every regulator register."
+    },
+    "status_page": {
+      "value": "unknown",
+      "note": "source blocked: https://status.inspera.no/ (the fetch script was refused; a single WebFetch read showed an Inspera Statuspage with Assessment, SSO, LTI and API components, but it could not be cached, so no quote is recorded)."
+    },
+    "sso": {
+      "value": ["saml", "oidc"],
+      "evidence": [
+        { "url": "https://inspera.com/online-assessments/online-assessment-techology-standards/", "quote": "adding support for a new identity provider only requires minor work, assuming one of the following standards is supported: SAML 2 or OAuth OpenId Connect", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Vendor blog post (December 2023). The security statement also says SSO can be used through an external authentication provider. Inspera Assessment is a SAML service provider in SWAMID."
+    },
+    "federation": {
+      "value": ["swamid"],
+      "evidence": [
+        { "url": "https://metadata.swamid.se/?show=All", "quote": "http://sso.266208422.inspera.com SWAMID Inspera Assessment Inspera AS", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Published in SWAMID only (the list shows 'SWAMID + eduGAIN' for entities that are also in eduGAIN; this one is not). Feide, Haka and other federations were not checked."
+    },
+    "scim": {
+      "value": "unknown",
+      "note": "The vendor describes user sync from Student Information Systems and LMS, but not SCIM. source blocked: https://support.inspera.com/hc/en-us"
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "Not described on public pages. source blocked: https://support.inspera.com/hc/en-us"
+    },
+    "admin_console": {
+      "value": "unknown",
+      "note": "The product page describes role-based permissions, but not an admin console with usage reports. source blocked: https://support.inspera.com/hc/en-us"
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "note": "The security statement mentions audit logging as part of privacy by design and that Inspera audits access to its cloud; admin-visible audit logs are not described. source blocked: https://support.inspera.com/hc/en-us"
+    },
+    "lms_integration": {
+      "value": ["lti", "canvas", "moodle", "blackboard", "brightspace"],
+      "evidence": [
+        { "url": "https://inspera.com/inspera-assessment/", "quote": "Yes. Inspera Assessment supports LTI 1.1 and LTI 1.3.", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/inspera-assessment/", "quote": "integrations to Canvas, Moodle, Blackboard Learn, D2L Brightspace and Sakai are all fully tested.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Sakai is also named but is not in the option list. Other LTI-compliant LMSs are said to work through the LTI support."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://inspera.com/legal/accessibility/", "quote": "The following VPATs are available:", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Three VPATs for Inspera Assessment (candidate, instructor/administration and marking interfaces) plus one for Inspera Originality are linked. The PDFs were not opened."
+    },
+    "wcag_level": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://inspera.com/legal/accessibility/", "quote": "The accessibility of the Inspera platform is evaluated against the most current and relevant international standard: Web Content Accessibility Guidelines (WCAG) 2.2 Level AA .", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/legal/accessibility/", "quote": "As our status is Partially Conforming, there are known gaps that may impact users.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Measured against WCAG 2.2 AA, with the status stated as Partially Conforming. Known gaps mainly affect staff users (keyboard-only, screen readers, some cognitive impairments)."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://inspera.com/legal/accessibility/", "quote": "Last updated at November 11, 2026 - 10:00 AM", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "No HECVAT on the legal, security or accessibility pages; the earlier run's web search also found none."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "note": "No FERPA statement on the legal, security or privacy pages."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "Not stated on the public pages. source blocked: https://support.inspera.com/hc/en-us"
+    },
+    "section_508": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://inspera.com/legal/accessibility/", "quote": "EN 301 549 and Revised Section 508 criteria are also included.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The VPATs map the product to Revised Section 508 criteria, with an overall status of Partially Conforming."
+    },
+    "state_privacy": {
+      "value": "none-found",
+      "note": "No SDPC agreement, CCPA terms or NY Ed Law 2-d terms on the public pages."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "note": "The DPA page lists Inspera UK Ltd under a UK adequacy decision. No IDTA or UK addendum is described. source blocked: https://support.inspera.com/hc/en-us"
+    },
+    "au_privacy": {
+      "value": "none-found",
+      "note": "No Australian Privacy Principles statement, IRAP assessment or Australian hosting found. Inspera Australia PTY Ltd is listed as a sub-processor."
+    },
+    "nis2": {
+      "value": "none-found",
+      "note": "No NIS2 statement on the legal, security or transparency pages."
+    },
+    "free_plan": {
+      "value": "unknown",
+      "note": "No free plan or trial is described; the site asks visitors to book a demo. /pricing/ returns 404."
+    },
+    "price_individual": {
+      "value": "not published",
+      "evidence": [
+        { "url": "https://inspera.com/inspera-assessment/", "quote": "Book a demo today to see how your faculty will benefit.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No prices on the site; /pricing/ returns 404. The product is sold to institutions."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://inspera.com/about-inspera/", "quote": "Inspera develops digital assessment solutions that empower educational institutions, professional organisations, and awarding bodies across the world.", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/inspera-assessment/", "quote": "Run thousands of assessments simultaneously across departments with secure role management, connected systems and proven cloud infrastructure.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Sold to institutions as a whole; licence terms and scope are not published."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "note": "No pricing is published, so no discount is stated."
+    },
+    "pricing_public": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://inspera.com/inspera-assessment/", "quote": "Book a demo today to see how your faculty will benefit.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No prices on the site; /pricing/ returns 404."
+    },
+    "capabilities": {
+      "value": ["exam"],
+      "evidence": [
+        { "url": "https://inspera.com/inspera-assessment/", "quote": "Author questions, deliver exams, and grade collaboratively", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Plagiarism and AI-authorship checking (Inspera Originality), proctoring and the lockdown browser are separate Inspera products."
+    },
+    "primary_capability": {
+      "value": "exam",
+      "evidence": [
+        { "url": "https://inspera.com/inspera-assessment/", "quote": "From formative assessment and coursework, to open book and secure exams, deliver everything on one platform", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "platforms": {
+      "value": ["web", "windows", "macos"],
+      "evidence": [
+        { "url": "https://inspera.com/inspera-assessment/", "quote": "Any device (BYOD)", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/inspera-assessment/", "quote": "Windows: 7, 8, and 10 on 64-bit platforms", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/inspera-assessment/", "quote": "MacOS: OS X 10.14 or higher", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The product page's delivery table shows Inspera Assessment alone with 'Standard' browser security on any device (BYOD); the Windows and macOS requirements are listed in the FAQ and apply to the secure (Integrity Browser) setup."
+    },
+    "languages": {
+      "value": "unknown",
+      "note": "The about page mentions multilingual support but names no interface languages. source blocked: https://support.inspera.com/hc/en-us"
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://ia.inspera.no/apidoc/", "quote": "This is the home of automatically generated documentation for the Inspera open APIs.", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/online-assessments/online-assessment-techology-standards/", "quote": "Access to the API is controlled via OAuth using API Keys defined either for regular users or for dedicated system users in Inspera Assessment.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "open_source": {
+      "value": "unknown",
+      "note": "No open-source licence or code repository is mentioned. The site footer says all rights are reserved (website copyright)."
+    },
+    "self_host": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://inspera.com/legal/security/", "quote": "Inspera Assessment has a multi-tenant model where some components, services, and codebases are shared between customers.", "retrievedAt": "2026-11-17" },
+        { "url": "https://inspera.com/legal/security/", "quote": "hosted entirely on Amazon Web Services (AWS)", "retrievedAt": "2026-11-17" }
+      ]
+    }
+  }
+}

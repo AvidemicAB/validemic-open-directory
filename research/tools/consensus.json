@@ -1,0 +1,658 @@
+{
+  "id": "consensus",
+  "name": "Consensus",
+  "website": "https://consensus.app",
+  "tagline": "AI search engine that finds peer-reviewed papers and writes cited summaries of what they say",
+  "category": "ai",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Consensus NLP, Inc.",
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "Consensus NLP, Inc. (“ Consensus ”) counts privacy among its core values",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "vendor_country": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "We are headquartered in the United States of America",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Read privacy policy, terms and About page; no parent or owner named. About page says the company is venture-backed."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [],
+      "note": "No separate parent company found."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Privacy policy (2026-11-01) names no GDPR Art. 27 representative; help centre unreadable (source blocked: https://help.consensus.app/en/)."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "Please direct any questions you may have about this Privacy Policy to",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "An email contact with subject line \"Privacy Policy\"; no DPO named."
+    },
+    "hosting_regions": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "all our servers are located in the United States",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "Consensus is a multi-tenant SaaS application: a web app, an MCP server, and a REST API, all hosted on Google Cloud Platform",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Docs pages on docs.consensus.app return 403 to automated reading; quoted from the vendor-published docs.consensus.app/llms-full.txt, which serves the same docs text."
+    },
+    "eu_residency": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "all our servers are located in the United States",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "No EU hosting option found in privacy policy, terms or docs."
+    },
+    "cloud_providers": {
+      "value": [
+        "gcp"
+      ],
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "Consensus is SOC 2 Type II compliant and hosted on Google Cloud.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Docs pages on docs.consensus.app return 403 to automated reading; quoted from the vendor-published docs.consensus.app/llms-full.txt, which serves the same docs text."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "you consent to the storage or processing of your personal information in the United States",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Privacy policy relies on user consent and names no DPF, SCCs or other mechanism. The DPF list page (dataprivacyframework.gov/list) did not render a searchable list, so DPF status was not confirmed."
+    },
+    "subprocessors_public": {
+      "value": "none-found",
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "Some of that processing runs on models operated by OpenAI, Anthropic, Google and Baseten",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "No sub-processor list found; privacy policy names only the AI model providers. /subprocessors and the help centre are unreadable (source blocked: https://consensus.app/subprocessors)."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No list found (source blocked: https://consensus.app/subprocessors)."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No list found (source blocked: https://consensus.app/subprocessors)."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated in privacy policy, terms or docs."
+    },
+    "dpa": {
+      "value": "enterprise-only",
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "Zero data retention** and a **data-processing agreement** are available on Enterprise contracts.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "Consensus can execute a mutual NDA and a data-processing agreement.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Docs pages on docs.consensus.app return 403 to automated reading; quoted from the vendor-published docs.consensus.app/llms-full.txt, which serves the same docs text. No public DPA found (source blocked: https://consensus.app/dpa)."
+    },
+    "role": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Privacy policy and terms do not use controller/processor language; DPA not public."
+    },
+    "privacy_policy_date": {
+      "value": "2026-11-01",
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "This Privacy Policy was last modified on November 1st, 2026",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "retention_stated": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "retains your personal information and non-personal information for as long as it is reasonably necessary for a legitimate business purpose",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "No period given. Users can clear thread history and delete their account in Settings."
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "Contracts can include terms for the return and irrecoverable disposal of your data at termination.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "No time frame stated. Docs pages on docs.consensus.app return 403 to automated reading; quoted from the vendor-published docs.consensus.app/llms-full.txt, which serves the same docs text."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/resources/consensus-for-faculty-a-complete-guide-from-first-search-to-classroom/",
+          "quote": "Export papers as RIS or CSV for Zotero, EndNote, Mendeley, RefWorks, Citavi or Papers, or as LaTeX.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Library papers export as RIS/CSV/bibliography and answers as text or PDF; no full account export described."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No breach-notification window in privacy policy, terms or docs; DPA not public."
+    },
+    "governing_law": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/terms-of-service/",
+          "quote": "is governed by the laws of the State of Delaware in the United States of America",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Delaware law; binding JAMS arbitration in Kent County, Delaware."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "Consensus’s core features are built on large language models.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "ai_providers": {
+      "value": [
+        "openai",
+        "anthropic",
+        "google",
+        "other"
+      ],
+      "others": [
+        "Baseten"
+      ],
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "Some of that processing runs on models operated by OpenAI, Anthropic, Google and Baseten",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Vendor blog also mentions fine-tuned open-source models for features like the Consensus Meter; where they run is not stated. Voice dictation audio goes to OpenAI."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "Your queries, content, and personal information are never used to train AI models",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "ai_zero_retention": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "the LLM providers Consensus uses retain no data from requests",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "They may apply their own automated safety checks and retain content briefly under their own terms.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Docs pages on docs.consensus.app return 403 to automated reading; quoted from the vendor-published docs.consensus.app/llms-full.txt, which serves the same docs text.",
+      "footnote": "The docs say providers retain no data and offer a zero-data-retention option on Enterprise agreements; the privacy policy says providers may retain content briefly under their own terms."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated in docs, privacy policy or university pages; help centre unreadable (source blocked: https://help.consensus.app/en/)."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No EU AI Act statement found on the pages read; help centre unreadable (source blocked: https://help.consensus.app/en/)."
+    },
+    "certifications": {
+      "value": [
+        "soc2-type2"
+      ],
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "Consensus is SOC 2 Type II compliant and hosted on Google Cloud.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Report shared under NDA via sales; no certificate seen. Docs pages on docs.consensus.app return 403 to automated reading; quoted from the vendor-published docs.consensus.app/llms-full.txt, which serves the same docs text."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "This page summarizes the controls; the full picture is available under NDA for your vendor review.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Security page at docs.consensus.app/enterprise/security (source blocked: https://docs.consensus.app/enterprise/security); text read via docs llms-full.txt."
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest"
+      ],
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "Data is encrypted in transit with TLS 1.2 or later and at rest with AES-256.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Docs pages on docs.consensus.app return 403 to automated reading; quoted from the vendor-published docs.consensus.app/llms-full.txt, which serves the same docs text."
+    },
+    "pentest": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "A third-party penetration test is performed annually",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "A summary is available under NDA.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Docs pages on docs.consensus.app return 403 to automated reading; quoted from the vendor-published docs.consensus.app/llms-full.txt, which serves the same docs text."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "/.well-known/security.txt returns 404; no disclosure policy or bug bounty found in docs, privacy policy or terms."
+    },
+    "incidents": {
+      "value": "none found",
+      "evidence": [],
+      "note": "Staan searches for breaches/lawsuits found no regulator decision, court record or vendor notice."
+    },
+    "status_page": {
+      "value": "no",
+      "evidence": [],
+      "note": "No status page linked from site or docs; status.consensus.app does not resolve."
+    },
+    "sso": {
+      "value": [
+        "saml",
+        "google"
+      ],
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "Consensus supports single sign-on with any SAML 2.0 identity provider (IdP), including Microsoft Entra ID, Okta, and OpenAthens.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "if you choose to link or sign in through services like Google or Apple",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Docs pages on docs.consensus.app return 403 to automated reading; quoted from the vendor-published docs.consensus.app/llms-full.txt, which serves the same docs text.",
+      "footnote": "SAML SSO is set up through sales for organizations (docs list it with Enterprise plans); Google and Apple sign-in are available to individual accounts."
+    },
+    "federation": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "Docs mention OpenAthens and \"federated authentication for academic institutions\"; a Staan search found no eduGAIN or national federation listing."
+    },
+    "scim": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "Optional SCIM provisioning lets your IT team add and remove users from your own directory.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Docs pages on docs.consensus.app return 403 to automated reading; quoted from the vendor-published docs.consensus.app/llms-full.txt, which serves the same docs text."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Docs mention MFA only for Consensus staff production access; not stated for user accounts."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "Institutional admins manage their own users and roles.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://consensus.app/.well-known/pricing.md",
+          "quote": "Centralized account management for your organization",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "User management stated; usage reports for admins not described."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "Customer-specific log excerpts are available on request where contractually agreed.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Audit logging exists internally; no admin-visible audit log described."
+    },
+    "lms_integration": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "No LMS/LTI integration found on university pages, faculty guide or docs."
+    },
+    "vpat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No VPAT found on site or docs; source blocked: https://consensus.app/accessibility"
+    },
+    "wcag_level": {
+      "value": "none-claimed",
+      "evidence": [],
+      "note": "No WCAG claim found; source blocked: https://consensus.app/accessibility"
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://consensus.app/accessibility"
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Docs say security questionnaires go through sales; no HECVAT named."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Not mentioned in privacy policy, terms, university pages or docs."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated in privacy policy, terms or docs."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://consensus.app/accessibility"
+    },
+    "state_privacy": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "Consensus is not subject to regulation under the California Consumer Privacy Act of 2018",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No UK transfer terms found; DPA not public."
+    },
+    "au_privacy": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "No Australian statements found in privacy policy, terms or docs."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not mentioned on the pages read."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://consensus.app/.well-known/pricing.md",
+          "quote": "Price: $0",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "10 Pro messages and 3 Deep Searches per month."
+    },
+    "price_individual": {
+      "value": "unknown",
+      "evidence": [
+        {
+          "url": "https://consensus.app/.well-known/pricing.md",
+          "quote": "this file intentionally omits hard coded dollar amounts for paid tiers",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Pricing page rendered without amounts for automated reading; Pro and Deep amounts not read."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/university/",
+          "quote": "Contact us to purchase Consensus for your entire insitution",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://consensus.app/pricing",
+          "quote": "Students and faculty with a valid school email and US HCPs with a valid NPI number can get up to 40% off a subscription.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://consensus.app/.well-known/pricing.md",
+          "quote": "Live prices in USD are returned by Stripe and rendered on the human pricing page",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Enterprise is contact-sales."
+    },
+    "capabilities": {
+      "value": [
+        "literature-search",
+        "summarize-papers",
+        "paper-chat",
+        "citation-graph",
+        "reference-management",
+        "citation-formatting"
+      ],
+      "evidence": [
+        {
+          "url": "https://consensus.app",
+          "quote": "Search and analyze peer-reviewed literature.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://consensus.app/home/resources/consensus-responsible-ai/",
+          "quote": "Briefly summarizes the papers into a concise report with tables and visuals",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "Upload PDFs, import from Zotero, share a Collection, export a bibliography, and ask questions of your saved papers.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://consensus.app",
+          "quote": "identifying conflicting arguments, and exploring the citation graph",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://consensus.app/home/resources/consensus-for-faculty-a-complete-guide-from-first-search-to-classroom/",
+          "quote": "My Library supports a source-first workflow: collect papers, read them, then write.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://consensus.app/llms-full.txt",
+          "quote": "copy-friendly inline citation formats (APA, MLA, Chicago, Vancouver)",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "primary_capability": {
+      "value": "literature-search",
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/university/",
+          "quote": "Consensus is an AI search engine for academic research.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "platforms": {
+      "value": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/privacy-policy/",
+          "quote": "including the Consensus mobile applications for iOS and Android",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Also reachable through an MCP server and apps inside ChatGPT, Claude and Microsoft 365 Copilot."
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Interface languages not stated; docs say the paper corpus is English-first."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/api/",
+          "quote": "The Consensus API is now open to everyone.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://consensus.app/home/terms-of-service/",
+          "quote": "The Site and all its content, code, data, and intellectual property are owned or licensed by Company",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "self_host": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://docs.consensus.app/llms-full.txt",
+          "quote": "Nothing is installed on your premises and no VPN is required.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Docs pages on docs.consensus.app return 403 to automated reading; quoted from the vendor-published docs.consensus.app/llms-full.txt, which serves the same docs text."
+    }
+  }
+}

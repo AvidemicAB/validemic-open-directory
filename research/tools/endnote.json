@@ -1,0 +1,587 @@
+{
+  "id": "endnote",
+  "name": "EndNote",
+  "website": "https://endnote.com",
+  "tagline": "Commercial reference manager from Clarivate for saving, organizing and citing references, with optional AI features",
+  "category": "reference",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Clarivate Analytics (UK) Limited",
+      "evidence": [
+        {
+          "url": "https://endnote.com/privacy-policy/",
+          "quote": "Clarivate Analytics (UK) Limited",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Privacy notice names Clarivate Analytics (UK) Limited and Clarivate Analytics (US) LLC as contact entities, and says the Clarivate group is made up of several legal entities. Ultimate parent is Clarivate Plc (see parent_company). The EndNote licence contracting entity is not named on readable pages (licence page blocked: https://endnote.com/license/)."
+    },
+    "vendor_country": {
+      "value": "GB",
+      "evidence": [
+        {
+          "url": "https://s25.q4cdn.com/545999524/files/doc_downloads/2026/02/Clarivate-2025-10-K-As-Filed.pdf",
+          "quote": "principal business offices are located at 70 St. Mary Axe, London EC3A 8BE, United Kingdom",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Headquarters per the 2025 annual report. Privacy notice lists UK and US (Ann Arbor, MI) entity addresses. The 10-K says 7 of 41 leased office locations are in the United States."
+    },
+    "parent_company": {
+      "value": "Clarivate Plc",
+      "evidence": [
+        {
+          "url": "https://s25.q4cdn.com/545999524/files/doc_downloads/2026/02/Clarivate-2025-10-K-As-Filed.pdf",
+          "quote": "Clarivate Plc is a public limited company incorporated on January 7, 2019 under the laws of Jersey, Channel Islands",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Homepage header reads Clarivate then EndNote, so EndNote sits within the Clarivate group."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Vendor group is headquartered in the UK. The privacy notice names UK and US entities and no GDPR Art. 27 representative."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://endnote.com/privacy-policy/",
+          "quote": "If you have any concerns about how we process your personal data, please contact us at data.privacy@clarivate.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Privacy mailbox only. No named DPO found in the notice."
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Privacy notice says data 'may be transferred to countries ... such as the United States' but does not state storage locations. Product pages blocked."
+    },
+    "local_first": {
+      "value": "optional-sync",
+      "evidence": [
+        {
+          "url": "https://docs.endnote.com/docs/endnote/2025/v1/macos/en/content/22enweb/overview_of_sync_process.htm",
+          "quote": "EndNote allows you to synchronize your entire desktop library with EndNote Web/online",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://docs.endnote.com/docs/endnote/2025/v1/windows/en/content/24installingendnote/program_requirements_win.htm",
+          "quote": "An Internet connection is required to register for online access",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The desktop library is installed software. Sync to EndNote Web is initiated from EndNote and can run automatically when enabled in Sync Preferences."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on readable pages. Product and trust pages blocked (source blocked: https://endnote.com/fusion/)."
+    },
+    "cloud_providers": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "No hosting provider named on readable pages. The 2025 annual report refers only to third-party cloud-computing providers in general terms. Trust Center blocked (source blocked: https://clarivate.com/trust-center/)."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "sccs"
+      ],
+      "evidence": [
+        {
+          "url": "https://endnote.com/privacy-policy/",
+          "quote": "incorporating the Standard Contractual Clauses approved by the European Commission",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated for transfers from the UK and EEA via Clarivate's intra-group agreement. The 2018 FAQ mentions the EU-US Privacy Shield, which no longer applies. EU-US Data Privacy Framework status not confirmed."
+    },
+    "subprocessors_public": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://endnote.com/subprocessors (403 status; body reads as a page-not-found message). Clarivate subprocessor list only appears in search results, not readable."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No readable EndNote or Clarivate sub-processor list (source blocked: https://endnote.com/subprocessors)."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No readable sub-processor list (source blocked: https://endnote.com/subprocessors)."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://clarivateanalytics.my.salesforce.com/sfc/dist/version/download/?oid=00D41000001O1D5&ids=0684N00000JGKrKQAX&d=%2Fa%2F4N000000a92G%2F0Ki.b9SSbf3xd6URa7JBRc9RM1IMSLN6EYrfVdmsufE",
+          "quote": "We will inform our clients of any changes in",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "2018 GDPR readiness FAQ (Clarivate group, final v1.0). Notice is by the client's data processing agreement terms."
+    },
+    "dpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://endnote.com/dpa. Clarivate DPA page blocked (source blocked: https://clarivate.com/download/data-processing-addendum/). Guessed PDF URLs for the 2022 addendum returned 404."
+    },
+    "role": {
+      "value": "controller",
+      "evidence": [
+        {
+          "url": "https://endnote.com/privacy-policy/",
+          "quote": "where we are the data controller",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://clarivateanalytics.my.salesforce.com/sfc/dist/version/download/?oid=00D41000001O1D5&ids=0684N00000JGKrKQAX&d=%2Fa%2F4N000000a92G%2F0Ki.b9SSbf3xd6URa7JBRc9RM1IMSLN6EYrfVdmsufE",
+          "quote": "Clarivate is only a processor in relation to certain products and only in limited circumstances.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Privacy notice says Clarivate is controller for personal data collected through its services. The 2018 GDPR FAQ says it acts as processor only for certain hosted products (ScholarOne, Converis). EndNote is not named in the FAQ."
+    },
+    "privacy_policy_date": {
+      "value": "2024-04-07",
+      "evidence": [
+        {
+          "url": "https://endnote.com/privacy-policy/",
+          "quote": "Last updated: April 7, 2024",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Clarivate group privacy notice as shown on endnote.com. Copy saved by the directory maintainer from a normal browser."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://endnote.com/privacy-policy/",
+          "quote": "retain it for as long as necessary to fulfil the purposes for which we collected it",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No time frame given in the notice."
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://clarivateanalytics.my.salesforce.com/sfc/dist/version/download/?oid=00D41000001O1D5&ids=0684N00000JGKrKQAX&d=%2Fa%2F4N000000a92G%2F0Ki.b9SSbf3xd6URa7JBRc9RM1IMSLN6EYrfVdmsufE",
+          "quote": "Clients may delete individual or organization-level personal data by using",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "2018 FAQ: at the end of a contract, personal data is returned or destroyed on the client's request. No time frame stated."
+    },
+    "data_export": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Privacy notice describes a data-portability right for individuals, not product export. Help guide export pages not read."
+    },
+    "breach_notice": {
+      "value": "Clients who are controllers are notified in the most expedient time possible (no fixed window)",
+      "evidence": [
+        {
+          "url": "https://clarivateanalytics.my.salesforce.com/sfc/dist/version/download/?oid=00D41000001O1D5&ids=0684N00000JGKrKQAX&d=%2Fa%2F4N000000a92G%2F0Ki.b9SSbf3xd6URa7JBRc9RM1IMSLN6EYrfVdmsufE",
+          "quote": "Clients who are controllers will be notified in the most expedient time possible",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "2018 GDPR FAQ. No fixed hour count given."
+    },
+    "governing_law": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated in the privacy notice. Terms blocked (source blocked: https://endnote.com/license/)."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://endnote.com/blog/introducing-endnote-2025-ai-powered-reference-management/",
+          "quote": "Key Takeaway: This generative AI-powered tool",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "AI tools are listed as features of EndNote 2025 alongside citation and storage features."
+    },
+    "ai_providers": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "Blog says EndNote 2025 uses the Clarivate Academic AI Platform but names no model provider. AI research assistant blog blocked (source blocked: https://endnote.com/blog/introducing-endnote-research-assistant-ai-powered-document-chat-and-translation/)."
+    },
+    "trains_on_content": {
+      "value": "de-identified",
+      "evidence": [
+        {
+          "url": "https://endnote.com/privacy-policy/",
+          "quote": "may anonymise, aggregate, or de-identify Personal Data and process the derivative non-personal anonymised, aggregated, statistical or de-identified data",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Clarivate group wording on de-identified personal data used through AI and generative AI systems to improve products. Not EndNote-specific. Whether customer library content is used for training is not stated."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on readable pages."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on readable pages."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on readable pages."
+    },
+    "certifications": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [
+        {
+          "url": "https://s25.q4cdn.com/545999524/files/doc_downloads/2026/02/Clarivate-2025-10-K-As-Filed.pdf",
+          "quote": "Our Information Security Risk Management program is designed to align with ISO 27001",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The annual report describes ISO 27001 as a framework alignment, not a certification claim. No EndNote certificate on readable pages. Trust Center blocked (source blocked: https://clarivate.com/trust-center/)."
+    },
+    "encryption": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "Privacy notice says security measures 'may include encryption' without specifying in-transit or at-rest."
+    },
+    "pentest": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on readable pages. Trust Center blocked (source blocked: https://clarivate.com/trust-center/)."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No disclosure policy on readable pages. Clarivate disclosure programme page blocked (source blocked: https://clarivate.com/information-security/responsible-vulnerability-disclosure-program/)."
+    },
+    "incidents": {
+      "value": "Company says it has experienced cyberattacks and attempts to breach its systems; no specific breach or regulator fine is named in the 2025 annual report.",
+      "evidence": [
+        {
+          "url": "https://s25.q4cdn.com/545999524/files/doc_downloads/2026/02/Clarivate-2025-10-K-As-Filed.pdf",
+          "quote": "cyberattacks and other attempts to breach the security of our systems",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Group-wide statement in the 10-K risk factors. No EndNote-specific incident found. Regulator search not done."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://endnote.com/student-license"
+    },
+    "free_plan": {
+      "value": "trial-only",
+      "evidence": [
+        {
+          "url": "https://endnote.com/",
+          "quote": "Try EndNote for free",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Homepage links to a free trial. No permanent free plan stated on readable pages. Pricing page blocked (source blocked: https://endnote.com/pricing)."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://endnote.com/",
+          "quote": "Multi-User licenses and Site License subscriptions",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Homepage offers multi-user and site licences for a group, organisation or academic institution."
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Homepage shows a language switcher (Deutsch, Español, Français, 中文 (中国), 日本語). App interface language list not found."
+    },
+    "api": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No public API documentation read. SDK licence page blocked (source blocked: https://endnote.com/sdk-license-agreement/)."
+    },
+    "capabilities": {
+      "value": [
+        "reference-management",
+        "citation-formatting",
+        "literature-search",
+        "citation-graph",
+        "paper-chat",
+        "summarize-papers",
+        "translation",
+        "storage"
+      ],
+      "evidence": [
+        {
+          "url": "https://endnote.com/",
+          "quote": "A smarter reference manager.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://endnote.com/",
+          "quote": "Access over 7,000 citation styles including APA",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://endnote.com/",
+          "quote": "Surfaces relevant papers you might have missed — across databases",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://endnote.com/blog/introducing-endnote-2025-ai-powered-reference-management/",
+          "quote": "finding papers that have cited your existing references through Web of Science",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://endnote.com/",
+          "quote": "Ask follow-up questions and get answers from the text to go deeper.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://endnote.com/",
+          "quote": "Translate PDFs to break through language barriers.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://endnote.com/",
+          "quote": "secure cloud storage",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "From the homepage and 2025 AI blog. Summarising a paper is covered by the 'Key Takeaway' feature in the 2025 blog."
+    },
+    "primary_capability": {
+      "value": "reference-management",
+      "evidence": [
+        {
+          "url": "https://endnote.com/",
+          "quote": "A smarter reference manager.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": [
+        "windows",
+        "macos",
+        "web",
+        "ios",
+        "browser-extension",
+        "word-addin"
+      ],
+      "evidence": [
+        {
+          "url": "https://docs.endnote.com/docs/endnote/2025/v1/windows/en/content/24installingendnote/program_requirements_win.htm",
+          "quote": "EndNote 2025 runs under the following operating systems:",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://docs.endnote.com/docs/endnote/2025/v1/macos/en/content/24installingendnote/program_requirements_mac.htm",
+          "quote": "macOS 10.14, 10.15",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://endnote.com/",
+          "quote": "Work from anywhere with desktop, web, and iOS access.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://endnote.com/",
+          "quote": "using our browser extension",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://docs.endnote.com/docs/endnote/2025/v1/windows/en/content/01intro/title_page.htm",
+          "quote": "Cite While You Write (CWYW) in Microsoft Word",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Windows 10 and 11 per the Windows help guide; macOS versions as listed on the macOS help guide page. Web is the online library. Word add-in is the CWYW plug-in."
+    },
+    "sso": {
+      "value": [
+        "none"
+      ],
+      "evidence": [
+        {
+          "url": "https://docs.endnote.com/docs/endnote/2025/v1/macos/en/content/22enweb/overview_of_sync_process.htm",
+          "quote": "You only have to enter your e-mail address and password once in Sync Preferences",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Sign-in to EndNote Web/sync is by e-mail and password per the sync guide. No SAML, OIDC or other SSO protocol found on readable pages. Support articles not reachable."
+    },
+    "federation": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Searched for EndNote in eduGAIN, InCommon, UK Federation and similar listings. Only a RefWorks/Pivot SAML entity (sso.clarivate.com) appeared, which is not EndNote. No EndNote federation listing found."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on readable pages."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on readable pages."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://endnote.com/",
+          "quote": "For librarians, it provides the governance, visibility, and administrative controls needed to support successful adoption at scale.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Homepage describes administrative controls for librarians on EndNote Fusion. Admin console detail not read."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Homepage mentions activity logs for shared libraries, not clearly admin-visible audit logs."
+    },
+    "lms_integration": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No LMS integration found on readable pages."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://clarivate.com/accessibility/",
+          "quote": "The Accessibility Conformance Report (ACR) is a document that is based on the VPAT.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Clarivate accessibility directory lists EndNote Windows and OSX Conformance Reports."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Clarivate directory lists conformance reports but the WCAG level was not read from them."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://clarivate.com/accessibility/",
+          "quote": "Accessibility Statements provide user information on the accessibility features and gaps.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Clarivate accessibility directory lists an EndNote Accessibility Statement (linked page not read)."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Searched for an EndNote or Clarivate HECVAT. None found in readable results."
+    },
+    "ferpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on readable pages. Privacy notice blocked (source blocked: https://endnote.com/privacy-policy/)."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on readable pages."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://endnote.com/ada-compliance/"
+    },
+    "state_privacy": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "Not stated on readable pages. Privacy notice blocked (source blocked: https://endnote.com/privacy-policy/)."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Privacy notice says transfers from the UK are protected by approved legal safeguards, but does not name the IDTA or UK addendum."
+    },
+    "au_privacy": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "Not stated on readable pages."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on readable pages."
+    },
+    "price_individual": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://endnote.com/pricing"
+    },
+    "pricing_public": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://endnote.com/pricing"
+    },
+    "open_source": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on readable pages."
+    },
+    "self_host": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on readable pages."
+    },
+    "status_page": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://status.clarivate.com/"
+    },
+    "trust_page": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://clarivate.com/trust-center/"
+    },
+    "parent_country": {
+      "value": "GB",
+      "evidence": [
+        {
+          "url": "https://s25.q4cdn.com/545999524/files/doc_downloads/2026/02/Clarivate-2025-10-K-As-Filed.pdf",
+          "quote": "principal business offices are located at 70 St. Mary Axe, London EC3A 8BE, United Kingdom",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Ultimate parent Clarivate Plc is incorporated in Jersey, Channel Islands (per the 10-K) but its principal offices are in London."
+    }
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "id": "edusign",
+  "name": "eduSign",
+  "website": "https://sunet.se/services/identifiering/edusign",
+  "tagline": "E-signature service run by Sunet for Swedish universities: upload a PDF or XML file, sign it with your university login, invite others to sign, and validate signed files",
+  "category": "productivity",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Vetenskapsrådet (Swedish Research Council), through its department Sunet",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/340557880/Dataskydd+och+personuppgifter", "quote": "Sunet, genom Vetenskapsrådet, agerar personuppgiftsbiträde", "retrievedAt": "2026-11-16" },
+        { "url": "https://sunet.se/om-sunet/information-om-behandling-av-personuppgifter/", "quote": "Vetenskapsrådet, där Sunet är en avdelning", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Customers sign the agreement with Sunet; Sunet is not a separate legal entity but a department of the government agency Vetenskapsrådet."
+    },
+    "vendor_country": {
+      "value": ["SE"],
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/policy/pages/117769460/eduSign+Privacy+Policy", "quote": "Personal data controller for the processing of personal data is The Swedish Research Council, Sweden.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "parent_company": {
+      "value": "Swedish state (Vetenskapsrådet is a government agency under the Ministry of Education, Utbildningsdepartementet)",
+      "evidence": [
+        { "url": "https://www.vr.se/om-vetenskapsradet.html", "quote": "Vetenskapsrådet är en myndighet under Utbildningsdepartementet.", "retrievedAt": "2026-11-17" },
+        { "url": "https://sunet.se/om-sunet", "quote": "Vetenskapsrådet ansvarar för att Sunet administreras och drivs enligt regeringens fastlagda riktlinjer.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Not a company group: the operator is a Swedish state agency governed by the government through annual regulation letters (regleringsbrev). No private owner."
+    },
+    "parent_country": {
+      "value": ["SE"],
+      "evidence": [
+        { "url": "https://www.vr.se/om-vetenskapsradet.html", "quote": "Vetenskapsrådet är en myndighet under Utbildningsdepartementet.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The owner is the Swedish state, so the same country as the vendor."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/policy/pages/117769460/eduSign+Privacy+Policy", "quote": "Personal data controller for the processing of personal data is The Swedish Research Council, Sweden.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Established in Sweden (EU)."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        { "url": "https://sunet.se/om-sunet/information-om-behandling-av-personuppgifter/", "quote": "Hos Vetenskapsrådet finns ett dataskyddsombud som nås via dataskyddsombudet@vr.se", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "A DPO function with an e-mail and phone number is published; the DPO is not named. The eduSign privacy policy links to vr.se for the DPO contact."
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "note": "The wiki FAQ says all parts run on Sunet's own servers in a Sunet data centre, but the country or city of that data centre is not named on the eduSign pages, the eduSign privacy policy, sunet.se or edusign.sunet.se. A web search found no eduSign-specific location."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/78219311/FAQ", "quote": "Uppladdade dokument finns endast i Sunets servrar under den del av processen då signaturen genomförs", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Signing happens on Sunet's servers. 'Personal documents' and templates are kept in the user's browser between sessions, but signing still sends the file to Sunet."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "note": "Content stays on Sunet's own servers during signing, but the location of the Sunet data centre is not stated on the pages checked (see hosting_regions)."
+    },
+    "cloud_providers": {
+      "value": ["own"],
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/78219311/FAQ", "quote": "Inga molntjänster används för eduSign", "retrievedAt": "2026-11-16" },
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/78219311/FAQ", "quote": "Alla delar av tjänsten körs av Sunet på Sunets egna servrar som är placerade i Sunet datacenter", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Authentication through BankID or Freja+ (optional add-on agreement) runs on those providers' servers, which the FAQ says act as sub-processor to Sunet."
+    },
+    "transfer_mechanism": {
+      "value": "unknown",
+      "note": "The eduSign privacy policy says no personal data is transferred to third parties, but no statement about transfers outside the EEA or a transfer mechanism was found, and the data-centre location is not stated."
+    },
+    "subprocessors_public": {
+      "value": "none-found",
+      "note": "No sub-processor list found on sunet.se, the eduSign wiki, the eduSign privacy policy or edusign.sunet.se. The data protection page says a sub-processor may handle some personal data only if the controller signs an add-on agreement; the FAQ names BankID and Freja+ authentication as acting as sub-processor in that case. The privacy policy says: 'No personal data is transferred to third parties.'"
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "note": "No sub-processor list published (see subprocessors_public). BankID and Freja+ are mentioned only for the optional add-on."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "note": "No sub-processor list published (see subprocessors_public)."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "note": "No notice process for new sub-processors found; the PUBA that may contain it is not public."
+    },
+    "dpa": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/340557880/Dataskydd+och+personuppgifter", "quote": "För att använda eduSign krävs att ett personuppgiftsbiträdesavtal (PUBA) upprättas", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The PUBA is signed as part of the agreement with Sunet. No public copy of the template found."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/340557880/Dataskydd+och+personuppgifter", "quote": "Sunet, genom Vetenskapsrådet, agerar personuppgiftsbiträde i enlighet med tecknat personuppgiftsbiträdesavtal (PUBA).", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The connected organisation is controller for uploaded content. The separate end-user eduSign privacy policy names the Swedish Research Council as controller for login data and technical logs."
+    },
+    "privacy_policy_date": {
+      "value": "unknown",
+      "note": "No last-updated date shown on the eduSign privacy policy (wiki policy space), the eduSign data protection page or the sunet.se privacy notice."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/340557880/Dataskydd+och+personuppgifter", "quote": "Material raderas i och med att signeringsprocessen slutförs samt automatiskt senast trettio (30) dagar efter uppladdning", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The privacy policy says login logs are kept for troubleshooting and are 'manually purged when it is no longer used', with no time frame."
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "note": "Deletion is stated per document (on completion, or after 30 days at most). No deletion on contract termination described on pages checked."
+    },
+    "data_export": {
+      "value": "unknown",
+      "note": "Users download each signed document (PDF or XML). No admin or bulk export described, and the service does not keep documents after signing."
+    },
+    "breach_notice": {
+      "value": "Without undue delay (no hour limit stated)",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/340557880/Dataskydd+och+personuppgifter", "quote": "Den anslutna organisationen informeras utan onödigt dröjsmål", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "governing_law": {
+      "value": ["SE"],
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/340557880/Dataskydd+och+personuppgifter", "quote": "Tjänsten är utformad för att följa dataskyddsförordningen (GDPR) och tillämplig svensk lag", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Swedish law is the stated legal frame. The contract with a governing-law clause is not public."
+    },
+    "ai_features": {
+      "value": "none",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/340557880/Dataskydd+och+personuppgifter", "quote": "Uppladdat material används för att leverera signeringstjänsten eduSign.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No AI feature is described on the service page, the FAQs, the wiki, the roadmap or the privacy policy. The service is e-signing and signature validation only."
+    },
+    "ai_providers": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/340557880/Dataskydd+och+personuppgifter", "quote": "Uppladdat material används för att leverera signeringstjänsten eduSign.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No AI features (see ai_features), so no model provider. The underlying signing software provider is idsec-solutions (Java integration API linked from the FAQ); the web app is Sunet's own (SUNET/edusign-app)."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/340557880/Dataskydd+och+personuppgifter", "quote": "Ingen modellträning eller sekundär användning sker.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The same page lists uses that uploaded material is not used for: model training, product development, secondary analysis and other own purposes."
+    },
+    "ai_zero_retention": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/340557880/Dataskydd+och+personuppgifter", "quote": "Uppladdat material används för att leverera signeringstjänsten eduSign.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No AI model provider is used (see ai_features)."
+    },
+    "ai_admin_off": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/340557880/Dataskydd+och+personuppgifter", "quote": "Uppladdat material används för att leverera signeringstjänsten eduSign.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No AI features to turn off (see ai_features)."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act statement found on the eduSign wiki, service page or privacy policy. The service has no AI features."
+    },
+    "certifications": {
+      "value": ["none-found"],
+      "note": "No ISO, SOC or similar certificate found on sunet.se, the eduSign wiki or the security page. The eIDAS page describes the signature design (advanced electronic signature) and the DIGG framework; these are not certifications."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://sunet.se/om-sunet/sakerhet", "quote": "Här beskrivs Sunets säkerhetsarbete", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Sunet-wide security page (security work, disclosure contacts). Not an eduSign-specific trust centre."
+    },
+    "encryption": {
+      "value": ["unknown"],
+      "note": "Encryption in transit or at rest is not described on pages checked. The eIDAS page and FAQ cover one-time signing keys only."
+    },
+    "pentest": {
+      "value": "unknown",
+      "note": "No penetration test statement or summary found on pages checked."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        { "url": "https://sunet.se/om-sunet/sakerhet", "quote": "Sunet tillämpar coordinated vulnerability disclosure (CVD) kring it-incidenter", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Sunet states it offers no bug bounty but keeps a security hall of fame. The page says Sunet implements security.txt, but sunet.se, www.sunet.se and edusign.sunet.se /.well-known/security.txt all returned 404."
+    },
+    "incidents": {
+      "value": "none found",
+      "note": "Web search on 2026-11-17 (eduSign, Sunet, IMY, personuppgiftsincident): nothing found for eduSign. The May 2026 Canvas/Studium incident concerns another service Sunet coordinates and is not linked to eduSign in any source found. Not quoted."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://edusign.sunet.se/faq", "quote": "verify on Sunet statuspage that there are no ongoing issues or planned maintenance", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "https://status.sunet.se/ covers Sunet services including eduSign."
+    },
+    "sso": {
+      "value": ["saml"],
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/78219311/FAQ", "quote": "SPn begär inloggning med AuthenticationContextClassRef", "retrievedAt": "2026-11-16" },
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/78219311/FAQ", "quote": "https://edusign.sunet.se/shibboleth", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Two Shibboleth SAML service providers; sign-in through the user's home identity provider via Seamless Access. External signers can use eduID; BankID and Freja+ are an add-on."
+    },
+    "federation": {
+      "value": ["edugain", "swamid"],
+      "evidence": [
+        { "url": "https://sunet.se/services/identifiering/edusign", "quote": "Legitimering sker med e-identitet ansluten till SWAMID", "retrievedAt": "2026-11-17" },
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/126287971/Anslutna+organisationer", "quote": "ett användarkonto hos en organisation inom eduGAIN federationen (vilket inkluderar SWAMID )", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Federation metadata itself was not checked; this is Sunet's own statement that users from eduGAIN and SWAMID organisations can log in."
+    },
+    "scim": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/78219311/FAQ", "quote": "det skapas med andra ord inga permanenta identiteter i tjänsten", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No user accounts are stored in the service; access comes from the home identity provider at each login."
+    },
+    "mfa": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/78219311/FAQ", "quote": "det skapas med andra ord inga permanenta identiteter i tjänsten", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No local accounts. MFA depends on the home identity provider; the roadmap lists signing with MFA via local AL3 login as a planned item."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "note": "No institution admin console described. The FAQ says there is no dedicated statistics service; usage can be estimated via GÉANT F-ticks."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "note": "Technical logs are kept for troubleshooting and security (privacy policy); admin-visible audit logs are not described."
+    },
+    "lms_integration": {
+      "value": "unknown",
+      "note": "No LMS integration described on pages checked."
+    },
+    "vpat": {
+      "value": "none-found",
+      "note": "No VPAT or accessibility conformance report found for eduSign; checked the Sunet accessibility statement and a web search."
+    },
+    "wcag_level": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://sunet.se/om-sunet/tillganglighetsredogorelse-for-sunet-se/", "quote": "Den här webbplatsen är delvis förenlig med lagen om tillgänglighet till digital offentlig service", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The statement covers sunet.se only (last updated 13 May 2022), not the edusign.sunet.se signing application."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://sunet.se/om-sunet/tillganglighetsredogorelse-for-sunet-se/", "quote": "Här beskriver vi hur sunet.se uppfyller lagen om tillgänglighet till digital offentlig service", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "For sunet.se; no separate statement for edusign.sunet.se found."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "No HECVAT found for eduSign on Sunet pages or the web."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "note": "No FERPA statement on pages checked; this is a Swedish public-sector service."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "No BAA statement found on pages checked."
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "No Section 508 statement found on pages checked."
+    },
+    "state_privacy": {
+      "value": ["none-found"],
+      "note": "No US state student privacy agreement found."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "note": "No UK transfer terms found on pages checked."
+    },
+    "au_privacy": {
+      "value": ["none-found"],
+      "note": "No Australian privacy statement, IRAP or Australian hosting found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "No NIS2 supply-chain statement found. The security page says Sunet reports serious incidents to MSB under MSBFS 2020:8 as part of a state agency, which is not a NIS2 statement."
+    },
+    "free_plan": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://sunet.se/services/identifiering/edusign", "quote": "Ni tecknar avtal med Sunet om användandet av tjänsten.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Uploading and inviting others needs a Sunet contract. Anyone who can log in (eduGAIN or a free eduID) can sign documents they are invited to, without a contract."
+    },
+    "price_individual": {
+      "value": "not published",
+      "evidence": [
+        { "url": "https://sunet.se/services/identifiering/edusign", "quote": "Priset är satt i relation till organisationens storlek enligt tabellen nedan.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No individual price. Organisation prices by full-time-equivalent size: X-Small (under 100 FTE) 840 SEK per month, up to X-Large (4000+ FTE) 8 400 SEK per month."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://sunet.se/services/identifiering/edusign", "quote": "Priset är satt i relation till organisationens storlek enligt tabellen nedan.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The organisation signs the agreement; all users in its whitelisted identity provider, staff and students, can then use it."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "note": "No separate student or academic discount; the service is priced for Sunet-connected organisations by size."
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://sunet.se/services/identifiering/edusign", "quote": "Priset är satt i relation till organisationens storlek enligt tabellen nedan.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The full size-based price table (five tiers, SEK per month) is published. Add-on prices for BankID/Freja+ are not shown."
+    },
+    "capabilities": {
+      "value": ["e-signature"],
+      "evidence": [
+        { "url": "https://sunet.se/services/identifiering/edusign", "quote": "eduSign är säkra och enkla e-signaturer för Sunet kunder.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Also a validation service (validator.edusign.sunet.se) that issues validation certificates for archiving."
+    },
+    "primary_capability": {
+      "value": "other",
+      "others": ["e-signature"],
+      "evidence": [
+        { "url": "https://sunet.se/services/identifiering/edusign", "quote": "eduSign är säkra och enkla e-signaturer för Sunet kunder.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "platforms": {
+      "value": ["web"],
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/112169977/Introduktion+till+eduSign", "quote": "Själv tjänsten nås via följande URL", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "languages": {
+      "value": "Swedish, English",
+      "evidence": [
+        { "url": "https://edusign.sunet.se/faq", "quote": "English Svenska", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://sunet.se/services/identifiering/edusign", "quote": "Tjänsten kan även integreras med egna system via ett API.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Java and REST integration API from idsec-solutions, documented at idsec-solutions.github.io/signservice-integration-api. Direct integration needs technical setup agreed with Sunet."
+    },
+    "open_source": {
+      "value": "partly",
+      "evidence": [
+        { "url": "https://github.com/SUNET/edusign-app", "quote": "BSD-2-Clause license", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The eduSign web application (SUNET/edusign-app, React frontend and Flask backend) is BSD-2-Clause. The deployment repos (docker-edusign-app, docker-sign-app) show no licence file, and the licence of the signing service itself was not checked."
+    },
+    "self_host": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://wiki.sunet.se/spaces/EDUSIGN/pages/78219311/FAQ", "quote": "Ja det är möjligt men det krävs en del förberedelser", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Own instance runs Sunet's Docker images, needs a SAML SP registered in SWAMID, and still needs an agreement with Sunet."
+    }
+  }
+}

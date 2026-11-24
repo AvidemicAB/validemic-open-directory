@@ -1,0 +1,644 @@
+{
+  "id": "zotero",
+  "name": "Zotero",
+  "website": "https://www.zotero.org",
+  "tagline": "Free, open-source reference manager that saves, organizes and cites research; optional paid cloud storage and sync",
+  "checkedAt": "2026-11-14",
+  "facts": {
+    "vendor_entity": {
+      "value": "Corporation for Digital Scholarship",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/terms/terms_of_service",
+          "quote": "operated by the Corporation for Digital Scholarship",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Terms of Service name CDS as operator (offices in Falls Church, VA). Footer calls Zotero a project of Digital Scholar."
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/terms/terms_of_service",
+          "quote": "operated by the Corporation for Digital Scholarship",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Terms: operated 'from its offices within the United States on a not-for-profit basis'."
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Looked at terms, privacy policy and site footer. No parent or owner named. Footer says 'a project of Digital Scholar'; terms name the Corporation for Digital Scholarship."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Vendor is US-based. Privacy policy (last updated 2026-11-05) names no GDPR Art. 27 representative."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/privacy",
+          "quote": "please ask us in the Zotero Forums or email privacy@zotero.org",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "No named DPO found."
+    },
+    "hosting_regions": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/security",
+          "quote": "All data is currently stored in the us-east-1 AWS region in the United States.",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "local_first": {
+      "value": "optional-sync",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/security",
+          "quote": "If institutional policies prevent uploading of data to third-party servers, Zotero can always be used locally without syncing any data",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Group libraries need sync, which stores data in the US (AWS us-east-1)."
+    },
+    "eu_residency": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/privacy",
+          "quote": "All Zotero server data is stored in the United States in Amazon Web Services.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Sync server data stays in the US; no EU hosting option found. The desktop app keeps data locally unless sync is enabled."
+    },
+    "cloud_providers": {
+      "value": [
+        "aws"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/privacy",
+          "quote": "All Zotero server data is stored in the United States in Amazon Web Services.",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "transfer_mechanism": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Privacy policy and terms do not name the EU-US DPF, SCCs or BCRs. A web search for the DPF listing returned nothing for the Corporation for Digital Scholarship; dataprivacyframework.gov was not checked directly."
+    },
+    "subprocessors_public": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "/subprocessors returned 404. The privacy policy has a 'Third-Party Services Used' section that names providers (AWS, Stripe, Intuit, Anrok, VAT IT, Crossref, Library of Congress, reCAPTCHA/hCaptcha/Turnstile, myfonts.com, Inworld AI or Google for Premium voices) without calling them sub-processors."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No sub-processor list published; see subprocessors_public note."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No sub-processor list published. Privacy policy says Zotero server data is stored in the US."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No sub-processor change notice process found. Terms say CDS will notify users of material changes to the Services."
+    },
+    "dpa": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "/dpa resolves to a Zotero group page, not a DPA. Terms of Service and privacy policy contain no DPA clause. Web search found no Zotero DPA."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/terms/terms_of_service",
+          "quote": "you automatically grant to CDS and its service providers a royalty-free license and right to store, display, process, modify, and retransmit your Submissions",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.zotero.org/support/privacy",
+          "quote": "Zotero anonymizes and aggregates synchronized user and group library data to generate statistics on readership",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Processes synced content to run the service and uses anonymized, aggregated library data for its own statistics. The pages do not use the words processor or controller."
+    },
+    "privacy_policy_date": {
+      "value": "2026-11-05",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/privacy",
+          "quote": "Last updated 2026-11-05",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/privacy",
+          "quote": "Backups may be retained for up to 6 months.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Stated for backups of library data. Free accounts inactive for 90 days may have files deleted (terms section 3)."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/privacy",
+          "quote": "To delete your account, visit your Zotero settings and click",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.zotero.org/support/privacy",
+          "quote": "Backups may be retained for up to 6 months.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Self-service account deletion. Time frame given only for backups."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/dev/start",
+          "quote": "import and export items in various file formats (e.g. BibTeX, RIS, etc.)",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.zotero.org/why",
+          "quote": "Zotero has always guaranteed users complete access to their own data",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Item export to BibTeX/RIS and similar formats is documented. Full-library export and attachment export are not described on the pages checked."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No breach-notification window found in privacy policy, terms or security page."
+    },
+    "governing_law": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/terms/terms_of_service",
+          "quote": "will be governed by the laws of Virginia",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Virginia law; exclusive venue in Virginia courts."
+    },
+    "ai_features": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No generative AI feature found on the product, docs or privacy pages. Read Aloud (text-to-speech) is documented but is not generative AI. Not confirmed as absent by the vendor."
+    },
+    "ai_providers": {
+      "value": [
+        "google",
+        "other"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/privacy",
+          "quote": "When using Premium voices with Read Aloud, document text is sent to external providers for text-to-speech processing.",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.zotero.org/support/privacy",
+          "quote": "Currently, these providers may include Inworld AI or Google.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Applies only to Read Aloud Premium voices (text-to-speech). Standard voices run on Zotero servers. 'other' = Inworld AI.",
+      "others": [
+        "Inworld AI"
+      ]
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No training clause found. Privacy policy says no information beyond the document text is sent to the third-party TTS providers. Library statistics are described as anonymized and aggregated."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated for the Premium voice providers."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No institution admin setting for Read Aloud or AI found."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No EU AI Act statement found."
+    },
+    "certifications": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [
+        {
+          "url": "https://forums.zotero.org/discussion/122156/zotero-deemed-security-risk",
+          "quote": "These are enterprise certifications that aren't realistic for an organization of our size.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "No ISO, SOC or similar certificate found on the security page. Zotero Team forum post (March 2025) says enterprise certifications are not realistic for its size."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/security",
+          "quote": "If you believe you’ve found a security issue in Zotero software, please contact security@zotero.org",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Security page at /support/security, last updated 2023-05-31."
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/security",
+          "quote": "all data is encrypted in transit with current best practices",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.zotero.org/support/security",
+          "quote": "Data in newly created accounts is also encrypted at rest using AES-256.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "At-rest encryption is stated only for newly created accounts. No customer-managed keys or end-to-end encryption for sync."
+    },
+    "pentest": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No penetration test summary found on the security page."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/security",
+          "quote": "If you believe you’ve found a security issue in Zotero software, please contact security@zotero.org",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Disclosure contact only. No bug bounty and no security.txt (/.well-known/security.txt returned 404)."
+    },
+    "incidents": {
+      "value": "none found",
+      "evidence": [],
+      "note": "No Zotero-announced breach or regulator fine found in searches. A 2025 state agency security-risk designation was disputed by Zotero (forum thread 122156). A 2025 Bugcrowd report concerned an API key exposed in a third party's public repository, not a Zotero breach."
+    },
+    "status_page": {
+      "value": "no",
+      "evidence": [],
+      "note": "No status page link on the homepage or getting-help page. status.zotero.org does not resolve."
+    },
+    "sso": {
+      "value": [
+        "none"
+      ],
+      "evidence": [
+        {
+          "url": "https://forums.zotero.org/discussion/116188/zotero-with-saml-sso",
+          "quote": "There's no current support for any SSO solution.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Forum reply dated 2024-07-22; the replier's role is not shown on the cached page. Institution storage plans use email domain matching, not SSO."
+    },
+    "federation": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "Searched for eduGAIN, SWAMID, Haka, Feide, WAYF, InCommon, UK Federation and AAF listings. None found."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No SCIM provisioning found."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/blog/",
+          "quote": "This allows you to use a password manager to auto-fill credentials and will enable two-factor authentication",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Blog post on web-based login says two-factor authentication is 'currently in beta'. Not confirmed as generally available."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/storage/institutions",
+          "quote": "A simple administrative interface lets you add or remove users from your Zotero Lab subscription at any time.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Admin interface is for Lab plans (user management). Usage reports not stated."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No admin audit log described."
+    },
+    "lms_integration": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No LMS integration (LTI, Canvas, Moodle, etc.) found on the pages checked."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/accessibility",
+          "quote": "You can download our latest VPAT/ACR here",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "VPAT 2.5 for the desktop app dated October 24, 2024. VPATs for the web library and ZoteroBib are planned for 2026."
+    },
+    "wcag_level": {
+      "value": "2.2-aa",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/accessibility",
+          "quote": "As of October 2024, the Zotero desktop app fully meets the Web Content Accessibility Guidelines (WCAG) 2.2 Level AA.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Claim covers the desktop app only."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/accessibility",
+          "quote": "At Zotero, we’re committed to building software that is accessible to everyone, including people with disabilities.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Published accessibility page. Not checked against EAA statement content requirements."
+    },
+    "hecvat": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://forums.zotero.org/discussion/122156/zotero-deemed-security-risk",
+          "quote": "We can provide a HECVAT (an assessment tool used by higher-education institutions to evaluate security and privacy) on request.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Forum post by the Zotero Team, March 2025. Not on a public page. No published HECVAT found."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No FERPA statement or school-official terms found in terms or privacy policy."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No BAA offer found."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Section 508 not mentioned on the accessibility page. The VPAT was not opened."
+    },
+    "state_privacy": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "No SDPC, CCPA or NY Ed Law 2-d terms found."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No IDTA or UK addendum found."
+    },
+    "au_privacy": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "No Australian Privacy Principles statement, IRAP assessment or AU hosting found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 statement found."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/",
+          "quote": "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.zotero.org/storage",
+          "quote": "300 MB Free",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Desktop app is free. Free sync storage is 300 MB."
+    },
+    "price_individual": {
+      "value": "USD 20 per year for 2 GB of storage (the app itself is free)",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/storage",
+          "quote": "$20/year (equal to $1.67 per month)",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Paid tiers are storage plans: 6 GB $60/year, unlimited $120/year."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/storage/institutions",
+          "quote": "Zotero Institution provides unlimited storage for entire universities, research institutions, and corporations.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Zotero Lab (from $450/year for up to 15 users) and Zotero Institution (US$2,380/year for the first 500 FTE)."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No student or academic discount stated on the storage pages checked."
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/storage",
+          "quote": "Unlimited $120/year (equal to $10 per month)",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "capabilities": {
+      "value": [
+        "reference-management",
+        "citation-formatting",
+        "notes",
+        "storage"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/",
+          "quote": "Zotero automatically senses research as you browse the web.",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.zotero.org/",
+          "quote": "With support for over 9,000 citation styles, you can format your work to match any style guide or publication.",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.zotero.org/",
+          "quote": "keeping your files, notes, and bibliographic records seamlessly up to date",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.zotero.org/storage",
+          "quote": "Zotero Storage provides online storage space for your Zotero files",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Based on product pages. Read Aloud text-to-speech exists but is not a listed option."
+    },
+    "primary_capability": {
+      "value": "reference-management",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/",
+          "quote": "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "platforms": {
+      "value": [
+        "web",
+        "windows",
+        "macos",
+        "linux",
+        "ios",
+        "android",
+        "browser-extension",
+        "word-addin"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/",
+          "quote": "Available for Mac, Windows, Linux, iOS , and Android",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.zotero.org/why",
+          "quote": "you’ll also have access to your web library on zotero.org",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.zotero.org/download",
+          "quote": "Save from your browser with a single click",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.zotero.org/support/word_processor_integration",
+          "quote": "These plugins, available for Microsoft Word, LibreOffice, and Google Docs, create dynamic bibliographies",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Web is the zotero.org library view; the full app runs on desktop and mobile."
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No count or list of interface languages found. /support/languages returned 404."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/dev/start",
+          "quote": "Learn how to access online Zotero libraries using the Zotero API.",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "open_source": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/security",
+          "quote": "All Zotero software is open source and can be audited for security and privacy practices.",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.zotero.org/support/terms/terms_of_service",
+          "quote": "primarily the AGPLv3",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Mainly AGPLv3. Source at github.com/zotero."
+    },
+    "self_host": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zotero.org/support/security",
+          "quote": "The Zotero data server is open-source and can be run locally, which some organizations choose to do",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Vendor does not support self-hosted server installs."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "note": "No separate parent company found (see Parent company), so the vendor country applies."
+    }
+  }
+}

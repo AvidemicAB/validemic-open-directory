@@ -1,0 +1,680 @@
+{
+  "id": "wiseflow",
+  "name": "WISEflow",
+  "website": "https://www.wiseflow.net",
+  "tagline": "Digital exam and assessment platform for universities, with a lockdown browser, marking tools, plagiarism checking and optional AI feedback drafts",
+  "category": "exam",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "UNIwise ApS",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/privacy-policy",
+          "quote": "UNIwise ApS (\" we \", “ us ”, “ our ”) are committed to protecting and respecting your privacy.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "vendor_country": {
+      "value": [
+        "DK"
+      ],
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/privacy-policy",
+          "quote": "DK-8210 Aarhus V",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://uniwise.eu/about",
+          "quote": "UNIwise has offices in Aarhus (HQ) , Manchester , Skien , and Hamburg",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "Monterro",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about",
+          "quote": "supported by majority owner Monterro",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.monterro.com/news/danish-edtech-company-uniwise-partners-with-monterro/",
+          "quote": "Monterro has acquired a majority stake in UNIwise, and the founders continue as executive leaders and minority owners.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "parent_country": {
+      "value": [
+        "SE"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.monterro.com/news/danish-edtech-company-uniwise-partners-with-monterro/",
+          "quote": "Monterro is headquartered in Stockholm with offices in Oslo, Copenhagen",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/privacy-policy",
+          "quote": "UNIwise operate under Danish law and are governed by the regulations set out by EU and the Danish Data Protection Agency.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/privacy-policy",
+          "quote": "E: info@uniwise.dk",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The privacy policy gives a general contact address only; no DPO is named. Trust centre not readable (source blocked: https://trust.uniwise.eu/)."
+    },
+    "hosting_regions": {
+      "value": [
+        "IE",
+        "DE"
+      ],
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "Your data is held in Ireland and Germany, run by AWS",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "Your main data runs in Frankfurt, with backups held in a different country, Dublin",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/solutions/it-and-integrations",
+          "quote": "UNIwise is delivered as a managed platform on a redundant, three-zone architecture, monitored 24/7",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "eu_residency": {
+      "value": "default",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "It stays inside the EU.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://uniwise.eu/pricing",
+          "quote": "Your data never leaves the EU.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "cloud_providers": {
+      "value": [
+        "aws"
+      ],
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "Your data is held in Ireland and Germany, run by AWS",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "transfer_mechanism": {
+      "value": [
+        "adequacy",
+        "sccs"
+      ],
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/privacy-policy",
+          "quote": "where the recipient is bound by standard contractual clause according to conditions provided by the European Commission",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "This clause is in the website privacy policy. Transfer terms for customer content are in the DPA and transfer impact assessment on the trust centre, which could not be read (source blocked: https://trust.uniwise.eu/). Customer content is stated to stay in the EU."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "the full list of companies involved in delivering the platform",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://uniwise.eu/resources/blog/compliance-in-digital-assessment",
+          "quote": "with sub-processors disclosed and appropriate safeguards in place",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The list is said to be on the trust centre, which could not be read (source blocked: https://trust.uniwise.eu/)."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://trust.uniwise.eu/subprocessors"
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://trust.uniwise.eu/subprocessors"
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://trust.uniwise.eu/"
+    },
+    "dpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://trust.uniwise.eu/ (the AI and data page says the Trust Centre holds the data processing agreement; whether it is downloadable or on request could not be checked)."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/resources/blog/compliance-in-digital-assessment",
+          "quote": "Universities are controllers, while UNIwise acts as processor when operating WISEflow on your behalf.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "privacy_policy_date": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Read https://uniwise.eu/privacy-policy: no last-updated date is shown. The trust centre version could not be read (source blocked: https://trust.uniwise.eu/)."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "Exam data is deleted automatically after two years.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Proctoring and biometric data are deleted after six months per the same page; longer retention is a paid add-on."
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "https://uniwise.eu/about/ai-and-data describes export, then return or deletion with written confirmation, but gives no time frame. Contract terms: source blocked: https://trust.uniwise.eu/"
+    },
+    "data_export": {
+      "value": "full",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "If you leave, you have a window to export everything before deletion.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Export formats are not stated."
+    },
+    "breach_notice": {
+      "value": "within 72 hours, sooner where risk to people is high",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "If your data is ever compromised, we tell you within 72 hours, sooner where risk to people is high",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "governing_law": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Terms & Conditions are on the trust centre: source blocked: https://trust.uniwise.eu/"
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "Running WISEflow with none of them switched on is a normal and fully supported way to use the platform.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "ai_providers": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Read the AI and data page, the AI-assisted feedback page and the AI legal position PDF; no model provider is named. AI DPIAs are on the trust centre: source blocked: https://trust.uniwise.eu/"
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "At UNIwise, no model trains on it, no other institution sees it",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://help.wiseflow.net/hubfs/Service%20terms/AI%20assisted%20feedback_Legal%20position.pdf",
+          "quote": "workflow and is not provided to model vendors to train their AI technologies.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement on retention or logging at the model provider on the AI and data page or the AI legal position PDF."
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "Every AI feature in WISEflow is enabled by your institution, on your decision, at the point you are ready for it.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "ai_act_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://help.wiseflow.net/hubfs/Service%20terms/AI%20assisted%20feedback_Legal%20position.pdf",
+          "quote": "7. EU AI Act positioning (education) — practical approach",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "certifications": {
+      "value": [
+        "iso27001"
+      ],
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/solutions/it-and-integrations",
+          "quote": "ISO/IEC 27001:2022 certification covering the development, operation, delivery and support of WISEflow and Originality",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "Our security management is certified to ISO/IEC 27001 and audited annually by an external body, most recently in April 2026.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Vendor claim; the certificate on the trust centre could not be read (source blocked: https://trust.uniwise.eu/)."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "Our Trust Centre holds the certification, the data processing agreement",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Trust centre at https://trust.uniwise.eu/ exists but refused automated reading."
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest"
+      ],
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "Data is encrypted while it travels and while it sits, using keys held by UNIwise.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "We run continuous vulnerability scanning year-round, and a yearly external penetration test.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Tried https://uniwise.eu/.well-known/security.txt (404) and https://www.wiseflow.net/.well-known/security.txt (redirects to login); no disclosure policy on the vendor pages read."
+    },
+    "incidents": {
+      "value": "none found",
+      "evidence": [],
+      "note": "Searched Staan for Danish DPA (Datatilsynet) decisions on UNIwise/WISEflow; none found. The help centre has a known issues and incident reports section (operational issues)."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://status.wiseflow.net",
+          "quote": "The operational status of WISEflow.net and its integrations.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "sso": {
+      "value": [
+        "saml",
+        "oidc",
+        "microsoft"
+      ],
+      "evidence": [
+        {
+          "url": "https://help.wiseflow.net/service-centre/authentication-systems",
+          "quote": "User Authentication Through SAML",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://help.wiseflow.net/service-centre/authentication-systems",
+          "quote": "OpenID Connect",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://help.wiseflow.net/service-centre/authentication-systems",
+          "quote": "Microsoft Azure Login",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Per the pricing page, extra authentication methods are an add-on to the licence."
+    },
+    "federation": {
+      "value": [
+        "edugain",
+        "wayf",
+        "feide"
+      ],
+      "evidence": [
+        {
+          "url": "https://help.wiseflow.net/service-centre/authentication-systems",
+          "quote": "EduGain Authentication",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://help.wiseflow.net/service-centre/authentication-systems",
+          "quote": "WAYF Authentication",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://help.wiseflow.net/service-centre/authentication-systems",
+          "quote": "Feide Authentication",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Vendor lists these as login options; not checked against federation metadata."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No SCIM mention in the authentication, integrations or user management help pages."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No MFA for WISEflow standard login found in the authentication or user management help pages."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/solutions/wiseflow",
+          "quote": "Licence administrators manage the WISEflow licence for your institution; they can also appoint supporters.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://help.wiseflow.net/service-centre/licence-statistics",
+          "quote": "The Licence Statistics feature enables the viewing of statistics for one or more flows",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about/ai-and-data",
+          "quote": "Every action taken during an assessment, whether by a person or by an AI-assisted feature, is recorded with a timestamp.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "lms_integration": {
+      "value": [
+        "lti",
+        "canvas",
+        "moodle",
+        "brightspace",
+        "blackboard",
+        "itslearning"
+      ],
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/solutions/wiseflow/interoperability",
+          "quote": "WISEflow integrates with leading LMS/VLEs through LTI 1.3 including Canvas, Moodle, Brightspace, Blackboard and Itslearning",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "LTI 1.3."
+    },
+    "vpat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Read the accessibility statement PDF and accessibility help article; no VPAT/ACR. Trust centre: source blocked: https://trust.uniwise.eu/"
+    },
+    "wcag_level": {
+      "value": "2.1-aa",
+      "evidence": [
+        {
+          "url": "https://help.wiseflow.net/hubfs/Service%20terms/Statement%20of%20compliance%20for%20WISEflow.pdf",
+          "quote": "We are compliant at Level AA, although",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://help.wiseflow.net/hubfs/Service%20terms/Statement%20of%20compliance%20for%20WISEflow.pdf",
+          "quote": "WISEflow adheres to the WCAG 2.1 (ISO/IEC 40500:2012)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The statement notes some single-page elements may be non-compliant; new development targets WCAG 2.2."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://help.wiseflow.net/hubfs/Service%20terms/Statement%20of%20compliance%20for%20WISEflow.pdf",
+          "quote": "This statement was prepared on 11 March 2021.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No HECVAT on vendor pages read. Trust centre: source blocked: https://trust.uniwise.eu/"
+    },
+    "ferpa": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No FERPA mention on vendor pages read. Trust centre: source blocked: https://trust.uniwise.eu/"
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No HIPAA mention on vendor pages read."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The accessibility statement references WCAG only; no Section 508 claim."
+    },
+    "state_privacy": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No US state privacy terms on vendor pages read."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "UK transfer terms would be in the DPA: source blocked: https://trust.uniwise.eu/"
+    },
+    "au_privacy": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No Australian privacy statement or hosting found on vendor pages read."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 mention in any cached vendor page. Trust centre: source blocked: https://trust.uniwise.eu/"
+    },
+    "free_plan": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/pricing",
+          "quote": "An annual fee per full-time-equivalent student, with assessment volume included.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "price_individual": {
+      "value": "not published",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/pricing",
+          "quote": "We price by your institution’s annual full‑time‑equivalent (FTE) students to keep costs predictable and scalable.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Sold only as institutional licences; no amounts published."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/pricing",
+          "quote": "Whole institution One agreement covers every student and member of staff, with no per-faculty licensing.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Sold only to institutions; no discount stated on the pricing page."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/pricing",
+          "quote": "Each plan builds on the one before it, and a dash means the capability is not in that plan.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Plans (Core, Advanced, Premium) and their contents are published; prices are not."
+    },
+    "capabilities": {
+      "value": [
+        "exam",
+        "plagiarism-check"
+      ],
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/solutions/wiseflow",
+          "quote": "Manages the complete assessment and feedback lifecycle across a wide range of assessment types and formats.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://uniwise.eu/pricing",
+          "quote": "Similarity and paraphrase detection built into the assessment flow, and also sold as a licence of its own.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "primary_capability": {
+      "value": "exam",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/about",
+          "quote": "a dedicated digital assessment platform and originality checking solution for higher education.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "platforms": {
+      "value": [
+        "web",
+        "windows",
+        "macos",
+        "ios"
+      ],
+      "evidence": [
+        {
+          "url": "https://help.wiseflow.net/hubfs/Service%20terms/Statement%20of%20compliance%20for%20WISEflow.pdf",
+          "quote": "The platform supports iOS, Windows and Chrome OS",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://help.wiseflow.net/service-centre/accessibility-in-wiseflow",
+          "quote": "The Mac version of the lockdown Browser works with VoiceOver",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://help.wiseflow.net/hubfs/Service%20terms/Statement%20of%20compliance%20for%20WISEflow.pdf",
+          "quote": "mobile platforms where standard browsers operate",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Chrome OS is also named but has no option value."
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No interface language list found on vendor pages read (only third-party listings)."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/solutions/it-and-integrations",
+          "quote": "A documented, version-managed and rate-limited REST/JSON API for workflow automation and data exchange",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "API access is an add-on per the pricing page."
+    },
+    "open_source": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No licence or source code statement found on vendor pages read."
+    },
+    "self_host": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://uniwise.eu/solutions/it-and-integrations",
+          "quote": "UNIwise is delivered as a managed platform on a redundant, three-zone architecture, monitored 24/7",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    }
+  }
+}

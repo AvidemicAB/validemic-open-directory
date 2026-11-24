@@ -1,0 +1,408 @@
+{
+  "id": "covidence",
+  "name": "Covidence",
+  "website": "https://www.covidence.org",
+  "tagline": "Web tool for running systematic reviews: import references, screen studies, extract data, assess risk of bias and export PRISMA diagrams",
+  "category": "reference",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Veritas Health Innovation Ltd (trading as Future Evidence Foundation)",
+      "evidence": [
+        { "url": "https://www.covidence.org/terms/", "quote": "www.covidence.org is a site operated by Veritas Health Innovation Ltd", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.futureevidence.org/?page_id=863", "quote": "Future Evidence is the trading name of Veritas Health Innovation Ltd, an Australian not-for-profit company and registered charity.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "ABN 41 600 366 274. Covidence is one programme of this company, next to Alive and Evidence Data Projects."
+    },
+    "vendor_country": {
+      "value": "AU",
+      "evidence": [
+        { "url": "https://www.covidence.org/terms/", "quote": "We are a public company limited by guarantee, registered in Australia (ACN 600 366 274, ABN 41 600 366 274).", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [
+        { "url": "https://www.futureevidence.org/?page_id=863", "quote": "Legal name: Veritas Health Innovation Ltd", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.futureevidence.org/?page_id=863", "quote": "We have subsidiary entities in the United States and the United Kingdom.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Covidence's footer says it is 'Owned by the Future Evidence Foundation', but the foundation's own company page says Future Evidence Foundation is only the trading name of Veritas Health Innovation Ltd, the same company that operates Covidence (same ABN). It is a company limited by guarantee and a registered charity, so there is no separate owner company. It has US and UK subsidiaries. Looked at the Covidence about page, footer, terms and privacy policy, and the Future Evidence organisation, people, work and privacy pages."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://www.futureevidence.org/?page_id=993", "quote": "Veritas Health Innovation Ltd ABN 41 600 366 274, trading as Future Evidence Foundation", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No separate parent company: Future Evidence Foundation and the contracting company are the same legal entity, based in Melbourne, Australia."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [
+        { "url": "https://www.covidence.org/privacy/", "quote": "You can confidentially contact our EU Representative on the above contact details.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The privacy policy uses the words 'EU Representative', but the 'above contact details' are the Privacy Officer at the Melbourne office (support@covidence.org). No representative company or address in the EU is named."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        { "url": "https://www.covidence.org/privacy/", "quote": "You can confidentially contact our Privacy Officer at:", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Privacy Officer by role at Level 5, 485 Latrobe Street, Melbourne, email support@covidence.org. No named officer and no DPO."
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "evidence": [
+        { "url": "https://www.covidence.org/privacy/", "quote": "Given this, data may be stored outside of your country of origin.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No hosting country or region is named. Looked at the privacy policy, terms, pricing, institutions page, help centre and web search."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.covidence.org/pricing/", "quote": "Never worry about installing software again. It's online, it's secure - Just sign in.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Only an online service is described."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "note": "No statement on keeping data inside the EU/EEA in the privacy policy, terms, pricing or help pages. The privacy policy says data may be stored outside the user's country."
+    },
+    "cloud_providers": {
+      "value": ["unknown"],
+      "evidence": [
+        { "url": "https://www.covidence.org/privacy/", "quote": "our data hosting and other IT service providers, located in various countries; and", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Hosting providers are not named. Google Vertex AI is named only for the AI extraction features (see ai_providers). Web search found no hosting statement."
+    },
+    "transfer_mechanism": {
+      "value": ["adequacy"],
+      "evidence": [
+        { "url": "https://www.covidence.org/privacy/", "quote": "we ensure an adequate level of protection for the rights of data subjects based on the adequacy of the receiving country’s data protection laws.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The privacy policy names adequacy only. No EU-US Data Privacy Framework, SCC or BCR wording found. The contracting company is Australian (no EU adequacy decision for Australia)."
+    },
+    "subprocessors_public": {
+      "value": "none-found",
+      "note": "/subprocessors, /sub-processors (covidence.org) and /help/subprocessors (support.covidence.org) return 404. The privacy policy lists only categories of service providers. Web search and one search.mjs query found no list."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "note": "No sub-processor list published. Google (Vertex AI) is the only processor named, on an AI help page; Atlassian Statuspage hosts the status page."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "note": "No sub-processor list published."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "note": "No sub-processor list or change-notice process found."
+    },
+    "dpa": {
+      "value": "none-found",
+      "evidence": [
+        { "url": "https://www.covidence.org/blog/how-to-justify-ai-tools-to-institutions/", "quote": "Data handling is governed by Covidence’s privacy policy and customer data agreements.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No DPA document is published (/dpa and /data-processing-agreement return 404). A vendor blog post mentions 'customer data agreements' without saying how to get one. The privacy policy only says Covidence signs DPAs with its own processors 'where necessary under applicable laws'."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        { "url": "https://www.covidence.org/privacy/", "quote": "For purposes of the GDPR we are a data controller (entity details as above).", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.covidence.org/privacy/", "quote": "This includes the disclosure of information to our clients where we act as a data processor.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Controller for its own processing, including the licence it takes to reuse Review Data (see trains_on_content). Processor wording appears only for client data."
+    },
+    "privacy_policy_date": {
+      "value": "2025-08",
+      "evidence": [
+        { "url": "https://www.covidence.org/privacy/", "quote": "Last updated: August 2025", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Only the month is given on the page."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.covidence.org/terms/", "quote": "or have your own paid account (including where you have converted a trial account into a paid account) we will retain your Review Data indefinitely.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Applies to university, organisation and paid accounts. Free trial accounts are covered in the footnote.",
+      "footnote": "Free trial accounts: Review Data is deleted seven days after the trial ends, or 30 days later on written request."
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://www.covidence.org/privacy/", "quote": "If you wish to have us delete your data please contact us.", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.covidence.org/terms/", "quote": "You can delete your Review Data through your account at any time.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Free trial accounts: Review Data is deleted seven days after the trial ends.",
+      "note": "No deletion time frame after an institutional or paid subscription ends; the terms say Review Data is kept indefinitely. Users can delete Review Data themselves. The terms also say Covidence may still use Review Data under its licence after removing it from the public database."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://www.covidence.org/terms/", "quote": "The input and output formats to transfer data in and out of our site are limited to those available from time-to-time.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Help pages describe exports of study lists to reference managers, extracted data and quality assessments to Excel, RevMan and PRISMA. No full-account export is described."
+    },
+    "breach_notice": {
+      "value": "Endeavour to meet 72 hours (GDPR); assessment within 30 days (Australia)",
+      "evidence": [
+        { "url": "https://www.covidence.org/privacy/", "quote": "We will endeavour to meet the 72 hour deadline as imposed by the GDPR", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.covidence.org/privacy/", "quote": "we will take all reasonable steps to ensure an assessment is completed within 30 days of the breach or sooner if possible.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Wording is 'endeavour', not a firm commitment, and the 72 hours refers to reporting to the supervisory authority. Individuals are to be contacted 'without undue delay' where risk is high."
+    },
+    "governing_law": {
+      "value": "AU",
+      "evidence": [
+        { "url": "https://www.covidence.org/terms/", "quote": "are governed by the law of Victoria, Australia.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "State of Victoria, Australia, with exclusive jurisdiction of its courts."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        { "url": "https://www.covidence.org/blog/beyond-evaluation-deciding-when-ai-is-appropriate-in-evidence-synthesis/", "quote": "All automation features in Covidence are optional and can be turned off", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "AI features: relevance sorting, RCT tagging and removal (EPPI-Centre classifiers), and LLM extraction and intervention suggestions. Extraction suggestions are enabled by default in a review."
+    },
+    "ai_providers": {
+      "value": ["google"],
+      "evidence": [
+        { "url": "https://support.covidence.org/help/ai-feature-extraction-suggestions", "quote": "Covidence uses Google's Gemini models through Vertex AI.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Gemini (via Google Cloud Vertex AI) for extraction and intervention suggestions; the full-text PDF or text extracted from it is sent to the model. Screening features use classifiers developed by the EPPI-Centre; where they run is not stated."
+    },
+    "trains_on_content": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.covidence.org/terms/", "quote": "aggregating and incorporating Review Data as part of new data sets, and making those data sets available for non-commercial purposes, including the development of machine learning models.", "retrievedAt": "2026-11-17" },
+        { "url": "https://support.covidence.org/help/covidences-approach-to-responsible-automation-ai", "quote": "Your unpublished data, extracted results, and proprietary comments are not used to train public-facing AI models without your explicit consent.", "retrievedAt": "2026-11-17" },
+        { "url": "https://support.covidence.org/help/ai-feature-extraction-suggestions", "quote": "Google does not use customer data to train or fine-tune models under its terms and conditions for Google Cloud Services.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The terms grant Covidence a perpetual, worldwide licence to Review Data (excluding personal information) that names the development of machine learning models as a use of aggregated data sets, with no opt-out described. Help pages and a blog say uploaded documents are not used to train AI models, unpublished data is not used for public-facing models without explicit consent, the LLM features are prompt-based with no direct training, and Google does not train on the data. The vendor does not reconcile the licence with these statements; recorded as 'yes' because the binding terms allow it."
+    },
+    "ai_zero_retention": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://support.covidence.org/help/approach-to-automation", "quote": "We rely on trusted large language models that don’t store or share anything from your uploaded files", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.covidence.org/blog/how-to-justify-ai-tools-to-institutions/", "quote": "Documents uploaded to the platform are not stored or shared by LLM providers and are not used to train AI models.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Stated in a help article and a blog post; no contract term or provider setting (e.g. Vertex AI zero data retention) is cited."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [
+        { "url": "https://support.covidence.org/help/ai-feature-extraction-suggestions", "quote": "In review settings, enable the feature by selecting \"Provide suggestions during data extraction\":", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "AI features are switched on or off per review in review settings. No institution-wide admin switch is described in the admin dashboard article or AI help pages."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act statement found. Read the responsible automation articles, model cards, AI FAQ and three AI blog posts; they cite Cochrane and RAISE guidance only."
+    },
+    "certifications": {
+      "value": ["soc2-type1"],
+      "evidence": [
+        { "url": "https://www.covidence.org/blog/how-to-justify-ai-tools-to-institutions/", "quote": "Covidence is currently SOC 2 Type I certified. External audits for SOC 2 Type II and ISO 27001 are underway", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Claimed only in a vendor blog post (7 Jul 2026, as suggested procurement wording). No trust page, report or certificate found to verify it. SOC 2 Type II and ISO 27001 were described as in progress, expected late 2026."
+    },
+    "trust_page": {
+      "value": "no",
+      "note": "/trust, /trust-centre and /security on covidence.org return 404. No security or trust centre linked from the site or help centre."
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest"],
+      "evidence": [
+        { "url": "https://www.covidence.org/privacy/", "quote": "We use industry-standard encryption to store and transfer Personal Data.", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.covidence.org/pricing/", "quote": "128-bit SSL encryption and backups", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "pentest": {
+      "value": "unknown",
+      "note": "No penetration test statement found on the privacy policy, terms, help centre or blog."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "note": "/.well-known/security.txt returns 404. No disclosure policy or bug bounty found."
+    },
+    "incidents": {
+      "value": "none found",
+      "note": "No incident notice on Covidence pages; one web search for breach notices found only an unrelated company (Veritas Genetics). Regulator and court registers were not searched directly."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://support.covidence.org/help/where-to-find-updates-on-covidence-downtime", "quote": "The Covidence Status Page provides real-time updates on system performance, downtime, and scheduled maintenance.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "covidence.statuspage.io (Atlassian Statuspage)."
+    },
+    "sso": {
+      "value": ["unknown"],
+      "evidence": [
+        { "url": "https://support.covidence.org/help/university-of-bath-sso", "quote": "Go to the Covidence Sign-up page , select Create account with SSO and enter your UoBath email address.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Institutional SSO through the university's own login page exists (institution help pages for Bath and others), and there is a 'Sign in with Cochrane' option. The protocol (SAML or OIDC) is not named on any page read. The privacy policy also mentions social logins (Facebook, Twitter, LinkedIn)."
+    },
+    "federation": {
+      "value": ["none-found"],
+      "note": "No eduGAIN or national federation listing found in web search or Covidence pages. Federation metadata files were not queried directly."
+    },
+    "scim": {
+      "value": "unknown",
+      "note": "No provisioning documentation found."
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "No statement on multi-factor authentication found in login help articles or the privacy policy."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://support.covidence.org/help/new-better-manage-your-organizational-reviews-with-covidence", "quote": "the ‘Overview’ page provides a snapshot of the number of reviews and authors currently working in your repository", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Organisational dashboard: invite and revoke members, view all reviews and author activity."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "note": "Reviews keep a record of who made each screening decision, but no admin-visible audit log is documented."
+    },
+    "lms_integration": {
+      "value": ["none-found"],
+      "note": "No LTI or LMS integration named on pages read. The institutions page says no IT integration is needed."
+    },
+    "vpat": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://www.covidence.org/accessibility/", "quote": "If you require a copy of the VPAT or additional accessibility documentation, please contact us using the details below.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "wcag_level": {
+      "value": "2.1-aa",
+      "evidence": [
+        { "url": "https://www.covidence.org/accessibility/", "quote": "meets WCAG 2.1 Level A and AA success criteria for our defined core features.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Scope excludes data extraction tools and the mobile site, according to the accessibility page. Independent audit by AccessibleWeb."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.covidence.org/accessibility/", "quote": "Covidence is committed to providing an accessible, inclusive experience for all users.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "Web search and vendor pages found no HECVAT."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "note": "No FERPA statement on pages read or in web search."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "No statement on a Business Associate Agreement found."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [
+        { "url": "https://www.covidence.org/accessibility/", "quote": "Section 508 of the U.S. Rehabilitation Act (where applicable)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Listed as a standard the product is 'designed and maintained in alignment with', where applicable. No conformance claim."
+    },
+    "state_privacy": {
+      "value": ["none-found"],
+      "note": "No SDPC, CCPA or NY Ed Law 2-d terms found on pages read."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "note": "No UK transfer addendum or IDTA mentioned. The Future Evidence pages mention a UK subsidiary."
+    },
+    "au_privacy": {
+      "value": ["app-statement"],
+      "evidence": [
+        { "url": "https://www.covidence.org/privacy/", "quote": "The processing of Personal Data by us will always be in line with the Australian Privacy Principles", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Hosting in Australia is not stated."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "No NIS2 statement found."
+    },
+    "free_plan": {
+      "value": "trial-only",
+      "evidence": [
+        { "url": "https://www.covidence.org/pricing/", "quote": "Want to try Covidence first? Trial it with 500 records now", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The Future Evidence work page says Covidence is free for researchers in low-income countries."
+    },
+    "price_individual": {
+      "value": "$339 USD / year (single review, valid 12 months)",
+      "evidence": [
+        { "url": "https://www.covidence.org/pricing/", "quote": "One review and invite unlimited collaborators (valid for 12 months).", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.covidence.org/pricing/", "quote": "$339 USD / year", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Package of up to 3 reviews: $907 USD / year."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.covidence.org/pricing/", "quote": "Our organizational, site-wide subscriptions feature unlimited reviews, users, collaborators, and support.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "edu_discount": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.covidence.org/pricing/", "quote": "do not offer an additional student discount", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Concessions are offered to users in low- and middle-income countries."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://www.covidence.org/pricing/", "quote": "For enquiries regarding purchasing new departmental or organization-wide licenses, reach out to us.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Single-review and small-team prices are published. Institutional prices are on enquiry."
+    },
+    "capabilities": {
+      "value": ["systematic-review"],
+      "evidence": [
+        { "url": "https://www.covidence.org/", "quote": "A purpose-built platform for systematically reviewing research.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Covers review setup, reference import with de-duplication, screening, data extraction, risk of bias and PRISMA export. Reference management is import/export only."
+    },
+    "primary_capability": {
+      "value": "systematic-review",
+      "evidence": [
+        { "url": "https://www.covidence.org/", "quote": "A purpose-built platform for systematically reviewing research.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "platforms": {
+      "value": ["web"],
+      "evidence": [
+        { "url": "https://www.covidence.org/pricing/", "quote": "Never worry about installing software again. It's online, it's secure - Just sign in.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "A mobile site exists for screening with a limited feature set. No native app found."
+    },
+    "languages": {
+      "value": "unknown",
+      "note": "Interface languages not stated on pages read."
+    },
+    "api": {
+      "value": "unknown",
+      "note": "No public API documentation found on covidence.org, the help centre or in web search."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.covidence.org/terms/", "quote": "We are the owner or the licensee of all intellectual property rights in our site", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "self_host": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.covidence.org/privacy/", "quote": "facilitating a cloud based solution available to reviewers around the world", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Only cloud delivery is described. No self-hosted option found."
+    }
+  }
+}

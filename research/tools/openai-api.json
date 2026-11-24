@@ -1,0 +1,692 @@
+{
+  "id": "openai-api",
+  "name": "OpenAI API",
+  "website": "https://openai.com/api/",
+  "tagline": "OpenAI's developer platform: hosted AI models that developers call through an API from their own products (not the ChatGPT app)",
+  "category": "ai",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "OpenAI OpCo, LLC",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "OpenAI OpCo, LLC, on its behalf and on behalf of its Affiliates",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "unless Customer is based within a European Economic Area country or Switzerland, in which case it is entered into with OpenAI Ireland Ltd.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Contracting entity is OpenAI OpCo, LLC for most customers and OpenAI Ireland Ltd. for customers based in the EEA or Switzerland (DPA preamble)."
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "OpenAI OpCo, LLC, 1455 3rd Street, San Francisco, CA 94158",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "OpenAI, Inc. (through OpenAI Global, LLC)",
+      "evidence": [
+        {
+          "url": "https://www.lobbyregister.bundestag.de/media/7f/39/594238/OpenAI-Ireland-FY24-Abridged-Accounts.pdf",
+          "quote": "intermediate parent is OpenAI Global, LLC (Global), and its ultimate parent is OpenAI, Inc.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "From OpenAI Ireland Limited's abridged financial statements for 2024, filed in the German Bundestag lobby register. They describe the group headed by OpenAI, Inc.; OpenAI Ireland Limited is the contracting company for EEA users."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "Customer hereby instructs OpenAI Ireland Limited to process any EEA and Swiss Data",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10085432",
+          "quote": "ha stabilito in Irlanda il proprio quartier generale europeo",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Inferred: the DPA routes EEA data to OpenAI Ireland Ltd., and the Garante press release (Italian) says OpenAI set up its European headquarters in Ireland. Art. 27 analysis is not stated by the vendor."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "Data Protection Officer, privacy@openai.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No named DPO found in the DPA; only the role and privacy@openai.com address."
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Default is a Global project with no region named (data-residency page). Regional storage exists only where a project selects a region. Default storage country not stated in cached pages."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "quote": "Abuse monitoring logs may contain certain customer content, such as prompts and responses",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Hosted API: requests are sent to OpenAI to get a model response."
+    },
+    "eu_residency": {
+      "value": "option",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "Eligible organizations can enable data residency when creating a project in the API Platform.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "Europe (EEA + Switzerland) eu.api.openai.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Selectable per project, for eligible organizations. Projects cannot change region after creation. Storage and processing support for EU varies by model and endpoint; see the support-by-region table."
+    },
+    "cloud_providers": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Trust portal says 'Hosting Major Cloud Provider' without naming the provider. Data-residency page names Azure and OCI only for customers' own storage buckets, not OpenAI's hosting."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "sccs",
+        "adequacy"
+      ],
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "on the basis of agreements containing SCCs that ensure appropriate safeguards",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "or an adequacy decision issued by the European Commission under Article 45 GDPR",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPF not confirmed: the cached dataprivacyframework.gov list (2026-11-16) did not show an OpenAI entry; the list copy may be incomplete."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "the list available at the following address https://platform.openai.com/subprocessors",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The list page itself was not read: source blocked: https://platform.openai.com/subprocessors"
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://platform.openai.com/subprocessors"
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://platform.openai.com/subprocessors"
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "or via email if Customer subscribes to email notifications on the Sub-Processor List site.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "Customer may object to the use of such additional Sub-processor within 30 days of receiving notice of the change",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA 2.9: notice by blog post, in-service notification or email for subscribers, with a 30-day objection window."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "Execute Data Processing Agreement",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The DPA PDF (version v.010126) is downloadable from cdn.openai.com. The DPA closes with an 'Execute Data Processing Agreement' line, which the directory reads as the online signing route."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "OpenAI acts as a Data Processor on the Customer’s behalf, and this DPA governs such Processing.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Model training is a separate statement in the API data controls page, which says API data is not used for training by default."
+    },
+    "privacy_policy_date": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://openai.com/policies/privacy-policy/ (refuses automated reading)"
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "quote": "By default, abuse monitoring logs are generated for all API feature usage and retained for up to 30 days",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "quote": "Except as noted below, the Responses API has a 30 day Application State retention period by default",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "30 days for abuse monitoring logs and for Responses API application state by default. Eligible customers can be approved for Zero Data Retention."
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "at Customer’s instruction, return or delete Customer Data",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA 2.11 gives no time frame for deletion after termination."
+    },
+    "data_export": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Cached API pages do not describe exporting customer content in open formats. The RBAC page covers a usage export only. Not confirmed."
+    },
+    "breach_notice": {
+      "value": "without undue delay (no fixed hours stated)",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "OpenAI will notify Customer without undue delay after becoming aware of any Personal Data Breach",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA 2.7."
+    },
+    "governing_law": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://openai.com/policies/business-terms/ (terms refuse automated reading). The DPA names England and Wales only for the UK SCC clauses (Schedule 1, 8.2)."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "The following models and API services are eligible for data residency today",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The product is model access through the API."
+    },
+    "ai_providers": {
+      "value": [
+        "openai"
+      ],
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "quote": "data sent to the OpenAI API is not used to train or improve OpenAI models",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The vendor runs its own models."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "quote": "data sent to the OpenAI API is not used to train or improve OpenAI models",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Full clause: 'As of March 1, 2023, data sent to the OpenAI API is not used to train or improve OpenAI models (unless you explicitly opt in to share data with us).'"
+    },
+    "ai_zero_retention": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "quote": "Currently, these controls are subject to prior approval by OpenAI and acceptance of additional requirements.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "quote": "Eligible customers may have their customer content excluded from these abuse monitoring logs",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Zero Data Retention is available only to customers approved by OpenAI. It is not on by default. Store parameter is forced to false under ZDR."
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/rbac",
+          "quote": "Permissions : The specific actions a role allows (for example, make requests to models, read files, write files, manage keys).",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Admins can withhold the model-request permission from roles, users and projects through RBAC. That is not a single off switch for AI features."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No OpenAI EU AI Act statement in cached pages. openai.com policy pages are blocked (https://openai.com/policies/)."
+    },
+    "certifications": {
+      "value": [
+        "iso27001",
+        "iso27017",
+        "iso27018",
+        "iso27701",
+        "iso42001",
+        "soc2-type2"
+      ],
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "Our products are also ISO 27001, 27017, 27018, and 27701 certified.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "conforms to the requirements of ISO/IEC 27001:2022 for OpenAI’s API, ChatGPT Enterprise, and ChatGPT Edu services",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "OpenAI's 2026 SOC 2 Type 2 Report is now available to customers at trust.openai.com.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "ISO/IEC 42001:2023",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Claims are read from the trust portal, which is worded around ChatGPT services; the ISO 27001 news item names the API. ISO 42001 is listed under Compliance without a stated scope. Certificates and reports need trust-portal access."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "Welcome to our Trust Portal for OpenAI's ChatGPT services",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest",
+        "customer-keys"
+      ],
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "TLS termination and HTTPS decryption occur within the selected processing region",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/private-safety-processing",
+          "quote": "Each stored record is doubly encrypted when it is retained in customer storage",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/private-safety-processing",
+          "quote": "Enterprise Key Management (EKM) adds an outer layer using your customer-controlled key-management service",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "Encryption-at-rest",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "At-rest encryption for the general API is listed as a trust-portal topic only. The quoted record encryption and EKM apply to Private Safety Processing storage, not necessarily to all API data."
+    },
+    "pentest": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "View & download sensitive information",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "A 'Pentest Report' is listed under Documents on the trust portal, which needs an access request. Summary not public."
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "OpenAI invites security researchers, ethical hackers, and technology enthusiasts to report security issues via our Bug Bounty Program.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Bug bounty run via Bugcrowd (named on the trust page)."
+    },
+    "incidents": {
+      "value": "Italian Garante decision No. 755 of 2024-11-02 on ChatGPT: EUR 15m fine and a 6-month information campaign; the breach of March 2023 was not notified. The Garante removed the decision from its site after Rome court judgment 4153/2026 (2026-03-18) accepted OpenAI's opposition. Consumer ChatGPT service, not the API.",
+      "evidence": [
+        {
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10085432",
+          "quote": "Il Garante ha comminato a OpenAI una sanzione di quindici milioni di euro",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10085432",
+          "quote": "a seguito della sentenza del Tribunale di Roma n. 4153/2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Primary source: Garante press release of 2024-12-20 (Italian), the Garante regulator decision. Quotes are Italian; English translation in the value. Not checked: other regulators and breaches after 2023. Lawsuits: none checked."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://status.openai.com/",
+          "quote": "Subscribe to updates",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "sso": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "No SAML or OIDC sign-in for organization users found in cached API docs. The OIDC mention in RBAC is for workload identity federation. Login docs not cached."
+    },
+    "federation": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "Searched cached pages; no eduGAIN or national federation listing. Not an academic-federation product."
+    },
+    "scim": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/rbac",
+          "quote": "Groups can be synced from your identity provider (via SCIM) to keep membership up to date automatically.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "SCIM syncs groups. Sync of individual user accounts not separately stated."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No MFA statement for API organization users in cached pages."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/rbac",
+          "quote": "Manage organization users, projects, invites, admin API keys, and rate limits",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/rbac",
+          "quote": "View usage dashboard and export",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Trust portal lists 'Audit Logging' as a security control, but no admin-visible audit log page for the API was found in cached pages. Audit-log guide URL returned 404."
+    },
+    "lms_integration": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "No LMS integration in cached API docs."
+    },
+    "vpat": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "Voluntary Product Accessibility Template® (VPAT®)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Listed under Reports on the trust portal, which needs an access request. Scope (API or ChatGPT) not stated on that page."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No WCAG conformance claim in cached pages. openai.com accessibility pages are blocked."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://openai.com/ (accessibility pages not cached; openai.com refuses automated reading)"
+    },
+    "hecvat": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "HECVAT Full",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "HECVAT Full and Lite are listed under Self-Assessments on the trust portal, which needs an access request."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No FERPA statement in cached API pages. The learn.chatgpt.com pages cached in the ChatGPT folder cover ChatGPT Work and Edu, not the API."
+    },
+    "hipaa_baa": {
+      "value": "available",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "quote": "For customers who have executed an OpenAI Business Associate and Healthcare Addendum",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "BAA-eligible endpoints are named on the data-controls page. Signing is a contract step."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No Section 508 claim in cached pages."
+    },
+    "state_privacy": {
+      "value": [
+        "ccpa"
+      ],
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "where the Customer Data is subject to the CCPA",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA section 5 CCPA terms. No SDPC, NY Ed Law 2-d or similar agreement found."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "with the SCCs as amended by the UK Addendum",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA 4.2: UK data processed under SCCs with the UK Addendum."
+    },
+    "au_privacy": {
+      "value": [
+        "au-hosting"
+      ],
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "Australia au.api.openai.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Australia is listed as a residency region with storage support, per the support-by-region table. Processing support is a separate column. Not an APP statement or IRAP assessment."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 statement in cached pages."
+    },
+    "free_plan": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Pricing page cached (developers.openai.com/api/docs/pricing); no free API tier was found in it. The 'API credits for ChatGPT subscribers' link is a separate offer."
+    },
+    "price_individual": {
+      "value": "USD 0.10 per 1M input tokens (gpt-6-luna, Standard; usage-based, no monthly price)",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/pricing",
+          "quote": "gpt-6-luna $0.10 $0.50 $0.01 $0.125 $0.25",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Lowest listed Standard input price on the page. Batch input for gpt-6-luna is USD 0.05 per 1M tokens. Pricing is per token, not per seat."
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No site or campus licence found in cached pages."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The pricing page has education nav links; no academic discount for API usage found."
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/pricing",
+          "quote": "Prices per 1M tokens.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "capabilities": {
+      "value": [
+        "general-ai-chat"
+      ],
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "The Responses and Chat Completions APIs support text and image inputs and text output.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Model access for developers to build their own features. Other jobs depend on what a developer builds, so they are not listed."
+    },
+    "primary_capability": {
+      "value": "general-ai-chat",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "The Responses and Chat Completions APIs support text and image inputs and text output.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": [
+        "web"
+      ],
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "Use that project’s API key with the regional domain prefix listed in the table below, such as eu.api.openai.com for Europe.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Reached over HTTPS from any server or client app."
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Interface languages of the developer console not found in cached pages."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "The Responses and Chat Completions APIs support text and image inputs and text output.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "open_source": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No open-source licence statement for the API service in cached pages. Terms page blocked."
+    },
+    "self_host": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Cached docs describe hosted API only. The 'self-hosted' pages refer to sandboxes for agents, not the models. Not confirmed."
+    },
+    "parent_country": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.lobbyregister.bundestag.de/media/7f/39/594238/OpenAI-Ireland-FY24-Abridged-Accounts.pdf",
+          "quote": "both registered and incorporated in the United States with a registered office in San Francisco",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Ultimate parent per OpenAI Ireland Limited's 2024 accounts."
+    }
+  }
+}

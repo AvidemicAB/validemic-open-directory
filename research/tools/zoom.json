@@ -1,0 +1,846 @@
+{
+  "id": "zoom",
+  "name": "Zoom",
+  "website": "https://zoom.us",
+  "tagline": "Cloud video meetings, chat, phone and AI features (Zoom Workplace) with a free Basic plan limited to 40 minutes per meeting",
+  "category": "meetings",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Zoom Video Communications, Inc.",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/subprocessors/",
+          "quote": "Together with Zoom Video Communications, Inc., these affiliates form the Zoom Group",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/",
+          "quote": "your personal data may be transferred to or stored in the United States where we are established",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Read terms, privacy statement, subprocessor page and trust centre. No parent or owner named."
+    },
+    "eu_representative": {
+      "value": "named",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/",
+          "quote": "Attention: Zoom EU Representative",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Named by role and contact (privacy@zoom.us), not by an entity name."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/",
+          "quote": "You can contact our Data Protection Officer by sending an email to privacy@zoom.us",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No named DPO found."
+    },
+    "hosting_regions": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/gdpr/",
+          "quote": "Customer Content is stored in the US by default.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Paid accounts can choose the storage location for some Customer Content. Account data and diagnostic data stay in the US per the same page."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/gdpr/",
+          "quote": "Zoom routes Meetings customer data in transit through its global network of collocated data centers",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Meetings traffic is routed through Zoom's network, so the service cannot run with content kept only on the device. Local recording options were not checked in detail."
+    },
+    "eu_residency": {
+      "value": "option",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/gdpr/",
+          "quote": "Zoom offers European customers on eligible paid accounts the option to use data centers in the European Union (EU).",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Option covers real-time meeting and webinar traffic; the GDPR page also says Customer Content is stored in the US by default."
+    },
+    "cloud_providers": {
+      "value": [
+        "aws",
+        "azure",
+        "gcp",
+        "oracle"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/gdpr/",
+          "quote": "public cloud data centers (including Amazon Web Services",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/trust/subprocessors/",
+          "quote": "Oracle Cloud Service Provider",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/trust/subprocessors/",
+          "quote": "Microsoft Cloud Service Provider.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/trust/subprocessors/",
+          "quote": "Cloud Service Provider, Intelligent Features Service Provider",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Azure is inferred from the Microsoft cloud row; the Google row is Google Cloud Platform."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "dpf",
+        "sccs"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/",
+          "quote": "In compliance with the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF and the Swiss-U.S. DPF, Zoom commits",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/trust/gdpr/",
+          "quote": "Personal data may be transferred from the EEA to third countries outside of the EEA using Standard Contractual Clauses",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPF is the vendor's claim. The cached dataprivacyframework.gov/list page did not render the company list, so the listing itself was not confirmed."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/subprocessors/",
+          "quote": "Zoom Authorized Subprocessors",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "subprocessors_count": {
+      "value": 22,
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/subprocessors/",
+          "quote": "Zoom Authorized Subprocessors",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Counted distinct companies: 21 in the main table (Cloudflare, Microsoft appear on two rows each) plus Stripe in the Zoom Events table."
+    },
+    "subprocessors_non_eea": {
+      "value": 22,
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/subprocessors/",
+          "quote": "Mexico, United States, Saudi Arabia",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Derived from the Location column: every listed subprocessor has at least one location outside the EU/EEA (most include the United States)."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/subprocessors/",
+          "quote": "We will provide the owner of Customer’s account with notice of any new Subprocessors",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Subscription form on the subprocessor page."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/gdpr/",
+          "quote": "Zoom provides these commitments to all our customers by incorporating Zoom’s Data Processing Addendum into the Zoom",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Global DPA is linked from the GDPR page as a PDF on media.zoom.com. The PDF itself was not opened."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/us-privacy-addendum/",
+          "quote": "Zoom is the Processor of Customer Personal Data.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/",
+          "quote": "when Zoom processes personal data as a controller for individuals in regions such as the EEA, Switzerland, and the UK",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Processor for Customer Personal Data; controller for its own account and marketing data as described in the privacy statement."
+    },
+    "privacy_policy_date": {
+      "value": "2026-09-17",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/",
+          "quote": "Last updated: September 17, 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/privacy/privacy-statement/",
+          "quote": "We retain personal data for as long as required to engage in the uses described in this Privacy Statement",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Criteria only; no fixed period for personal data. Customer Content deletion after termination is in the terms (section 14.5)."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/terms/",
+          "quote": "For thirty (30) calendar days following expiration or termination of this Agreement, Zoom will provide you access to retrieve your Customer Content",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://media.zoom.com/download/assets/zoom-global-dpa.pdf/de15e9aede3f11efac212eaeed1e8eee",
+          "quote": "delete any existing copies in compliance with its data retention and",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "After the 30-day access window, Customer Content is deleted under Zoom's deletion protocols (section 14.5)."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060623",
+          "quote": "View and export meeting participant lists, attendance records, registration details, admin activity logs, chat history",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Admin Center reports export as CSV. Meeting reports cover the last 15 months. No single account-wide content export found. Bulk recording export path not confirmed in vendor docs."
+    },
+    "breach_notice": {
+      "value": "without undue delay (no fixed hours)",
+      "evidence": [
+        {
+          "url": "https://media.zoom.com/download/assets/zoom-global-dpa.pdf/de15e9aede3f11efac212eaeed1e8eee",
+          "quote": "Zoom shall, without undue delay, inform Customer of the Personal Data Breach",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Zoom Global DPA (March 2023 version, Zoom media PDF), section 12.1. No hour window."
+    },
+    "governing_law": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/terms/",
+          "quote": "The laws of the State of California, U.S.A., regardless of conflict of laws principles, govern all matters",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "California law per terms section 33.3."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://zoom.us",
+          "quote": "ZoomMate is available with eligible paid Zoom Workplace plans",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "AI features are on eligible paid plans, some with credits. Basic-plan users have limited AI queries."
+    },
+    "ai_providers": {
+      "value": [
+        "openai",
+        "anthropic",
+        "google",
+        "other"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/subprocessors/",
+          "quote": "OpenAI may process the following data if AI features are enabled",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/trust/subprocessors/",
+          "quote": "Anthropic may process the following data if AI features are enabled",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/trust/subprocessors/",
+          "quote": "Cloud Service Provider, Intelligent Features Service Provider",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "others": [
+        "Perplexity",
+        "Eleven Labs",
+        "Suki AI",
+        "Sumit-AI",
+        "Microsoft Azure Speech"
+      ],
+      "note": "Listed on the subprocessor page as intelligent-features providers. Whether each runs for a given customer depends on settings; Zoom also describes a Zoom-hosted-models-only option on its blog."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/terms/",
+          "quote": "Zoom does not use any of your audio, video, chat, screen sharing, attachments or other communications-like Customer Content (such as poll results, whiteboard and reactions)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The clause covers audio, video, chat, screen sharing, attachments and similar communications content, and says they are not used to train Zoom's or third-party AI models. Other categories of Customer Content are not covered by this sentence."
+    },
+    "ai_zero_retention": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://library.zoom.com/ai/ai-whitepaper/data-governance-and-privacy",
+          "quote": "Zoom has zero data retention policies in place",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Applies to third-party generative AI model providers in the federated approach, with trust-and-safety exceptions (for example CSAM reporting). Retention of Zoom-side AI content follows each service retention period."
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://library.zoom.com/ai/ai-whitepaper/administrative-controls",
+          "quote": "Account and Group Administrator Controls",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Admin controls page has a Feature Control section under account and group administrator controls. The cached text does not spell out an AI on/off switch, so this is the vendor heading only."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Searched AI whitepaper pages (admin controls, data governance, models); no EU AI Act reference found."
+    },
+    "certifications": {
+      "value": [
+        "iso27001",
+        "iso27701",
+        "iso27017",
+        "iso27018",
+        "soc2-type2",
+        "csa-star",
+        "bsi-c5"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/legal-compliance/",
+          "quote": "Globally recognized security standard for implementing an ISMS",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/trust/legal-compliance/",
+          "quote": "Data privacy framework guiding with GDPR and other regulations",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/trust/legal-compliance/",
+          "quote": "SOC 2 Type 2 report covering Security, Availability, Confidentiality, and Privacy",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/trust/legal-compliance/",
+          "quote": "Registry of security and compliance controls for cloud service offerings",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/trust/legal-compliance/",
+          "quote": "Security of cloud services that leverages internationally recognized security standards",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Listed on the compliance page. Certificates were not opened one by one. The ISO 27017/18 entry is listed as one item."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/legal-compliance/faq/",
+          "quote": "Zoom makes certain third-party audit and attestation reports available to customers through the Zoom Trust Center",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest",
+        "e2e"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/gdpr/",
+          "quote": "The connection between a given device and Zoom is encrypted by default",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/trust/gdpr/",
+          "quote": "Zoom leverages a range of encryption technologies to protect customer data in transit and stored data.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/trust/gdpr/",
+          "quote": "Users may choose to enable end-to-end encryption for Zoom Meetings.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "End-to-end encryption for Meetings is optional and turned on by users. Customer-managed keys were not found."
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/legal-compliance/",
+          "quote": "Penetration Test Reports",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Compliance page has a Penetration Test Reports section with a Learn more link. The linked page was not opened."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/legal-compliance/faq/",
+          "quote": "If you are a security researcher please visit our Vulnerability Disclosure Policy for details on how to report the potential vulnerability to Zoom’s Security team.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Policy is named in the FAQ. No bug bounty program found."
+    },
+    "incidents": {
+      "value": "FTC settlement announced November 2020 (final order 2021, File No. 192 3167): FTC alleged Zoom deceived users about its security. Primary source: FTC press release.",
+      "evidence": [
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2020/11/ftc-requires-zoom-enhance-its-security-practices-part-settlement",
+          "quote": "Commission alleged that the company deceived users about the level of security for Zoom meeting platform",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Regulator matter, not a breach. Final order date and terms taken from the FTC case page, which was not opened. No other breaches or regulator fines found in pages checked."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zoomstatus.com/",
+          "quote": "Zoom Service Status",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Status page at status.zoom.us, which redirects to zoomstatus.com."
+    },
+    "sso": {
+      "value": [
+        "saml"
+      ],
+      "evidence": [
+        {
+          "url": "https://zoom.us/pricing",
+          "quote": "Single sign-on via SAML 2.0",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "scim": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://library.zoom.com/admin-corner/account-and-endpoint-management/scim-guide",
+          "quote": "The out-of-the-box provisioning integrations for both Microsoft Entra ID and Okta",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "SCIM via Microsoft Entra ID and Okta, per Zoom technical library."
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/",
+          "quote": "From advanced encryption and multi-factor authentication to robust data protection measures",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Generic trust-page statement; the scope of MFA settings was not checked."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/industry/education/",
+          "quote": "in a single admin dashboard",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/pricing/",
+          "quote": "business: Audit logs and data retention policy",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Pricing comparison lists audit logs for Business and Enterprise plans. Log contents not checked."
+    },
+    "lms_integration": {
+      "value": [
+        "lti",
+        "canvas",
+        "moodle",
+        "blackboard",
+        "brightspace"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/industry/education/",
+          "quote": "Instructure Canvas, Moodle, Blackboard, D2L Brightspace, Powerschool Schoology via LTI 1.1 and 1.3",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/accessibility/",
+          "quote": "Zoom Web App VPAT",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "VPATs listed per product on the accessibility page (desktop, mobile, web app, Rooms and others). Contents not opened."
+    },
+    "wcag_level": {
+      "value": "2.2-aa",
+      "evidence": [
+        {
+          "url": "https://media.zoom.com/download/assets/Zoom+Workplace+for+Desktop+-+Windows+VPAT.pdf/c1ee7714878511f1b2fdbe0ffe91e8e9",
+          "quote": "Web Content Accessibility Guidelines 2.2 Level A (Yes)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "From the Windows desktop VPAT (Level AA marked Yes). Web app, mobile and other VPATs not checked."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Accessibility page lists VPATs and an accessibility plan progress report (Canada). No EU/EAA-style accessibility statement found."
+    },
+    "hecvat": {
+      "value": "unknown",
+      "evidence": [
+        {
+          "url": "https://trust.zoom.com/?itemUid=3102f581-2abc-4099-a609-8b5bc373aac7&source=title",
+          "quote": "HECVAT v4.03",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Trust centre lists HECVAT v4.03 under Self-Assessments. Full or Lite version and public download not stated."
+    },
+    "ferpa": {
+      "value": "statement",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/legal-compliance/",
+          "quote": "How Zoom supports compliance for our school subscribers",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "hipaa_baa": {
+      "value": "available",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/legal-compliance/faq/",
+          "quote": "by executing a Business Associate Agreement (BAA)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "FAQ says there is no regulatory-backed HIPAA certification; a BAA is offered."
+    },
+    "section_508": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://media.zoom.com/download/assets/Zoom+Workplace+for+Desktop+-+Windows+VPAT.pdf/c1ee7714878511f1b2fdbe0ffe91e8e9",
+          "quote": "Revised Section 508 standards as published by the U.S. Access Board",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Windows desktop VPAT evaluates against Revised Section 508."
+    },
+    "state_privacy": {
+      "value": [
+        "ccpa"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/us-privacy-addendum/",
+          "quote": "shall comply with obligations applicable to Service Providers under the CCPA",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "US State Law Privacy Addendum."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://media.zoom.com/download/assets/zoom-global-dpa.pdf/de15e9aede3f11efac212eaeed1e8eee",
+          "quote": "International Data Transfer Addendum to the EU",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA section 1.15 names the UK International Data Transfer Addendum for UK GDPR transfers."
+    },
+    "au_privacy": {
+      "value": [
+        "irap"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/legal-compliance/",
+          "quote": "Security controls assessment for Australian Government",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Compliance page lists an iRAP entry. Assessment level and scope were not opened."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Searched trust centre and compliance pages; no NIS2 supply-chain statement found."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/pricing/",
+          "quote": "40 minutes per meeting",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Basic plan card on the pricing page shows no price and a 40-minute limit per meeting."
+    },
+    "price_individual": {
+      "value": "USD 14.16 per user per month (billed annually) for Pro; USD 16.99 per user per month billed monthly",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/pricing/",
+          "quote": "$14.16",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Pro is described as best for personal use or small teams."
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "zoom.us/pricing has no education plan card. The education page directs buyers to contact sales. No institution licence wording found."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No student or academic discount wording on pricing or education pages checked. Zoom for Education pricing URL returned 404."
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/pricing/",
+          "quote": "$16.99",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "capabilities": {
+      "value": [
+        "video-meetings",
+        "notes",
+        "storage"
+      ],
+      "evidence": [
+        {
+          "url": "https://zoom.us",
+          "quote": "Seamless communication: Save time and cut costs with Meetings, Phone, Chat, and more, in one UCaaS platform.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://zoom.us",
+          "quote": "Built-in AI summarizes meetings and automates next steps",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/pricing/",
+          "quote": "Local & 10 GB cloud (per license)",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "primary_capability": {
+      "value": "video-meetings",
+      "evidence": [
+        {
+          "url": "https://zoom.us",
+          "quote": "Seamless communication: Save time and cut costs with Meetings, Phone, Chat, and more, in one UCaaS platform.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": [
+        "web",
+        "windows",
+        "macos",
+        "linux",
+        "ios",
+        "android"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/accessibility/",
+          "quote": "Zoom Web App VPAT",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/accessibility/",
+          "quote": "Zoom Workplace for Desktop - Windows VPAT",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/accessibility/",
+          "quote": "Zoom Workplace for Desktop - macOS VPAT",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://zoom.us/pricing",
+          "quote": "Native Windows, MacOS and Linux desktop apps",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/accessibility/",
+          "quote": "Zoom Workplace for Mobile VPAT",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Mobile VPAT covers the mobile apps; iOS and Android are not split in the quoted text."
+    },
+    "languages": {
+      "value": "17 languages in the zoom.com site language menu (English included)",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/industry/education/",
+          "quote": "Deutsch English Español Français Indonesia Italiano",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Count is for the website language menu, not for the product interface."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://zoom.us",
+          "quote": "APIs and SDKs for developers",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/trust/terms/",
+          "quote": "title to which at all times vests exclusively in Zoom",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Proprietary software. The terms say some bundled components are third-party or open source."
+    },
+    "self_host": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.zoom.com/en/products/zoom-node/",
+          "quote": "extending the Zoom cloud to enterprise infrastructure",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.zoom.com/en/products/on-premise-ai/",
+          "quote": "AI runs on your GPUs or private",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Zoom Node and AI On-Prem run modules on the institution infrastructure. Core Meetings service remains cloud-hosted, so self-hosting covers selected modules only."
+    },
+    "federation": {
+      "value": [
+        "incommon"
+      ],
+      "evidence": [
+        {
+          "url": "https://met.refeds.org/met/entity/https:%2F%2Fbostonu.zoom.us/?federation=incommon-federation",
+          "quote": "Zoom - Boston University",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Zoom SP entities are registered per customer subdomain (example: bostonu.zoom.us) in the InCommon federation, per the REFEDS metadata explorer. No Zoom-wide entity or eduGAIN listing found."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "note": "No separate parent company found (see Parent company), so the vendor country applies."
+    }
+  }
+}

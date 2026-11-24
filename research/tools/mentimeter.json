@@ -1,0 +1,657 @@
+{
+  "id": "mentimeter",
+  "name": "Mentimeter",
+  "website": "https://www.mentimeter.com",
+  "tagline": "Interactive presentation tool: live polls, quizzes, word clouds and surveys for audiences; free plan with paid Basic, Pro and Enterprise tiers",
+  "category": "survey",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Mentimeter AB (publ)",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/terms",
+          "quote": "Mentimeter AB (publ), Reg. No. 556892-5506",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "vendor_country": {
+      "value": "SE",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/terms",
+          "quote": "a Swedish limited liability company",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Looked at terms, privacy policy and legal pages. No parent or owner named."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/terms",
+          "quote": "a Swedish limited liability company",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vendor is established in Sweden (EU)."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/privacy-policy",
+          "quote": "you can always reach us at privacy@mentimeter.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No named DPO found."
+    },
+    "hosting_regions": {
+      "value": [
+        "EU",
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/security-policy",
+          "quote": "stored in the regions; EU-West-1 EU (Ireland) and US-East-1, North Virginia, US.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "EU is the default. The trust page says Enterprise customers can ask sales for US hosting."
+    },
+    "local_first": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No local-only or offline mode found in the pages checked. Data is stored on AWS per the security policy."
+    },
+    "eu_residency": {
+      "value": "default",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/privacy",
+          "quote": "By default, customer data at rest is hosted in the EU, meaning that your data is protected under EU data privacy regulations.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "cloud_providers": {
+      "value": [
+        "aws",
+        "other"
+      ],
+      "others": [
+        "Vercel"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/privacy/gdpr-transparency-statement",
+          "quote": "Data at rest resides on AWS physical servers within the EU (Ireland) as a default for all customers.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mentimeter.com/trust/legal/subprocessors",
+          "quote": "Content Delivery Network and Hosting Services",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vercel is listed on the subprocessor page for hosting services. Cloudflare is listed as CDN and DDoS protection."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "sccs",
+        "adequacy"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/privacy-policy",
+          "quote": "Such transfers are either conducted under the provisions of the European Commission’s Standard Contractual Clauses as of 4 June 2021",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The GDPR statement says the company does not use the EU-US Privacy Shield. The Data Privacy Framework is not mentioned. dataprivacyframework.gov was not checked directly."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/subprocessors",
+          "quote": "Notify me about new subprocessors",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "subprocessors_count": {
+      "value": 10,
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/subprocessors",
+          "quote": "Amazon Web Services EMEA SARL",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Ten entries on the subprocessor page. The processors page lists more parties (for example Sentry, Datadog, Intercom) as processors for which Mentimeter is controller."
+    },
+    "subprocessors_non_eea": {
+      "value": 6,
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/subprocessors",
+          "quote": "Clickhouse, Inc",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Counted by company location: Clickhouse, Cloudflare, Vercel, Imgix and Knock Labs (US), and Ably (UK). Snowflake (Netherlands) and the others are EEA entities; where each one processes data is not stated."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/subprocessors",
+          "quote": "Notify me about new subprocessors",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Email subscription to new-subprocessor notices. The page does not say how far in advance notice is given."
+    },
+    "dpa": {
+      "value": "none-found",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/dpa-statement",
+          "quote": "we believe that this is neither required according to GDPR nor appropriate",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The DPA statement page says that signing a DPA would make Mentimeter a processor, and the vendor declines to do so for customer personal data. It says it has DPAs with its own processors."
+    },
+    "role": {
+      "value": "controller",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/dpa-statement",
+          "quote": "we are liable as “controllers”",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "privacy_policy_date": {
+      "value": "2026-09-14",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/privacy-policy",
+          "quote": "This Privacy Policy was last updated on 2026-09-14",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/privacy-policy",
+          "quote": "logs are archived and deleted within 90 days",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Retention is given per data type: for as long as the account exists, 90 days for call recordings, 24 months for call transcripts."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/privacy-policy",
+          "quote": "We will comply with your request promptly and at the latest within 30 days.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Deletion on account deletion or on request, within 30 days. Termination text says all data is deleted after confirmation."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/plans",
+          "quote": "Download and share your results in Excel or PDF format",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mentimeter.com/trust/legal/privacy-policy",
+          "quote": "This copy of your personal data can also be supplied in a machine-readable format.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Results export to Excel or PDF on Basic and above. Machine-readable copy of personal data on request."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Security policy says affected people will be contacted 'as soon as possible'. No time window in the security policy, privacy policy, terms, GDPR statement or DPA statement (checked 2026-11-16)."
+    },
+    "governing_law": {
+      "value": "SE",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/terms",
+          "quote": "substantive laws of Sweden",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Disputes go to arbitration under SCC rules, seat Stockholm."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/ai-at-mentimeter",
+          "quote": "workspace-level controls to disable AI features are available on relevant plans",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Mentimeter AI features (question generation, presentation generation, summaries) sit alongside the core polling product."
+    },
+    "ai_providers": {
+      "value": [
+        "openai"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/ai-at-mentimeter",
+          "quote": "Mentimeter currently uses OpenAI as our third-party model provider.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/ai-at-mentimeter",
+          "quote": "No. User and customer content is never used to train models.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Terms section 5.2 lets Mentimeter analyse User Data to improve the Services. Section 5.1 gives it an anonymized licence to Free-user Mentis for product development. Section 5.5 bars third parties from training on content."
+    },
+    "ai_zero_retention": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/ai-at-mentimeter",
+          "quote": "OpenAI may retain this data for up to 30 days for abuse-monitoring and operational security purposes",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/ai-at-mentimeter",
+          "quote": "workspace-level controls to disable AI features are available on relevant plans",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Individual users cannot turn AI off. The page does not name which plans carry the control."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "AI FAQ says Mentimeter 'continuously monitors developments in relevant regulations, including the EU AI Act, and will adapt our practices as required.' This is monitoring language, not a transparency or position statement. Checked the AI page, trust pages and legal pages on 2026-11-16."
+    },
+    "certifications": {
+      "value": [
+        "iso27001"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/ai-at-mentimeter",
+          "quote": "Mentimeter's information security management system is certified under ISO 27001:2022",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vendor claim on the AI FAQ and an ISO27001 badge on the trust page. No certificate was checked."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/security",
+          "quote": "Focus on creating interactive presentations while we keep your data safe.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/security",
+          "quote": "All data is encrypted in transit and at rest.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Security policy: TLS 1.2 or higher in transit, AES-256 at rest. No customer-managed keys stated."
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/security",
+          "quote": "Yes, we perform annual penetration testing on our web applications through a third-party vendor.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No public summary of test results found."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/.well-known/security.txt",
+          "quote": "Contact: mailto:security@mentimeter.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "security.txt is present but its Expires field reads 2026-10-02, which has passed. No bug bounty found."
+    },
+    "incidents": {
+      "value": "none found",
+      "evidence": [],
+      "note": "Two searches (general breach, and IMY/Datatilsynet regulator decisions, 2026-11-16). No vendor notice, regulator decision or court record naming Mentimeter found. Third-party breach trackers were not used as evidence."
+    },
+    "status_page": {
+      "value": "no",
+      "evidence": [],
+      "note": "No status link on the homepage or legal pages. status.mentimeter.com does not resolve."
+    },
+    "sso": {
+      "value": [
+        "saml"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/security",
+          "quote": "single sign-on, SAML 2.0 and domain control",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "SSO is an Enterprise plan feature."
+    },
+    "federation": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "Searches for eduGAIN, SWAMID and DPF listings returned no Mentimeter membership (two searches, 2026-11-16). Help centre article on GDPR rendered without body text, so not used."
+    },
+    "scim": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/plans",
+          "quote": "SCIM Automate license and role management",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Enterprise plan feature."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Two-factor authentication is described only for Mentimeter staff in the security policy. Customer account MFA not stated. Help centre index rendered with no article text (checked 2026-11-16)."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/security",
+          "quote": "central control of all accounts in your workspace",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Workspace admin for Enterprise. Usage insights listed on the plans page."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Security policy says important events are logged internally. No admin-visible audit log described in the trust, legal or plans pages (checked 2026-11-16)."
+    },
+    "lms_integration": {
+      "value": [
+        "canvas",
+        "moodle",
+        "blackboard",
+        "brightspace"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/integrations",
+          "quote": "Built for modules, assignments, and course flow. Anonymous by default, gradebook sync when needed.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mentimeter.com/integrations",
+          "quote": "Made to fit right into your course content.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "LTI is not named. Canvas and Moodle use the first quote; Blackboard uses the second; Brightspace uses the first."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/accessibility",
+          "quote": "This report applies only to the Mentimeter voting site",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "VPAT 2.5 dated February 2026, downloadable. It covers only the menti.com voting site. The mentimeter.com website and the web app are excluded."
+    },
+    "wcag_level": {
+      "value": "none-claimed",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/accessibility",
+          "quote": "aim to align with the Web Content Accessibility Guidelines (WCAG)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Aims to align with WCAG. No conformance level claimed."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/accessibility",
+          "quote": "Accessibility is a core part of how we design, build, and continuously improve our product.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Page lists known limitations by disability type. Not checked against EAA statement content requirements."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Two searches (2026-11-16) and the trust and legal pages checked; no HECVAT published or mentioned."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No FERPA statement or school-official terms in the terms, privacy policy or security policy."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No HIPAA or BAA mention found on the pages checked."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "VPAT names Section 508 as a standard covered. No conformance claim made."
+    },
+    "state_privacy": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "No CCPA, SDPC or NY Ed Law 2-d terms in the pages checked."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Processors page lists UK-based Ably and Juro Online Limited (UK) as DPA parties. No UK addendum or IDTA found in the GDPR statement, privacy policy or processors page (checked 2026-11-16)."
+    },
+    "au_privacy": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "No Australian Privacy Principles statement, IRAP or AU hosting found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 statement found."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/plans",
+          "quote": "At Mentimeter, we think this kind of service should be as simple as possible, which also implies that it should be free.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Free plan: 50 participants per month, 23 slide types."
+    },
+    "price_individual": {
+      "value": "not published",
+      "evidence": [],
+      "note": "Basic and Pro show only 'Per presenter/month' with no amount on the plans page, both in the cached text and in the rendered page."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/plans",
+          "quote": "Customized for larger organizations.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Enterprise plan has custom pricing."
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/plans",
+          "quote": "Yes - see our discounted offers for educators",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/plans",
+          "quote": "Billed yearly, excl. tax.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Free plan is shown. Basic and Pro show billing period but no amount. Enterprise is custom."
+    },
+    "capabilities": {
+      "value": [
+        "survey",
+        "lms"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/",
+          "quote": "Menti Form Send out a survey",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mentimeter.com/integrations",
+          "quote": "Engage your students and track attendance where your course already lives.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "primary_capability": {
+      "value": "other",
+      "others": [
+        "Interactive presentations and live audience engagement"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/",
+          "quote": "Turn presentations into conversations with our range of interactive features.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": [
+        "web"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/",
+          "quote": "Enter code to join a live Menti",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Web-based. Native mobile apps are not confirmed in the pages checked. Works with PowerPoint, Teams and Zoom through integrations."
+    },
+    "languages": {
+      "value": "English, Portuguese (Brazil), Spanish, German (website)",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/",
+          "quote": "Choose your language",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Four languages in the website footer. The app's interface languages were not checked."
+    },
+    "api": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No API documentation found. /api returns 404 and the help centre index shows no API article text (checked 2026-11-16)."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.mentimeter.com/trust/legal/terms",
+          "quote": "Mentimeter, or as applicable our licensors, retain all rights and title to the Services",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The open-source page lists third-party library attributions only."
+    },
+    "self_host": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Services are run by Mentimeter on AWS. No self-hosted option found in the trust, legal or plans pages (checked 2026-11-16)."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "note": "No separate parent company found (see Parent company), so the vendor country applies."
+    }
+  }
+}

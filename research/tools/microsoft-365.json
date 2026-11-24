@@ -1,0 +1,212 @@
+{
+  "id": "microsoft-365",
+  "name": "Microsoft 365",
+  "website": "https://www.microsoft.com/microsoft-365",
+  "tagline": "Office apps (Word, Excel, PowerPoint, Outlook), cloud storage, Teams and Microsoft Copilot AI features sold as a subscription",
+  "category": "productivity",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Microsoft Corporation",
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/privacy/privacystatement", "quote": "Microsoft Corporation complies with the EU-U.S. Data Privacy Framework", "retrievedAt": "2026-11-16" }]
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/privacy/privacystatement", "quote": "Microsoft Privacy, Microsoft Corporation, One Microsoft Way, Redmond, Washington 98052, USA", "retrievedAt": "2026-11-16" }]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Microsoft Corporation is the top-level company named in the privacy statement and DPA. No parent or owner named."
+    },
+    "eu_representative": {
+      "value": "named",
+      "evidence": [{ "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx", "quote": "Microsoft Ireland Operations Limited is Microsoft’s data protection representative for the European Economic Area and Switzerland", "retrievedAt": "2026-11-16" }]
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/privacy/privacystatement", "quote": "click on “Contact the Microsoft privacy team or the Microsoft Data Protection Officer” menu", "retrievedAt": "2026-11-16" }],
+      "note": "Contact through a privacy support form and an address marked Attn: Data Protection Officer. No named DPO found."
+    },
+    "eu_residency": {
+      "value": "option",
+      "evidence": [{ "url": "https://learn.microsoft.com/en-us/privacy/eudb/eu-data-boundary-learn", "quote": "In some cases, customers can select the EU deployment region for Customer Data directly", "retrievedAt": "2026-11-16" }],
+      "note": "EU Data Boundary covers services listed in the Product Terms; for other services the location is assigned automatically based on customer location."
+    },
+    "cloud_providers": {
+      "value": ["own"],
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/trust-center/privacy/data-location", "quote": "Microsoft maintains an ever-expanding network of data centers around the globe", "retrievedAt": "2026-11-16" }],
+      "note": "Microsoft operates its own data centers. Subprocessor list not read (see subprocessors_public)."
+    },
+    "transfer_mechanism": {
+      "value": ["dpf", "sccs"],
+      "evidence": [
+        { "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx", "quote": "Microsoft is certified to the EU-U.S. and Swiss-U.S. Data Privacy Frameworks", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx", "quote": "are subject to the terms of the 2021 Standard Contractual Clauses implemented by Microsoft", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "subprocessors_public": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://servicetrust.microsoft.com/ (the subprocessor list sits behind Service Trust Portal sign-in; the DPA says only that information is made available on a Microsoft website)"
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [{ "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx", "quote": "Microsoft will give Customer notice and, as applicable, update the website", "retrievedAt": "2026-11-16" }],
+      "note": "At least 6 months before a new subprocessor gets access; 30 days for subprocessors that support AI functionality."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [{ "url": "https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA", "quote": "Download the most recent version (English) (November 2026):", "retrievedAt": "2026-11-16" }]
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [{ "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx", "quote": "Microsoft is the processor of such data", "retrievedAt": "2026-11-16" }],
+      "note": "For customer content under the DPA. The privacy statement says Microsoft is a controller for some personal data it collects through its products."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [{ "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx", "quote": "Microsoft will retain Customer Data that remains stored in Online Services in a limited function account for 90 days", "retrievedAt": "2026-11-16" }]
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [{ "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx", "quote": "delete the Customer Data and Personal Data stored in Online Services within an additional 90 days", "retrievedAt": "2026-11-16" }]
+    },
+    "breach_notice": {
+      "value": "without undue delay and, in any event, within 72 hours",
+      "evidence": [{ "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx", "quote": "will be made without undue delay and, in any event, within 72 hours", "retrievedAt": "2026-11-16" }]
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/copilot/pricing/business", "quote": "Copilot Chat is a web-grounded AI assistant included at no additional cost with eligible Microsoft 365", "retrievedAt": "2026-11-16" }],
+      "note": "Copilot Chat is included with eligible plans; Microsoft 365 Copilot is a paid add-on."
+    },
+    "ai_providers": {
+      "value": ["anthropic", "openai"],
+      "evidence": [{ "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy", "quote": "Microsoft offers third-party AI models in Microsoft Copilot, such as Anthropic and OpenAI models", "retrievedAt": "2026-11-16" }],
+      "note": "Anthropic models are available only where an admin enables them and are excluded from the EU Data Boundary."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [{ "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy", "quote": "Prompts, responses, and data accessed through Microsoft Graph aren't used to train foundation LLMs", "retrievedAt": "2026-11-16" }],
+      "note": "Statement covers Microsoft Copilot prompts and Graph data. Third-party model providers have their own terms."
+    },
+    "ai_act_statement": {
+      "value": "yes",
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/trust-center/compliance/eu-ai-act", "quote": "EU AI Act Compliance | Microsoft Trust Center", "retrievedAt": "2026-11-16" }],
+      "note": "Trust Center page titled EU AI Act Compliance."
+    },
+    "certifications": {
+      "value": ["iso27001", "iso27017", "iso27018", "iso27701", "soc2-type2"],
+      "evidence": [
+        { "url": "https://servicetrust.microsoft.com/", "quote": "Microsoft Azure, Dynamics and Online Services - ISO 27001, 27017, 27018 and 27701 Statement of Applicability", "retrievedAt": "2026-11-16" },
+        { "url": "https://servicetrust.microsoft.com/", "quote": "Microsoft 365 Central Services - SOC 2 Type 2 Report", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Listed on the Service Trust Portal document index. Reports are behind sign-in, so only the titles were read."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/trust-center", "quote": "Microsoft Trust Center | Data Security, Privacy, and Compliance", "retrievedAt": "2026-11-16" }]
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest", "customer-keys"],
+      "evidence": [
+        { "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx", "quote": "Microsoft also encrypts Customer Data stored at rest in Online Services", "retrievedAt": "2026-11-16" },
+        { "url": "https://learn.microsoft.com/en-us/purview/customer-key-overview", "quote": "Microsoft 365 also offers an added layer of encryption for your content through Customer Key", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Customer Key is an option for enterprise Microsoft 365 content, per the Purview page."
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/msrc/bounty", "quote": "Earn up to $250,000 USD in bug bounty awards", "retrievedAt": "2026-11-16" }],
+      "note": "Also publishes a security.txt with a vulnerability reporting contact."
+    },
+    "incidents": {
+      "value": "CVE-2025-32711, M365 Copilot Information Disclosure Vulnerability (vendor advisory, MSRC update guide). No regulator decision or court record found in pages checked.",
+      "evidence": [{ "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711", "quote": "M365 Copilot Information Disclosure Vulnerability", "retrievedAt": "2026-11-16" }],
+      "note": "Searched only the vendor and Learn pages cached here. Other incidents may exist."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [{ "url": "https://status.cloud.microsoft", "quote": "status.cloud.microsoft", "retrievedAt": "2026-11-16" }]
+    },
+    "sso": {
+      "value": ["saml", "oidc"],
+      "evidence": [
+        { "url": "https://learn.microsoft.com/en-us/entra/identity-platform/single-sign-on-saml-protocol", "quote": "This article covers the SAML 2.0 (Security Assertion Markup Language) authentication requests and responses that Microsoft Entra ID supports for single sign-on", "retrievedAt": "2026-11-16" },
+        { "url": "https://learn.microsoft.com/en-us/entra/identity-platform/v2-protocols-oidc", "quote": "OpenID Connect (OIDC) on the Microsoft identity platform", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "federation": {
+      "value": ["edugain", "incommon"],
+      "evidence": [{ "url": "https://learn.microsoft.com/en-us/entra/architecture/multilateral-federation-baseline", "quote": "Research and multilateral federation applications are available through InCommon and eduGAIN", "retrievedAt": "2026-11-16" }],
+      "note": "Microsoft describes Entra ID as able to take part in these federations. Membership not checked on the federation member lists."
+    },
+    "scim": {
+      "value": "yes",
+      "evidence": [{ "url": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/use-scim-to-provision-users-and-groups", "quote": "scim-to-provision-users-and-groups", "retrievedAt": "2026-11-16" }],
+      "note": "Entra provisioning doc covers SCIM-based provisioning."
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [{ "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks", "quote": "Microsoft Entra multifactor authentication works by requiring two or more of the following authentication methods", "retrievedAt": "2026-11-16" }]
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [{ "url": "https://learn.microsoft.com/en-us/purview/audit-solutions-overview", "quote": "audit log captures, records, and retains thousands of user and admin operations", "retrievedAt": "2026-11-16" }]
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [{ "url": "https://learn.microsoft.com/en-us/graph/overview", "quote": "Microsoft Graph exposes REST APIs and client libraries to access data on the following Microsoft cloud services", "retrievedAt": "2026-11-16" }]
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/accessibility/conformance-reports", "quote": "US Section 508 guidelines", "retrievedAt": "2026-11-16" }]
+    },
+    "section_508": {
+      "value": "yes",
+      "evidence": [{ "url": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-section-508-vpats", "quote": "Microsoft considers U.S. Section 508 in the development of products and services", "retrievedAt": "2026-11-16" }]
+    },
+    "ferpa": {
+      "value": "school-official-terms",
+      "evidence": [{ "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx", "quote": "Microsoft is a “school official” with “legitimate educational interests”", "retrievedAt": "2026-11-16" }]
+    },
+    "hipaa_baa": {
+      "value": "available",
+      "evidence": [{ "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx", "quote": "execution of Customer’s agreement includes execution of the HIPAA Business Associate Agreement", "retrievedAt": "2026-11-16" }]
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [{ "url": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(November_2026)(CR).docx", "quote": "transfers from the United Kingdom are subject to the terms of the IDTA implemented by Microsoft", "retrievedAt": "2026-11-16" }]
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/microsoft-365/free-office-online-for-the-web", "quote": "Use Microsoft 365 apps for free on the web", "retrievedAt": "2026-11-16" }],
+      "note": "Free web versions of the apps. Paid plans are listed separately."
+    },
+    "price_individual": {
+      "value": "$99.99 per year list price, or $9.99 per month (Microsoft 365 Personal, Microsoft Store page)",
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products", "quote": "Or $99.99 $69.99/first year", "retrievedAt": "2026-11-16" }],
+      "note": "Store page also shows a first-year offer of $69.99 per year. Prices vary by region."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products", "quote": "Or $99.99 $69.99/first year", "retrievedAt": "2026-11-16" }],
+      "note": "Consumer and business plan prices are shown. Enterprise pricing is handled through sales and was not checked."
+    },
+    "capabilities": {
+      "value": ["collaboration-docs", "storage", "general-ai-chat"],
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/servicesagreement", "quote": "Use of apps such as Word, Excel, PowerPoint, Outlook, OneDrive, Access, and Publisher", "retrievedAt": "2026-11-16" }]
+    },
+    "primary_capability": {
+      "value": "other",
+      "others": ["Office apps and email"],
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/servicesagreement", "quote": "Use of apps such as Word, Excel, PowerPoint, Outlook, OneDrive, Access, and Publisher", "retrievedAt": "2026-11-16" }]
+    },
+    "platforms": {
+      "value": ["web"],
+      "evidence": [{ "url": "https://www.microsoft.com/en-us/microsoft-365/free-office-online-for-the-web", "quote": "Use Microsoft 365 apps for free on the web", "retrievedAt": "2026-11-16" }],
+      "note": "Only the web platform was confirmed from the cached pages. Desktop and mobile apps were not checked."
+    }
+  }
+}

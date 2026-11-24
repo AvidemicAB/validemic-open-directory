@@ -1,0 +1,367 @@
+{
+  "id": "autotekst",
+  "name": "Autotekst",
+  "website": "https://www.uio.no/tjenester/it/lyd-video/autotekst/",
+  "tagline": "University of Oslo's own web service that turns uploaded audio and video into text and subtitles, using Whisper speech models run on UiO servers",
+  "category": "transcription",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Universitetet i Oslo (University of Oslo), IT Department (USIT)",
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/tjenesteavtale-autotekst-mal.pdf", "quote": "Universitetet i Oslo - Universitetets IT-avdeling (USIT) (heretter kalt Leverandøren)", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/", "quote": "Avtalen inngås med UiO, med UiOs organisasjonsnummer .", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Public university. The contract template names UiO's IT Department (USIT) as the supplier; the contract is signed with UiO's organisation number."
+    },
+    "vendor_country": {
+      "value": "NO",
+      "evidence": [
+        { "url": "https://autotekst.uio.no", "quote": "The service runs on secure servers in Norway at the University of Oslo", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "UiO owns and runs the service itself. UiO is a Norwegian state institution: the bestill page describes sales as 'egenregi innenfor rettssubjektet staten', and the contract can send disputes to the Ministry of Education (Kunnskapsdepartementet). No separate owning company."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://www.uio.no/english/services/it/video-sound/autotekst/", "quote": "The service is owned by the University of Oslo (UiO) and is developed and operated by the IT Department at UiO", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No separate parent company, so no parent country."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        { "url": "https://autotekst.uio.no", "quote": "The service runs on secure servers in Norway at the University of Oslo", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Norway is in the EEA, so no Art. 27 representative is needed."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        { "url": "https://www.uio.no/english/about/regulations/privacy-declarations/privacy-policy-web.html", "quote": "You can contact the Data Protection Officer via email at personvernombud@uio.no.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Role mailbox from the UiO website privacy policy (covers all UiO web services). No named DPO on the Autotekst pages read."
+    },
+    "hosting_regions": {
+      "value": ["NO"],
+      "evidence": [
+        { "url": "https://autotekst.uio.no", "quote": "The service runs on secure servers in Norway at the University of Oslo", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.uio.no/tjenester/it/aktuelt/om-it/2024/autotekst-enda-bedre.html", "quote": "Autotekst kjører kun på servere plassert på Blindern som driftet av UiO.", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://autotekst.uio.no", "quote": "Upload your audio or video file and receive a transcribed file in your preferred format", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Files are uploaded to the UiO service. No local-only mode is described."
+    },
+    "eu_residency": {
+      "value": "default",
+      "evidence": [
+        { "url": "https://www.uio.no/english/services/it/video-sound/autotekst/", "quote": "The entire service runs on UiO’s servers, and no data leaves UiO’s infrastructure.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Norway (EEA). One hosting location, so residency is the default."
+    },
+    "cloud_providers": {
+      "value": ["own"],
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/aktuelt/om-it/2024/autotekst-enda-bedre.html", "quote": "Autotekst kjører kun på servere plassert på Blindern som driftet av UiO.", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/tjenesteavtale-autotekst-mal.pdf", "quote": "tjenesten kjører internt på UiOs serverrom.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Run on UiO's own servers at Blindern."
+    },
+    "transfer_mechanism": {
+      "value": ["none-needed"],
+      "evidence": [
+        { "url": "https://www.uio.no/english/services/it/video-sound/autotekst/", "quote": "The entire service runs on UiO’s servers, and no data leaves UiO’s infrastructure.", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/tjenesteavtale-autotekst-mal.pdf", "quote": "Personopplysninger skal ikke overføres til land utenfor EØS-området uten at dette er skriftlig", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No transfer outside the EEA is described; the contract template forbids one without prior written agreement."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/", "quote": "All data forblir på UiOs servere; tjenesten har ingen underleverandører utover FEIDE.", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/tjenesteavtale-autotekst-mal.pdf", "quote": "UNDERLEVERANDØRER FEIDE brukes for innlogging. Dette er levert av SIKT.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No separate sub-processor page, but the public bestill page and the public contract template both name the only sub-processor (Feide, run by Sikt)."
+    },
+    "subprocessors_count": {
+      "value": 1,
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/tjenesteavtale-autotekst-mal.pdf", "quote": "FEIDE brukes for innlogging. Dette er levert av SIKT.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Counts Sikt (Feide login), a Norwegian public agency. No group companies involved. Institutions without Feide use Educloud, which UiO runs itself and is not counted."
+    },
+    "subprocessors_non_eea": {
+      "value": 0,
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/", "quote": "All data forblir på UiOs servere; tjenesten har ingen underleverandører utover FEIDE.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The only sub-processor, Sikt, is a Norwegian agency. No processing outside the EEA is stated."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/tjenesteavtale-autotekst-mal.pdf", "quote": "uten etter avtale med Kunden", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill-autotekstvms/", "quote": "Dette kan komme til å endres for håndtere økt volum. I så fall vil alle kunder bli varslet om endringen.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The Autotekst contract template needs agreement with the customer before new processors; the AutotekstVMS page says customers will be notified of any change. The DPA itself could not be read."
+    },
+    "dpa": {
+      "value": "self-serve",
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/", "quote": "Databehandleravtale må signeres elektronisk av en som innehar signaturmyndighet.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The DPA is signed online through a Nettskjema form behind ID-porten login; its text could not be read (source blocked: https://nettskjema.no/a/databehandleravtale-autotekst). The service contract template is public."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/tjenesteavtale-autotekst-mal.pdf", "quote": "Leverandøren er databehandler for personopplysninger som", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "For UiO's own staff and students, UiO is both the institution and the service operator.",
+      "note": "Contract template for other institutions: the customer is controller, UiO is processor."
+    },
+    "privacy_policy_date": {
+      "value": "2025-02-25",
+      "evidence": [
+        { "url": "https://www.uio.no/english/services/it/video-sound/autotekst/privacy/tos.html", "quote": "Last modified Feb. 25, 2025 1:42 PM", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Date of the English Autotekst data protection and terms page. The Norwegian version was last changed 2023-01-04."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/", "quote": "Lydfiler som lastes opp slettes umiddelbart etter transkripsjon", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/", "quote": "Alle transkriberte data slettes automatisk 12 måneder etter at de er opprettet", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "AutotekstVMS (Panopto): video copies deleted after captioning (at most one month on errors), captions deleted after 1 month.",
+      "note": "Uploaded audio is deleted right after transcription; transcripts after 12 months. The older Norwegian terms page (2023) still says uploaded files are kept up to 1 year."
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The contract template says UiO will help transfer the customer's data at termination, but gives no deletion step or time frame. The DPA could not be read (source blocked: https://nettskjema.no/a/databehandleravtale-autotekst). Transcripts are auto-deleted after 12 months anyway."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://www.uio.no/english/services/it/video-sound/autotekst/help/generate.html", "quote": "it can be easily downloaded in the formats TXT, SRT or WEBVTT", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Transcripts download as TXT, SRT or WebVTT. The contract template also promises reasonable help transferring customer data at termination."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No breach-notification window in the contract template or service pages. The DPA could not be read (source blocked: https://nettskjema.no/a/databehandleravtale-autotekst)."
+    },
+    "governing_law": {
+      "value": ["NO"],
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/tjenesteavtale-autotekst-mal.pdf", "quote": "Partenes rettigheter og plikter etter denne Avtalen bestemmes i sin helhet av norsk rett.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Norwegian law. The template's chosen dispute route is the Ministry of Education (Kunnskapsdepartementet)."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        { "url": "https://www.uio.no/english/services/it/video-sound/autotekst/", "quote": "Autotekst is a UiO-developed service for transcribing speech to text using Whisper from OpenAI.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "ai_providers": {
+      "value": ["open-weights-self-hosted"],
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/tjenesteavtale-autotekst-mal.pdf", "quote": "Tjenesten tilbyr de funksjoner, språk og filformater som er tilgjengelige i løsningen Whisper fra OpenAi og tjenesten kjører internt på UiOs serverrom.", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.uio.no/english/services/it/video-sound/autotekst/help/generate.html", "quote": "You can choose between NB Whisper, NB Whisper verbatim, OpenAI Whisper V3, or OpenAI Whisper V2.", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/changelog.html", "quote": "Ny modell tilgjengelig; KBLab-Whisper. Denne er trent ved Sveriges nasjonalbibliotek på data fra bibliotekets samlinger.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Openly published speech models run on UiO servers: OpenAI Whisper V2/V3, NB-Whisper (National Library of Norway), KBLab-Whisper (National Library of Sweden), with WhisperX for timing and speaker separation. No content goes to OpenAI or the libraries: 'no data leaves UiO's infrastructure'."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No Autotekst page or the contract template says whether uploaded audio or transcripts are used to train or tune models. Uploaded audio is deleted right after transcription and UiO acts as processor. The UiO-wide IDEA statement about agreements with Google, OpenAI and Microsoft is about those external companies, not about Autotekst."
+    },
+    "ai_zero_retention": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://www.uio.no/english/services/it/video-sound/autotekst/", "quote": "The entire service runs on UiO’s servers, and no data leaves UiO’s infrastructure.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No external model provider receives content, so there is no provider-side retention to state. UiO's own retention is under retention_stated."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Transcription is the whole service, so there is no AI toggle. Institutions must enable Autotekst in their Feide customer portal, which controls access to the service as a whole."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No EU AI Act statement on the Autotekst, bestill, AutotekstVMS or terms pages. The AutotekstVMS page has a short note that AI models make errors."
+    },
+    "certifications": {
+      "value": ["none-found"],
+      "evidence": [],
+      "note": "No certification named on the Autotekst, bestill, AutotekstVMS, terms, contract template or UiO privacy pages. The bestill page offers access to risk assessments (ROS-analyser)."
+    },
+    "trust_page": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No separate security or trust centre. The bestill page has a short 'Personvern og sikkerhet' section."
+    },
+    "encryption": {
+      "value": ["unknown"],
+      "evidence": [],
+      "note": "Encryption is not described. The contract template only commits to measures 'alminnelig anerkjente i bransjen' for confidentiality."
+    },
+    "pentest": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No penetration test statement found. Risk assessments (ROS-analyser) are offered to customers, which is not a pentest."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "security.txt returned 404 on www.uio.no, www.usit.uio.no and autotekst.uio.no (cached)."
+    },
+    "incidents": {
+      "value": "none found",
+      "evidence": [],
+      "note": "Web search for Datatilsynet decisions on UiO/Autotekst found no regulator decision or UiO notice about Autotekst."
+    },
+    "status_page": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No public status page found. The contract template says planned downtime is announced in the application."
+    },
+    "sso": {
+      "value": ["unknown"],
+      "evidence": [],
+      "note": "Login is through Feide or Educloud (TSD version: TSD username and password). The protocol is not named on the pages read."
+    },
+    "federation": {
+      "value": ["feide"],
+      "evidence": [
+        { "url": "https://autotekst.uio.no", "quote": "Log in with Feide", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/", "quote": "Deretter må institusjonen ha åpnet for bruk av Autotekst.uio.no i sin Feide-kunde-portal", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No provisioning details on the pages read; users come from Feide or an Educloud user database."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No local accounts; MFA is not described on the pages read."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The changelog (2025-03-28) says an overview of the institution's usage is a menu option. No user management console is described."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No audit log described on the pages read."
+    },
+    "lms_integration": {
+      "value": ["unknown"],
+      "evidence": [],
+      "note": "Integrations named are Panopto (via AutotekstVMS, a video platform) and Nettskjema dictaphone, not LMS platforms."
+    },
+    "vpat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No VPAT or conformance report on the Autotekst or UiO pages read."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The app footer links a Norwegian-only accessibility statement, but its URL could not be found (not on autotekst.uio.no links or a search of uustatus.no), so the claimed level was not read."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://autotekst.uio.no", "quote": "Privacy Accessibility statement (in Norwegian only) Cookies", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The Autotekst app footer lists a Norwegian-only accessibility statement. Its text was not located."
+    },
+    "hecvat": { "value": "none-found", "evidence": [], "note": "No HECVAT on the Autotekst, bestill or contract pages. US framework; the service is sold only to Norwegian non-commercial bodies." },
+    "ferpa": { "value": "none-found", "evidence": [], "note": "No FERPA statement on the pages read. US framework, not addressed by this Norwegian public service." },
+    "hipaa_baa": { "value": "unknown", "evidence": [], "note": "Not mentioned on the pages read." },
+    "section_508": { "value": "unknown", "evidence": [], "note": "Not mentioned on the pages read." },
+    "state_privacy": { "value": ["none-found"], "evidence": [], "note": "No US state privacy terms on the pages read." },
+    "uk_gdpr": { "value": "unknown", "evidence": [], "note": "Not mentioned on the pages read." },
+    "au_privacy": { "value": ["none-found"], "evidence": [], "note": "No Australian privacy statement or hosting on the pages read." },
+    "nis2": { "value": "unknown", "evidence": [], "note": "Not mentioned on the pages read." },
+    "free_plan": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.uio.no/english/services/it/video-sound/autotekst/", "quote": "Free use for UiO employees and students.", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.uio.no/english/services/it/video-sound/autotekst/", "quote": "Access can be purchased by any non-commercial organisation.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Free for UiO employees and students.",
+      "note": "Other institutions pay a yearly institutional fee; there is no free plan for them."
+    },
+    "price_individual": {
+      "value": "not published",
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/", "quote": "Kr 31100,- per institusjon for hele året.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No per-person price. Institutional price 2026: NOK 31,100 per year incl. 1,000 hours, then NOK 4.60 per hour; 2027: NOK 35,800, then NOK 5.29 per hour (excl. VAT). Educloud user database extra for institutions without Feide."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/", "quote": "For å inngå avtale må hver institusjon bestille en kontrakt.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "edu_discount": { "value": "unknown", "evidence": [], "note": "Sold only to non-commercial bodies at one institutional price; no student or academic discount stated." },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.uio.no/tjenester/it/lyd-video/autotekst/bestill/", "quote": "Alle priser er ekskl. MVA", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Prices for 2026 and 2027 are on the bestill page (and AutotekstVMS prices on its own page)."
+    },
+    "capabilities": {
+      "value": ["interview-transcription", "translation"],
+      "evidence": [
+        { "url": "https://autotekst.uio.no", "quote": "Upload your audio or video file and receive a transcribed file in your preferred format", "retrievedAt": "2026-11-17" },
+        { "url": "https://autotekst.uio.no", "quote": "Choose to receive your transcription in the original language or translated into English", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Also speaker separation and subtitle files (SRT/WebVTT) for video."
+    },
+    "primary_capability": {
+      "value": "interview-transcription",
+      "evidence": [
+        { "url": "https://www.uio.no/english/services/it/video-sound/autotekst/", "quote": "Can be used to transcribe audio recordings.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "platforms": {
+      "value": ["web"],
+      "evidence": [
+        { "url": "https://www.uio.no/english/services/it/video-sound/autotekst/help/generate.html", "quote": "Log in to https://autotekst.uio.no .", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "A separate TSD-Autotekst runs inside UiO's TSD secure research platform (approved up to black data)."
+    },
+    "languages": {
+      "value": "Norwegian Bokmål, Norwegian Nynorsk, English (interface)",
+      "evidence": [
+        { "url": "https://autotekst.uio.no", "quote": "Norwegian Bokmål Norwegian Nynorsk English", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Transcription supports many more spoken languages; the bestill page mentions translation to English and 98 other languages."
+    },
+    "api": { "value": "unknown", "evidence": [], "note": "No public API documented. Integrations with Panopto (AutotekstVMS) and Nettskjema are run by UiO." },
+    "open_source": { "value": "unknown", "evidence": [], "note": "No licence for the Autotekst code is stated. The contract template says UiO holds the rights to the service; the models used are openly published by others." },
+    "self_host": { "value": "unknown", "evidence": [], "note": "Runs only on UiO servers and other institutions buy access. Self-hosting is not described." }
+  }
+}

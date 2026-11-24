@@ -1,0 +1,481 @@
+{
+  "id": "claude",
+  "name": "Claude",
+  "website": "https://claude.ai",
+  "tagline": "AI assistant from Anthropic for chat, writing, coding and file work, with plans for individuals, teams, companies and universities",
+  "category": "ai",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Anthropic PBC",
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/commercial-terms", "quote": "and Anthropic, PBC if Customer resides anywhere else", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.anthropic.com/legal/commercial-terms", "quote": "means Anthropic Ireland, Limited if Customer resides in the European Economic Area", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Customers in the EEA, Switzerland or UK contract with Anthropic Ireland, Limited (Dublin). Everyone else contracts with Anthropic, PBC (US).",
+      "note": "The Privacy Policy also names Anthropic Ireland, Limited as controller for European Region users of consumer plans."
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/privacy", "quote": "Anthropic is a company based and headquartered in the United States", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "The contracting entity for EEA, Swiss and UK customers is Anthropic Ireland, Limited (Ireland)."
+    },
+    "parent_company": {
+      "value": "none-found",
+      "note": "Checked the company page, Series F announcement, Privacy Policy, Commercial Terms, DPA and Trust Center FAQ. Anthropic describes itself as a Public Benefit Corporation whose board is elected by stockholders and its Long-Term Benefit Trust; no owning company is named. Anthropic Ireland, Limited and the other listed entities are Anthropic group companies, not a separate parent."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "note": "No separate parent company found (see parent_company). Anthropic, PBC itself is US-headquartered, and Anthropic Ireland, Limited is part of the same US-headed group."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/privacy", "quote": "the data controller responsible for your personal data is Anthropic Ireland, Limited", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Anthropic has an EU establishment (Anthropic Ireland, Limited, Dublin), which contracts with and acts as controller for European customers and users. No separate Article 27 representative is named."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/privacy", "quote": "contact our Data Protection Officer at dpo@anthropic.com", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "A DPO email is published; no DPO is named."
+    },
+    "hosting_regions": {
+      "value": ["US"],
+      "evidence": [
+        { "url": "https://privacy.claude.com/en/articles/7996890-where-are-your-servers-located-do-you-host-your-models-on-eu-servers", "quote": "Note that data is stored in the US.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The same article says traffic may be routed for processing to select countries in the US, Europe, Asia and Australia. Regional storage is offered only when Claude models are used through AWS Bedrock, Google Cloud Vertex or Microsoft Foundry (see eu_residency)."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/privacy", "quote": "your personal data is transferred to our servers in the US", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Claude runs on Anthropic-hosted servers; prompts and files are sent to Anthropic to produce responses."
+    },
+    "eu_residency": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://privacy.claude.com/en/articles/7996890-where-are-your-servers-located-do-you-host-your-models-on-eu-servers", "quote": "Note that data is stored in the US.", "retrievedAt": "2026-11-17" },
+        { "url": "https://claude.com/regional-compliance", "quote": "Choose where your data is stored and processed. Available on AWS Bedrock, GCP Vertex, and Microsoft Foundry.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "For the Claude apps (claude.ai, Claude for Education, Team, Enterprise) data is stored in the US. EU storage and processing is offered only when the Claude models are used through AWS Bedrock or Google Cloud Vertex in a European region (Microsoft Foundry: coming soon), which is a different product run by the cloud provider.",
+      "note": "Enterprise and API customers can choose a traffic routing (inference) location; the privacy article still says data is stored in the US."
+    },
+    "cloud_providers": {
+      "value": ["aws", "azure", "gcp", "other"],
+      "others": ["Cloudflare"],
+      "evidence": [
+        { "url": "https://trust.anthropic.com/subprocessors", "quote": "Google Cloud Platform • Cloud infrastructure", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.anthropic.com/subprocessors", "quote": "Amazon Web Services • Cloud Infrastructure", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.anthropic.com/subprocessors", "quote": "Microsoft Azure • Cloud Infrastructure", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.anthropic.com/subprocessors", "quote": "Cloudflare • Traffic Routing (CDN)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Palantir Federal Cloud Service is also listed, but only for Claude for Government."
+    },
+    "transfer_mechanism": {
+      "value": ["sccs", "adequacy"],
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/data-processing-addendum", "quote": "are hereby incorporated by reference and will be deemed to have been executed by the parties", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.anthropic.com/legal/privacy", "quote": "We rely on standard contractual clauses to transfer information", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.anthropic.com/legal/privacy", "quote": "to some countries with adequacy decisions", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "DPA section I incorporates SCCs Module Two/Three, with a UK Addendum and a Swiss Addendum. Anthropic's pages do not mention the EU-US Data Privacy Framework; the dataprivacyframework.gov list did not render company names for automated reading, so DPF status was not confirmed either way."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://trust.anthropic.com/subprocessors", "quote": "All subprocessors", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.anthropic.com/legal/data-processing-addendum", "quote": "Anthropic’s list of subprocessors is available at https://www.anthropic.com/subprocessors", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "subprocessors_count": {
+      "value": 22,
+      "evidence": [
+        { "url": "https://trust.anthropic.com/subprocessors", "quote": "1-10 of 22 results", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "22 third-party companies, counted one by one from the full list; no Anthropic group companies are on it. Separately, the Trust Center FAQ lists 11 Anthropic entities (US, UK, Canada, Ireland, Switzerland, France, Japan, Germany, Korea, Australia) that may access customer data; these are not included in the 22. Not all 22 apply to every product: Palantir is Claude for Government only, Persona and Yoti are Free/Pro/Max only, ElevenLabs is Claude for Work only."
+    },
+    "subprocessors_non_eea": {
+      "value": 22,
+      "evidence": [
+        { "url": "https://trust.anthropic.com/subprocessors", "quote": "Nutun • User support South Africa", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "From the Location column: 17 list the United States, 1 South Africa (Nutun), 1 Canada (Boldr), 1 United Kingdom (Yoti), and 4 list Worldwide (Google Cloud, AWS, Azure, Cloudflare; Cloudflare 'Local to Customer'). None is listed as EU/EEA-only, so all 22 are counted as processing outside the EEA."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/data-processing-addendum", "quote": "Anthropic will provide Customer reasonable notice of the new Subprocessor prior to giving the Subprocessor access to Customer Personal Data", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "DPA section C.3: customers may object within 15 days. The Trust Center also offers 'Subscribe to updates' and posted a subprocessor update on 2026-10-15."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://privacy.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa", "quote": "Anthropic’s DPA with Standard Contractual Clauses (SCCs) is automatically incorporated into our Commercial Terms of Service", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.anthropic.com/legal/data-processing-addendum", "quote": "This Data Processing Addendum ( “DPA” ) is incorporated into and forms part of the Anthropic Commercial Terms of Service", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Applies to commercial plans (Team, Enterprise, Claude for Education, API). Consumer plans (Free, Pro, Max, Ultra) have no DPA; Anthropic is controller there.",
+      "note": "Published as a web page at anthropic.com/legal/data-processing-addendum, effective 2025-02-24. Accepting the Commercial Terms accepts the DPA."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        { "url": "https://privacy.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account", "quote": "do not apply to the use of the Claude for Education plan where Anthropic acts as the data processor", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.anthropic.com/legal/data-processing-addendum", "quote": "With respect to Customer Personal Data, Customer is the controller and Anthropic is Customer’s processor.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Institutional answer (Claude for Education, Team, Enterprise, API). On consumer plans (Free, Pro, Max, Ultra) Anthropic is the controller under the Consumer Terms and Privacy Policy."
+    },
+    "privacy_policy_date": {
+      "value": "2026-09-10",
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/privacy", "quote": "Effective Sep 10, 2026", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Consumer Privacy Policy. Commercial customers are covered by the Commercial Terms and the DPA (effective 2025-02-24)."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data", "quote": "Deleted from our back-end storage systems within 30 days", "retrievedAt": "2026-11-17" },
+        { "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data", "quote": "For Anthropic API users, we automatically delete inputs and outputs on our backend within 30 days of receipt or generation", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "For Claude for Work/Enterprise, chats are kept in the product until the user deletes them, then removed from back-end storage within 30 days. Enterprise admins can set custom retention periods. Exceptions: chats flagged for Usage Policy violations (inputs and outputs up to 2 years, classification scores up to 7 years) and feedback submissions (5 years)."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/data-processing-addendum", "quote": "Within thirty (30) days of the date of termination or expiration of the Agreement, Anthropic will:", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "DPA section H.1: return a copy on request, then delete all copies of Customer Data, except where law requires, for a dispute, or to combat harmful use."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://privacy.claude.com/en/articles/13346720-export-your-organization-s-data", "quote": "Data exports include conversation data and the user data for your organization.", "retrievedAt": "2026-11-17" },
+        { "url": "https://privacy.claude.com/en/articles/13346720-export-your-organization-s-data", "quote": "Important: Data exports don’t include the Word, Excel, PowerPoint, or PDF files that Claude creates.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Team and Enterprise Primary Owners can export organization data via an emailed link; admins can also let users export their own chats (without uploaded file contents). The export file format is not stated. On Claude for Education, Primary Owner data exports are off by default and must be requested from Anthropic support."
+    },
+    "breach_notice": {
+      "value": "without undue delay, and within 48 hours",
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/data-processing-addendum", "quote": "Anthropic will notify Customer in writing without undue delay, but in any event within 48 hours, after becoming aware of any Security Breach", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "DPA section G.1."
+    },
+    "governing_law": {
+      "value": ["US", "IE"],
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/commercial-terms", "quote": "for Customers in the EEA, Switzerland, or UK, the Laws of Ireland", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.anthropic.com/legal/commercial-terms", "quote": "for all other Customers, the laws of the State of California", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Irish law for EEA, Swiss and UK customers; California law for everyone else.",
+      "note": "Commercial Terms section M.7. Claude for Education is governed by the agreement between Anthropic and the university, which is not public."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        { "url": "https://claude.com/solutions/education", "quote": "Claude helps universities and colleges advance research, support teaching and learning, and run operations and student support systems more effectively.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Claude is the AI assistant itself."
+    },
+    "ai_providers": {
+      "value": ["anthropic", "other"],
+      "others": ["ElevenLabs"],
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/privacy", "quote": "to train and improve Anthropic AI models", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.anthropic.com/subprocessors", "quote": "ElevenLabs Product: Claude for Work", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Anthropic develops and runs the Claude models. ElevenLabs is listed as a text-to-speech subprocessor for Claude for Work (voice mode). Web search queries go to Brave Search, TurboPuffer and Parallel Web Systems (search services, not language models). Cloud providers host infrastructure (see cloud_providers)."
+    },
+    "trains_on_content": {
+      "value": "opt-in",
+      "evidence": [
+        { "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training", "quote": "By default, we will not use your inputs or outputs from our commercial products", "retrievedAt": "2026-11-17" },
+        { "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training", "quote": "or otherwise choose to allow us to use your data, then we may use your chats and coding sessions to train our models", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.anthropic.com/legal/commercial-terms", "quote": "Anthropic may not train models on Customer Content from Services", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Institutional answer (Claude for Education, Team, Enterprise, API): no training by default; training only on conversations a user submits as feedback (thumbs up/down, bug reports) or if the organisation joins the Development Partner Program. Feedback is de-linked from user IDs and kept up to 5 years; admins can turn the feedback button off, and on Claude for Education it is off by default. Consumer plans (Free, Pro, Max, Ultra): training is on unless the user opts out, plus flagged and reported chats are used even after opt-out (pricing page: 'Model training: Opt-out').",
+      "note": "The Commercial Terms forbid training on Customer Content; the privacy center explains the exceptions where the customer explicitly reports or allows use, so the value is opt-in rather than a flat no."
+    },
+    "ai_zero_retention": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://privacy.claude.com/en/articles/8956058-i-have-a-zero-data-retention-agreement-with-anthropic-what-products-does-it-apply-to", "quote": "the only products to which zero data retention applies are eligible Anthropic APIs", "retrievedAt": "2026-11-17" },
+        { "url": "https://privacy.claude.com/en/articles/8956058-i-have-a-zero-data-retention-agreement-with-anthropic-what-products-does-it-apply-to", "quote": "subject to Anthropic’s approval, may have arrangements under which Anthropic does not store their inputs or outputs", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Zero data retention exists only as an approved arrangement for eligible Claude API use and Claude Code on Enterprise plans. It does not cover the Claude chat apps (Claude for Education, Team, Enterprise chat), where chats are stored until deleted. Even under ZDR, safety classifier results are kept, and Covered Models require limited retention.",
+      "note": "Anthropic is itself the model provider; there is no separate third-party model provider."
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://privacy.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account", "quote": "Your organization determines which Claude services and features you can access in your Claude for Education account", "retrievedAt": "2026-11-17" },
+        { "url": "https://claude.com/pricing", "quote": "Admin controls for remote and local connectors", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Admins can limit individual features (for example web search, connectors, feedback, public projects). The AI assistant itself is the product, so it cannot be switched off other than by not giving users access."
+    },
+    "ai_act_statement": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://trust.anthropic.com/faq", "quote": "Anthropic Ireland Limited has signed the General-Purpose AI Code of Practice (the EU Code)", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.anthropic.com/faq", "quote": "The Frontier Compliance Framework (FCF) is our compliance framework for meeting regulatory obligations under laws like California's SB 53 and the EU AI Act.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The Trust Center also publishes model documentation forms and training data summaries for each Claude model."
+    },
+    "certifications": {
+      "value": ["iso27001", "iso42001", "soc2-type2", "csa-star", "cyber-essentials"],
+      "evidence": [
+        { "url": "https://privacy.claude.com/en/articles/10015870-what-certifications-has-anthropic-obtained", "quote": "ISO 27001:2022 (Information Security Management)", "retrievedAt": "2026-11-17" },
+        { "url": "https://privacy.claude.com/en/articles/10015870-what-certifications-has-anthropic-obtained", "quote": "ISO/IEC 42001:2023 (AI Management Systems)", "retrievedAt": "2026-11-17" },
+        { "url": "https://privacy.claude.com/en/articles/10015870-what-certifications-has-anthropic-obtained", "quote": "SOC 2 Type I & Type II", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.anthropic.com", "quote": "[Anthropic] 2025 Type 2 SOC 2 and CSA STAR L2 Report.pdf", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.anthropic.com", "quote": "[Anthropic Ireland Limited] Cyber Essentials Certificate (2026)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The Trust Center scope table marks SOC 2 Type 2, ISO 27001, ISO 42001 and CSA STAR for Claude Enterprise and Claude Team. ISO 27001 and ISO 42001 certificates are viewable; the SOC 2 report requires request access. CSA STAR comes from the report title. The regional compliance page also lists ISO/IEC 27017 and 27018, but they are not on the Trust Center and appear to refer to deployment on cloud platforms, so they are not recorded."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://trust.anthropic.com", "quote": "Welcome to the Anthropic Trust Center", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest"],
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/data-processing-addendum", "quote": "a minimum of AES-256 for data at rest, and TLS1.2+ for data in transit over public networks", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.anthropic.com/faq", "quote": "All data that Anthropic stores is encrypted at rest using AES-256 GCM, and protected in transit using TLS 1.2+.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The Trust Center lists a 'CMEK - Cryptographic Design Whitepaper' behind request access; which plans offer customer-managed keys is not stated on public pages, so customer-keys is not recorded."
+    },
+    "pentest": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/data-processing-addendum", "quote": "Upon request, Anthropic will make available to Customer a summary of its most recent penetration testing report.", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.anthropic.com/resources", "quote": "Request access [Anthropic] 2025 Annual Penetration Testing Reports", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "DPA section G.2: annual penetration tests by qualified external assessors."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        { "url": "https://www.anthropic.com/responsible-disclosure-policy", "quote": "If you discover a security vulnerability in an Anthropic system, please promptly report it to us here", "retrievedAt": "2026-11-17" },
+        { "url": "https://www.anthropic.com/.well-known/security.txt", "quote": "Policy: https://www.anthropic.com/responsible-disclosure-policy", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Responsible Disclosure Policy last updated 2025-02-14; security.txt points to a HackerOne submission form. No paid bug bounty is described on the cached pages."
+    },
+    "incidents": {
+      "value": "unknown",
+      "note": "Searched for a vendor notice or regulator decision. Press reports describe a South Korean PIPC investigation opened 2026-11-10 after Anthropic reported exposure of about 100 Korean business accounts; no regulator decision or Anthropic notice was found on primary sources, so nothing is recorded as fact. The Trust Center lists one security advisory (CVE-2026-22561, Windows installer), which is a vulnerability, not a breach."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://status.claude.com", "quote": "Uptime over the past 90 days. View historical uptime.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "sso": {
+      "value": ["saml", "oidc", "google"],
+      "evidence": [
+        { "url": "https://support.claude.com/en/articles/13917894-sso-setup-okta", "quote": "For the SSO method, choose \"SAML 2.0\" (recommended) or \"OIDC.\"", "retrievedAt": "2026-11-17" },
+        { "url": "https://support.claude.com/en/articles/13132885-setting-up-single-sign-on-sso", "quote": "client secret (OpenID Connect)", "retrievedAt": "2026-11-17" },
+        { "url": "https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account", "quote": "Click “Continue with Google” if you want to use your Google account credentials to log in to Claude.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "SAML/OIDC SSO is on Team, Enterprise and Claude for Education plans (via WorkOS). Microsoft Entra ID works through SAML. 'Continue with Google' is available to all accounts."
+    },
+    "federation": {
+      "value": "none-found",
+      "note": "Vendor SSO docs describe per-organization SAML/OIDC set up through WorkOS with the institution's own IdP; no eduGAIN or national federation membership is mentioned. Searches of the eduGAIN Metadata Explorer (met.refeds.org) for 'claude' and 'anthropic' returned no entities."
+    },
+    "scim": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://support.claude.com/en/articles/13917894-sso-setup-okta", "quote": "SCIM provisioning is available on Enterprise plans and eligible Console organizations only.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Enterprise plans only; Team plans use JIT provisioning. The Claude for Education admin guide links to the JIT/SCIM setup guide."
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "The login article lists only 'Continue with Google' and an emailed login link, and says a dedicated password cannot be created; it does not mention a Claude-side second factor. DPA section B.4 MFA applies to Anthropic's own staff systems, not customer sign-in. Institutions can enforce SSO, so MFA then comes from their own IdP."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://privacy.claude.com/en/articles/13346720-export-your-organization-s-data", "quote": "Primary Owners of Team and Enterprise plans can export organization data from Organization settings > Data and privacy", "retrievedAt": "2026-11-17" },
+        { "url": "https://claude.com/pricing", "quote": "Central billing and administration", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The pricing comparison also lists usage analytics for Team and Enterprise."
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://claude.com/pricing", "quote": "System for Cross-domain Identity Management (SCIM) Audit logs", "retrievedAt": "2026-11-17" },
+        { "url": "https://support.claude.com/en/articles/11139094-get-started-with-claude-for-education-at-your-university-for-owners-admins", "quote": "How to access audit logs", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Enterprise plans. On Claude for Education the audit log is off by default and the Primary Owner must ask Anthropic support to enable it."
+    },
+    "lms_integration": {
+      "value": ["lti", "canvas"],
+      "evidence": [
+        { "url": "https://support.claude.com/en/articles/11725453-set-up-the-claude-lti-in-canvas-by-instructure", "quote": "This article provides information on how to enable the Claude LTI integration in Canvas LMS.", "retrievedAt": "2026-11-17" },
+        { "url": "https://support.claude.com/en/articles/11725453-set-up-the-claude-lti-in-canvas-by-instructure", "quote": "Enter a short description for the Canva LTI 1.3 app", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Claude for Education only. LTI 1.3; only Canvas is documented."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://trust.anthropic.com/resources", "quote": "View [Anthropic] VPAT - Accessibility Conformance Report (ACR) - Claude.ai Enterprise (web)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The Trust Center lists ACRs for Claude.ai Enterprise (web, updated April 2026), the Enterprise iOS and Android apps (May 2026) and Claude Code CLI, each with a 'View' button rather than 'Request access'. The documents themselves did not render for automated reading, so their contents were not checked."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "note": "The ACR documents could not be opened. A Trust Center update says the Claude Code CLI ACR 'covers WCAG 2.2 Levels A and AA', which is the scope of the report, not a conformance claim."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "note": "source blocked: https://claude.com/accessibility (redirects to claude.ai, 403). anthropic.com/accessibility and anthropic.com/legal/accessibility return 404."
+    },
+    "hecvat": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://trust.anthropic.com/resources", "quote": "Request access [Anthropic] - HECVAT v4.1.6 (June 2026)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Full or Lite version is not stated."
+    },
+    "ferpa": {
+      "value": "school-official-terms",
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/k12-dpa", "quote": "Customer acknowledges Anthropic has a legitimate educational interest in such data in connection with the Services provided under the Agreement, and that Anthropic shall act as a School Official.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "These school-official terms are in Anthropic's published U.S. K-12 Terms and DPA. For universities, Claude for Education is governed by a separate agreement with the university that is not public; the higher-education page does not name FERPA."
+    },
+    "hipaa_baa": {
+      "value": "available",
+      "evidence": [
+        { "url": "https://trust.anthropic.com/faq", "quote": "Anthropic may provide a Business Associate Agreement (BAA) covering use of eligible products.", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.anthropic.com/faq", "quote": "Our BAA does not cover beta products or Free, Pro, Max, or Team plans.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Only for HIPAA-ready Enterprise plans, the 1P API and (qualified) Claude Code with ZDR, after review of the use case. Not for Free, Pro, Max or Team; Claude for Education is not named."
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "The ACR (VPAT) documents could not be opened, so a Section 508 claim could not be checked."
+    },
+    "state_privacy": {
+      "value": "none-found",
+      "note": "Checked the Privacy Policy, DPA and Commercial Terms. The DPA maps controller/processor to 'business'/'service provider' but names no state statute; no SDPC agreement or NY Ed Law 2-d terms found. The K-12 terms apply state (SLED) law for US schools but are not a higher-education agreement."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/data-processing-addendum", "quote": "means the International Data Transfer Addendum to the SCCs, issued by the Information Commissioner", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "au_privacy": {
+      "value": "none-found",
+      "note": "Privacy Policy regional disclosures cover Canada, Brazil and the Republic of Korea. No Australian Privacy Principles statement or IRAP assessment found. Australian regional storage is offered only through AWS Bedrock or Google Cloud Vertex, not for the Claude apps."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "NIS2 is not mentioned in the Privacy Policy, DPA, Commercial Terms, Trust Center or regional compliance page."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://claude.com/pricing", "quote": "Free for everyone", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Limited usage every 5 hours and every week."
+    },
+    "price_individual": {
+      "value": "Pro: $17/month billed annually ($200 up front); $20/month billed monthly",
+      "evidence": [
+        { "url": "https://claude.com/pricing", "quote": "Per month with annual subscription discount ( $200 billed up front). $20 if billed monthly.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Max is $100/month and Ultra $200/month. Prices exclude tax."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://claude.com/pricing", "quote": "plan for an institution, including its students, faculty, and staff", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Claude for Education is a university-wide plan. Team (2-150 seats) and Enterprise (20 seat minimum) are sold per seat."
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://claude.com/pricing", "quote": "Comprehensive access for all university members at discounted rates", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Education plan price is not published."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://claude.com/pricing", "quote": "Per seat / month if billed annually. $25 if billed monthly.", "retrievedAt": "2026-11-17" },
+        { "url": "https://claude.com/pricing", "quote": "US$20/seat/month, billed annually, 20 seat minimum. Usage cost scales with model and task.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Individual, Team and self-serve Enterprise prices are published. Education plan and sales-assisted Enterprise prices are not."
+    },
+    "capabilities": {
+      "value": ["general-ai-chat", "coding-assistant", "academic-writing"],
+      "evidence": [
+        { "url": "https://claude.com/pricing", "quote": "Chat on web, iOS, Android and Desktop", "retrievedAt": "2026-11-17" },
+        { "url": "https://claude.com/pricing", "quote": "Claude Code and Claude Cowork", "retrievedAt": "2026-11-17" },
+        { "url": "https://claude.com/solutions/education", "quote": "Draft and revise academic writing without leaving Word.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Other listed features (Artifacts, Projects, Research, Claude Docs, Sheets, Slides, Data, Design, Science, web search) are not mapped to the option list."
+    },
+    "primary_capability": {
+      "value": "general-ai-chat",
+      "evidence": [
+        { "url": "https://claude.com/pricing", "quote": "Chat on web, iOS, Android and Desktop", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "platforms": {
+      "value": ["web", "windows", "macos", "linux", "ios", "android", "browser-extension", "word-addin"],
+      "evidence": [
+        { "url": "https://claude.com/pricing", "quote": "Chat on web, iOS, Android and Desktop", "retrievedAt": "2026-11-17" },
+        { "url": "https://claude.com/download", "quote": "macOS Download Windows Download", "retrievedAt": "2026-11-17" },
+        { "url": "https://claude.com/download", "quote": "Claude Desktop for Linux is in beta and supports Ubuntu and Debian (x64 and arm64).", "retrievedAt": "2026-11-17" },
+        { "url": "https://claude.com/download", "quote": "Chrome Install", "retrievedAt": "2026-11-17" },
+        { "url": "https://claude.com/download", "quote": "Word Install", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Linux desktop is beta. Add-ins also exist for Excel, PowerPoint and Outlook; Claude in Chrome and Microsoft 365 add-ins need a paid plan."
+    },
+    "languages": {
+      "value": "11: English, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Portuguese (Brazilian), Spanish (Latin America), Spanish (Spain)",
+      "evidence": [
+        { "url": "https://support.claude.com/en/articles/10769299-what-languages-does-claude-support", "quote": "Claude is available in multiple languages on web and desktop applications.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Interface languages on web and desktop. Users can chat with Claude in any language."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://claude.com/solutions/education", "quote": "The Claude API gives faculty developers and university IT teams access to integrate Claude into custom applications and existing workflows.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Documented at platform.claude.com/docs. Enterprise plans also have a Compliance API."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.anthropic.com/legal/commercial-terms", "quote": "reverse engineer or duplicate the Services", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The Commercial Terms forbid reverse engineering or duplicating the Services; no open source licence for Claude is published. The Consumer Terms say Anthropic Software may include open source components."
+    },
+    "self_host": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://trust.anthropic.com/faq", "quote": "We do not offer single-tenancy.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Claude runs on Anthropic's multi-tenant infrastructure. The models can also run inside an institution's own AWS, Google Cloud or Microsoft Foundry account, but that is hosted by the cloud provider, not self-hosted."
+    }
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "id": "perplexity",
+  "name": "Perplexity",
+  "website": "https://www.perplexity.ai",
+  "tagline": "AI answer engine that searches the web and answers questions with cited sources, with paid Pro, Max and Enterprise plans",
+  "category": "ai",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Perplexity AI, Inc.",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/dpa", "quote": "agreement between Perplexity AI, Inc. (“Perplexity”) and a business customer", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/terms-of-service", "quote": "The Services are operated by us in the United States.", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "note": "Read privacy notice, DPA, consumer and enterprise terms, trust center. No parent or controlling owner named. Web search returned only secondary investor lists, not used."
+    },
+    "parent_country": {
+      "value": "unknown",
+      "note": "No parent named, so no ultimate-parent country could be quoted."
+    },
+    "eu_representative": {
+      "value": "named",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/privacy-notice", "quote": "VeraSafe has been appointed as our representative in the European Union and the United Kingdom", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "dpo_contact": {
+      "value": "named",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/privacy-notice", "quote": "VeraSafe is also our data protection officer (DPO)", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The DPO is an outside firm (VeraSafe), named as the DPO in the privacy notice."
+    },
+    "hosting_regions": {
+      "value": ["US"],
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/terms-of-service", "quote": "The Services are operated by us in the United States.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Sub-processors listed on the trust center are all US. The privacy notice also names the United States as a transfer destination. No EU storage region was found."
+    },
+    "local_first": {
+      "value": "unknown",
+      "note": "Looked in the privacy notice and help center. No statement that the service can run with all content kept on the device."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "note": "Looked in the GDPR help article, DPA, privacy notice and trust center. No EU data-residency option found."
+    },
+    "cloud_providers": {
+      "value": ["aws", "azure", "gcp"],
+      "evidence": [
+        { "url": "https://trust.perplexity.ai/subprocessors/", "quote": "Cloud infrastructure and security", "retrievedAt": "2026-11-16" },
+        { "url": "https://trust.perplexity.ai/subprocessors/", "quote": "Cloud computing services including Infrastructure as a Service (IaaS), Platform as a Service (PaaS)", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Sub-processor list names Amazon Web Services, Microsoft Azure and Google Cloud as cloud providers. The security page says production runs in AWS accounts."
+    },
+    "transfer_mechanism": {
+      "value": ["sccs"],
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/dpa", "quote": "the standard contractual clauses for the transfer of Personal Data to third countries set out in Commission Implementing Decision (EU) 2021/914", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "EU-US Data Privacy Framework status not confirmed: dataprivacyframework.gov could not be read and secondary sources were not used."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://trust.perplexity.ai/subprocessors/", "quote": "Trust center pages", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "subprocessors_count": {
+      "value": 23,
+      "evidence": [
+        { "url": "https://trust.perplexity.ai/subprocessors/", "quote": "1-10 of 23 results", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "subprocessors_non_eea": {
+      "value": 23,
+      "evidence": [
+        { "url": "https://trust.perplexity.ai/subprocessors/", "quote": "1-10 of 23 results", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Every listed sub-processor shows US as its location in the trust center list."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/dpa", "quote": "notifying Customer by in-app or in-product notification within the Services, by email", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Email notice applies to customers who subscribe on the sub-processor notification page."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/dpa", "quote": "This Data Processing Addendum (“DPA”) forms part of and is incorporated into any terms of service", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "DPA page is public and lists the Last Updated date August 13, 2026."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/dpa", "quote": "Perplexity is the Service Provider or Processor", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Under the enterprise terms, marketing processing is independent controller use. Under the privacy notice for consumer accounts, Perplexity names itself as controller."
+    },
+    "privacy_policy_date": {
+      "value": "2026-10-23",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/privacy-notice", "quote": "Last updated: October 23, 2026", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/dpa", "quote": "delete (or, at Customer’s option, return) all Personal Data within thirty days of the end of the provision of the Services", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/dpa", "quote": "delete (or, at Customer’s option, return) all Personal Data within thirty days of the end of the provision of the Services", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "data_export": {
+      "value": "unknown",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/self-serve-data-options", "quote": "Click Export my data .", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Self-service export exists, but the file format is not stated."
+    },
+    "breach_notice": {
+      "value": "without undue delay after Perplexity becomes aware of such Personal Data Breach",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/dpa", "quote": "without undue delay after Perplexity becomes aware of such Personal Data Breach", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "governing_law": {
+      "value": "US",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/enterprise-terms-of-service", "quote": "This Agreement shall be governed by the laws of California.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "California law with San Francisco courts for enterprise terms. Consumer terms use California law with JAMS arbitration."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/terms-of-service", "quote": "artificial-intelligence powered search engine", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "ai_providers": {
+      "value": ["openai", "azure-openai", "anthropic", "google", "meta", "own", "other"],
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/third-party-models", "quote": "GPT, DALL-E and o models", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.perplexity.ai/hub/legal/third-party-models", "quote": "Claude models", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.perplexity.ai/hub/legal/third-party-models", "quote": "Gemini and Veo models", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.perplexity.ai/hub/legal/third-party-models", "quote": "fine-tuned and operated by Perplexity", "retrievedAt": "2026-11-16" }
+      ],
+      "others": ["xAI (Grok models)"],
+      "note": "Listed in the third-party models page, last updated November 25, 2025. Depends on plan and query: the page says the Services may use some, all or none of these models."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/enterprise-terms-of-service", "quote": "Perplexity shall not use (or authorize third parties to use) Customer Content to train, retrain, fine-tune or otherwise improve any generative artificial intelligence models.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Institutional answer from the enterprise terms. Consumer Free, Pro and Max accounts are different: the help center says 'Some data may be used to train AI models and improve search quality, unless you opt out through Account Settings.'"
+    },
+    "ai_zero_retention": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/help-center/en/articles/11564572-data-collection-at-perplexity", "quote": "Strict Zero Data Retention and Zero Data Training agreements with AI providers", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Stated in the help article for Enterprise Pro and Enterprise Max users."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "note": "Enterprise admins can configure AI Model and Provider Settings. The help article does not say AI features can be switched off."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "Looked in privacy notice, DPA, trust center and security page. No EU AI Act statement found."
+    },
+    "certifications": {
+      "value": ["iso27001", "soc2-type2"],
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/security", "quote": "SOC 2 Type 2 certified", "retrievedAt": "2026-11-16" },
+        { "url": "https://trust.perplexity.ai/", "quote": "ISO/IEC 27001:2022 Certificate", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Trust center also lists a HIPAA gap assessment (not a certification), PCI-DSS SAQ A and a FedRAMP 20x Class C entry."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/security", "quote": "Visit our Trust Center", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest"],
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/security", "quote": "all traffic is encrypted using SSL/TLS", "retrievedAt": "2026-11-16" },
+        { "url": "https://trust.perplexity.ai/", "quote": "Data encryption utilized", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/security", "quote": "conducting annual third-party penetration tests", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The trust center lists a Penetration Testing resource, but no report was opened."
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/security", "quote": "our private Bug Bounty program on BugCrowd", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Also runs a public Vulnerability Disclosure Program."
+    },
+    "incidents": {
+      "value": "unknown",
+      "note": "Searched press and news only. A 2026 class action, Doe v. Perplexity AI Inc. (3:26-cv-02803, N.D. Cal.), is alleged, not ruled, and the docket was not checked. Perplexity says it has not been served. No breach or regulator fine found in the search results."
+    },
+    "status_page": {
+      "value": "unknown",
+      "note": "Looked at the homepage links, security page and trust center. No status page link found."
+    },
+    "sso": {
+      "value": ["saml"],
+      "evidence": [
+        { "url": "https://www.perplexity.ai/help-center/en/articles/12844186-setting-up-sso-with-okta", "quote": "Step-by-step instructions for setting up Single Sign-On (SSO) integration between Okta and Perplexity Enterprise using SAML 2.0 authentication", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Okta guide only. SAML support is shown in the example; OIDC and other providers were not checked."
+    },
+    "federation": {
+      "value": "unknown",
+      "note": "Did not check eduGAIN or the national federation registries."
+    },
+    "scim": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/help-center/en/articles/11652604-scim-based-user-account-management", "quote": "Automate user provisioning for your Organization directly from your identity provider", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Only for Enterprise organizations with 50 seats or more, or with at least one Enterprise Max user."
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "The security page describes MFA for production engineers, not for customer local accounts."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/help-center/en/articles/11187708-data-retention-and-privacy-for-enterprise-organizations-and-users", "quote": "If you’re an administrator, you can manage file, sharing, and connector permissions for your entire org", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/help-center/en/articles/11187708-data-retention-and-privacy-for-enterprise-organizations-and-users", "quote": "Audit Log Settings live in a dedicated Data and privacy section under Organization Settings", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Webhook-based audit logging, per the Enterprise help index."
+    },
+    "lms_integration": {
+      "value": "unknown",
+      "note": "Did not check LMS integrations."
+    },
+    "vpat": {
+      "value": "none-found",
+      "note": "Searched the web and the accessibility-related help pages. Found no Perplexity VPAT or Accessibility Conformance Report for the main web app."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "note": "No WCAG conformance level claimed in the pages read."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "note": "No accessibility statement found in the pages read."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "Searched the web. No Perplexity HECVAT found."
+    },
+    "ferpa": {
+      "value": "unknown",
+      "note": "Did not check FERPA terms."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "Trust center lists a HIPAA gap assessment, not a signed BAA offer. Looked at the trust center and security page only."
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "Not checked."
+    },
+    "state_privacy": {
+      "value": "unknown",
+      "note": "Privacy notice has CCPA disclosures, but no CCPA contract terms or SDPC agreements were found. Looked in privacy notice and DPA only."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/dpa", "quote": "International Data Transfer Addendum to the EU Commission Standard Contractual Clauses (version B.1.0) issued by the UK Information Commissioner", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "au_privacy": {
+      "value": "unknown",
+      "note": "Not checked."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "Not checked."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/pricing", "quote": "Search only with accurate answers and citations", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "price_individual": {
+      "value": "$17 /month when billed annually (Pro)",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/pricing", "quote": "$17 /month when billed annually", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "note": "Enterprise plan exists on the pricing page, but the seat terms were only seen in search snippets, not in a cached page."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "note": "Pricing page mentions education in the Enterprise area, but no discount was quoted in the cached page."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/pricing", "quote": "$167 /month when billed annually", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Individual plan prices are published. Enterprise prices are not in the cached pages."
+    },
+    "capabilities": {
+      "value": ["general-ai-chat"],
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/pricing", "quote": "Perplexity orchestrates multiple top models", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "primary_capability": {
+      "value": "general-ai-chat",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/pricing", "quote": "Perplexity orchestrates multiple top models", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "platforms": {
+      "value": ["web"],
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/privacy-notice", "quote": "our websites, the Comet browser, mobile applications", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Mobile apps and the Comet browser are named. Platform-by-platform support was not checked."
+    },
+    "languages": {
+      "value": "unknown",
+      "note": "Not checked."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/privacy-notice", "quote": "Enterprise and API offerings", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "API documentation is at docs.perplexity.ai."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.perplexity.ai/hub/legal/enterprise-terms-of-service", "quote": "Perplexity or its licensors retain all right title and interest", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "self_host": {
+      "value": "unknown",
+      "note": "No self-hosting option found in the pages read."
+    }
+  }
+}

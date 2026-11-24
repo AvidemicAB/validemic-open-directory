@@ -1,0 +1,632 @@
+{
+  "id": "timeedit",
+  "name": "TimeEdit",
+  "website": "https://www.timeedit.com",
+  "tagline": "Timetabling and academic operations software for universities: curriculum, room and exam scheduling, workload planning and student registration",
+  "category": "productivity",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "TimeEdit AB",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/privacy",
+          "quote": "TimeEdit AB's company number is 556565-9009, and the registered address is Kungsportsplatsen 1, 411 10 Göteborg, Sweden.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "vendor_country": {
+      "value": "SE",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/privacy",
+          "quote": "TimeEdit AB's company number is 556565-9009, and the registered address is Kungsportsplatsen 1, 411 10 Göteborg, Sweden.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Read the privacy policy, terms, DPA, trust centre and about page: no parent or owner named. A third-party company profile (Crunchbase) lists Monterro as owner; not used as evidence because it is outside the sources allowed for ownership facts and no vendor quote was found."
+    },
+    "parent_country": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No parent confirmed by the vendor, so the parent's country is not stated. Depends on the parent_company check."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/privacy",
+          "quote": "TimeEdit AB's company number is 556565-9009, and the registered address is Kungsportsplatsen 1, 411 10 Göteborg, Sweden.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vendor is established in Sweden (EU), so no Art. 27 representative is needed."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/privacy",
+          "quote": "You can contact us and our Data Protection Officer at support@timeedit.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No named DPO found; the contact is the general support mailbox."
+    },
+    "hosting_regions": {
+      "value": [
+        "EU"
+      ],
+      "evidence": [
+        {
+          "url": "https://timeedit.com/dpa",
+          "quote": "Data is processed by the Processor and its Sub-processors in Europe.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA Appendix 1 says processing is in Europe. The trust centre subprocessor table lists locations as EU, UK, SGP & AUS for Google Cloud and AWS, so the exact storage default is not fully clear."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/dpa",
+          "quote": "Governing the processing of personal data in connection with TimeEdit's SaaS Service",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Described as a SaaS service. No local-only or offline mode found on the pages checked."
+    },
+    "eu_residency": {
+      "value": "default",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/dpa",
+          "quote": "Data is processed by the Processor and its Sub-processors in Europe.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Based on the DPA processing-location clause. The trust centre table also lists UK, Singapore and Australia for hosting, so this is the vendor's stated default only."
+    },
+    "cloud_providers": {
+      "value": [
+        "gcp",
+        "aws"
+      ],
+      "evidence": [
+        {
+          "url": "https://timeedit.com/trust",
+          "quote": "Google Cloud",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://timeedit.com/dpa",
+          "quote": "Amazon Web Services",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Google Cloud is the infrastructure host; AWS is listed for disaster recovery and backup hosting."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "sccs"
+      ],
+      "evidence": [
+        {
+          "url": "https://timeedit.com/privacy",
+          "quote": "we ensure proper safeguards, such as the use of EU-approved model clauses",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No Data Privacy Framework statement found on the pages checked."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/trust",
+          "quote": "Customer support platform",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Subprocessor table is on the trust page (timeedit.com/trust). The /subprocessors path returned 404."
+    },
+    "subprocessors_count": {
+      "value": 3,
+      "evidence": [
+        {
+          "url": "https://timeedit.com/trust",
+          "quote": "Customer support platform",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Google Cloud, Amazon Web Services (AWS) and Zendesk. The DPA Appendix 2 lists only Google Cloud and AWS as pre-approved."
+    },
+    "subprocessors_non_eea": {
+      "value": 2,
+      "evidence": [
+        {
+          "url": "https://timeedit.com/trust",
+          "quote": "EU, UK, SGP & AUS",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Google Cloud and AWS list UK, Singapore and Australia locations. Zendesk is listed as EU only."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/dpa",
+          "quote": "The Processor shall inform the Controller before transferring any Personal Data to a new Sub-processor.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA section 6.2 also gives the controller 30 days to object."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/dpa",
+          "quote": "This DPA, the Agreement and any appendices constitutes the Parties Agreement.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA is published at timeedit.com/dpa. Section 1.3: a signed version is provided on the controller's written request."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/dpa",
+          "quote": "Processor is a provider of the Service which processes personal data upon the instruction of the Controller",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://timeedit.com/privacy",
+          "quote": "is the controller of your personal information covered by this Privacy Policy",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Processor for customer content under the DPA. Controller for website visitors and demo or webinar contacts under the privacy policy. The DPA Appendix 1 also gives TimeEdit the right to process personal data to develop and improve the Service."
+    },
+    "privacy_policy_date": {
+      "value": "2025-12-03",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/privacy",
+          "quote": "Last Revised December 3, 2025",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/terms",
+          "quote": "TimeEdit shall keep backups for at least seven (7) days",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated for backups only ('at least'). Personal information is kept as long as needed for the business relationship (privacy policy section 7)."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/dpa",
+          "quote": "Processor shall promptly and in any event within ten (10) business days of the date of cessation of any Services",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA section 10.3 sets 10 business days after the services end. The Appendix 1 storage limit says deletion within 10 days of the request."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/integrations",
+          "quote": "Export data to your warehouse and analytics platforms.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Export is described for warehouses and analytics via API and webhooks. Terms section 13.3 says Usage Data may not be exported. No general export in open file formats found."
+    },
+    "breach_notice": {
+      "value": "without undue delay",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/dpa",
+          "quote": "Processor shall notify Controller without undue delay upon Processor becoming aware of a Personal Data Breach",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA section 8.1 (no fixed hours). The privacy policy says authorities are notified within 72 hours."
+    },
+    "governing_law": {
+      "value": [
+        "SE"
+      ],
+      "evidence": [
+        {
+          "url": "https://timeedit.com/terms",
+          "quote": "The Agreement shall be governed by Swedish law, without reference to the choice and conflict of law provisions thereof.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stockholm District Court is the first-instance court (terms section 22.1)."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/platform/ai",
+          "quote": "TimeEdit AI sits above Curriculum, Workload, Scheduling and Engagement",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "AI is described as a layer on top of the scheduling and curriculum platform, not as the core product. The vendor does not say whether AI is sold as a separate add-on."
+    },
+    "ai_providers": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The AI page names only customer-chosen assistants (ChatGPT, Claude, Copilot) that connect via MCP. No model provider processing TimeEdit customer content is named on the pages checked. Trust centre AI pages are not readable in cache."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/platform/ai",
+          "quote": "Your data stays inside your TimeEdit environment and is never used to train external models.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The vendor says data is never used to train external models. It does not say whether TimeEdit's own models are excluded, and DPA Appendix 1 section 6 allows processing for developing and improving the Service."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No zero-retention statement for AI model providers found on the pages checked. Trust centre AI pages are not readable in cache."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement found on whether an institution admin can disable the AI features."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Trust centre lists an 'AI Governance' document and an 'AI Overview' page, but their contents are not readable in the cached copy."
+    },
+    "certifications": {
+      "value": [
+        "iso27001",
+        "cyber-essentials"
+      ],
+      "evidence": [
+        {
+          "url": "https://timeedit.com/trust",
+          "quote": "TimeEdit is certified under ISO/IEC 27001 and holds Cyber Essentials certification",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Trust centre also shows a G-Cloud listing, which is a UK public procurement framework rather than a security certification."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://trust.timeedit.com/",
+          "quote": "The Trust Center provides an overview of our security posture, detailed security controls, compliance documentation, a subprocessor list",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Hosted on trust.timeedit.com (SafeBase). Documents require the 'Get access' step."
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest"
+      ],
+      "evidence": [
+        {
+          "url": "https://timeedit.com/integrations",
+          "quote": "Encryption at rest and in transit",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Customer-managed keys and end-to-end encryption were not found."
+    },
+    "pentest": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/trust",
+          "quote": "View & download sensitive information",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "A 'Pentest Report' is listed under certifications and reports on the trust centre, behind the access request. The integrations page also says 'Regular penetration testing' without a report."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No vulnerability disclosure policy or bug bounty found. /.well-known/security.txt and /security were not found (404)."
+    },
+    "incidents": {
+      "value": "none found",
+      "evidence": [],
+      "note": "Searched the web for breach notices, regulator decisions and fines. None found for TimeEdit. Privacy policy and trust centre were read."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.academy.timeedit.com/",
+          "quote": "Service status",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Link in the site header and academy footer. The status page itself was not opened."
+    },
+    "sso": {
+      "value": [
+        "saml"
+      ],
+      "evidence": [
+        {
+          "url": "https://timeedit.com/integrations",
+          "quote": "Enterprise SSO and identity provider integration.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Integrations page lists SAML 2.0 with Azure AD, Okta and OneLogin as providers, and LDAP."
+    },
+    "federation": {
+      "value": [
+        "swamid"
+      ],
+      "evidence": [
+        {
+          "url": "https://metadata.swamid.se/?showEntity=609",
+          "quote": "entityID = https://se.timeedit.net/ki",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "TimeEdit SP entities are registered in SWAMID (Karolinska Institutet entity cached). Search results also showed other Swedish universities. No eduGAIN listing checked."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "SCIM is not named on the integrations page, which lists SAML 2.0, LDAP and the REST API."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement on multi-factor authentication for local accounts found on the pages checked."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Product list includes an 'Admin' product, but no statement on an institution admin console with usage reports was found."
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/platform/scheduling/scheduling",
+          "quote": "Complete Audit Trails",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Listed as a scheduling feature. What the logs contain and who can view them was not checked."
+    },
+    "lms_integration": {
+      "value": [
+        "canvas",
+        "moodle",
+        "blackboard",
+        "brightspace"
+      ],
+      "evidence": [
+        {
+          "url": "https://timeedit.com/integrations",
+          "quote": "Sync course structures and schedules with your LMS.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Canvas, Blackboard, Moodle and Brightspace are named on the integrations page. Google Classroom is also named. LTI version is not stated."
+    },
+    "vpat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Accessibility statement page lists no VPAT or ACR download. No VPAT found in search results."
+    },
+    "wcag_level": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/accessibility",
+          "quote": "This web application is partially compliant with the Web Content Accessibility Guidelines version 2.2 AA standard",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vendor's own standard is WCAG 2.2 AA; it states partial compliance and lists non-compliances with planned fixes through 2027."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/accessibility",
+          "quote": "This accessibility statement applies to the TimeEdit Academic Operations platform.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Statement last reviewed 21 September 2026. It refers to the European Accessibility Act (Directive (EU) 2019/882)."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Trust centre lists no HECVAT. Search results did not show one."
+    },
+    "ferpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on the pages checked. Customers named on the trust page include US schools, but no FERPA statement found."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No HIPAA or BAA statement found on the pages checked."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Accessibility statement cites UK and EU rules only. No Section 508 statement found."
+    },
+    "state_privacy": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No CCPA, NY Ed Law 2-d or Student Data Privacy Consortium terms found in terms, DPA or privacy policy."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "UK is a listed hosting location for some sub-processors, but no UK transfer addendum or IDTA found."
+    },
+    "au_privacy": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No Australian Privacy Principles statement, IRAP assessment or Australian hosting statement found. Australia appears only as a sub-processor location."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 supply-chain statement found on the pages checked."
+    },
+    "free_plan": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The /pricing page returned 404 in the cache. The homepage links to demos only. No free plan or trial found."
+    },
+    "price_individual": {
+      "value": "not published",
+      "evidence": [
+        {
+          "url": "https://www.timeedit.com",
+          "quote": "Get a demo",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Pricing is sold via demo and contact (the homepage calls to action are 'Get a Demo' and 'Talk to an Expert'). No price list found."
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Terms describe a per-agreement subscription with fees set in the order form. No site or campus licence wording found."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not applicable to a university-only product, and no student or academic discount wording found."
+    },
+    "pricing_public": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.timeedit.com",
+          "quote": "Get a demo",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No prices on the homepage, about page or product pages checked. /pricing returned 404 in the cache."
+    },
+    "capabilities": {
+      "value": [
+        "exam"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.timeedit.com",
+          "quote": "Schedule exams",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Main jobs are timetabling, curriculum management and workload planning, which are not in the option list. Exam scheduling is the only listed job that matches."
+    },
+    "primary_capability": {
+      "value": "other",
+      "evidence": [
+        {
+          "url": "https://www.timeedit.com",
+          "quote": "Build timetables",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "others": [
+        "Scheduling",
+        "Curriculum",
+        "Workload"
+      ],
+      "note": "Named as Scheduling Suite, Curriculum Suite and Workload Suite on the homepage."
+    },
+    "platforms": {
+      "value": [
+        "web"
+      ],
+      "evidence": [
+        {
+          "url": "https://timeedit.com/accessibility",
+          "quote": "The web application has been tested against the Web Content Accessibility Guidelines (WCAG) 2.2 AA standard.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "A mobile application exists (accessibility page, 'BrowserStack App Accessibility for our mobile application'), but its operating systems are not stated."
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Only English is shown in the website language menu. Product interface languages were not found."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/integrations",
+          "quote": "Our REST API provides full programmatic access to all platform capabilities",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Public developer hub at developer.timeedit.com with API reference and an API-key login."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/terms",
+          "quote": "All intellectual property rights regarding the Service, equipment, software, manuals or other property",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Proprietary software: terms section 9.1 says the Service and software remain TimeEdit's property."
+    },
+    "self_host": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://timeedit.com/terms",
+          "quote": "The Customer has no right to access code (e.g., object code and source code) to the software of the Service",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Described as a SaaS service (DPA). No on-premise or self-hosted option found."
+    }
+  }
+}

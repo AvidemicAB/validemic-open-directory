@@ -1,0 +1,422 @@
+{
+  "id": "panopto",
+  "name": "Panopto",
+  "website": "https://www.panopto.com",
+  "tagline": "Video platform for recording, hosting, searching and sharing video for universities and companies, with LMS integrations and add-ons for AI features",
+  "category": "meetings",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Panopto, Inc.",
+      "evidence": [
+        { "url": "https://www.panopto.com/privacy-panopto-user/", "quote": "how Panopto, Inc. and its subsidiaries and affiliates", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        { "url": "https://www.panopto.com/privacy-panopto-user/", "quote": "Panopto is a multinational organization that is headquartered in the United States", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Read the privacy policies, DPA, terms, about and news pages. The vendor's 2021 news release says K1 Investment Management, LLC made a significant investment, but does not describe K1 as parent or owner. A web search cited Wikipedia naming K1 as parent; not used, as it is not a vendor source and ownership was not confirmed."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [],
+      "note": "No separate parent company found (see Parent company), so the vendor country applies."
+    },
+    "eu_representative": {
+      "value": "named",
+      "evidence": [
+        { "url": "https://www.panopto.com/privacy-website/", "quote": "Our representative in the European Union for the purposes of compliance with the GDPR is Panopto EMEA Limited", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Named as an entity: Panopto EMEA Limited, which the same policy describes as UK-based."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        { "url": "https://www.panopto.com/privacy-panopto-user/", "quote": "Attn: Data Protection Officer", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Postal address to the Data Protection Officer and an email address; no named person."
+    },
+    "hosting_regions": {
+      "value": ["US", "CA", "IE", "AU", "JP", "SG"],
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "United States, Canada, Ireland, Australia, Japan or Singapore, as selected by Customer", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Regions listed for AWS web hosting. The customer chooses the region. The default region is not stated."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.panopto.com/privacy-panopto-user/", "quote": "The Services Panopto provides to its Customers primarily include a video hosting platform", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "eu_residency": {
+      "value": "option",
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "United States, Canada, Ireland, Australia, Japan or Singapore, as selected by Customer", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Ireland is among the regions the customer can select. The Elai add-on lists Germany as an option for AWS hosting."
+    },
+    "cloud_providers": {
+      "value": ["aws"],
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/security/", "quote": "Panopto runs on secure AWS cloud infrastructure", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "transfer_mechanism": {
+      "value": ["dpf", "sccs"],
+      "evidence": [
+        { "url": "https://www.panopto.com/privacy-panopto-user/", "quote": "Panopto complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF)", "retrievedAt": "2026-11-16" },
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "Transfers of EU Area Personal Data (except UK Personal Data) by Customer to Panopto in Third Countries are subject to the SCCs", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The DPF certification is stated by the vendor. The dataprivacyframework.gov listing was not confirmed (the search did not return it)."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "the third-party Sub-Processors currently listed at Exhibit C", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Full list is Exhibit C of the public DPA PDF. The trust center shows a shorter list (4 entries)."
+    },
+    "subprocessors_count": {
+      "value": 24,
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "Sub-Processors for Panopto Services", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Distinct named third parties across the Panopto and Elai sub-processor tables in Exhibit C. Affiliate rows (Panopto and Elai group companies) are not counted. AWS and Pendo.io appear in both tables and are counted once."
+    },
+    "subprocessors_non_eea": {
+      "value": 22,
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "Sub-Processors for Panopto Services", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Of the 24 counted, 22 list a location outside the EU/EEA, or list locations that include one. Contentsquare (France) and the Moderation api (Denmark) are the two with EU-only locations. Affiliates excluded."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "(which such notice may be via email or via the Services)", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "DPA 6.3: at least 30 days notice before a new sub-processor is added. Exception for urgent changes, notified as soon as reasonably practicable."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://www.panopto.com/data-processing-agreement/", "quote": "Download Data Processing Agreement (English)", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "Panopto is the Processor or Sub-Processor", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The privacy policy states Panopto processes personal data under the customer's direction. The website privacy policy (not the product) is separate."
+    },
+    "privacy_policy_date": {
+      "value": "2024-01-11",
+      "evidence": [
+        { "url": "https://www.panopto.com/privacy-panopto-user/", "quote": "Last updated: January 11, 2024", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Authorized User Privacy Policy. The website visitor policy and the website terms are separate documents."
+    },
+    "retention_stated": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "Customer is solely responsible for its data retention obligations", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No retention period for customer content during the term. The privacy policy says Panopto may retain personal data 'for any lawfully permitted period of time'."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "within ninety (90) days after such expiration or termination", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "DPA 4.10. Backup copies and audit logs are excluded from that period and kept under internal retention policies."
+    },
+    "data_export": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "DPA 4.10 says the customer may export personal data during the term with existing features. The export formats are not stated."
+    },
+    "breach_notice": {
+      "value": "without undue delay after confirmation of a Personal Data Breach",
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "Panopto shall notify Customer without undue delay after confirmation of a Personal Data Breach", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No hour limit stated."
+    },
+    "governing_law": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The Technology Services Agreement says claims are governed by the laws and jurisdiction in the Order Form, which is not public. The website Terms of Service (Delaware) cover the websites only."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/0a2d6eb7-8d4f-46d5-a7f1-226dfb2dab82/Panopto_Technology-Services-Agreement.pdf", "quote": "The Technology Services include or may include AI Services", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "AI features are sold as add-ons (AI Video Studio, Access AI, Knowledge Insights, MCP Server) and also included in some plans."
+    },
+    "ai_providers": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The DPA sub-processor list names voice, transcription, avatar and translation providers (Microsoft Azure, ElevenLabs, AssemblyAI, Speechmatics, Omni.ai and others), but does not say which model provider serves which feature."
+    },
+    "trains_on_content": {
+      "value": "opt-in",
+      "evidence": [
+        { "url": "https://www.panopto.com/panopto-ai-statement/", "quote": "We do not use customer content, prompts, or AI outputs to train AI models shared across customers without explicit permission", "retrievedAt": "2026-11-16" },
+        { "url": "https://assets.panopto.com/asset/0a2d6eb7-8d4f-46d5-a7f1-226dfb2dab82/Panopto_Technology-Services-Agreement.pdf", "quote": "with Customer’s prior express written opt-in", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "TSA section 3(d) also allows Panopto to use de-identified and aggregated data, and Service Data after de-identification, to develop the services. The TSA says Panopto will not use Service Data to train AI models unless it is de-identified first."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement on zero data retention at the AI model providers was found."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "AI add-ons are bought as separate products. No statement on an admin switch to disable AI features was found."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The Technology Services Agreement mentions the EU AI Act and an AI governance program, but no public EU AI Act statement was found on the AI pledge or other pages checked."
+    },
+    "certifications": {
+      "value": ["iso27001", "iso27017", "iso27018", "soc2-type2", "csa-star"],
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/security/", "quote": "Panopto holds ISO 27001, ISO 27017, ISO 27018, ISO 9001, and TX-RAMP Level 2 certifications", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.panopto.com/capabilities/security/", "quote": "is SOC 2 Type II compliant", "retrievedAt": "2026-11-16" },
+        { "url": "https://compliance.panopto.com/", "quote": "CAIQ v4.0.3 - STAR Self Assessment - March 2025", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The trust center lists CSA STAR Level 1 as a self-assessment (CAIQ). ISO 9001 and TX-RAMP Level 2 are claimed but not in the option list. The SOC 2 report and ISO certificates are behind a request-access form and were not opened."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.panopto.com/legal/", "quote": "Panopto’s Trust Center", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest"],
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/security/", "quote": "Video content is encrypted at rest using AES-256 and in transit using TLS", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Customer-managed keys and end-to-end encryption are not mentioned."
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/security/", "quote": "annual penetration testing are part of Panopto’s ongoing security program", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Trust center lists a 2026 web application penetration test summary, but it sits behind a request-access form and was not opened."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        { "url": "https://www.panopto.com/responsible-disclosure/", "quote": "Responsible Vulnerability Disclosure Program", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No monetary bounty; the policy says rewards are non-monetary."
+    },
+    "incidents": {
+      "value": "none found",
+      "evidence": [],
+      "note": "Searched web results for breaches and regulator fines: none involving Panopto. Service-disruption notices on the status page (Nov 2026) are operational, not security incidents. Only vendor pages and search results were checked, not regulator databases."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://trust.panopto.com/", "quote": "All Systems Operational", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "sso": {
+      "value": ["saml"],
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/security/", "quote": "Panopto integrates with SAML-based identity providers", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "federation": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Web search for InCommon, eduGAIN and national federation entries returned no Panopto-specific listing."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Security page mentions 'automated provisioning and deprovisioning' via HRIS and identity systems, but SCIM is not named."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "MFA is enforced through the customer's identity provider. MFA for local accounts is not stated."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/security/", "quote": "Administrative reporting is built into the platform", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/security/", "quote": "Panopto provides audit logs, viewer tracking, and exportable completion data", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "lms_integration": {
+      "value": ["lti", "canvas", "moodle", "blackboard", "brightspace"],
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/integrations/", "quote": "LMS connections (such as Canvas, Blackboard, Moodle, and Brightspace) use LTI", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "vpat": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/security/", "quote": "VPAT documentation is available on request", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The trust center lists accessibility conformance reports (VCMS and Mobile Apps), behind a request-access form."
+    },
+    "wcag_level": {
+      "value": "2.2-aa",
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/accessibility/", "quote": "documents the platform’s conformance with WCAG 2.2 Level AA", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The accessibility page also says the platform was evaluated against WCAG 2.1 AA."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://compliance.panopto.com/", "quote": "Panopto Web Accessibility Statement", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "hecvat": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Trust center lists 'Panopto US HECVAT 4.03'. The linked document returned non-text data and could not be read, so access level (full, lite or on request) is not confirmed."
+    },
+    "ferpa": {
+      "value": "statement",
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/security/", "quote": "Panopto supports compliance with GDPR, FERPA, Section 508, and WCAG 2.1 AA", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "HIPAA and BAA not mentioned in the pages checked."
+    },
+    "section_508": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/accessibility/", "quote": "documents the platform’s conformance with WCAG 2.2 Level AA and Section 508 standards", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "state_privacy": {
+      "value": ["ccpa"],
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "Panopto shall not Sell Personal Data", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The DPA names the CCPA in its definition of Data Protection Laws. No SDPC, NY Ed Law 2-d or other state student-data agreement was found."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "the International Data Transfer Addendum to the EU Commission standard contractual clauses", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "au_privacy": {
+      "value": ["au-hosting"],
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/7b34b3f1-cc21-423d-8db8-770ec573a3e5/Panopto_Data-Processing-Agreement_2026.pdf", "quote": "United States, Canada, Ireland, Australia, Japan or Singapore, as selected by Customer", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Australia is one of the selectable AWS hosting regions. No Australian Privacy Principles statement or IRAP assessment was found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "NIS2 not mentioned in the pages checked."
+    },
+    "free_plan": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Pricing page offers demos. A free plan or free trial is not stated."
+    },
+    "price_individual": {
+      "value": "not published",
+      "evidence": [
+        { "url": "https://www.panopto.com/pricing/", "quote": "Pricing is customized rather than published at a flat rate", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Pricing page says plans are for enterprises, higher education and large teams, based on organisation size. A site or campus licence is not described."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No academic or student discount stated in the pages checked."
+    },
+    "pricing_public": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.panopto.com/pricing/", "quote": "Pricing is customized rather than published at a flat rate", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "capabilities": {
+      "value": ["lecture-capture", "lms", "video-meetings", "storage"],
+      "evidence": [
+        { "url": "https://www.panopto.com/company/about-panopto/", "quote": "to record lectures, training sessions, and expert knowledge", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.panopto.com/capabilities/integrations/", "quote": "LMS connections (such as Canvas, Blackboard, Moodle, and Brightspace) use LTI", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.panopto.com/capabilities/integrations/", "quote": "Panopto integrates with Microsoft Teams, Zoom, Webex, Slack, and other collaboration platforms to capture sessions automatically", "retrievedAt": "2026-11-16" },
+        { "url": "https://www.panopto.com/privacy-panopto-user/", "quote": "video hosting platform with tools for creating, managing and distributing video", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "primary_capability": {
+      "value": "other",
+      "others": ["video knowledge platform"],
+      "evidence": [
+        { "url": "https://www.panopto.com/company/about-panopto/", "quote": "Panopto is the video knowledge platform that helps enterprises and universities capture, manage, and share knowledge at scale", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "platforms": {
+      "value": ["web"],
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/content-creation/", "quote": "Panopto’s in-browser editor lets creators trim recordings, remove silences", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Authorized user privacy policy mentions a Panopto mobile application, but no operating system is named."
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Only the website language switcher was found (English, French, German, Italian, Japanese, Spanish, Korean). The product interface languages are not stated."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.panopto.com/privacy-panopto-user/", "quote": "Interact with a Panopto application programming interface (API)", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Listed in the data-collection section of the privacy policy. No API documentation page was located."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://assets.panopto.com/asset/0a2d6eb7-8d4f-46d5-a7f1-226dfb2dab82/Panopto_Technology-Services-Agreement.pdf", "quote": "owns all Intellectual Property Rights in and to the Services", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "self_host": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.panopto.com/capabilities/security/", "quote": "on-premises deployment is available for organizations with specific data residency requirements", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Platform's On-Premises Addendum is referenced in the Technology Services Agreement."
+    }
+  }
+}

@@ -1,0 +1,505 @@
+{
+  "id": "papers",
+  "name": "Papers",
+  "website": "https://www.papersapp.com",
+  "tagline": "Desktop and web reference manager for saving, reading, annotating and citing research papers, with optional AI chat over PDFs",
+  "category": "reference",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Digital Science & Research Solutions Inc.",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/terms/",
+          "quote": "ReadCube is operated by Digital Science & Research Solutions Inc",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/privacy/",
+          "quote": "a Delaware corporation with offices at 625 Massachusetts Ave, Cambridge, MA 02139, USA",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "Digital Science",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/",
+          "quote": "A Digital Science solution",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vendor pages name Digital Science as the brand and operator. The ultimate owner is not named on the pages read."
+    },
+    "parent_country": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Parent HQ country not stated on pages read (privacy, terms, data protection, security, VPAT, pricing). Not searched further."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Checked privacy policy and terms. Only a London (UK) address is given for Europe; no Article 27 representative named."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/privacy/",
+          "quote": "please email us at support@readcube.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No named DPO. Privacy contact is support@readcube.com."
+    },
+    "hosting_regions": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/privacy/",
+          "quote": "much of the ReadCube infrastructure, is based in the United States",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated as \"much of\" the infrastructure; no full region list published on pages read."
+    },
+    "local_first": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Pages read do not say whether the desktop app works fully local-only. Sync is listed as a feature."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No EU data-residency statement found on pages read."
+    },
+    "cloud_providers": {
+      "value": [
+        "aws"
+      ],
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/security/",
+          "quote": "ReadCube Papers uses Amazon Web App Hosting Services (AWS) for data storage",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "transfer_mechanism": {
+      "value": [
+        "dpf"
+      ],
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/privacy/",
+          "quote": "Digital Science & Research Solutions Inc. participates in the EU-US Data Privacy Framework and the UK Extension to the EU-US Data Privacy Framework",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Self-certification stated on the privacy policy. Not yet checked on dataprivacyframework.gov."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/data-protection-policy/",
+          "quote": "ReadCube may engage the following group and third party entities",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Listed on the data protection policy page, last update March 26, 2025."
+    },
+    "subprocessors_count": {
+      "value": 11,
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/data-protection-policy/",
+          "quote": "OpenAI OpCo, LLC",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "3 group affiliates plus 8 third-party providers. The page says not all are used for every user."
+    },
+    "subprocessors_non_eea": {
+      "value": 9,
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/data-protection-policy/",
+          "quote": "Digital Science & Research Solutions Ltd",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "UK affiliate plus 8 US third-party providers. Romanian and German affiliates are in the EEA."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No notice process for new sub-processors stated on pages read."
+    },
+    "dpa": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Looked at /dpa (404), the terms, data protection and privacy pages. No DPA found. A web search did not surface one for ReadCube Papers."
+    },
+    "role": {
+      "value": "controller",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/privacy/",
+          "quote": "We are responsible for the processing of EU and UK Personal Data",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated for personal data in the privacy policy. Terms also say Digital Science may use User Content to operate the service. No processor terms found."
+    },
+    "privacy_policy_date": {
+      "value": "2026-03-19",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/privacy/",
+          "quote": "Last Updated: March 19, 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "retention_stated": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Privacy policy says personal data is kept only as long as needed. No retention period for user content found."
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Terms say content may be destroyed on suspension or termination. No time frame stated."
+    },
+    "data_export": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No export statement found on pages read. Terms advise keeping a local copy."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No breach-notification window found on pages read."
+    },
+    "governing_law": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/terms/",
+          "quote": "governed by and construed in accordance with the laws of the Commonwealth of Massachusetts",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Massachusetts law with JAMS arbitration in Middlesex County."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/terms/",
+          "quote": "Artificial intelligence is an integral part of certain ReadCube features.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "ai_providers": {
+      "value": [
+        "openai"
+      ],
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/data-protection-policy/",
+          "quote": "OpenAI OpCo, LLC",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Listed as language learning model provider."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/terms/",
+          "quote": "We will not use your inputs for our own training purposes.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Terms state this for Digital Science. Terms of model providers not checked."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on pages read."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on pages read."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not found on pages read."
+    },
+    "certifications": {
+      "value": [
+        "iso27001"
+      ],
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/security/",
+          "quote": "ISO/IEC 27001:2013 Certified",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Covers Digital Science information security and privacy management system; ReadCube Papers included."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/security/",
+          "quote": "We provide this overview so that you can better understand the security measures",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "encryption": {
+      "value": [
+        "in-transit"
+      ],
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/security/",
+          "quote": "Your files are sent to our servers over a secure channel (HTTPS)",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "pentest": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No penetration-test statement found on pages read."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/security/",
+          "quote": "report security issues to security@readcube.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "incidents": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No incident search done against primary sources."
+    },
+    "federation": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No eduGAIN or national federation listing on pages read."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/pricing/",
+          "quote": "Admin dashboard",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Listed under the Enterprise plan only."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on pages read."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on pages read."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on pages read."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/vpat/",
+          "quote": "Digital Science & Research Solutions, Inc. Accessibility Conformance Report International Edition",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "VPAT 2.4 report date Aug 24, 2023. Covers the web application only."
+    },
+    "wcag_level": {
+      "value": "2.1-aa",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/vpat/",
+          "quote": "Level AA: Yes",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "VPAT lists WCAG 2.1 Level AA as supported. Report dated Aug 24, 2023."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The /accessibility/ page returned 404."
+    },
+    "section_508": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/vpat/",
+          "quote": "Revised Section 508 standards published January 18, 2017 and corrected January 22, 2018",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Per VPAT listing."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The privacy policy references the UK Extension to the DPF. No UK addendum or IDTA found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on pages read."
+    },
+    "free_plan": {
+      "value": "trial-only",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/pricing/",
+          "quote": "Or try Plus for 30 days, no credit card required.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Trial is 30 days of Plus. Essentials is paid."
+    },
+    "price_individual": {
+      "value": "$10 per month (Essentials, monthly)",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/pricing/",
+          "quote": "$10 per month",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Yearly Essentials is $95 per user/year. Academics get 40% off. Plus is $20 per user/month."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/pricing/",
+          "quote": "Enterprise plans can be customized to include as many users as you need.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/pricing/",
+          "quote": "Academics take 40% off",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/pricing/",
+          "quote": "$10 per month",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Essentials and Plus are priced. Enterprise is by quote only."
+    },
+    "capabilities": {
+      "value": [
+        "literature-search",
+        "reference-management",
+        "citation-formatting",
+        "paper-chat",
+        "summarize-papers"
+      ],
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/pricing/",
+          "quote": "Search metadata for millions of research publications.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "primary_capability": {
+      "value": "reference-management",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/pricing/",
+          "quote": "Ideal for students and academic professionals needing core reference management, plus AI.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": [
+        "web",
+        "ios",
+        "android",
+        "browser-extension",
+        "word-addin"
+      ],
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/pricing/",
+          "quote": "Fast syncing across web, desktop, and iOS/Android devices.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "api": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Terms mention APIs but no public API documentation found."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://about.readcube.com/terms/",
+          "quote": "ReadCube is owned by or licensed to Digital Science and/or its affiliates",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "self_host": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on pages read."
+    }
+  }
+}

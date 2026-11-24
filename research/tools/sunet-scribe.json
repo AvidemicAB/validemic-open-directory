@@ -1,0 +1,573 @@
+{
+  "id": "sunet-scribe",
+  "name": "Sunet Scribe",
+  "website": "https://www.sunet.se/services/samarbete/sunet-scribe",
+  "tagline": "Swedish national speech-to-text service for universities and research organisations: uploads of audio and video are transcribed with speaker identification and exported as text or subtitles, run in Sunet's own Swedish data centres",
+  "category": "transcription",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Vetenskapsrådet (Swedish Research Council), operating through Sunet",
+      "evidence": [
+        {
+          "url": "https://www.sunet.se/om-sunet/information-om-behandling-av-personuppgifter/",
+          "quote": "Vetenskapsrådet, där Sunet är en avdelning",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The DPA names Vetenskapsrådet/Sunet as processor. Sunet is a department of the Swedish Research Council, so the agency is the contracting entity."
+    },
+    "vendor_country": {
+      "value": "SE",
+      "evidence": [
+        {
+          "url": "https://www.sunet.se",
+          "quote": "Tulegatan 11, Stockholm",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "Vetenskapsrådet (Swedish Research Council)",
+      "evidence": [
+        {
+          "url": "https://www.sunet.se",
+          "quote": "Sunet är en del av Vetenskapsrådet",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_country": {
+      "value": "SE",
+      "evidence": [
+        {
+          "url": "https://www.sunet.se/om-sunet/information-om-behandling-av-personuppgifter/",
+          "quote": "Vetenskapsrådet är en statlig myndighet",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        {
+          "url": "https://www.sunet.se",
+          "quote": "Tulegatan 11, Stockholm",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Established in Sweden (EU)."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.sunet.se/om-sunet/information-om-behandling-av-personuppgifter/",
+          "quote": "Hos Vetenskapsrådet finns ett dataskyddsombud som nås via dataskyddsombudet@vr.se",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No named DPO found."
+    },
+    "hosting_regions": {
+      "value": ["SE"],
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/281641270/Om+tj%C3%A4nsten",
+          "quote": "All transcription and processing take place in Sunet's own data centres in Sweden",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/303269234/Dataskydd+och+personuppgifter",
+          "quote": "Uploaded audio and video files are stored and processed automatically to generate and further refine text-based results within the service.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Cloud service: uploads are processed on Sunet servers. No local-only mode is described."
+    },
+    "eu_residency": {
+      "value": "default",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/281641270/Om+tj%C3%A4nsten",
+          "quote": "All transcription and processing take place in Sunet's own data centres in Sweden",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "cloud_providers": {
+      "value": ["own"],
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/281641270/Om+tj%C3%A4nsten",
+          "quote": "All transcription and processing take place in Sunet's own data centres in Sweden",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Sunet's own data centres. The service agreement says Sunet uses no external sub-contractors for operation of the service."
+    },
+    "transfer_mechanism": {
+      "value": ["none-needed"],
+      "evidence": [
+        {
+          "url": "https://sunet.drive.sunet.se/public.php/dav/files/dqHH45DNr8csKNa/",
+          "quote": "Personuppgiftsbiträdet har inte rätt att överföra personuppgifter till tredjeland eller till internationella organisationer.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The DPA (section 7 of the instructions) forbids transfers outside the EU/EEA for processing."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://sunet.drive.sunet.se/public.php/dav/files/dqHH45DNr8csKNa/",
+          "quote": "Inga underbiträden anlitas för denna tjänst.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Sub-processor list is Annex 2 of the sample DPA. It states that no sub-processors are used."
+    },
+    "subprocessors_count": {
+      "value": 0,
+      "evidence": [
+        {
+          "url": "https://sunet.drive.sunet.se/public.php/dav/files/xC7c3g82be2FpeQ/",
+          "quote": "Sunet använder i dagsläget inga externa underleverantörer för drift eller hantering av kunddata inom tjänsten.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Zero listed sub-processors per the sample DPA annex and the sample service agreement."
+    },
+    "subprocessors_non_eea": {
+      "value": 0,
+      "evidence": [
+        {
+          "url": "https://sunet.drive.sunet.se/public.php/dav/files/dqHH45DNr8csKNa/",
+          "quote": "Personuppgiftsbiträdet har inte rätt att överföra personuppgifter till tredjeland eller till internationella organisationer.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://sunet.drive.sunet.se/public.php/dav/files/dqHH45DNr8csKNa/",
+          "quote": "ska skriftligen meddela den Personuppgiftsansvarige om",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA clause 12.6 requires written notice of a new sub-processor, with a 30-day right to object under clause 12.7. The annex currently lists none."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/281641280/Best%C3%A4ll+tj%C3%A4nsten",
+          "quote": "Completed sample agreements are available below.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "A sample DPA (SCR-999-P, dated 1 April 2026) is publicly downloadable. Signed copies are issued per customer under the order process."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/303269234/Dataskydd+och+personuppgifter",
+          "quote": "acts as the data processor in accordance with the signed Data Processing Agreement (DPA)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The connected organisation is the controller."
+    },
+    "privacy_policy_date": {
+      "value": "unknown",
+      "note": "The privacy notice at sunet.se is the Swedish Research Council's general notice for accounts and newsletters and shows no last-updated date. Scribe content terms are in the DPA."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/303269234/Dataskydd+och+personuppgifter",
+          "quote": "Material is automatically deleted no later than seven (7) days after upload.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "note": "DPA clause 17.1 requires deletion or return of data after termination 'utan onödigt dröjsmål' (without undue delay), with no fixed time frame. Service agreement says data is deleted after transcription per retention schedule."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://www.sunet.se/services/samarbete/sunet-scribe",
+          "quote": "export i formaten TXT, RTF, JSON, SRT och VTT",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Transcripts and subtitles export in open text formats. Export of the original audio or video is not stated."
+    },
+    "breach_notice": {
+      "value": "without undue delay",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/303269272/Incidenthantering+och+ansvar",
+          "quote": "the affected organisation is informed without undue delay",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No fixed hour limit stated in the public pages or the sample DPA."
+    },
+    "governing_law": {
+      "value": ["SE"],
+      "evidence": [
+        {
+          "url": "https://sunet.drive.sunet.se/public.php/dav/files/dqHH45DNr8csKNa/",
+          "quote": "Om Personuppgiftsbiträdet inte är en statlig myndighet ska tvister slutligen avgöras i allmän domstol enligt svensk rätt.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Swedish law per the sample DPA clause 21 (government bodies: disputes settled by the government)."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/281641270/Om+tj%C3%A4nsten",
+          "quote": "Sunet Scribe allows users to generate AI-powered transcriptions of audio and video material",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "ai_providers": {
+      "value": ["open-weights-self-hosted"],
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/281641270/Om+tj%C3%A4nsten",
+          "quote": "All transcription and processing take place in Sunet's own data centres in Sweden, without external subcontractors.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Models run in Sunet's infrastructure: KB-Whisper (National Library of Sweden), NB-Whisper, OpenAI Whisper Large-v3 weights, plus Pyannote Community-1 for diarisation. No external model API is named."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/281641283/Vanliga+fr%C3%A5gor+och+svar",
+          "quote": "Uploaded material and generated transcriptions are not used for model training, product development or other secondary purposes.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "ai_zero_retention": {
+      "value": "not-applicable",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/display/scribe",
+          "quote": "All processing takes place locally, without transferring data to external providers or third-party cloud services.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No external AI provider processes content, so zero-retention terms at a provider do not apply."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "note": "Looked in the FAQ, admin role description and product pages. No option to disable the AI transcription is stated, and the service is AI-based by design."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "Searched the Scribe wiki, Sunet security and privacy pages for an EU AI Act statement. None found."
+    },
+    "certifications": {
+      "value": "none-found",
+      "note": "Checked the Scribe security pages, Sunet security page and wiki. No ISO, SOC or similar certification named."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/293601886/S%C3%A4kerhet+i+Sunet+Scribe",
+          "quote": "Security and privacy are therefore fundamental design principles of the service, rather than additional features.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Security section in the Scribe wiki, plus the general Sunet security page at sunet.se/om-sunet/sakerhet."
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest"],
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/303269205/Skydd+av+kommunikation",
+          "quote": "All traffic to and within the system is encrypted using TLS.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/293601825/Kryptering+av+anv%C3%A4ndardata",
+          "quote": "Encryption covers uploaded files (including filenames), generated transcriptions, and the keys required to decrypt them.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stored content uses AES-256-GCM with per-user RSA keys, unlocked by a user passphrase that Sunet does not hold. Losing the passphrase means permanent loss of content. This is not customer-managed keys."
+    },
+    "pentest": {
+      "value": "unknown",
+      "note": "No penetration test report or summary found in the Scribe or Sunet security pages."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        {
+          "url": "https://www.sunet.se/om-sunet/sakerhet",
+          "quote": "Sunet tillämpar coordinated vulnerability disclosure (CVD)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No bug bounty. Sunet publishes a security.txt and a hall of fame for verified contributions."
+    },
+    "incidents": {
+      "value": "none found",
+      "note": "Searched the web for Sunet Scribe security or personal data incidents in primary sources (regulator decisions, court records, vendor notices). None found. A 2026 incident at Instructure (Canvas) is a different vendor and is not counted."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.sunet.se/kontakt/support-for-sunets-tjanster",
+          "quote": "Aktuell driftstatus för alla våra tjänster finns på status.sunet.se",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "sso": {
+      "value": ["saml"],
+      "evidence": [
+        {
+          "url": "https://www.sunet.se/services/samarbete/sunet-scribe",
+          "quote": "Inloggning i Sunet Scribe sker med federerad inloggning (Swamid/SAML).",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Federated login only. Scribe accounts are not local to the service."
+    },
+    "federation": {
+      "value": ["swamid"],
+      "evidence": [
+        {
+          "url": "https://www.sunet.se/services/samarbete/sunet-scribe",
+          "quote": "Inloggning i Sunet Scribe sker med federerad inloggning (Swamid/SAML).",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "scim": {
+      "value": "unknown",
+      "note": "No automated provisioning is described. Users are activated and deactivated by local administrators in the admin interface."
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "No local accounts are described. Access 'follows its authentication requirements, including any multi-factor authentication policies' of the user's organisation, so MFA is set by the connected organisation."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/281641283/Vanliga+fr%C3%A5gor+och+svar",
+          "quote": "Local administrators can manage users and user groups within their own organisation",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Admins also monitor and export usage statistics for their organisation."
+    },
+    "audit_logs": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/303269276/Loggning+och+sp%C3%A5rbarhet",
+          "quote": "Access to logs is restricted to authorised operations personnel.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Administrative actions are logged, but the logs are for Sunet operations staff, not shown to institution administrators."
+    },
+    "lms_integration": {
+      "value": "unknown",
+      "note": "Named integrations are Sunet Play (Kaltura REACH) and Sunet Drive. No LMS (LTI, Canvas, Moodle, etc.) is named in the Scribe pages."
+    },
+    "vpat": {
+      "value": "none-found",
+      "note": "The accessibility statement is published (DOS Act format). No VPAT or ACR found on the Scribe wiki or sunet.se."
+    },
+    "wcag_level": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/334104453/Tillg%C3%A4nglighetsredog%C3%B6relse+f%C3%B6r+Sunet+Scribe",
+          "quote": "Sunet Scribe is partially compliant with the requirements of the Swedish Act on Accessibility to Digital Public Services.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The statement lists known WCAG failures, with fixes in progress, and says it is based on an internal audit."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/334104453/Tillg%C3%A4nglighetsredog%C3%B6relse+f%C3%B6r+Sunet+Scribe",
+          "quote": "Sunet Scribe is partially compliant with the requirements of the Swedish Act on Accessibility to Digital Public Services.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "No HECVAT found in the Scribe wiki, the sunet.se pages or the sample documents."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "note": "No FERPA statement found. The contract framework is Swedish GDPR."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "HIPAA is not mentioned."
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "Section 508 is not mentioned. The accessibility statement cites the Swedish DOS Act."
+    },
+    "state_privacy": {
+      "value": "none-found",
+      "note": "No SDPC agreement, CCPA terms or NY Ed Law 2-d terms found. The contract is a Swedish GDPR DPA."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "note": "UK GDPR transfer terms are not mentioned, and no transfers are stated."
+    },
+    "au_privacy": {
+      "value": "none-found",
+      "note": "No Australian privacy statement or IRAP assessment found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "NIS2 is not mentioned in the Scribe pages. The security pages cite MSB incident-reporting rules for Swedish government bodies."
+    },
+    "free_plan": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/display/scribe",
+          "quote": "The service is available to organisations connected to Sunet.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Only connected organisations can order the service. No individual plan."
+    },
+    "price_individual": {
+      "value": "no individual plan; organisation price SEK 1,050 per month base fee plus SEK 0.55 per transcribed minute (from 1 January 2027)",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/281641270/Om+tj%C3%A4nsten",
+          "quote": "In addition to the base fee, a usage-based charge of SEK 0.55 per transcribed minute applies.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Base fee is SEK 1,050 for under 1,000 FTE students, SEK 1,900 for 1,001-9,000 and SEK 2,600 above 9,000. Setup fee SEK 10,000. Quota option: blocks of 4,000 minutes at SEK 950 per month."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/281641270/Om+tj%C3%A4nsten",
+          "quote": "Connected organisations can choose between two pricing models (1 or 2) when signing up for the service.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The service is priced per organisation, by FTE students."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "note": "No separate discount is described. The pricing is already set for connected research and education organisations."
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/281641270/Om+tj%C3%A4nsten",
+          "quote": "The prices below apply from 1 January 2027.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "capabilities": {
+      "value": ["interview-transcription"],
+      "evidence": [
+        {
+          "url": "https://www.sunet.se/services/samarbete/sunet-scribe",
+          "quote": "Primära målgrupper för tjänsten är forskare och studenter som behöver exempelvis transkribering av intervjumaterial",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Also generates subtitles (SRT, VTT) with speaker identification. Subtitles are not a listed option."
+    },
+    "primary_capability": {
+      "value": "interview-transcription",
+      "evidence": [
+        {
+          "url": "https://www.sunet.se/services/samarbete/sunet-scribe",
+          "quote": "Primära målgrupper för tjänsten är forskare och studenter som behöver exempelvis transkribering av intervjumaterial",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": ["web"],
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/281641283/Vanliga+fr%C3%A5gor+och+svar",
+          "quote": "Sunet Scribe has a web interface that also works well on smaller screens.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No mobile app; no plans stated."
+    },
+    "languages": {
+      "value": "unknown",
+      "note": "Interface languages are not stated. The FAQ lists transcription languages: Swedish, other Nordic languages, English, German, French, Spanish, Italian, Portuguese, Dutch, Russian and Ukrainian."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/281641270/Om+tj%C3%A4nsten",
+          "quote": "The service's public API, which allows connected organisations to develop their own integrations.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "API documentation is published at scribe.sunet.se/api/docs."
+    },
+    "open_source": {
+      "value": "partly",
+      "evidence": [
+        {
+          "url": "https://wiki.sunet.se/spaces/scribe/pages/287801803/Teknisk+dokumentation",
+          "quote": "All code is licensed under Apache License 2.0.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Scribe UI, Backend and Worker repositories are Apache 2.0 on GitHub. The speech models and Pyannote diarisation keep their own licences."
+    },
+    "self_host": {
+      "value": "unknown",
+      "note": "Not stated. The code is open, but the page describes operation only in Sunet's data centres."
+    }
+  }
+}

@@ -1,0 +1,618 @@
+{
+  "id": "nvivo",
+  "name": "NVivo",
+  "website": "https://lumivero.com/products/nvivo/",
+  "tagline": "Qualitative and mixed-methods research software: NVivo Desktop installed locally, and NVivo AI Cloud as a separate browser-based subscription",
+  "category": "statistics",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Lumivero, LLC",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/data-protection-addendum/",
+          "quote": "Lumivero, LLC or one of its Affiliates",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Privacy policy also names Lumivero, LLC. Related entities include Addinsoft SAS (France), Lumivero Pty. Ltd. (Australia), Lumivero UK Ltd. (UK) and others."
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/global-privacy-policy/",
+          "quote": "Lumivero’s main office is located in Denver, Colorado, USA",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Privacy policy and DPA name Lumivero, LLC and its affiliates; no parent or owner named on the pages checked."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Lumivero, LLC is US-based. Privacy policy and DPA name no GDPR Art. 27 representative. Affiliates in France and the UK are listed but not named as representative."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/global-privacy-policy/",
+          "quote": "Our DPO is responsible for all matters relating to privacy and data protection",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPO contact is an email address on the privacy policy; no DPO is named."
+    },
+    "hosting_regions": {
+      "value": [
+        "EU",
+        "US",
+        "CA",
+        "SG",
+        "AU"
+      ],
+      "evidence": [
+        {
+          "url": "https://lumivero.com/products/nvivo/",
+          "quote": "NVivo AI Cloud runs on Microsoft Azure, with data hosted in five regions: Europe, the United States, Canada, Singapore, and Australia.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Applies to NVivo AI Cloud only. The vendor lists Europe; mapped to EU. Privacy policy says account, entitlement and usage data may be processed in the US regardless of hosting region. NVivo Desktop stores data on the user's device."
+    },
+    "local_first": {
+      "value": "optional-sync",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/security-and-compliance/",
+          "quote": "For desktop and customer-hosted deployments, you manage where your project data is stored.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "NVivo Desktop is installed on the computer. Team sharing needs NVivo Collaboration Cloud or Collaboration Server (vendor page), so cloud sharing is optional. No vendor sentence says Desktop sends nothing to the vendor, so 'yes' is not claimed."
+    },
+    "eu_residency": {
+      "value": "enterprise-only",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/global-privacy-policy/",
+          "quote": "Enterprise customers may specify the data center they wish to use.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Other customers get the region closest to them by default. Region choice for AI Cloud is otherwise stated as varying by product."
+    },
+    "cloud_providers": {
+      "value": [
+        "aws",
+        "azure"
+      ],
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/security-and-compliance/",
+          "quote": "Our cloud services use providers such as Amazon Web Services and Microsoft Azure",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "NVivo AI Cloud runs on Microsoft Azure per the AI Cloud FAQ."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "sccs"
+      ],
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/security-and-compliance/",
+          "quote": "Lumivero uses appropriate safeguards for international transfers of personal data, including Standard Contractual Clauses",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA also covers the UK Addendum. No EU-US Data Privacy Framework statement found on the pages checked."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/data-protection-addendum/",
+          "quote": "The Processor may continue to use the following Subprocessors:",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "List is in clause 8 of the DPA on the public DPA page. /subprocessors and /legal-information/subprocessors return 404."
+    },
+    "subprocessors_count": {
+      "value": 22,
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/data-protection-addendum/",
+          "quote": "The Processor may continue to use the following Subprocessors:",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Count of names in the DPA list: Anthropic, Auth0, AWS, Cloudflare, Cryptlex, EA Send Mail, Google Analytics, Hotjar, LogRocket, Mailchimp, Marketo, Microsoft Azure, Netsuite, OpenAI, Pardot, QWeb, Salesforce, SendGrid, Sentry.io, Speechmatics, Zendesk, Zuora."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The DPA lists subprocessor names without their processing locations."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/data-protection-addendum/",
+          "quote": "it will provide Customer with adequate notice as required by law",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The DPA commits to notice of new subprocessors but does not say whether notice comes before the change or how it is sent."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/data-protection-addendum/",
+          "quote": "This Addendum shall apply to Personal Data that Lumivero or a Lumivero Affiliate processes in the course of providing the Cloud Services to Customer",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The DPA text is publicly readable on the Lumivero site (last updated October 5, 2026). Not checked whether a signed copy is self-serve."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/data-protection-addendum/",
+          "quote": "Processor means any Lumivero Group Member which processes Customer Personal Data;",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://lumivero.com/legal-information/data-protection-addendum/",
+          "quote": "Lumivero shall process Personal Data of Customer’s personnel as a Controller in connection with the Agreement",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Processor for customer project data in the cloud. Controller for customer personnel data and for website and marketing data."
+    },
+    "privacy_policy_date": {
+      "value": "2026-09-18",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/global-privacy-policy/",
+          "quote": "Last Updated: September 18, 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/products/nvivo/",
+          "quote": "AI processing uses zero data retention after task completion",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated for AI processing only. No retention period is given for project data at rest."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/data-protection-addendum/",
+          "quote": "promptly and in any event within 30 days of the date of cessation of any Services involving the Processing of Customer Personal Data",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA clause 13: return or delete customer personal data within 30 days of service end. The processor may keep data where law requires it."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/end-user-license-agreement/",
+          "quote": "QSR shall make such Customer Data available to Customer in a mutually agreed upon format",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "EULA section 8.2: on cloud termination, data made available in a mutually agreed format. No open format named; per-user export of items to BibTeX/RIS is not on these pages."
+    },
+    "breach_notice": {
+      "value": "without undue delay (no fixed hours stated)",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/data-protection-addendum/",
+          "quote": "The Processor shall notify Customer without undue delay upon the Processor becoming aware of a Personal Data Breach",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "governing_law": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/end-user-license-agreement/",
+          "quote": "then this Agreement shall be governed by and construed in accordance with the laws of the Commonwealth of Massachusetts, USA",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "EULA section 10.3 (QSR end-user licence): Massachusetts law where the customer has principal offices or residence in North America. Other customers not covered by the excerpt read."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/products/nvivo-desktop/",
+          "quote": "No. NVivo Desktop does not include AI features.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "AI is in NVivo AI Cloud, a separate cloud subscription; NVivo Desktop has no AI features. Desktop was the main product here, so AI is marked optional."
+    },
+    "ai_providers": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "DPA subprocessor list names Anthropic and OpenAI, but no page ties them to NVivo AI features. The @RISK Anthropic reference is a different product."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/global-privacy-policy/",
+          "quote": "Lumivero does not use your data or inputs to train or improve any artificial intelligence or machine-learning model.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "ai_zero_retention": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/products/nvivo/",
+          "quote": "AI processing uses zero data retention after task completion",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated by the vendor for AI processing. Not stated separately for each model provider."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No admin setting to turn off AI found on the pages checked."
+    },
+    "ai_act_statement": {
+      "value": "no",
+      "evidence": [],
+      "note": "Searched product, AI information and legal pages; no EU AI Act statement found."
+    },
+    "certifications": {
+      "value": [
+        "soc2-type2"
+      ],
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/security-and-compliance/",
+          "quote": "Lumivero has completed an independent SOC 2 Type II examination",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Cyber Essentials Plus on the same page covers Predict! and SharpCloud, not NVivo. TX-RAMP is listed for NVivo Cloud on the trust centre but is not an option in this list."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/security-and-compliance/",
+          "quote": "The Lumivero Trust Center provides our security and privacy documentation",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Trust centre at trust.lumivero.com lists CAIQ and HECVAT documents for NVivo Cloud."
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest"
+      ],
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/security-and-compliance/",
+          "quote": "Customer data in our cloud services is encrypted in transit and at rest.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated for cloud services. No customer-managed keys or end-to-end encryption stated."
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/security-and-compliance/",
+          "quote": "engage independent specialists to perform penetration testing",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No summary or report published."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No vulnerability disclosure policy or security.txt found on the pages checked."
+    },
+    "incidents": {
+      "value": "none found",
+      "evidence": [],
+      "note": "Web search for Lumivero breaches or security incidents returned no Lumivero result (only unrelated companies). Vendor pages state no incident."
+    },
+    "status_page": {
+      "value": "no",
+      "evidence": [],
+      "note": "No status page link found on the product, security or trust pages checked."
+    },
+    "sso": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not confirmed. The vendor says several products support SSO (SAML 2.0, OpenID Connect) but does not name NVivo."
+    },
+    "federation": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "No eduGAIN or national federation listing found on the pages checked."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No SCIM provisioning found."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/security-and-compliance/",
+          "quote": "Depending on the product, multi-factor authentication is either built in or provided through your identity provider.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Not stated for NVivo specifically."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Team and organisation access for NVivo AI Cloud is on a waitlist. No admin console described on the pages checked."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "AI Cloud has an exportable audit trail of AI steps for the researcher. No admin-visible audit log described."
+    },
+    "lms_integration": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No LMS integration found on the pages checked."
+    },
+    "vpat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No Lumivero VPAT for NVivo found on the vendor site (accessibility page returns 404). A web search found only an older QSR VPAT for NVivo 10 and 11 hosted by a university, not published by Lumivero."
+    },
+    "hecvat": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Trust centre lists 'HECVAT - NVivo Cloud' (updated 11/07/2025) with a Download button, but does not say whether it is the Full or Lite version. Not guessed."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No FERPA statement or school-official terms found on the pages checked."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No BAA offer found."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not mentioned on the pages checked."
+    },
+    "state_privacy": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "DPA lists the California Consumer Privacy Act among laws that 'may' apply. No CCPA terms, SDPC or NY Ed Law 2-d agreement found."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/security-and-compliance/",
+          "quote": "including Standard Contractual Clauses and the UK Addendum where applicable.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "au_privacy": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "Privacy policy names the Australian regulator and Lumivero Pty. Ltd., but no APP statement, IRAP assessment or AU hosting found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 statement found."
+    },
+    "free_plan": {
+      "value": "trial-only",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/resources/free-trial/",
+          "quote": "Free, 14-day trial.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Free trial for NVivo. No permanent free plan found."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://shop.lumivero.com/qda-and-research/nvivo",
+          "quote": "Volume pricing and co-term licensing for multi-user deployments",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Organisation licensing is sold through sales. Team plans are on a waitlist per the vendor."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The shop has a Student licence tier, but its prices were not captured, so no discount is claimed."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://shop.lumivero.com/qda-and-research/nvivo",
+          "quote": "$99 Annual",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Shop prices are shown for add-ons (Transcription, Collaboration Cloud). The main licence prices were not visible in the cached page."
+    },
+    "capabilities": {
+      "value": [
+        "qualitative-coding",
+        "literature-search",
+        "interview-transcription",
+        "statistics",
+        "data-visualization",
+        "notes"
+      ],
+      "evidence": [
+        {
+          "url": "https://lumivero.com/products/nvivo-desktop/",
+          "quote": "Organize and code multiple data sources in one project.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://lumivero.com/products/nvivo-desktop/",
+          "quote": "Transcribe audio and video research materials and bring transcripts directly into your analysis workflow.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://lumivero.com/products/nvivo-desktop/",
+          "quote": "Add a quantitative lens to qualitative data using coding frequencies, cross-group comparisons, cases, attributes, and descriptive statistics.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://lumivero.com/products/nvivo-desktop/",
+          "quote": "Turn your analysis into clear visual outputs using word frequencies, cluster maps, diagrams, charts, and statistical plots",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://lumivero.com/products/nvivo-desktop/",
+          "quote": "Add memos, annotations, and interpretations throughout your analysis.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://lumivero.com/products/nvivo/",
+          "quote": "Collaboration, transcription, paper search, and AI assistance are built into the solution",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Literature-search (paper search) is listed for NVivo AI Cloud, not Desktop."
+    },
+    "primary_capability": {
+      "value": "qualitative-coding",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/products/nvivo-desktop/",
+          "quote": "Turn interviews, open-ended surveys, documents, and multimedia data into insights you can trust.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The vendor describes qualitative data analysis as the core job; coding is the main method."
+    },
+    "platforms": {
+      "value": [
+        "windows",
+        "macos",
+        "web"
+      ],
+      "evidence": [
+        {
+          "url": "https://lumivero.com/products/nvivo-desktop/",
+          "quote": "NVivo Desktop is available for both Windows and Mac.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://lumivero.com/products/nvivo/",
+          "quote": "Access it from any modern browser (Chrome, Firefox, Safari, or Edge)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Web is the NVivo AI Cloud browser app. Desktop is Windows and Mac."
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No interface language list found. Transcription is stated to be available in 43 languages (add-on, not the interface)."
+    },
+    "api": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No public API for NVivo found on the pages checked."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/end-user-license-agreement/",
+          "quote": "QSR’s proprietary web-based software program",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "EULA calls the cloud service proprietary; the desktop software is licensed under the same QSR end-user terms."
+    },
+    "self_host": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://lumivero.com/legal-information/security-and-compliance/",
+          "quote": "For desktop and customer-hosted deployments, you manage where your project data is stored.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vendor refers to customer-hosted deployments and NVivo Collaboration Server, which is installed by the customer. Exact server terms not read."
+    },
+    "price_individual": {
+      "value": "not published",
+      "evidence": [],
+      "note": "Shop page (shop.lumivero.com/qda-and-research/nvivo) lists Researcher, Commercial, Government and Student tiers, but the main licence prices did not render in the cached HTML. Only add-on prices appear in text ($99 Annual, $499 Annual, $30 One-time)."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "lumivero.com/accessibility/ returned 404; /legal-information/accessibility/, /accessibility-statement/ and /nvivo-accessibility/ returned an access-limited page. No WCAG claim found."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Same pages as wcag_level: 404 or access-limited (503). No statement read."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "note": "No separate parent company found (see Parent company), so the vendor country applies."
+    }
+  }
+}

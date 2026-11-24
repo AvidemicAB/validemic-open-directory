@@ -1,0 +1,402 @@
+{
+  "id": "keenious",
+  "name": "Keenious",
+  "website": "https://keenious.com",
+  "tagline": "Academic search engine that finds research papers from a question or from your own text, on the web and in Word and Google Docs, with an AI chat about papers and uploaded PDFs",
+  "category": "ai",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Keenious AS",
+      "evidence": [
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "Keenious AS is the controller for the processing described in this policy.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "vendor_country": {
+      "value": ["NO"],
+      "evidence": [
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "Its registered address is Keenious AS, Sykehusvegen 23, Tromsø, Troms 9019, Norway.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "note": "Read the privacy policy, terms of use, about page (founders and team, started at UiT Tromsø), contact page and help centre. No parent or owner company is named. A web search found only minority investors listed on third-party sites, no acquisition."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "note": "No separate parent company found (see Parent company)."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        { "url": "https://keenious.com/legal/terms-of-use", "quote": "We are registered in Norway and have our registered office at Sykehusvegen 23", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Vendor is established in Norway (EEA)."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "If you have questions about this notice or our practices, contact privacy@keenious.com", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No named DPO in the privacy policy. The VPAT names a compliance co-ordinator for accessibility only."
+    },
+    "hosting_regions": {
+      "value": ["IE", "BE", "FR", "DE"],
+      "evidence": [
+        { "url": "https://keenious.com/universities", "quote": "All data is processed in the EU across Ireland, Belgium, France, and Germany.", "retrievedAt": "2026-11-17" },
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "Keenious processes and hosts prompts, messages, files, and AI responses within the European Union (specifically Ireland, Belgium, and Germany).", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The privacy policy names Ireland, Belgium and Germany; the universities page and the environment article add France."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://help.keenious.com/en/articles/185112-what-is-keenious", "quote": "recommends relevant research papers by analyzing your text with powerful artificial intelligence algorithms", "retrievedAt": "2026-11-16" },
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "Content the user submits, for example, documents, selected excerpts, queries, instructions, and feedback.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Text and PDFs are sent to Keenious for analysis. No local-only mode found in the help centre, download page or pricing."
+    },
+    "eu_residency": {
+      "value": "default",
+      "evidence": [
+        { "url": "https://keenious.com/universities", "quote": "All data is processed in the EU across Ireland, Belgium, France, and Germany.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "cloud_providers": {
+      "value": ["gcp", "aws"],
+      "evidence": [
+        { "url": "https://help.keenious.com/en/articles/303459-keenious-and-the-environment.md", "quote": "Our infrastructure, hosted across Google Cloud and AWS, also draws water for cooling", "retrievedAt": "2026-11-17" },
+        { "url": "https://help.keenious.com/en/articles/726997-how-keenious-uses-generative-ai", "quote": "Chat runs on Claude Haiku 5.5 hosted on Google Cloud EU region", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "transfer_mechanism": {
+      "value": "unknown",
+      "note": "Privacy policy, terms and universities page state EU processing but name no DPF, SCCs or BCRs for any transfer. The sub-processor list and DPA were not readable (Trust Center documents need access requests)."
+    },
+    "subprocessors_public": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "A list of subprocessors, including their locations, is available upon request.", "retrievedAt": "2026-11-17" },
+        { "url": "https://keenious.com/universities", "quote": "Published list of all subprocessors and their hosting locations.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Sources differ: the universities page says the list is published, the privacy policy says on request and names a PDF ('Approved Subprocessors For Keenious.pdf') that is not linked. The Trust Center (trust.keenious.com) holds documents behind 'Request Access'. No public list could be read."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "note": "List not readable (see Sub-processors public). Named providers in public pages: Google (Cloud, Gemini), AWS, Anthropic (Claude via Google Cloud), Stripe (payments), Intercom (help centre). Not counted as a list."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "note": "Sub-processor list not readable."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "note": "No notice of new sub-processors found in the privacy policy, terms or universities page. DPA not readable."
+    },
+    "dpa": {
+      "value": "enterprise-only",
+      "evidence": [
+        { "url": "https://keenious.com/for/librarians", "quote": "Institutional licences include a full data processing agreement.", "retrievedAt": "2026-11-17" },
+        { "url": "https://keenious.com/pricing", "quote": "GDPR-compliant DPA and EU hosting", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "DPA listed only for university (campus) licences; Free, Plus and Team plans have none stated.",
+      "note": "keenious.com/dpa returns 404. No public DPA text found."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "Keenious AS is the controller for the processing described in this policy.", "retrievedAt": "2026-11-17" },
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "Keenious acts as a processor on behalf of the user's organization, and the organization is the controller for those features.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Processor for institutional accounts; controller for individual users.",
+      "note": "Controller for direct users. Processor for institutional accounts."
+    },
+    "privacy_policy_date": {
+      "value": "2026-01",
+      "evidence": [
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "Last updated January 2026", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Month only; no day given."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "The default retention period for raw prompts and outputs is 24 hours, after which it will be deleted.", "retrievedAt": "2026-11-17" },
+        { "url": "https://keenious.com/legal/terms-of-use", "quote": "Keenious temporarily retains conversation content and uploaded files for up to one day.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Privacy policy also says inactive backup data is removed after 90 days."
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "note": "Privacy policy says data is deleted when no longer needed and backups after 90 days, but deletion of account data after termination is not described. DPA not readable."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://keenious.com/pricing", "quote": "export of whole result lists and bookmarks as CSV, RIS, BibTeX, CSL JSON, or formatted citations", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Exporting whole result lists is a Plus feature (included in campus licences).",
+      "note": "Result lists and bookmarks can be exported. Chats are deleted after one day; no chat export found."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "note": "No breach-notification window in the privacy policy, terms or universities page. DPA not readable."
+    },
+    "governing_law": {
+      "value": ["NO"],
+      "evidence": [
+        { "url": "https://keenious.com/legal/terms-of-use", "quote": "These conditions are governed by and interpreted following the laws of Norway", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        { "url": "https://keenious.com/universities", "quote": "the entire search engine works with or without the AI companion", "retrievedAt": "2026-11-17" },
+        { "url": "https://help.keenious.com/en/articles/726997-how-keenious-uses-generative-ai", "quote": "search results are retrieved from the index, not generated by a language model", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Generative AI is used in Chat and for research-area names. Search uses embeddings and keyword ranking."
+    },
+    "ai_providers": {
+      "value": ["anthropic", "google"],
+      "evidence": [
+        { "url": "https://help.keenious.com/en/articles/726997-how-keenious-uses-generative-ai", "quote": "Chat runs on Claude Haiku 5.5 hosted on Google Cloud EU region", "retrievedAt": "2026-11-17" },
+        { "url": "https://help.keenious.com/en/articles/726997-how-keenious-uses-generative-ai", "quote": "The short names shown for research areas are generated by a smaller, faster Gemini model.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Claude model is run on Google Cloud. Privacy policy also names Google Gemini as an LLM provider."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "Keenious does not use user prompts, inputs, or outputs to train its models or the models of its providers.", "retrievedAt": "2026-11-17" },
+        { "url": "https://keenious.com/legal/terms-of-use", "quote": "We do not use your inputs or outputs to train our models or our providers' models.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "Providers do not use the user's prompts or outputs to improve their models.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Keenious itself keeps prompts and outputs for 24 hours. No zero-retention or no-logging statement for the model providers found."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "note": "Universities and librarians pages list admin settings (welcome message, citation prompt, 2FA) and say campus AI guidance is coming, but no switch to turn the AI companion off."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act statement found in the privacy policy, terms, help centre (llms.txt index), universities or librarians pages."
+    },
+    "certifications": {
+      "value": ["iso27001"],
+      "evidence": [
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "operates an ISO 27001 certified information security management system", "retrievedAt": "2026-11-17" },
+        { "url": "https://help.keenious.com/en/articles/524547-keenious-s-iso27001-certification", "quote": "Our audit was conducted in December 2025 by Johanson Group and supported by Thoropass .", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Certificate itself not seen; the Trust Center page read lists 'No Certifications Added'."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://trust.keenious.com/", "quote": "Use this portal to learn about our governance posture as well as request access to our documentation.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Documents need 'Request Access' and were not requested. A fresh fetch on 2026-11-17 returned an empty script-rendered page; the 2026-11-16 copy is quoted."
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest"],
+      "evidence": [
+        { "url": "https://keenious.com/legal/privacy-policy", "quote": "User data is encrypted in transit and while being stored.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        { "url": "https://keenious.com/universities", "quote": "Certified security management with annual third-party penetration testing.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No report summary published; Trust Center documents are gated."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "note": "https://keenious.com/.well-known/security.txt and /security return 404. No disclosure policy in the help centre or legal pages."
+    },
+    "incidents": {
+      "value": "none-found",
+      "note": "Web searches for Keenious breaches, security incidents and Datatilsynet cases returned nothing about Keenious. No vendor notice found."
+    },
+    "status_page": {
+      "value": "unknown",
+      "note": "status.keenious.com does not resolve. No status page linked from the homepage, footer or sitemap."
+    },
+    "sso": {
+      "value": ["saml", "google", "microsoft"],
+      "evidence": [
+        { "url": "https://keenious.com/universities", "quote": "They sign in with your single sign-on over SAML, or with their institutional email address.", "retrievedAt": "2026-11-17" },
+        { "url": "https://help.keenious.com/en/articles/175069-how-do-i-create-a-keenious-account.md", "quote": "You can also sign up using Google or Microsoft.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "SAML SSO is part of the university licence; Google and Microsoft sign-in are open to all accounts."
+    },
+    "federation": {
+      "value": "none-found",
+      "note": "Web search for Keenious with Feide, eduGAIN and SWAMID found no listing. Federation metadata not searched directly."
+    },
+    "scim": {
+      "value": "unknown",
+      "note": "Not stated on pricing, universities, librarians or help pages."
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://keenious.com/universities", "quote": "Admins can require two-factor authentication for users and for admins separately.", "retrievedAt": "2026-11-17" },
+        { "url": "https://keenious.com/pricing", "quote": "Two-factor authentication (2FA) controls", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Help article describes authenticator-app 2FA with Optional, Enforced or Disabled institution policies."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://keenious.com/universities", "quote": "Institution admins get an Analytics tab in Keenious with a usage dashboard for your campus", "retrievedAt": "2026-11-17" },
+        { "url": "https://keenious.com/pricing", "quote": "Admin console for seat management", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Usage dashboard on university licences; Team plan has seat management only."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "note": "Privacy policy mentions internal audit logging as a security measure, but no admin-visible audit log is described."
+    },
+    "lms_integration": {
+      "value": "unknown",
+      "note": "Universities page names link resolver, SSO and Word add-in deployment. No LMS integration found."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://help.keenious.com/en/articles/184819-accessibility-external-vpat.md", "quote": "The results are published as a Voluntary Product Accessibility Template (VPAT)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The PDF is linked from the help article; it is dated February 2025 (updated May 2025) and labels the product version 'OUT OF DATE'. The universities page says a full VPAT is available on request."
+    },
+    "wcag_level": {
+      "value": "2.2-aa",
+      "evidence": [
+        { "url": "https://help.keenious.com/en/articles/184819-accessibility-external-vpat.md", "quote": "Keenious is assessed against the Web Content Accessibility Guidelines (WCAG) 2.2 at Level AA.", "retrievedAt": "2026-11-17" },
+        { "url": "https://keenious.com/universities", "quote": "Accessible by design, with a full VPAT available on request.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The same article lists nine criteria as Partially Supports and none as Does Not Support."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://help.keenious.com/en/articles/184819-accessibility-external-vpat.md", "quote": "To report an accessibility problem, email <contact@keenious.com>.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The help article is the page linked as 'Accessibility' in the site footer; keenious.com/accessibility returns 404."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "No HECVAT on keenious.com, help centre or Trust Center page read."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "note": "Not stated in the privacy policy, terms, universities page or help centre."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "Not stated on the pages read."
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "Not stated. The VPAT is the WCAG edition only."
+    },
+    "state_privacy": {
+      "value": "none-found",
+      "note": "No SDPC, CCPA or NY Ed Law 2-d terms found in the privacy policy or terms."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "note": "No UK transfer terms found; DPA not readable."
+    },
+    "au_privacy": {
+      "value": "none-found",
+      "note": "No Australian Privacy Principles statement, IRAP or Australian hosting found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "Not stated on the pages read."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://keenious.com/pricing", "quote": "The free plan has no time limit", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "price_individual": {
+      "value": "$10 / month, billed annually",
+      "evidence": [
+        { "url": "https://keenious.com/pricing", "quote": "$10 / month, billed annually", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Individual Plus plan, 'Starting at'. Team plan $20 / user / month, billed annually."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://keenious.com/pricing", "quote": "Annual campus license", "retrievedAt": "2026-11-17" },
+        { "url": "https://keenious.com/universities", "quote": "Keenious is licensed campus-wide so everyone at your institution gets the same access and library integration under one agreement.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Campus-wide only, priced by FTE; single-department licences are not offered (Team plan covers groups)."
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://keenious.com/pricing", "quote": "Students get 30% off annual Individual plans.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://keenious.com/pricing", "quote": "Custom quote by institution size", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Individual and Team prices are published. University pricing is by quote."
+    },
+    "capabilities": {
+      "value": ["literature-search", "paper-chat", "citation-graph", "citation-formatting"],
+      "evidence": [
+        { "url": "https://keenious.com/pricing", "quote": "Explore scholarly literature on the web, Microsoft Word, and Google Docs.", "retrievedAt": "2026-11-17" },
+        { "url": "https://keenious.com/legal/terms-of-use", "quote": "discussing uploaded PDFs", "retrievedAt": "2026-11-17" },
+        { "url": "https://keenious.com/for/researchers", "quote": "Open a key paper and follow its citations to the work that builds on it.", "retrievedAt": "2026-11-17" },
+        { "url": "https://keenious.com/for/researchers", "quote": "Formatted citations in styles such as APA, MLA, Chicago, Harvard, and Vancouver.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Bookmarks and RIS/BibTeX export feed reference managers (Zotero, EndNote, Mendeley); Keenious itself is not described as a reference manager. The universities page says the companion declines to write drafts or summarize a field."
+    },
+    "primary_capability": {
+      "value": "literature-search",
+      "evidence": [
+        { "url": "https://help.keenious.com/en/articles/185112-what-is-keenious", "quote": "Keenious is a new type of academic search engine that recommends relevant research papers", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "platforms": {
+      "value": ["web", "word-addin"],
+      "evidence": [
+        { "url": "https://keenious.com/pricing", "quote": "Web app, Microsoft Word, and Google Docs add-ins", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Also a Google Docs add-on (Google Workspace Marketplace), which has no option in the list."
+    },
+    "languages": {
+      "value": "unknown",
+      "note": "Interface languages not listed. The index covers 126-173 publication languages and Chat can explain in the user's language, but that is content, not the interface."
+    },
+    "api": {
+      "value": "unknown",
+      "note": "No public API documentation found on keenious.com, the sitemap or the help centre index."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://keenious.com/legal/terms-of-use", "quote": "the Keenious Products are our proprietary property", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "self_host": {
+      "value": "unknown",
+      "evidence": [
+        { "url": "https://keenious.com/universities", "quote": "Setup takes days with zero local installation.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No self-hosting option found; campus deployment is hosted by Keenious."
+    }
+  }
+}

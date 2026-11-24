@@ -1,0 +1,171 @@
+2026-11-14	tools/scispace	https://scispace.com
+2026-11-14	tools/scispace	https://scispace.com/privacy
+2026-11-14	tools/scispace	https://scispace.com/subprocessors
+2026-11-14	tools/scispace	https://docs.api.scispace.com/platform/data-privacy
+2026-11-14	tools/elicit	https://elicit.com/subprocessors
+2026-11-14	tools/elicit	https://elicit.com/trust
+2026-11-14	tools/elicit	https://elicit.com/security
+2026-11-14	tools/elicit	https://elicit.com/dpa
+2026-11-14	tools/elicit	https://elicit.com/accessibility
+2026-11-16	tools/endnote	https://endnote.com/buy/
+2026-11-16	tools/endnote	https://endnote.com/product-details/
+2026-11-16	tools/endnote	https://endnote.com/fusion/
+2026-11-16	tools/endnote	https://endnote.com/endnote-for-universities-libraries/
+2026-11-16	tools/endnote	https://endnote.com/endnote-site-license/
+2026-11-16	tools/endnote	https://endnote.com/student-license
+2026-11-16	tools/endnote	https://endnote.com/endnote-for-organizations-government/
+2026-11-16	tools/endnote	https://endnote.com/license/
+2026-11-16	tools/endnote	https://endnote.com/ada-compliance/
+2026-11-16	tools/endnote	https://endnote.com/blog/introducing-endnote-research-assistant-ai-powered-document-chat-and-translation/
+2026-11-16	tools/endnote	https://endnote.com/dpa
+2026-11-16	tools/endnote	https://endnote.com/trust
+2026-11-16	tools/endnote	https://endnote.com/security
+2026-11-16	tools/endnote	https://endnote.com/vpat
+2026-11-16	tools/endnote	https://endnote.com/pricing
+2026-11-16	tools/mendeley	https://www.mendeley.com
+2026-11-16	tools/mendeley	https://www.mendeley.com/privacy-policy
+2026-11-16	tools/mendeley	https://www.mendeley.com/terms
+2026-11-16	tools/mendeley	https://www.mendeley.com/pricing
+2026-11-16	tools/mendeley	https://www.mendeley.com/security
+2026-11-16	tools/mendeley	https://www.mendeley.com/accessibility
+2026-11-16	tools/chatgpt	https://openai.com/policies/privacy-policy/
+2026-11-16	tools/chatgpt	https://openai.com/policies/row-privacy-policy/
+2026-11-16	tools/chatgpt	https://openai.com/policies/terms-of-use/
+2026-11-16	tools/chatgpt	https://openai.com/policies/eu-terms-of-use/
+2026-11-16	tools/chatgpt	https://openai.com/policies/business-terms/
+2026-11-16	tools/chatgpt	https://openai.com/policies/data-processing-addendum/
+2026-11-16	tools/chatgpt	https://openai.com/policies/subprocessors/
+2026-11-16	tools/chatgpt	https://openai.com/enterprise-privacy/
+2026-11-16	tools/chatgpt	https://openai.com/chatgpt/edu/
+2026-11-16	tools/chatgpt	https://openai.com/chatgpt/pricing/
+2026-11-16	tools/chatgpt	https://openai.com/security-and-privacy/
+2026-11-16	tools/chatgpt	https://openai.com/policies/
+2026-11-16	tools/chatgpt	https://help.openai.com/en/articles/7039943-data-usage-for-consumer-services-faq
+2026-11-16	tools/chatgpt	https://help.openai.com/en/articles/8554400-chatgpt-edu-faq
+2026-11-16	tools/endnote	https://clarivate.com/download/data-processing-addendum/
+2026-11-16	tools/endnote	https://clarivate.com/accessibility/endnote/
+2026-11-16	tools/endnote	https://clarivate.com/accessibility/endnote-fusion/
+2026-11-16	tools/endnote	https://clarivate.com/privacy-center/notices-policies/privacy-policy/
+2026-11-16	tools/endnote	https://endnote.com/sdk-license-agreement/
+2026-11-16	tools/ouriginal	https://guides.turnitin.com/hc/en-us/articles/27377195682317
+2026-11-16	tools/nvivo	https://lumivero.com/subprocessors/
+2026-11-16	tools/nvivo	https://lumivero.com/trust/
+2026-11-16	tools/ouriginal	https://help.turnitin.com (redirects to guides.turnitin.com/hc/en-us/articles/24008452116749)
+2026-11-16	tools/nvivo	https://help-nv.qsrinternational.com/
+2026-11-16	tools/nvivo	https://help-nv.qsrinternational.com/desktop/
+2026-11-16	tools/nvivo	https://lumivero.com/support/
+2026-11-16	tools/nvivo	https://lumivero.com/legal-information/accessibility/
+2026-11-16	tools/nvivo	https://lumivero.com/accessibility-statement/
+2026-11-16	tools/nvivo	https://lumivero.com/nvivo-accessibility/
+2026-11-16	tools/nvivo	https://lumivero.com/legal-information/eula/
+2026-11-16	tools/nvivo	https://lumivero.com/academic-pricing/
+2026-11-16	tools/nvivo	https://lumivero.com/faq/
+2026-11-16	tools/nvivo	https://lumivero.com/nvivo-ai-assistant-faq/
+2026-11-16	tools/nvivo	https://lumivero.com/products/nvivo/system-requirements/
+2026-11-16	tools/nvivo	https://lumivero.com/resources/nvivo-system-requirements/
+2026-11-16	tools/mendeley	https://dev.mendeley.com/reference/
+2026-11-16	tools/endnote	https://clarivate.com/trust-center/
+2026-11-16	tools/endnote	https://clarivate.com/trust-center/security-compliance/
+2026-11-16	tools/endnote	https://clarivate.com/information-security/responsible-vulnerability-disclosure-program/
+2026-11-16	tools/endnote	https://clarivate.com/product-accessibility/
+2026-11-16	tools/endnote	https://endnote.com/privacy-policy/
+2026-11-16	tools/endnote	https://endnote.com/subprocessors
+2026-11-16	tools/endnote	https://status.clarivate.com/
+2026-11-16	tools/canvas	https://trust.instructure.com/d/canvas-lms-vpat/vjkWM6
+2026-11-16	tools/canvas	https://trust.instructure.com/d/instructure-third-party-service-provider-guide/dlbvTx?lng=en
+2026-11-16	tools/canvas	https://trust.instructure.com/d/canvas-mobile-apps-acr-vpat/dum55k
+2026-11-16	tools/chatgpt-edu	https://platform.openai.com/subprocessors
+2026-11-16	tools/openai-api	https://platform.openai.com/subprocessors
+2026-11-16	tools/openai-api	https://openai.com/policies/business-terms/
+2026-11-16	tools/mendeley	https://www.relx.com/
+2026-11-16	tools/mendeley	https://www.relx.com/about-us
+2026-11-16	tools/mendeley	https://www.relx.com/who-we-are
+2026-11-16	tools/matlab	https://www.mathworks.com/products/matlab.html
+2026-11-16	tools/matlab	https://www.mathworks.com/company/aboutus/policies_statements/privacy-policy.html
+2026-11-16	tools/matlab	https://www.mathworks.com/company/trust-center/privacy-policy.html
+2026-11-16	tools/matlab	https://ch.mathworks.com/company/trust-center/privacy-policy.html
+2026-11-16	tools/matlab	https://www.mathworks.com/company/aboutus/policies_statements/privacy-faq.html
+2026-11-16	tools/matlab	https://www.mathworks.com/store/terms
+2026-11-16	tools/matlab	https://www.mathworks.com/company/trust-center.html
+2026-11-16	tools/matlab	https://www.mathworks.com/company/trust-center/vulnerability-disclosure-policy.html
+2026-11-16	tools/matlab	https://www.mathworks.com/pricing-licensing.html
+2026-11-16	tools/inspera-originality	https://support.inspera.com/hc/en-us
+2026-11-16	tools/refworks	https://endnote.com/subprocessors
+2026-11-16	tools/refworks	https://endnote.com/fusion/
+2026-11-16	tools/refworks	https://endnote.com/terms/
+2026-11-16	tools/refworks	https://endnote.com/accessibility/
+2026-11-16	tools/gemini	https://www.cnil.fr/fr/cloture-de-linjonction-prononcee-lencontre-de-google-0
+2026-11-16	tools/microsoft-365	https://servicetrust.microsoft.com/
+2026-11-16	tools/microsoft-365	https://www.microsoft.com/microsoft-365 (fetch failed, no response)
+2026-11-16	tools/moodle	https://moodle.org
+2026-11-16	tools/moodle	https://moodle.org/privacy
+2026-11-16	tools/moodle	https://docs.moodle.org/en/Privacy
+2026-11-16	tools/moodle	https://moodlecloud.com/pricing
+2026-11-16	tools/onedrive	https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage
+2026-11-16	tools/onedrive	https://www.microsoft.com/en-us/microsoft-365/onedrive/onedrive-plans-and-pricing
+2026-11-16	tools/onedrive	https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans
+2026-11-16	tools/onedrive	https://www.microsoft.com/en-us/microsoft-365/onedrive/onedrive-features
+2026-11-16	tools/onedrive	https://www.microsoft.com/en-us/microsoft-365/onedrive/download
+2026-11-16	tools/teams	https://www.microsoft.com/microsoft-teams
+2026-11-16	tools/teams	https://www.microsoft.com/en-us/microsoft-teams/free
+2026-11-16	tools/teams	https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/pricing
+2026-11-16	tools/teams	https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options
+2026-11-16	tools/teams	https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software
+2026-11-16	tools/panopto	https://compliance.panopto.com/?requestAccessOpen=true&requestedResources=685c5ee9c5290fc8db281a63
+2026-11-16	tools/panopto	https://compliance.panopto.com/doc/trust?rid=695c11b06aa9d1f5618bb762&r=xuk8exlma8b8q94sgtxylb
+2026-11-16	tools/claude	https://claude.ai
+2026-11-16	tools/claude	https://claude.ai/trust
+2026-11-16	tools/turnitin	https://www.turnitin.com/pricing
+2026-11-16	tools/turnitin	https://www.turnitin.com/subprocessors
+2026-11-16	tools/turnitin	https://www.turnitin.com/terms-of-service
+2026-11-16	tools/turnitin	https://www.turnitin.com/privacy-policy
+2026-11-16	tools/turnitin	https://guides.turnitin.com/hc/en-us/articles/27377195682317
+2026-11-16	tools/turnitin	https://help.turnitin.com
+2026-11-16	tools/keenious	https://trust.keenious.com/documents (gated behind Request Access; not requested)
+2026-11-16	tools/whisper	https://openai.com/index/whisper/
+2026-11-16	tools/adobe-cc	https://www.adobe.com/legal/terms.html
+2026-11-16	tools/adobe-cc	https://www.adobe.com/privacy/dpa.html
+2026-11-16	tools/adobe-cc	https://www.adobe.com/legal/subprocessors.html
+2026-11-16	tools/adobe-cc	https://www.adobe.com/privacy/subprocessors.html
+2026-11-16	tools/adobe-cc	https://www.adobe.com/privacy/usage-data-faq.html
+2026-11-16	tools/adobe-cc	https://www.adobe.com/privacy/cross-border-data-transfers.html
+2026-11-16	tools/adobe-cc	https://www.adobe.com/privacy/cloud-hosting.html
+2026-11-16	tools/adobe-cc	https://www.adobe.com/privacy/product-improvement-program.html
+2026-11-16	tools/adobe-cc	https://www.adobe.com/privacy/generative-ai.html
+2026-11-16	tools/perplexity	https://www.dataprivacyframework.gov/list
+2026-11-16	tools/perplexity	https://hub-prod.perplexity.ai/hub/technical-faq/3rd-party-data
+2026-11-16	tools/inspera-assessment	https://support.inspera.com/hc/en-us
+2026-11-16	tools/whisper	https://openai.com/policies/privacy-policy/ (403)
+2026-11-16	tools/whisper	https://platform.openai.com/subprocessors (403)
+2026-11-16	tools/whisper	https://openai.com/policies/subprocessors/ (403)
+2026-11-16	tools/whisper	https://openai.com/policies/business-terms/ (403)
+2026-11-16	tools/whisper	https://openai.com/policies/terms-of-use/ (403)
+2026-11-16	tools/whisper	https://openai.com/index/whisper/ (403)
+2026-11-16	tools/scite	https://scite.ai/dpa (403 CloudFront block; WebFetch empty)
+2026-11-16	tools/scite	https://scite.ai/subprocessors (403 CloudFront block; WebFetch empty)
+2026-11-16	tools/scite	https://scite.ai/.well-known/security.txt (403 CloudFront block)
+2026-11-16	tools/research-rabbit	https://www.researchrabbit.ai/privacy-policy (body not rendered: heading and navigation only)
+2026-11-16	tools/research-rabbit	https://www.researchrabbit.ai/terms-of-service (body not rendered: heading and navigation only)
+2026-11-16	tools/ms-forms	https://forms.cloud.microsoft/ (JS-rendered, no text; forms.microsoft.com and forms.office.com redirect here)
+2026-11-16	tools/ms-forms	https://aka.ms/DPA (returned navigation shell, no DPA clause text)
+2026-11-16	tools/ms-forms	https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA (returned navigation shell, no DPA clause text)
+2026-11-16	tools/ms-forms	https://www.dataprivacyframework.gov/list (returned shell, no listing entries)
+2026-11-16	tools/ms-forms	https://learn.microsoft.com/en-us/compliance/assurance/assurance-microsoft-subprocessors (sub-processor list text not readable)
+2026-11-16	tools/ms-forms	https://learn.microsoft.com/en-us/microsoft-365/enterprise/o365-data-locations (requires authorization)
+2026-11-16	tools/ms-forms	https://www.microsoft.com/en-us/microsoft-365/microsoft-forms (page fetch timed out)
+2026-11-16	tools/deepl	https://deepl.safebase.us/item/data-processing-agreement (403; WebFetch tried once, 403)
+2026-11-16	tools/deepl	https://trust.deepl.com/ (redirects to deepl.safebase.us, 403)
+2026-11-16	tools/deepl	https://support.deepl.com/hc/en-us/articles/26380849099932-DeepL-infrastructure-and-data-protection (403; WebFetch tried once, 403)
+2026-11-16	tools/deepl	https://support.deepl.com/hc/en-us/ (403)
+2026-11-16	tools/grammarly	https://www.courtlistener.com/?q=Angwin+Superhuman+Platform (403, bot check; WebFetch 403)
+2026-11-16	tools/wiseflow	https://trust.uniwise.eu/ (403, fetch-page and WebFetch; holds DPA, sub-processors, privacy policy, terms, SLA)
+2026-11-16	tools/scopus-ai	https://www.scopus.com/ (Cloudflare 403 bot block; WebFetch tried once, 403)
+2026-11-16	tools/scopus-ai	https://www.scopus.com/privacy (Cloudflare 403; WebFetch redirects to id.elsevier.com login, not read)
+2026-11-16	tools/scopus-ai	https://www.scopus.com/pricing (Cloudflare 403 bot block)
+2026-11-16	tools/autotekst	https://nettskjema.no/a/databehandleravtale-autotekst (redirects to ID-porten login, error page; behind login)
+2026-11-16	tools/autotekst	https://autotekst.uio.no/login (Feide login; not logged in)
+# covidence: no blocked URLs (checked 2026-11-17)
+# No pages blocked for azure-openai (2026-11-17). azure.status.microsoft/en-us/status failed as too large, not blocked; status.cloud.microsoft used instead.
+2026-11-14	tools/elicit	https://elicit.com/dpa
+2026-11-14	tools/elicit	https://elicit.com/subprocessors
+2026-11-16	tools/grammarly	https://www.courtlistener.com/?q=Angwin+Superhuman+Platform (403 bot check, earlier run; WebFetch 403)

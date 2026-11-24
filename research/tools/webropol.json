@@ -1,0 +1,397 @@
+{
+  "id": "webropol",
+  "name": "Webropol",
+  "website": "https://webropol.com",
+  "tagline": "Finnish online survey and reporting platform (surveys, BI dashboards, event management, feedback collection and AI text analysis) sold as a subscription, hosted in Finland",
+  "category": "survey",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Webropol Oy",
+      "evidence": [
+        { "url": "https://webropol.co.uk/privacy-policy/", "quote": "Data controller Webropol Oy VAT ID: FI-17739602", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Named in the privacy statement as data controller and in the General Terms (2021 copy) as the contracting entity. The UK site is operated for the group; the UK subsidiary Webropol Limited is not the contracting party in the terms read."
+    },
+    "vendor_country": {
+      "value": "FI",
+      "evidence": [
+        { "url": "https://webropol.co.uk/privacy-policy/", "quote": "Huovitie 3, 00400 Helsinki, Finland", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Looked at the privacy statement, General Terms, the webropol.co.uk group page (Webropol Group) and the webropol.fi pages: no parent or owner named. A commercial company directory (DNB) lists Erfort Oy as a parent; that is a third-party listing and not a vendor statement, so it is not recorded here."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [],
+      "note": "No separate parent named by the vendor (see parent_company)."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        { "url": "https://webropol.co.uk/privacy-policy/", "quote": "Huovitie 3, 00400 Helsinki, Finland", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Vendor is established in Finland (EU)."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        { "url": "https://webropol.co.uk/privacy-policy/", "quote": "Contact for questions related to the register", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Postal address and phone for privacy questions; no named data protection officer found."
+    },
+    "hosting_regions": {
+      "value": ["FI"],
+      "evidence": [
+        { "url": "https://webropol.co.uk/survey-and-reporting/", "quote": "Redundant ISO 27001-certified server environment located in Finland", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://assets.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-14/documents/714773/182038370253656-terms-and-conditions-2022-04-06-1028.pdf", "quote": "The information the Client provides into the Service shall be retained within the Service until the Client removes the information or the Agreement terminates.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Hosted service; no local-only or offline mode stated on the pages read."
+    },
+    "eu_residency": {
+      "value": "default",
+      "evidence": [
+        { "url": "https://webropol.co.uk/privacy-policy/", "quote": "Webropol does not under any circumstance transfer or process personal data outside the EU or the EEA.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Statement covers personal data in the privacy statement; the same wording appears in the Finnish privacy statement at webropol.fi."
+    },
+    "cloud_providers": {
+      "value": ["unknown"],
+      "evidence": [],
+      "note": "The infrastructure or hosting provider is not named on the pages read. Listed subprocessors (see subprocessors_count) are not stated to be infrastructure providers."
+    },
+    "transfer_mechanism": {
+      "value": ["none-needed"],
+      "evidence": [
+        { "url": "https://webropol.co.uk/privacy-policy/", "quote": "Webropol does not under any circumstance transfer or process personal data outside the EU or the EEA.", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://webropol.fi/tietosuojaseloste/", "quote": "Seuraavat alihankkijat voivat olla tietosuojasääntelyn määritelmän mukaisina käsittelijöinä", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Listed in the Finnish privacy statement (Finnish language) under 'Webropolin alihankkijat'. The English privacy statement at webropol.co.uk does not list them. Subcontractor URLs at webropol.com/subprocessors and webropol.co.uk/subprocessors return 404."
+    },
+    "subprocessors_count": {
+      "value": 4,
+      "evidence": [
+        { "url": "https://webropol.fi/tietosuojaseloste/", "quote": "Telia Cygate Oy (y-tunnus 0752421-0)", "retrievedAt": "2026-11-16" },
+        { "url": "https://webropol.fi/tietosuojaseloste/", "quote": "Qumio Oy (y-tunnus 2466203-3)", "retrievedAt": "2026-11-16" },
+        { "url": "https://webropol.fi/tietosuojaseloste/", "quote": "DB PRO Services Oy (y-tunnus: 2974225-1)", "retrievedAt": "2026-11-16" },
+        { "url": "https://webropol.fi/tietosuojaseloste/", "quote": "Brevo (VAT: FR80498019298)", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Four entities in the Finnish privacy statement list: Telia Cygate Oy, Qumio Oy, DB PRO Services Oy and Brevo (email marketing). Scope in that statement is the client and user register."
+    },
+    "subprocessors_non_eea": {
+      "value": 0,
+      "evidence": [
+        { "url": "https://webropol.fi/tietosuojaseloste/", "quote": "17 rue de Salneuve, 75017, Paris, France", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Zero based on the listed addresses (Helsinki, Hyvinkää, Helsinki, Paris). The statement does not separately state where each subprocessor processes data."
+    },
+    "subprocessor_notice": {
+      "value": "page-only",
+      "evidence": [
+        { "url": "https://assets.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-14/documents/714773/182038370253656-terms-and-conditions-2022-04-06-1028.pdf", "quote": "shall notify the Client about a new subcontractor involved in the processing of Personal Data by updating the list", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "General Terms (12 April 2021 copy hosted on UK G-Cloud) say the notice is given by updating the list in the Service; the client may object within 14 days. Not verified against a current version of the terms."
+    },
+    "dpa": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No standalone DPA found: webropol.co.uk/dpa and webropol.com/dpa return 404. Section 6 'Processing of Personal Data' of the General Terms (12 April 2021 copy on UK G-Cloud) sets processor terms, but it is not a separate DPA document. Current version of the terms not found on official hosts."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        { "url": "https://assets.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-14/documents/714773/182038370253656-terms-and-conditions-2022-04-06-1028.pdf", "quote": "Webropol acts as a Processor and Client as a Controller as defined in Data", "retrievedAt": "2026-11-16" },
+        { "url": "https://webropol.co.uk/privacy-policy/", "quote": "Webropol may also use the data for marketing purposes", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Processor for customer survey data under the General Terms. Controller for its own client and user register (CRM, marketing contact data)."
+    },
+    "privacy_policy_date": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No last-updated date on the English privacy statement or the Finnish one read."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://assets.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-14/documents/714773/182038370253656-terms-and-conditions-2022-04-06-1028.pdf", "quote": "The information the Client provides into the Service shall be retained within the Service until the Client removes the information or the Agreement terminates.", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        { "url": "https://assets.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-14/documents/714773/182038370253656-terms-and-conditions-2022-04-06-1028.pdf", "quote": "as of the termination of the Agreement after which the data is deleted", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "One month after termination, per the 2021 General Terms copy."
+    },
+    "data_export": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Export is described for BI View dashboards, reports and insights ('export to various file formats'). Full export of survey and respondent data is not stated on the pages read."
+    },
+    "breach_notice": {
+      "value": "without undue delay (no hour limit stated)",
+      "evidence": [
+        { "url": "https://assets.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-14/documents/714773/182038370253656-terms-and-conditions-2022-04-06-1028.pdf", "quote": "notify the Client about Personal Data Breach without undue delay after Webropol has become aware of it", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "From the 2021 General Terms copy."
+    },
+    "governing_law": {
+      "value": ["FI"],
+      "evidence": [
+        { "url": "https://assets.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-14/documents/714773/182038370253656-terms-and-conditions-2022-04-06-1028.pdf", "quote": "The Agreement shall be governed by Finnish law.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Disputes go to amicable negotiation, then arbitration under the Finland Chamber of Commerce rules, seated in Helsinki (2021 copy)."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        { "url": "https://webropol.co.uk/webropol-modules/ai-text-analysis/", "quote": "Discover the Power of Webropol’s AI-Powered Text Analysis", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "AI Text Analysis is a separately offered module; the core survey product is not described as AI-based."
+    },
+    "ai_providers": {
+      "value": ["unknown"],
+      "evidence": [],
+      "note": "No model provider named on the AI Text Analysis pages (English and Finnish) or in the privacy statements."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement on model training or use of customer content for AI in the pages read. Searched the AI Text Analysis pages and the privacy statements."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement found on the pages read."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement found on whether an admin can switch off AI Text Analysis."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No EU AI Act statement found on the pages read."
+    },
+    "certifications": {
+      "value": ["iso27001"],
+      "evidence": [
+        { "url": "https://webropol.co.uk/survey-and-reporting/", "quote": "Operates on ISO 27001-certified server infrastructure", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The claim is about the server infrastructure, not explicitly about Webropol Oy as an organisation. No certificate or certificate scope found on the pages read. The same page says the platform meets Finland's national Katakri TL III security criteria; that is not one of the listed options, so it is not recorded here."
+    },
+    "trust_page": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "webropol.co.uk/trust-centre, webropol.co.uk/security, webropol.com/trust and webropol.com/security all return 404."
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest"],
+      "evidence": [
+        { "url": "https://webropol.co.uk/survey-and-reporting/", "quote": "Security logs and TLS 1.2 / 1.3 encrypted data transmission", "retrievedAt": "2026-11-16" },
+        { "url": "https://webropol.co.uk/survey-and-reporting/", "quote": "TDE-encrypted database encryption", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Customer-managed keys not stated."
+    },
+    "pentest": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No penetration test statement found on the pages read."
+    },
+    "vuln_disclosure": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Security contact page not found: webropol.com/.well-known/security.txt returns 404. webropol.co.uk/security returns 404."
+    },
+    "incidents": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Searched web news and documents for Webropol breach or data-leak reports. Found no regulator decision, court record or vendor notice. Press articles were not used. This is a search, not a full review of regulator registers."
+    },
+    "status_page": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No public status page found on the pages read."
+    },
+    "sso": {
+      "value": ["unknown"],
+      "evidence": [
+        { "url": "https://webropol.co.uk/academic-and-education/", "quote": "Our system seamlessly integrates with existing university platforms through Single Sign-On (SSO)", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "SSO is offered (Webropol Single Sign-On on the integrations page), but the protocol (SAML, OIDC or other) is not stated on the pages read."
+    },
+    "federation": {
+      "value": ["none-found"],
+      "evidence": [],
+      "note": "No eduGAIN, SWAMID, Haka, Feide, WAYF, InCommon, UK federation or AAF membership named on the pages read."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No provisioning statement on the pages read."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement on multi-factor authentication for local accounts."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Integrations page says 'Simplify user management and reduce the administrative load', but an admin console with usage reports is not described in terms read."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The survey page mentions 'Security logs', without saying whether admins can view them."
+    },
+    "lms_integration": {
+      "value": ["none-found"],
+      "evidence": [],
+      "note": "No LTI, Canvas, Moodle, Blackboard, Brightspace or itslearning integration named on the pages read. Webropol Academic is described for universities but no LMS integration is named."
+    },
+    "vpat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No VPAT or Accessibility Conformance Report linked from the accessibility statement. A web search found none for Webropol."
+    },
+    "wcag_level": {
+      "value": "2.1-aa",
+      "evidence": [
+        { "url": "https://webropol.co.uk/survey-and-reporting/", "quote": "Meets WCAG 2.1 AA accessibility standards", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The accessibility statement lists known gaps and fix estimates, including 'Fix estimate 4th quarter 2026' for table-based question layouts and a PDF export that 'does not meet the accessibility criteria of WCAG 2.1'."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://webropol.co.uk/accessibility-statement/", "quote": "Current accessibility standard: WCAG 2.1, AA-level", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "A web search for a Webropol HECVAT found none."
+    },
+    "ferpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No FERPA statement on the pages read."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement on HIPAA or business associate agreements."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No Section 508 statement on the pages read."
+    },
+    "state_privacy": {
+      "value": ["none-found"],
+      "evidence": [],
+      "note": "No SDPC, CCPA or NY Ed Law 2-d terms found on the pages read."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "UK site exists and a UK entity (Webropol Limited) is named in search results. No UK transfer terms (IDTA or UK addendum) stated. Processing is stated to stay in the EU/EEA."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 statement found."
+    },
+    "au_privacy": {
+      "value": ["none-found"],
+      "evidence": [],
+      "note": "No Australian privacy statement, IRAP assessment or Australian hosting found."
+    },
+    "free_plan": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Pricing pages return 404 (webropol.co.uk/pricing, webropol.com/pricing). No free plan or free trial stated on the pages read. 'Book a demo' is a sales call, not a trial."
+    },
+    "price_individual": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No price published on the pages read. The General Terms refer to a 'price list valid at the time' that is not public in the copy read."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://webropol.co.uk/academic-and-education/", "quote": "Webropol Academic is a faculty-specific licence that includes the following solutions", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Academic licence is faculty-level, with a stated count of licences for faculty students. The 2021 terms also refer to group agreements."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Academic page describes Webropol Academic as 'a digital companion that delivers excellence without straining budgets', without stating a discount."
+    },
+    "pricing_public": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No prices on the pages read. Pricing URLs return 404."
+    },
+    "capabilities": {
+      "value": ["survey", "data-visualization", "translation"],
+      "evidence": [
+        { "url": "https://webropol.co.uk/survey-and-reporting/", "quote": "Survey creation, reporting, and analytics", "retrievedAt": "2026-11-16" },
+        { "url": "https://webropol.co.uk/bi-view/", "quote": "Transform how you access, share, and leverage key metrics on dynamic online dashboards", "retrievedAt": "2026-11-16" },
+        { "url": "https://webropol.co.uk/webropol-modules/ai-text-analysis/", "quote": "Seamlessly translate responses from various languages into one", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "AI Text Analysis (themes, sentiment, summaries) has no matching option in this list and is not recorded as qualitative-coding."
+    },
+    "primary_capability": {
+      "value": "survey",
+      "evidence": [
+        { "url": "https://webropol.co.uk/survey-and-reporting/", "quote": "Webropol Survey & Reporting – your GDPR-compliant partner", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "platforms": {
+      "value": ["web", "android"],
+      "evidence": [
+        { "url": "https://webropol.co.uk/bi-view/", "quote": "Transform how you access, share, and leverage key metrics on dynamic online dashboards", "retrievedAt": "2026-11-16" },
+        { "url": "https://webropol.co.uk/privacy-policy-for-webropol-wott-app/", "quote": "The Webropol WOTT app for Android is an extension to Webropol Survey and Reporting software.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Web platform evidenced by the online dashboards and login. Android app is the WOTT app; no iOS app found on the pages read."
+    },
+    "languages": {
+      "value": "Survey questionnaires in 56 languages; software interface languages not stated",
+      "evidence": [
+        { "url": "https://webropol.co.uk/survey-and-reporting/", "quote": "Fully customisable surveys with multiple question types and support for 56 languages.", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "api": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The integrations page describes a 'versatile REST API', but no public API documentation was found."
+    },
+    "open_source": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No open-source licence stated for the product."
+    },
+    "self_host": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Service is described as run on Webropol's own servers in Finland. No self-hosting option stated."
+    }
+  }
+}

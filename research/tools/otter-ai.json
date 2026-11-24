@@ -1,0 +1,664 @@
+{
+  "id": "otter-ai",
+  "name": "Otter.ai",
+  "website": "https://otter.ai",
+  "tagline": "Transcribes and summarises recorded meetings, interviews and lectures, with AI chat over transcripts",
+  "checkedAt": "2026-11-14",
+  "facts": {
+    "vendor_entity": {
+      "value": "Otter.ai, Inc.",
+      "evidence": [
+        {
+          "url": "https://otter.ai/privacy-policy",
+          "quote": "Otter.ai, Inc., a company registered in Delaware with its registered address",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "vendor_country": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://otter.ai/privacy-policy",
+          "quote": "registered address located at 800 W El Camino Real, Suite 170, Mountain View, CA 94040",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No parent named in privacy policy, terms, DPA or software services agreement pages read"
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Vendor is US-established. No Art. 27 EU representative named in privacy policy or DPA"
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://otter.ai/privacy-policy",
+          "quote": "you may contact us by email at privacy@otter.ai attn: Privacy Officer",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "No named DPO found"
+    },
+    "hosting_regions": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://otter.ai/subprocessors",
+          "quote": "Cloud service provider and customer data storage platform",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Storage provider AWS listed with entity country United States. No EU hosting option stated"
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No EU/EEA data residency statement found in privacy policy, terms, DPA, SSA, pricing or enterprise pages"
+    },
+    "cloud_providers": {
+      "value": [
+        "aws",
+        "gcp",
+        "other"
+      ],
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "User Content is hosted by Amazon Web Services (AWS), which is certified SOC 2 Type 2.",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://otter.ai/subprocessors",
+          "quote": "Google Cloud Platform",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Subprocessor list also names Crusoe as a cloud service provider (coded as other)"
+    },
+    "transfer_mechanism": {
+      "value": [
+        "dpf",
+        "sccs"
+      ],
+      "evidence": [
+        {
+          "url": "https://otter.ai/privacy-policy",
+          "quote": "Otter.ai complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF)",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "agree to conclude the provisions of module two (controller to processor) of the Standard Contractual Clauses",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "DPF is the vendor's own self-certification claim. Not verified: the dataprivacyframework.gov list page in cache is a rendered shell with no readable entries"
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://otter.ai/subprocessors",
+          "quote": "Otter.ai engages the third-party entities in the table below to perform limited activities",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Page is marked Effective March 31, 2026"
+    },
+    "subprocessors_count": {
+      "value": 17,
+      "evidence": [
+        {
+          "url": "https://otter.ai/subprocessors",
+          "quote": "Otter.ai engages the third-party entities in the table below to perform limited activities",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Counted table rows on the subprocessors page"
+    },
+    "subprocessors_non_eea": {
+      "value": 17,
+      "evidence": [
+        {
+          "url": "https://otter.ai/subprocessors",
+          "quote": "Otter.ai engages the third-party entities in the table below to perform limited activities",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Every listed entity shows United States as entity country (Crescendo also lists Philippines and Honduras)"
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "within thirty (30) days following Company’s notification of the intended change",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "DPA 6.3 refers to notification. Subprocessors page says Otter will endeavor to notify the account owner and post updates"
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "This Data Processing Agreement (“ DPA ”) is incorporated into and made part of the Terms of Service",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "DPA is Appendix 1 of the consumer Terms of Service and is incorporated by reference in the enterprise SSA (clause 1.2). Dedicated /dpa URL returned a sign-in page"
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        {
+          "url": "https://otter.ai/privacy-policy",
+          "quote": "Except as otherwise set forth below, we are the data controller under the applicable privacy laws.",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "Customer is a Controller and appoints Company as a Processor on behalf of Customer",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Processor under the enterprise DPA; controller for direct consumer accounts per privacy policy"
+    },
+    "privacy_policy_date": {
+      "value": "2026-06-16",
+      "evidence": [
+        {
+          "url": "https://otter.ai/privacy-policy",
+          "quote": "Effective June 16, 2026",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://otter.ai/privacy-policy",
+          "quote": "stores all Personal Information for as long as necessary to fulfill the purposes set out in this Policy",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Retention is stated as a criterion only; no fixed period found"
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "Upon termination of the Terms of Service, the Company will, upon Customer’s request, return Customer Personal Data",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "No time frame stated in DPA 12.2. US State DPA 6.1 gives 30 days after a deletion request"
+    },
+    "data_export": {
+      "value": "unknown",
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "Otter.ai may provide tools through the Service that enable you to export information, including User Content",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Export tools are mentioned but formats are not stated on pages read. Help Center not checked"
+    },
+    "breach_notice": {
+      "value": "without undue delay (no hour limit stated)",
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "Company will notify Customer without undue delay after becoming aware of a Personal Data Breach",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "governing_law": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "These Terms are governed by the laws of the State of California without regard to conflict of law principles.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "State of California, US. Enterprise SSA 9.8 uses the same law"
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        {
+          "url": "https://otter.ai/pricing",
+          "quote": "AI Chat within and across meetings",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "ai_providers": {
+      "value": [
+        "anthropic",
+        "openai"
+      ],
+      "evidence": [
+        {
+          "url": "https://otter.ai/subprocessors",
+          "quote": "Provider for backend support of AI-enabled functionality.",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://otter.ai/subprocessors",
+          "quote": "Provider for evaluating the effectiveness of our Large Language Models (LLM).",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "OpenAI is listed for evaluation of LLM outputs. Other model providers are not named"
+    },
+    "trains_on_content": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://otter.ai/privacy-policy",
+          "quote": "Improve and monitor the Services, including training our proprietary AI technology on de-identified audio recordings and on transcriptions (which may contain Personal Information)",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Consumer terms also say Otter may use User Content in machine learning (ToS 9.9). Enterprise page says organisations can opt out of AI model training via their account manager. Enterprise DPA 2.3 limits use to providing the service"
+    },
+    "ai_zero_retention": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://otter.ai/subprocessors",
+          "quote": "Anthropic does not store Customer Data sent through the API on their platform.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Stated for Anthropic and, in similar words, for OpenAI on the subprocessors page"
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No admin switch to disable AI features found on pages read"
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No EU AI Act statement found in privacy policy, terms, SSA or subprocessor pages"
+    },
+    "certifications": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "Only AWS SOC 2 Type 2 is mentioned (hosting provider's certification, not Otter's). No Otter certificate found"
+    },
+    "trust_page": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "otter.ai/security, /trust and /dpa return a sign-in page, not a trust centre"
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest"
+      ],
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "industry standard encryption algorithms for stored User Content and passwords",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Pricing page also lists TLS encryption and AES-256 encryption for real-time content"
+    },
+    "pentest": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No penetration test statement found"
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "/.well-known/security.txt returned a sign-in page. DMCA contact only"
+    },
+    "incidents": {
+      "value": "unknown",
+      "note": "Not yet checked against court records or regulator decisions (primary sources only). Class actions filed in 2025 are reported in the press; they will be recorded as alleged, with the case name, once read from the court record."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://otter.ai/",
+          "quote": "Status",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Footer links to status.otter.ai"
+    },
+    "sso": {
+      "value": [
+        "google",
+        "microsoft"
+      ],
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "Customer is authenticated by password or using Google, Microsoft, or Apple login.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Enterprise SSO is listed on pricing page but no protocol (SAML or OIDC) is named. Enterprise page names Okta and Azure AD as examples"
+    },
+    "federation": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "No eduGAIN or national federation membership found on pages read"
+    },
+    "scim": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://otter.ai/enterprise",
+          "quote": "SSO & SCIM integration",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Pricing page: SSO and SCIM need a minimum 100-user licence"
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "Two factor authentication may be enabled by account administrator(s)",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Authenticator app on paid plans; SMS in some tiers"
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://otter.ai/enterprise",
+          "quote": "Centrally configure access policies, workspace permissions, content sharing rules, and security settings",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://otter.ai/enterprise",
+          "quote": "Maintain visibility into account activity with audit trails and logging",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "lms_integration": {
+      "value": [
+        "none"
+      ],
+      "evidence": [],
+      "note": "No LTI, Canvas, Moodle, Blackboard, Brightspace or itslearning mention found in cached pages. Integrations listed are CRM, Zapier and meeting platforms"
+    },
+    "vpat": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "otter.ai/accessibility returned only a cookie banner in the cached copy"
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No WCAG conformance claim found on pages read"
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "otter.ai/accessibility returned only a cookie banner in the cached copy"
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No HECVAT found on pages read. Not searched further"
+    },
+    "ferpa": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No FERPA statement or school-official terms found on pages read"
+    },
+    "hipaa_baa": {
+      "value": "available",
+      "evidence": [
+        {
+          "url": "https://otter.ai/pricing",
+          "quote": "HIPAA compliance (add-on)",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Offered as an add-on on enterprise plans. BAA text not checked"
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No Section 508 claim found"
+    },
+    "state_privacy": {
+      "value": [
+        "ccpa"
+      ],
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "California Consumer Privacy Act of 2018 as amended by the California Privacy Rights Act of 2020",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Appendix 6 U.S. State Privacy Law DPA. No SDPC or NY Ed Law 2-d terms found"
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "conclude the UK Addendum which is hereby incorporated and applies to International Data Transfers outside the United Kingdom",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "au_privacy": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "No APP statement, IRAP or Australian hosting found"
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 statement found"
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://otter.ai/pricing",
+          "quote": "For those who want to give it a try",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Basic plan listed as Free forever, with 300 monthly transcription minutes"
+    },
+    "price_individual": {
+      "value": "USD 8.33 per user per month (Pro, annual billing); USD 16.99 monthly",
+      "evidence": [
+        {
+          "url": "https://otter.ai/pricing",
+          "quote": "Pro $8.33 user/month",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Prices are in USD. Quote text is joined from separate page elements"
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Business and Enterprise tiers are workspace and custom plans. No campus or site licence wording found"
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://otter.ai/pricing",
+          "quote": "we offer a 20% discount on Otter Pro Monthly and Otter Pro Annual plans for individual students and teachers",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Requires a .edu email address"
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://otter.ai/pricing",
+          "quote": "Custom pricing",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Individual and Business prices are shown. Enterprise is custom"
+    },
+    "capabilities": {
+      "value": [
+        "interview-transcription",
+        "notes",
+        "general-ai-chat",
+        "video-meetings"
+      ],
+      "evidence": [
+        {
+          "url": "https://otter.ai/media-agent",
+          "quote": "Interview transcription, thought organization, and content creation.",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://otter.ai/sales-agent",
+          "quote": "Automatic follow-ups, notes capture, and CRM sync.",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://otter.ai/pricing",
+          "quote": "AI Chat within and across meetings",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://otter.ai/pricing",
+          "quote": "Zoom, MS Teams, and Google Meet",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Lecture transcripts (education page) are transcription only; no lecture-capture feature found"
+    },
+    "primary_capability": {
+      "value": "video-meetings",
+      "evidence": [
+        {
+          "url": "https://otter.ai/pricing",
+          "quote": "Zoom, MS Teams, and Google Meet",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Judgement from vendor's own product pages, which lead with meeting recording and notes"
+    },
+    "platforms": {
+      "value": [
+        "web",
+        "windows",
+        "macos",
+        "ios",
+        "android",
+        "browser-extension"
+      ],
+      "evidence": [
+        {
+          "url": "https://otter.ai/",
+          "quote": "Record directly from your Mac or Windows desktop, mobile device, or your browser.",
+          "retrievedAt": "2026-11-14"
+        },
+        {
+          "url": "https://otter.ai/pricing",
+          "quote": "iOS and Android apps",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "languages": {
+      "value": "multi-language support (count not stated)",
+      "evidence": [
+        {
+          "url": "https://otter.ai/pricing",
+          "quote": "Multi-language support",
+          "retrievedAt": "2026-11-14"
+        }
+      ]
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://otter.ai/pricing",
+          "quote": "Otter API & Webhooks",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Listed on the Enterprise plan. API documentation not checked"
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "The Service is owned and operated by Otter.ai.",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Proprietary service. No open-source licence found"
+    },
+    "self_host": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://otter.ai/terms-of-service",
+          "quote": "The Service is provisioned using a cloud-based platform",
+          "retrievedAt": "2026-11-14"
+        }
+      ],
+      "note": "Cloud-only per DPA Appendix 3. No self-hosted option found"
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "note": "No separate parent company found (see Parent company), so the vendor country applies."
+    }
+  }
+}

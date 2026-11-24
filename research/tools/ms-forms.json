@@ -1,0 +1,359 @@
+{
+  "id": "ms-forms",
+  "name": "Microsoft Forms",
+  "website": "https://forms.microsoft.com",
+  "tagline": "Microsoft's survey, quiz and poll builder, included with Microsoft 365 and free with a personal Microsoft account",
+  "category": "survey",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Microsoft Corporation",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Corporation complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF)",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/servicesagreement",
+          "quote": "the state or federal courts in King County, Washington",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Country taken from the Services Agreement venue clause. The privacy statement names Microsoft Corporation as controller."
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Privacy statement, Product Terms and Forms admin pages checked. No parent or owner is named for Microsoft Corporation."
+    },
+    "eu_representative": {
+      "value": "named",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "The representative of Microsoft Ireland Operations Limited within the meaning of Art",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Named as Microsoft Ireland Operations Limited, not by a person's name."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Ireland Operations Limited, Attn: Data Protection Officer, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "A role-based Data Protection Officer address is published. No named DPO found."
+    },
+    "hosting_regions": {
+      "value": ["US", "EU"],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-forms/set-up-microsoft-forms",
+          "quote": "Microsoft Forms data is stored on servers in the United States and Europe",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Storage is US by default; European-based tenants are stored in Europe under the Forms default-geography table."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-forms/set-up-microsoft-forms",
+          "quote": "Microsoft Forms data is stored on servers in the United States and Europe",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Forms is a browser-based cloud service. No local-only mode was found."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-service-other",
+          "quote": "the following Microsoft 365 services don't have specific commitments for Data Residency",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The default-geography table puts EU/EFTA tenants in EU storage, but Microsoft says Forms has no specific Data Residency commitment. The Product Terms at-rest list does not name Forms response data."
+    },
+    "cloud_providers": {
+      "value": ["own"],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft maintains major data centers in Australia",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Microsoft's own data centres per the privacy statement. Third-party cloud providers for Forms were not named."
+    },
+    "transfer_mechanism": {
+      "value": ["dpf", "sccs"],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Corporation complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF)",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "such as standard contractual clauses approved by the European Commission",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPF status is Microsoft's own statement. The dataprivacyframework.gov list in the cache was not readable, so the listing was not confirmed independently."
+    },
+    "subprocessors_public": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Sub-processor page (learn.microsoft.com/en-us/compliance/assurance/assurance-microsoft-subprocessors) was fetched but its list text was not readable, so the count was not recorded."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/terms/product/PrivacyandSecurityTerms/all",
+          "quote": "The Data Protection Addendum can be downloaded here https://aka.ms/DPA",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Forms is listed among the Office 365 Services covered by the Product Terms and the DPA."
+    },
+    "role": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The DPA text itself was not readable from the cache (aka.ms/DPA returned a navigation page), so the processor or controller split for Forms customer content was not confirmed."
+    },
+    "privacy_policy_date": {
+      "value": "November 2026",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Last Updated: November 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Day of month not shown on the page."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-forms/set-up-microsoft-forms",
+          "quote": "All account-related data will be deleted 30 days after a user account has been deleted from your tenant (Microsoft Entra ID)",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-forms/set-up-microsoft-forms",
+          "quote": "Form data, such as quiz results, can be easily exported to Excel for additional analysis",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Response data exports to Excel. Full form-definition export was not described."
+    },
+    "breach_notice": {
+      "value": "within 72 hours (as outlined in the DPA)",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/compliance/assurance/assurance-incident-management",
+          "quote": "Microsoft notifies affected customers within 72 hours as outlined in the Data Protection Addendum (DPA)",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "governing_law": {
+      "value": ["US"],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/servicesagreement",
+          "quote": "the state or federal courts in King County, Washington",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Exclusive venue for disputes not heard in arbitration or small claims court."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/copilot/plan/copilot-overview",
+          "quote": "Forms: Draft questions to create surveys, polls and other forms",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Copilot in Forms is an add-on feature; the core product works without it."
+    },
+    "ai_providers": {
+      "value": ["unknown"],
+      "evidence": [],
+      "note": "No model provider named for the Forms Copilot feature in the pages checked."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Forms-specific statement not found. The consumer privacy statement says: we may use your data to develop and train our AI models (www.microsoft.com/en-us/privacy/privacystatement). Plan difference: this consumer wording applies to personal Microsoft accounts."
+    },
+    "ai_act_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/trust-center/compliance/eu-ai-act",
+          "quote": "Microsoft is committed to building products and solutions that comply with the EU AI Act",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "certifications": {
+      "value": ["soc2-type2"],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/terms/product/PrivacyandSecurityTerms/all",
+          "quote": "SSAE 18 SOC 2 Type II",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The Product Terms table lists SOC 2 Type II for Office 365 Services. Forms is included in that group. ISO 27001 page lists Microsoft 365 scope and does not name Forms, so no ISO claim is recorded for Forms."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/trust-center",
+          "quote": "Trust Center",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://status.cloud.microsoft",
+          "quote": "Microsoft service health status",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/msrc/bounty",
+          "quote": "The Microsoft Bounty Program is subject to these terms",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Microsoft Bounty Program for its online services."
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-forms/admin-information",
+          "quote": "You can review Microsoft Forms activities in the Microsoft 365 security center audit log",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-forms/set-up-microsoft-forms",
+          "quote": "In the Microsoft 365 admin center, you can:",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "section_508": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-section-508-vpats",
+          "quote": "Exchange Online, Forms, Microsoft Defender for Office 365",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Forms is listed in the Section 508 accessibility conformance table on Microsoft's compliance page."
+    },
+    "ferpa": {
+      "value": "statement",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-forms/set-up-microsoft-forms",
+          "quote": "Microsoft Forms meets FERPA and BAA protection standards",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "hipaa_baa": {
+      "value": "available",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-forms/set-up-microsoft-forms",
+          "quote": "Microsoft Forms meets FERPA and BAA protection standards",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Page says Forms meets BAA protection standards. The BAA itself was not checked."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-forms/set-up-microsoft-forms",
+          "quote": "Microsoft Forms is free to use for anyone with a Microsoft account",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Free for personal Microsoft accounts; Microsoft 365 organisation plans also include Forms."
+    },
+    "capabilities": {
+      "value": ["survey"],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-forms/set-up-microsoft-forms",
+          "quote": "Microsoft Forms allows your users to quickly and easily create custom quizzes, surveys, questionnaires, registrations and more",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "primary_capability": {
+      "value": "survey",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-forms/set-up-microsoft-forms",
+          "quote": "Microsoft Forms allows your users to quickly and easily create custom quizzes, surveys, questionnaires, registrations and more",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": ["web"],
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-forms/set-up-microsoft-forms",
+          "quote": "Microsoft Forms is optimized for Edge",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Browser-based. Mobile use is through the browser (Chrome on Android, Safari on iOS per the same page)."
+    }
+  }
+}

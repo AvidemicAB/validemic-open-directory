@@ -1,0 +1,490 @@
+{
+  "id": "gemini",
+  "name": "Google Gemini",
+  "website": "https://gemini.google.com",
+  "tagline": "Google's AI assistant for chat, writing, research and Google apps, with a free plan and paid AI Plus, Pro and Ultra plans; Workspace and Education editions have separate data terms",
+  "category": "ai",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Google LLC",
+      "evidence": [
+        {
+          "url": "https://support.google.com/gemini/answer/13594961",
+          "quote": "Gemini Apps are provided by Google Ireland Limited in the European Economic Area and Switzerland and by Google LLC everywhere else.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "In the EEA and Switzerland the consumer Gemini app is provided by Google Ireland Limited."
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://policies.google.com/terms",
+          "quote": "organized under the laws of the State of Delaware, USA, and operating under the laws of the USA",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "Alphabet Inc.",
+      "evidence": [
+        {
+          "url": "https://cloud.google.com/terms/subprocessors",
+          "quote": "The ultimate parent company for all Google Group Subprocessors listed below is Google LLC, which is itself a subsidiary of Alphabet Inc.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_country": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Alphabet Inc. is named as parent, but its headquarters country is not stated on the pages read."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Looked in the Google privacy policy, Gemini Apps Privacy Notice and Gemini Apps Privacy Hub. No Article 27 representative named. Google Ireland Limited serves the EEA."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://support.google.com/gemini/answer/13594961",
+          "quote": "To exercise these rights, you can create a request in our Help Center",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Privacy requests go through the Help Center form. No named DPO found."
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Default storage regions for Gemini app data are not stated on the pages read. Workspace customers can select a data region (see eu_residency). Looked in the Gemini Apps Privacy Hub, the Workspace Gemini privacy hub, the Cloud DPA and the Workspace service terms."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://support.google.com/gemini/answer/13594961",
+          "quote": "We rely on other Google services and infrastructure to provide Gemini Apps.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Gemini Apps are a hosted service; the pages read describe no local-only mode."
+    },
+    "eu_residency": {
+      "value": "option",
+      "evidence": [
+        {
+          "url": "https://workspace.google.com/terms/service-terms/",
+          "quote": "Customer may select a Data Region as described at the Workspace Data Regions Page for storage of Covered Data at rest",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Applies to Workspace Covered Data. The Workspace Gemini privacy hub says data region settings do not apply to Gemini Notebook. Consumer Gemini: not stated."
+    },
+    "cloud_providers": {
+      "value": ["own"],
+      "evidence": [
+        {
+          "url": "https://support.google.com/a/answer/15706919",
+          "quote": "all processing occurs within Google's secure infrastructure",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Own infrastructure as described by the vendor. No third-party cloud provider named for Gemini Apps."
+    },
+    "transfer_mechanism": {
+      "value": ["dpf", "sccs"],
+      "evidence": [
+        {
+          "url": "https://policies.google.com/privacy/frameworks",
+          "quote": "we comply with the EU-U.S. and Swiss-U.S. Data Privacy Frameworks (DPF)",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cloud.google.com/terms/data-processing-addendum",
+          "quote": "the SCCs (Processor-to-Processor, Google Exporter) will apply with respect to such Restricted Transfers from Google to Subprocessors",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPF is stated by Google. The dataprivacyframework.gov listing was not checked. SCCs apply to transfers to subprocessors under the Cloud DPA."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://cloud.google.com/terms/subprocessors",
+          "quote": "Google and its affiliates engage the third-party entities in the table below to perform limited activities in connection with the Google Cloud Platform Services",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Cloud list covers the Gemini platform and AI services. A separate Workspace list also exists at workspace.google.com/terms/subprocessors (not counted)."
+    },
+    "subprocessors_count": {
+      "value": 114,
+      "evidence": [],
+      "note": "Counted rows in the Google Cloud subprocessor page as cached: 39 third-party entities plus 75 Google group entities. Gemini Apps consumer list not counted separately."
+    },
+    "subprocessors_non_eea": {
+      "value": 83,
+      "evidence": [],
+      "note": "Counted entities among the 114 whose listed country of processing includes a country outside the EEA (e.g. United States, India, Japan). Count made from the cached table."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://cloud.google.com/terms/data-processing-addendum",
+          "quote": "at least 30 days before the New Subprocessor starts processing any Customer Data",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Cloud DPA section 11.4 gives customers notice and a right to object."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://support.google.com/a/answer/15706919",
+          "quote": "governed by the data processing terms set out in the CDPA",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Cloud Data Processing Addendum is published and applies to Workspace-with-Gemini customer data. Workspace DPA was not fetched (its URL returned 404 on the cached attempt)."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        {
+          "url": "https://cloud.google.com/terms/data-processing-addendum",
+          "quote": "Google is a processor and Customer is a controller or processor, as applicable",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Institutional answer under the Cloud DPA. For personal Google accounts, the Gemini Apps Privacy Notice describes Google using chats to improve its services, so the consumer role differs."
+    },
+    "privacy_policy_date": {
+      "value": "2026-10-16",
+      "evidence": [
+        {
+          "url": "https://policies.google.com/privacy",
+          "quote": "Effective October 16, 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://support.google.com/gemini/answer/13594961",
+          "quote": "from the default of 18 months to 3 months, 36 months, or indefinite",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Consumer default auto-delete is 18 months. Reviewed chats are kept up to three years."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        {
+          "url": "https://cloud.google.com/terms/data-processing-addendum",
+          "quote": "Google will comply with this Instruction as soon as reasonably practicable and within a maximum period of 180 days",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Cloud DPA section 6.2: after term end, up to 180 days after a recovery period of up to 30 days."
+    },
+    "data_export": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The Gemini Apps Privacy Hub says users can export their information but does not state the formats for Gemini chats. Looked in the Gemini Apps Privacy Hub and Workspace hub."
+    },
+    "breach_notice": {
+      "value": "promptly and without undue delay after becoming aware of a Data Incident",
+      "evidence": [
+        {
+          "url": "https://cloud.google.com/terms/data-processing-addendum",
+          "quote": "Google will notify Customer promptly and without undue delay after becoming aware of a Data Incident",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "governing_law": {
+      "value": ["US"],
+      "evidence": [
+        {
+          "url": "https://policies.google.com/terms",
+          "quote": "California law will govern these terms and all disputes arising out of or relating to these terms",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Google Terms of Service, California law. Not checked: any separate governing-law terms for Google Ireland in the EEA."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        {
+          "url": "https://support.google.com/gemini/answer/13594961",
+          "quote": "your personal AI assistant from Google",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "ai_providers": {
+      "value": ["google"],
+      "evidence": [
+        {
+          "url": "https://support.google.com/a/answer/15706919",
+          "quote": "Gemini uses a collection of models from Google's rich repository",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://workspace.google.com/terms/service-terms/",
+          "quote": "Google will not use Customer Data to train or fine-tune any of its generative artificial intelligence models",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://support.google.com/gemini/answer/13594961",
+          "quote": "Google uses your activity to provide, develop, and improve its services (including training generative AI models)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Institutional answer (Workspace), which allows use with the customer's prior permission or instruction. Personal Google accounts: training is on by default and turned off through the Keep Activity setting. The consumer quote is shown as evidence of that difference."
+    },
+    "ai_zero_retention": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://support.google.com/gemini/answer/13594961",
+          "quote": "Temporary chats and chats you have when Keep Activity is off are retained with your account for 72 hours",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The vendor is also the model provider. Retention for temporary chats is stated as 72 hours, so zero retention is not stated."
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://support.google.com/a/answer/15706919",
+          "quote": "Turn the Gemini App on or off",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Admin guide heading in the Workspace Generative AI section."
+    },
+    "ai_act_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://support.google.com/a/answer/15706919",
+          "quote": "Google is signing the European Union's General Purpose AI Code of Practice.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "certifications": {
+      "value": ["iso27001", "iso27701", "iso27017", "iso27018", "iso42001"],
+      "evidence": [
+        {
+          "url": "https://support.google.com/a/answer/15706919",
+          "quote": "Gemini has attained SOC 1/2/3, ISO 9001 , ISO/IEC 27001 , 27701 , 27017 , 27018 , and 42001 certifications.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The page says SOC 1/2/3 but does not name the report type, so soc2-type2 is not ticked. ISO 9001 is also listed but not in the option list."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://cloud.google.com/trust-center",
+          "quote": "Trust that your customer data will be stored, processed, and managed responsibly",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [
+        {
+          "url": "https://www.google.com/about/appsecurity/",
+          "quote": "go to bughunters.google.com/report to include it in our Vulnerability Reward Program",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "incidents": {
+      "value": "On 1 September 2025 the CNIL fined Google LLC EUR 200 million and Google Ireland Limited EUR 125 million (EUR 325 million total) over Gmail ads and cookies at account creation. Not specific to Gemini.",
+      "evidence": [
+        {
+          "url": "https://www.cnil.fr/en/cookies-and-advertisements-inserted-between-emails-google-fined-325-million-euros-cnil",
+          "quote": "On 1st September 2025, the CNIL imposed a fine of 325 million euros on Google for displaying advertisements between Gmail users' emails without their consent",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Primary source: CNIL decision. A CNIL closure page for an earlier 2021 cookie fine was blocked for automated reading and is not used. Searched for Gemini-specific fines; none found in the pages read."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.google.com/appsstatus/dashboard/",
+          "quote": "This page provides status information on the services that are part of Google Workspace.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Status dashboard covers Workspace services. Gemini status not separately confirmed."
+    },
+    "sso": {
+      "value": ["google"],
+      "evidence": [
+        {
+          "url": "https://support.google.com/gemini/answer/13594961",
+          "quote": "If you have a work or school Google Account, your use of Gemini Apps may be subject to different data handling terms.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Sign-in is with a Google Account. SAML/OIDC support not checked."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://services.google.com/fh/files/misc/google_gemini_in_workspace_vpat.pdf",
+          "quote": "Gemini in Workspace Accessibility Conformance Report",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Report dated 8 October 2025, VPAT 2.5 Rev International Edition. Covers Gemini in Workspace."
+    },
+    "wcag_level": {
+      "value": "2.1-aa",
+      "evidence": [
+        {
+          "url": "https://services.google.com/fh/files/misc/google_gemini_in_workspace_vpat.pdf",
+          "quote": "Web Content Accessibility Guidelines 2.1 Level A (Yes) Level AA (Yes)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Claimed for Gemini in Workspace in the VPAT. Not checked for the consumer Gemini app."
+    },
+    "section_508": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://services.google.com/fh/files/misc/google_gemini_in_workspace_vpat.pdf",
+          "quote": "Revised Section 508 Report",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "ferpa": {
+      "value": "statement",
+      "evidence": [
+        {
+          "url": "https://support.google.com/a/answer/15706919",
+          "quote": "Gemini supports compliance with COPPA and FERPA",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "hipaa_baa": {
+      "value": "available",
+      "evidence": [
+        {
+          "url": "https://docs.cloud.google.com/docs/security/compliance/hipaa",
+          "quote": "Google enters into Business Associate Agreements as necessary under HIPAA.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://docs.cloud.google.com/docs/security/compliance/hipaa",
+          "quote": "Gemini App (excluding Gemini in Google Chrome)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The Gemini app (excluding Gemini in Chrome) and Gemini in Google Workspace are listed as included in the Google Cloud BAA."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://gemini.google/subscriptions/",
+          "quote": "MYR 0 / month with a Google Account",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Price shown on the Malaysia localised page. Free plan has Gemini app access."
+    },
+    "price_individual": {
+      "value": "MYR 23.99 / month (Google AI Plus, Malaysia localised page)",
+      "evidence": [
+        {
+          "url": "https://gemini.google/subscriptions/",
+          "quote": "MYR 23.99 / month",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Prices vary by country. Only the Malaysia page was read."
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://gemini.google/subscriptions/",
+          "quote": "MYR 23.99 / month",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "capabilities": {
+      "value": ["general-ai-chat"],
+      "evidence": [
+        {
+          "url": "https://gemini.google/subscriptions/",
+          "quote": "Your personal, proactive and powerful AI Assistant",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "primary_capability": {
+      "value": "general-ai-chat",
+      "evidence": [
+        {
+          "url": "https://gemini.google/subscriptions/",
+          "quote": "Your personal, proactive and powerful AI Assistant",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": ["web", "ios", "android", "macos"],
+      "evidence": [
+        {
+          "url": "https://support.google.com/gemini/answer/13594961",
+          "quote": "The Gemini web app available through gemini.google.com and browser sidebars.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://support.google.com/gemini/answer/13594961",
+          "quote": "The Gemini app on iOS.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://support.google.com/gemini/answer/13594961",
+          "quote": "Gemini app on MacOS.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    }
+  }
+}

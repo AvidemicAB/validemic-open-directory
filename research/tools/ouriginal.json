@@ -1,0 +1,612 @@
+{
+  "id": "ouriginal",
+  "name": "Ouriginal (Urkund)",
+  "website": "https://www.ouriginal.com",
+  "tagline": "Plagiarism-checking service owned by Turnitin; Turnitin states the Ouriginal service ended on 2026-06-30 and points users to Turnitin Similarity",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Turnitin, LLC",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "Turnitin, LLC , 1920 Broadway #205, Oakland CA 94612 USA",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "ouriginal.com redirects to https://www.turnitin.com/products/ouriginal/, which says the Ouriginal service ended June 30, 2026. The DPA is Turnitin group terms, not Ouriginal-specific. Product terms (Master Registration Agreement) were not read."
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "Turnitin, LLC , 1920 Broadway #205, Oakland CA 94612 USA",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Address in Oakland, California."
+    },
+    "parent_company": {
+      "value": "Advance (Advance family of companies)",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/about/",
+          "quote": "Turnitin joins the Advance family of companies, a long-term home for enhancing our core products and investing in emerging technologies.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Turnitin's timeline says it acquired Ouriginal in 2021 (the 2021 entry names Ouriginal among acquisitions). The privacy policy points to advance.com for affiliated companies. The product's own legal owner is not named separately."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Vendor is US-based. Website privacy policy and DPA name no GDPR Art. 27 representative."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/privacy-policy-website/",
+          "quote": "Our Data Protection Officer may be reached at DPO@turnitin.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No named DPO. The DPO contact is in the website privacy policy."
+    },
+    "hosting_regions": {
+      "value": [
+        "DE",
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "The AWS platform stores 100% of submitted content on a localized data centre in the EU (currently in Frankfurt, Germany)",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "Non-AWS services are provided exclusively from USA based data centres located in Sacramento and Santa Clara, California.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Group DPA covers Turnitin services generally. The DPA does not say which platform Ouriginal ran on, and the service has ended."
+    },
+    "local_first": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No local-only or offline mode described for Ouriginal."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "DPA says AWS platform content is stored in Frankfurt, but does not say whether EU residency is a default, a selectable option or enterprise-only, nor which platform Ouriginal used."
+    },
+    "cloud_providers": {
+      "value": [
+        "aws"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "The AWS platform stores 100% of submitted content on a localized data centre in the EU (currently in Frankfurt, Germany)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Non-AWS services run from US data centres in Sacramento and Santa Clara (DPA 6.2.1). The subprocessor list also names Flexential (colocation) for Turnitin products."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "dpf",
+        "sccs"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/privacy-policy-website/",
+          "quote": "Turnitin has certified to the U.S. Department of Commerce that it adheres to the EU-U.S. Data Privacy Framework Principles",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "including the EU Standard Contractual Clauses incorporated at Annex A",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPF is the vendor's own claim in its website privacy policy (covers Turnitin and ExamSoft). dataprivacyframework.gov/list loads only through JavaScript, so the listing was not confirmed independently. The search found only indirect evidence. Not verified against the official list."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/turnitin-subprocessors",
+          "quote": "Turnitin engages a limited number of third-party service providers",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "List is last updated February 2026 and covers Turnitin products. Ouriginal is not named. A separate ExamSoft list exists at turnitin.com/examsoft-subprocessors."
+    },
+    "subprocessors_count": {
+      "value": 15,
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/turnitin-subprocessors",
+          "quote": "Customer support ticketing, communications, and case management services",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Count of entries in the Turnitin list (Alteryx, AWS, Cockroach Labs, Concentrix, Flexential, Gainsight, Google, Kronia, Microsoft (Bing), Oracle NetSuite, Salesforce, SDL, Skyflow, Stripe, Zendesk)."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Every entry lists its country location as 'Global', so the non-EEA count cannot be derived."
+    },
+    "subprocessor_notice": {
+      "value": "page-only",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "Processor will provide at least 30 days' notice before authorizing any new subprocessor to Process Customer Personal Data by updating the Subprocessor Lists",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Notice is given by updating the list page, 30 days in advance. No email subscription found."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "This Data Processor Agreement",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Group DPA at turnitin.com/dpa, with SCCs in Annex A. Not Ouriginal-specific."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "Customer is a Controller and Turnitin is a Processor with respect to the Processing of Personal Data",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.turnitin.com/trust-center",
+          "quote": "Limited student writing may be used to train this classifier model",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Turnitin is processor under the DPA. Trust Center says student writing may be used to train its AI-writing classifier, which is not a processor-only use."
+    },
+    "privacy_policy_date": {
+      "value": "2025-03-26",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/privacy-policy-website/",
+          "quote": "Last Updated: 26 March 2025",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Date of the Turnitin website privacy policy. The product privacy policy (guides.turnitin.com article) was blocked, so the product policy date is not known."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "Storage of the content of submissions is indefinite unless instructed otherwise by the data exporter.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Retention is indefinite unless the customer instructs deletion (DPA Annex I.B)."
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "the Processor shall delete and destroy Personal Data and certify such destruction in writing",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Deletion happens on written request during the term or on termination (DPA 11.2). No time frame stated."
+    },
+    "breach_notice": {
+      "value": "promptly after discovery, no fixed window",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "the Processor shall notify the Controller promptly after the Security Breach was first discovered",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA 4.1 gives no hour count. The EU SCC annex says 'without undue delay'."
+    },
+    "governing_law": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "Performance of this DPA shall be governed by the laws of New York",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Governing law of the DPA is New York. Product terms were not read."
+    },
+    "ai_features": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The Ouriginal product page does not describe AI features. Turnitin's AI features in the Trust Center apply to other Turnitin products."
+    },
+    "ai_providers": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Trust Center lists Anthropic and Amazon models for Turnitin products such as Clarity. Ouriginal is not named in that list."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Trust Center says Turnitin trains only a classifier for AI detection under its Originality licence, and that student writing may be used for it. Ouriginal is not named, so it cannot be confirmed for Ouriginal."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No EU AI Act statement found in the Trust Center. The Trust Center has AI principles only."
+    },
+    "certifications": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Vendor says 'SOC2 certified by a third-party auditor, AICPA' without stating Type I or Type II (DPA Annex II)."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/trust-center",
+          "quote": "We are building on the decades of trust with a transparent approach to product design and data use.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "All data is encrypted in flight using up-to-date HTTPS when traversing public networks",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "reside in encrypted filesystems (AES-256 cipher)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "From DPA Annex II (group terms)."
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "Periodic third-party penetration testing is carried out",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vendor claims testing, but no summary or report is published."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/.well-known/security.txt",
+          "quote": "This file provides our coordinated vulnerability disclosure policy and contact details for security researchers.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Policy at turnitin.com/vulnerability-disclosure-policy, with a security.txt. The policy says there is no reward or bounty."
+    },
+    "incidents": {
+      "value": "none found",
+      "evidence": [],
+      "note": "Searched for regulator decisions, court records and vendor notices about Turnitin breaches. None found. One third-party vendor-risk site was seen but not used, since it is not a primary source. Searched 2026-11-16."
+    },
+    "vpat": {
+      "value": "none-found",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/accessibility/",
+          "quote": "Accessibility Conformance Reports (ACRs), aligned with VPAT® 2.5Rev (International), and quarterly accessibility roadmaps are available for download by product.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The accessibility page lists ACRs for Feedback Studio and Turnitin Similarity Report only. No Ouriginal ACR is listed."
+    },
+    "wcag_level": {
+      "value": "2.2-aa",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/accessibility/",
+          "quote": "we use 3rd party accessibility experts to evaluate our products against the WCAG 2.2 AA standard",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Group-level claim for Turnitin products. Not checked for Ouriginal, which has no ACR listed."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/accessibility/",
+          "quote": "At Turnitin, we are committed to accessibility.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "hecvat": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No HECVAT found on the pages checked. No web search done for it."
+    },
+    "ferpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No FERPA statement found on the pages checked."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "refers to the UK’s International Data Transfer Addendum to the EU SCCs",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA defines the UK Addendum. The privacy policy also cites the UK Extension to the DPF."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 statement found on the pages checked."
+    },
+    "free_plan": {
+      "value": "not-applicable",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/products/ouriginal/",
+          "quote": "Ouriginal service ended on June 30, 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No plan is offered because the service has ended."
+    },
+    "price_individual": {
+      "value": "not published",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/products/ouriginal/",
+          "quote": "Ouriginal service ended on June 30, 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "turnitin.com/pricing returned 404. No individual price is published, and the service has ended."
+    },
+    "institutional_licence": {
+      "value": "not-applicable",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/products/ouriginal/",
+          "quote": "Ouriginal service ended on June 30, 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The page directs customers to Turnitin Similarity instead."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No academic discount found on the pages checked."
+    },
+    "pricing_public": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/products/ouriginal/",
+          "quote": "Contact Sales",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "turnitin.com/pricing returned 404. Only a 'Contact Sales' link appears on the pages checked."
+    },
+    "capabilities": {
+      "value": [
+        "plagiarism-check"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/products/ouriginal/",
+          "quote": "Turnitin Similarity offers many of the same features as Ouriginal, including comprehensive Similarity Reports with percentage matches and source lists",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Page gives the features as Ouriginal's, but describes them through Turnitin Similarity. The service ended 2026-06-30."
+    },
+    "primary_capability": {
+      "value": "other",
+      "others": [
+        "Academic integrity (plagiarism checking)"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/about/",
+          "quote": "Ouriginal, to help institutions promote academic integrity globally.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "data_export": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "DPA clause 9(g) says the controller may choose deletion or return of personal data at the end of services. Export format and scope are not described."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Trust Center says Anthropic models do not use or retain student data, for Turnitin products such as Clarity. Ouriginal is not named, and no zero-retention statement for it was found."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Trust Center says AI writing detection can be disabled from the administrator account settings page. That applies to the Turnitin Originality add-on, not confirmed for Ouriginal."
+    },
+    "status_page": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "status.turnitin.com does not resolve. No status page link on the Turnitin homepage or Ouriginal product page."
+    },
+    "sso": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Turnitin Similarity page says it integrates with single-sign-on services, without naming a protocol (successor product)."
+    },
+    "federation": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No eduGAIN or national federation mention on the Turnitin pages checked. Federation registries were not searched."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No SCIM mention on pages checked."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No multi-factor authentication statement found on pages checked."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Trust Center mentions an administrator account settings page. Its user management and usage reports are not described."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No admin audit log described on pages checked."
+    },
+    "lms_integration": {
+      "value": [
+        "lti",
+        "canvas",
+        "moodle",
+        "blackboard"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/products/similarity/",
+          "quote": "Turnitin Similarity can be used through the web, integrated natively or via API and LTI 1.3 into most popular Learning Management Systems",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.turnitin.com/products/ouriginal/",
+          "quote": "Turnitin Similarity integrates with all major LMSs, including Canvas, Moodle, Blackboard, and Schoology",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Described for Turnitin Similarity, the successor named on the Ouriginal page. D2L (Brightspace) is named on the Similarity page but has no matching option; not mapped. Schoology is not an option."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "DPA Annex II says AWS supports HIPAA compliance. No Business Associate Agreement offer found."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Accessibility page cites WCAG 2.2 AA and VPAT-aligned ACRs. Section 508 is not mentioned."
+    },
+    "state_privacy": {
+      "value": [
+        "ccpa"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "the California Consumer Privacy Act",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA names the CCPA among applicable data protection laws. No SDPC, NY Ed Law 2-d or DPA-style terms found."
+    },
+    "au_privacy": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No Australian Privacy Principles statement, IRAP assessment or Australian hosting found in the privacy policy, DPA or accessibility pages."
+    },
+    "platforms": {
+      "value": [
+        "web"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/products/similarity/",
+          "quote": "Turnitin Similarity can be used through the web",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Described for Turnitin Similarity, the successor. Ouriginal platforms are not stated."
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Similarity repository covers 170 languages, but that is content coverage, not interface languages. Interface languages not stated."
+    },
+    "api": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Similarity page says it can be integrated via API. developers.turnitin.com returned an error page, so API documentation was not confirmed."
+    },
+    "open_source": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No open-source licence statement found. Turnitin describes its encryption as proprietary."
+    },
+    "self_host": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.turnitin.com/dpa",
+          "quote": "Non-AWS services are provided exclusively from USA based data centres located in Sacramento and Santa Clara, California.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vendor-operated data centres are stated. No self-hosted option is offered in the pages checked."
+    },
+    "parent_country": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.advance.com/",
+          "quote": "NEW YORK, NY 10007",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.advance.com/",
+          "quote": "Advance, a private, family-held business that owns and invests in a broad range of companies",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Advance site lists One World Trade Center, New York. Advance describes itself as private and family-held. Turnitin itself is in Oakland, California."
+    }
+  },
+  "category": "plagiarism"
+}

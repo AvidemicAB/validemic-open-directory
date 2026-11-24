@@ -1,0 +1,354 @@
+{
+  "id": "scispace",
+  "name": "SciSpace",
+  "website": "https://scispace.com",
+  "tagline": "AI research tool for academic papers (vendor pages blocked during this check)",
+  "checkedAt": "2026-11-14",
+  "facts": {
+    "vendor_entity": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "vendor_country": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "parent_company": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "eu_representative": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "dpo_contact": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "subprocessors_public": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "dpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "role": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "privacy_policy_date": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "retention_stated": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "data_export": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "governing_law": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "ai_features": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "trust_page": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "pentest": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "vuln_disclosure": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "incidents": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "status_page": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "admin_console": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "vpat": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "hecvat": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "ferpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "free_plan": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "price_individual": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "pricing_public": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "primary_capability": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "api": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "open_source": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "self_host": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "cloud_providers": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "transfer_mechanism": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "certifications": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "encryption": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "ai_providers": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "sso": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "federation": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "lms_integration": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "state_privacy": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "au_privacy": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "capabilities": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    },
+    "platforms": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "source blocked: scispace.com homepage, /privacy and /subprocessors returned HTTP 403 (CloudFront); docs.api.scispace.com did not resolve; search results gave no verbatim vendor text; third-party pricing aggregators only"
+    }
+  },
+  "category": "ai"
+}

@@ -1,0 +1,650 @@
+{
+  "id": "whisper",
+  "name": "OpenAI Whisper",
+  "website": "https://openai.com/index/whisper/",
+  "tagline": "Open-source speech recognition model (MIT licence) that can run on your own computer, plus OpenAI hosted transcription endpoints in its API",
+  "category": "transcription",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "OpenAI OpCo, LLC",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "OpenAI OpCo, LLC, on its behalf and on behalf of its Affiliates",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Contracting entity for the hosted API per the API DPA. Customers based in the EEA or Switzerland contract with OpenAI Ireland Ltd."
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "OpenAI OpCo, LLC, 1455 3rd Street, San Francisco, CA 94158",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "OpenAI, Inc. (through OpenAI Global, LLC)",
+      "evidence": [
+        {
+          "url": "https://www.lobbyregister.bundestag.de/media/7f/39/594238/OpenAI-Ireland-FY24-Abridged-Accounts.pdf",
+          "quote": "intermediate parent is OpenAI Global, LLC (Global), and its ultimate parent is OpenAI, Inc.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "From OpenAI Ireland Limited 2024 abridged accounts (German lobby register)."
+    },
+    "parent_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.lobbyregister.bundestag.de/media/7f/39/594238/OpenAI-Ireland-FY24-Abridged-Accounts.pdf",
+          "quote": "both registered and incorporated in the United States with a registered office in San Francisco",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Ultimate parent per OpenAI Ireland Limited 2024 accounts."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "Customer hereby instructs OpenAI Ireland Limited to process any EEA and Swiss Data",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Inferred: the DPA routes EEA data to OpenAI Ireland Ltd. No Art. 27 statement found."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "Data Protection Officer, privacy@openai.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No named DPO found in the DPA."
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "note": "Default API project is Global with no region named (data-residency page). Regional storage applies only where a project selects a region."
+    },
+    "local_first": {
+      "value": "unknown",
+      "note": "Not stated by the vendor. The GitHub README describes installing and running the package on the user system, but says nothing about data leaving or staying. The hosted API sends requests to OpenAI (see api)."
+    },
+    "eu_residency": {
+      "value": "option",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "Eligible organizations can enable data residency when creating a project in the API Platform.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "Europe (EEA + Switzerland) eu.api.openai.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Selectable per API project for eligible organisations. Does not apply to the open-source package."
+    },
+    "cloud_providers": {
+      "value": "unknown",
+      "note": "Not named for Whisper or the API in the cached pages."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "sccs",
+        "adequacy"
+      ],
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "on the basis of agreements containing SCCs that ensure appropriate safeguards",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "or an adequacy decision issued by the European Commission under Article 45 GDPR",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPF not confirmed: the cached dataprivacyframework.gov list did not show an OpenAI entry."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "the list available at the following address https://platform.openai.com/subprocessors",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The list page itself was not read: source blocked: https://platform.openai.com/subprocessors"
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "note": "source blocked: https://platform.openai.com/subprocessors"
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "note": "source blocked: https://platform.openai.com/subprocessors"
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "or via email if Customer subscribes to email notifications on the Sub-Processor List site.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "Customer may object to the use of such additional Sub-processor within 30 days of receiving notice of the change",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA 2.9: notice by blog post, in-service notification or email for subscribers, with a 30-day objection window."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "Execute Data Processing Agreement",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA PDF is downloadable from cdn.openai.com."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "OpenAI acts as a Data Processor on the Customer’s behalf, and this DPA governs such Processing.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Model training for the API is a separate statement (see trains_on_content)."
+    },
+    "privacy_policy_date": {
+      "value": "unknown",
+      "note": "source blocked: https://openai.com/policies/privacy-policy/ (refuses automated reading)"
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "quote": "By default, abuse monitoring logs are generated for all API feature usage and retained for up to 30 days",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Abuse monitoring logs for API usage. Eligible customers can be approved for Zero Data Retention or Modified Abuse Monitoring."
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "at Customer’s instruction, return or delete Customer Data",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA gives no time frame for deletion after termination."
+    },
+    "data_export": {
+      "value": "unknown",
+      "note": "Cached API pages do not describe exporting customer content in open formats."
+    },
+    "breach_notice": {
+      "value": "without undue delay (no fixed hours stated)",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "OpenAI will notify Customer without undue delay after becoming aware of any Personal Data Breach",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "governing_law": {
+      "value": "unknown",
+      "note": "source blocked: https://openai.com/policies/business-terms/ (terms refuse automated reading). The DPA names England and Wales for SCC disputes only."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        {
+          "url": "https://github.com/openai/whisper",
+          "quote": "Whisper is a general-purpose speech recognition model.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Speech recognition is the product."
+    },
+    "ai_providers": {
+      "value": [
+        "openai",
+        "open-weights-self-hosted"
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/openai/whisper",
+          "quote": "Whisper is a general-purpose speech recognition model.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://github.com/openai/whisper",
+          "quote": "Whisper's code and model weights are released under the MIT License.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Open weights can run self-hosted; the hosted API is run by OpenAI."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "quote": "data sent to the OpenAI API is not used to train or improve OpenAI models",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Applies to API data. Consumer ChatGPT policies were not checked (openai.com policy pages blocked)."
+    },
+    "ai_zero_retention": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "quote": "Eligible customers may have their customer content excluded from these abuse monitoring logs",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Zero Data Retention is available only to customers approved by OpenAI. Not on by default."
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/rbac",
+          "quote": "Permissions : The specific actions a role allows (for example, make requests to models, read files, write files, manage keys).",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Admins can withhold the model-request permission from roles, users and projects through RBAC. Not applicable to the local package."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No OpenAI EU AI Act statement in cached pages. openai.com policy pages blocked."
+    },
+    "certifications": {
+      "value": [
+        "iso27001",
+        "iso27017",
+        "iso27018",
+        "iso27701",
+        "iso42001",
+        "soc2-type2"
+      ],
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "Our products are also ISO 27001, 27017, 27018, and 27701 certified.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "ISO/IEC 42001:2023",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Claims are read from the trust portal, which is worded around ChatGPT services. Not checked separately for Whisper."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "Welcome to our Trust Portal for OpenAI's ChatGPT services",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest",
+        "customer-keys"
+      ],
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "TLS termination and HTTPS decryption occur within the selected processing region",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/private-safety-processing",
+          "quote": "Each stored record is doubly encrypted when it is retained in customer storage",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/private-safety-processing",
+          "quote": "Enterprise Key Management (EKM) adds an outer layer using your customer-controlled key-management service",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Encryption at rest for the general API is listed only as a trust-portal topic."
+    },
+    "pentest": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "View & download sensitive information",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "A Pentest Report is listed under Documents on the trust portal and needs an access request."
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "The program offers safe harbor for good faith security testing and cash rewards for vulnerabilities",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Bug bounty run via Bugcrowd (named on the trust page)."
+    },
+    "incidents": {
+      "value": "Italian Garante fine of EUR 15 million on OpenAI (decision published 2024) for the consumer ChatGPT service. Not the Whisper API or the open-source package.",
+      "evidence": [
+        {
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10085432",
+          "quote": "Il Garante ha comminato a OpenAI una sanzione di quindici milioni di euro",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Quote is Italian (regulator press release). No other incidents found in cached pages."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://status.openai.com/",
+          "quote": "Subscribe to updates",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "sso": {
+      "value": [
+        "unknown"
+      ],
+      "note": "No SAML or OIDC sign-in for organisation users found in cached API docs."
+    },
+    "federation": {
+      "value": [
+        "none-found"
+      ],
+      "note": "No eduGAIN or national federation listing found."
+    },
+    "scim": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/rbac",
+          "quote": "Groups can be synced from your identity provider (via SCIM) to keep membership up to date automatically.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "SCIM syncs groups. Sync of individual user accounts is not separately stated."
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "No MFA statement for API organisation users in cached pages."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/rbac",
+          "quote": "Manage organization users, projects, invites, admin API keys, and rate limits",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "note": "Trust portal lists audit logging as a control, but no admin-visible audit log page for the API was found."
+    },
+    "lms_integration": {
+      "value": [
+        "none-found"
+      ],
+      "note": "No LMS integration in cached pages."
+    },
+    "vpat": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "Voluntary Product Accessibility Template® (VPAT®)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Listed under Reports on the trust portal, which needs an access request."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "note": "No WCAG conformance claim in cached pages."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "note": "source blocked: https://openai.com/ (accessibility pages not cached; openai.com refuses automated reading)"
+    },
+    "hecvat": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "HECVAT Full",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Listed under Self-Assessments on the trust portal, which needs an access request."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "note": "No FERPA statement in cached pages."
+    },
+    "hipaa_baa": {
+      "value": "available",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "quote": "For customers who have executed an OpenAI Business Associate and Healthcare Addendum",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Signing is a contract step; BAA-eligible endpoints are named on the data-controls page."
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "No Section 508 claim in cached pages."
+    },
+    "state_privacy": {
+      "value": [
+        "ccpa"
+      ],
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "where the Customer Data is subject to the CCPA",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA CCPA terms only. No SDPC or NY Ed Law 2-d agreement found."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-data-processing-addendum.pdf",
+          "quote": "with the SCCs as amended by the UK Addendum",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "au_privacy": {
+      "value": [
+        "au-hosting"
+      ],
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "Australia au.api.openai.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Listed as a residency region with storage support in the support-by-region table."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "No NIS2 statement in cached pages."
+    },
+    "free_plan": {
+      "value": "unknown",
+      "note": "The open-source package is free under MIT, but that is not a vendor plan. No free API tier for Whisper found on the cached pricing page."
+    },
+    "price_individual": {
+      "value": "not published",
+      "note": "Whisper transcription pricing is not on the cached API pricing page."
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "note": "No site or campus licence found in cached pages."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "note": "No academic discount for API usage found in cached pages."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/pricing",
+          "quote": "Price per minute",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Per-minute prices are listed for other audio models; Whisper is not listed."
+    },
+    "capabilities": {
+      "value": [
+        "interview-transcription"
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/openai/whisper",
+          "quote": "Whisper is a general-purpose speech recognition model.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://github.com/openai/whisper",
+          "quote": "that can perform multilingual speech recognition, speech translation, and language identification.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Speech recognition and speech translation are stated. Speech translation is not mapped to the text translation option."
+    },
+    "primary_capability": {
+      "value": "interview-transcription",
+      "evidence": [
+        {
+          "url": "https://github.com/openai/whisper",
+          "quote": "Whisper is a general-purpose speech recognition model.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/openai/whisper",
+          "quote": "on Windows using Chocolatey",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://github.com/openai/whisper",
+          "quote": "on MacOS using Homebrew",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://github.com/openai/whisper",
+          "quote": "on Ubuntu or Debian",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Python package with install instructions for these systems. Hosted API is reached over HTTPS."
+    },
+    "languages": {
+      "value": "See tokenizer.py for the list of all available languages.",
+      "evidence": [
+        {
+          "url": "https://github.com/openai/whisper",
+          "quote": "See tokenizer.py for the list of all available languages.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/data-residency",
+          "quote": "/v1/audio/transcriptions, /v1/audio/translations, /v1/audio/speech Storage Processing",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Hosted audio transcription endpoint on the OpenAI API."
+    },
+    "open_source": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://github.com/openai/whisper",
+          "quote": "Whisper's code and model weights are released under the MIT License.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "MIT licence for the code and model weights. The hosted API is not open source."
+    },
+    "self_host": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://github.com/openai/whisper",
+          "quote": "You can download and install (or update to) the latest release of Whisper with the following command:",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The package installs on the institution own machines or servers."
+    }
+  }
+}

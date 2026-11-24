@@ -1,0 +1,899 @@
+{
+  "id": "grammarly",
+  "name": "Grammarly",
+  "website": "https://www.grammarly.com",
+  "tagline": "Writing assistant that checks grammar, spelling, tone and plagiarism and offers AI writing help; run by Superhuman Platform Inc.",
+  "category": "ai",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Superhuman Platform Inc.",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/privacy-policy",
+          "quote": "This Privacy Policy describes how Superhuman Platform Inc. (formerly Grammarly) and our subsidiaries",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/terms",
+          "quote": "Superhuman Platform Inc. , formerly known as Grammarly, Inc.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Formerly Grammarly, Inc. The consumer terms, Customer Business Agreement and DPA name the same entity. Grammarly Inc. is now listed as a subsidiary."
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/privacy-policy",
+          "quote": "Superhuman Platform Inc., 2261 Market Street, STE 85232, San Francisco, CA 94114",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/company/about",
+          "quote": "Grammarly acquires Coda (now Superhuman Docs) and Superhuman Mail, launching Superhuman as the unified brand.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "No parent or owner is named on the privacy policy, terms, CBA, DPA, sub-processor page, trust page, Grammarly about page or Superhuman about page. The Superhuman about page says Grammarly acquired Coda and Superhuman Mail in 2025 and took the Superhuman name, so the former Grammarly company is the top entity; Grammarly Inc., Coda Project LLC, Superhuman Labs LLC and GPTZero are its subsidiaries. Investor lists on third-party sites were not used."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/privacy-policy",
+          "quote": "This Privacy Policy describes how Superhuman Platform Inc. (formerly Grammarly) and our subsidiaries",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "No separate parent named (see parent_company). The contracting company itself is in the US."
+    },
+    "eu_representative": {
+      "value": "named",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/privacy-policy",
+          "quote": "We’ve appointed VeraSafe as our representative in the EEA and UK for data protection matters.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "dpo_contact": {
+      "value": "named",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/privacy-policy",
+          "quote": "Superhuman Platform Inc. has appointed Bird & Bird DPO Services SRL as its Data Protection Officer (DPO).",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The DPO is an outsourced service firm; no individual is named."
+    },
+    "hosting_regions": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "Grammarly hosts data in Amazon Web Services data centers in the US East region",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.superhuman.com/legal/dpa",
+          "quote": "provided by Amazon Web Services (AWS) and/or Google Cloud Platform (GCP), located in the United States",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Grammarly product: AWS US East (security page). The DPA security exhibit says the services are hosted in the United States."
+    },
+    "local_first": {
+      "value": "unknown",
+      "note": "Pages read do not say whether content can be kept only on the device. No local-only mode is described."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "note": "Only US hosting is stated (security page, DPA security exhibit). No EU data-residency option was found. DPA section 9(a) says data may be processed in the United States and other locations."
+    },
+    "cloud_providers": {
+      "value": [
+        "aws",
+        "gcp"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/dpa",
+          "quote": "Grammarly is hosted on Amazon Web Services (AWS).",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.superhuman.com/legal/dpa",
+          "quote": "The Services are hosted on enterprise-grade cloud infrastructure provided by Amazon Web Services (AWS) and/or Google Cloud Platform (GCP)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Grammarly itself is hosted on AWS (DPA product section, security page). GCP is named for the Superhuman services as a whole; the 2026-11-16 DPA no longer says which product uses it (the earlier version named Superhuman Mail). Google is also listed as an infrastructure sub-processor. Other infrastructure sub-processors (CoreWeave, Turbopuffer, Databricks) are listed without saying which product they host."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "dpf",
+        "sccs"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/dpa",
+          "quote": "Superhuman participates in and certifies compliance with the Data Privacy Framework",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.superhuman.com/legal/dpa",
+          "quote": "the applicable Standard Contractual Clauses will be incorporated in full by reference",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The DPF participant list on dataprivacyframework.gov was read only as its page shell (the list is a downloadable spreadsheet). DPF status is the vendor's statement, not checked against the list."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/subprocessors",
+          "quote": "The table below identifies Superhuman Platform’s Sub-processors, details the purpose of their services, and server location.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "subprocessors_count": {
+      "value": 20,
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/subprocessors",
+          "quote": "Third-party Sub-processors",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Counts the 20 third-party sub-processors under the main Superhuman Platform heading (which covers Grammarly). Not counted: 16 more listed under \"Third-party Sub-processors for GPTZero\" and 9 group companies listed as internal sub-processors."
+    },
+    "subprocessors_non_eea": {
+      "value": 20,
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/subprocessors",
+          "quote": "Zendesk Processing activity: Customer Support Platform Country: USA",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "All 20 counted third-party sub-processors list Country: USA. Group companies (not counted) include Grammarly Germany GmbH and Grammarly Poland in the EEA, and entities in Ukraine, Canada and the US."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/dpa",
+          "quote": "Superhuman shall notify Customer if it adds Sub-processors at least 30 days prior to any such changes",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Notice is by subscription and only if the customer opts in to notifications through the sub-processor page form."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/dpa",
+          "quote": "Effective Date: November 16, 2026",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/terms/customer-business-agreement",
+          "quote": "the Superhuman Data Privacy Addendum located at https://www.superhuman.com/legal/dpa",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The DPA is a public web page and is incorporated into the Customer Business Agreement. It is read without signing in."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/dpa",
+          "quote": "Superhuman will Process Customer Personal Data only as a processor on behalf of Customer",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Institutional answer (DPA). For individual accounts the privacy policy names Superhuman Platform Inc. as data controller.",
+      "footnote": "Individual accounts (Free, Pro bought online): Superhuman is the data controller under its privacy policy."
+    },
+    "privacy_policy_date": {
+      "value": "2026-11-16",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/privacy-policy",
+          "quote": "Effective as of November 16, 2026",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Updated on 2026-11-16 (previous version July 6, 2026); the new version adds GPTZero to the covered products."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/privacy-policy",
+          "quote": "We retain personal data for as long as necessary to provide our products to you",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/trust",
+          "quote": "if you save a document in the Grammarly Editor, we’ll store it until you delete the document or your Grammarly account",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "No fixed periods in days or years for Grammarly content; saved documents are kept until the user deletes them or the account. For Docs (not Grammarly) the DPA gives 7 days in primary storage plus 35 days in backups after deletion."
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/dpa",
+          "quote": "will, at the written request of Customer, make available for return to Customer and/or securely destroy all Customer Personal Data",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "No time frame is stated after termination. Backups are deleted 'in accordance with its deletion practices' (DPA section 11)."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/terms/customer-business-agreement",
+          "quote": "Customer will have the ability within its account settings to export and/or delete its Customer Data",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Export is available to the customer in account settings. The file format (open or not) is not stated."
+    },
+    "breach_notice": {
+      "value": "Promptly and without undue delay after becoming aware (no fixed hours stated)",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/dpa",
+          "quote": "notify Customer promptly and without undue delay after becoming aware of a Data Security Incident",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "governing_law": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/terms/customer-business-agreement",
+          "quote": "governed by the laws of California, excluding California’s conflict of laws rules",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "California law for the CBA (section 12.7). Consumer terms (section 12.9) also apply California law, with arbitration in the US and EEA consumer law preserved."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/ai/responsible-ai",
+          "quote": "If you no longer wish to use Grammarly’s generative AI features, go to your account settings",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Generative AI features can be turned off in account settings. Core grammar checks are not described as generative AI."
+    },
+    "ai_providers": {
+      "value": [
+        "openai",
+        "anthropic",
+        "google",
+        "other"
+      ],
+      "others": [
+        "Azure",
+        "Baseten"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/subprocessors",
+          "quote": "Anthropic Processing activity: Generative AI / Model Hosting Provider Country: USA",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.superhuman.com/legal/subprocessors",
+          "quote": "OpenAI Processing activity: Generative AI / Model Hosting Provider Country: USA",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.superhuman.com/legal/subprocessors",
+          "quote": "Google Processing activity: Infrastructure provider and Generative AI / Model Hosting Provider Country: USA",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.superhuman.com/legal/subprocessors",
+          "quote": "Azure Processing activity: Generative AI / Model Hosting Provider Country: USA",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.superhuman.com/legal/subprocessors",
+          "quote": "Baseten Processing activity: Generative AI / Model Hosting Provider Country: USA",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "From the main Superhuman Platform sub-processor list, which names these as generative AI or model hosting providers. It does not say which model serves which Grammarly feature, or whether Azure hosts OpenAI models. Cerebras, Cohere, Groq, Modal and OpenRouter are listed only for GPTZero and are left out."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "footnote": "Free, Premium and single-user Pro accounts, and multi-user teams bought on the website: content is used for training by default and can be turned off (opt-out).",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/edu",
+          "quote": "Customer data and text are never sold or used to train models.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://support.grammarly.com/hc/en-us/articles/25555503115277-Product-Improvement-and-Training-Control",
+          "quote": "For all Grammarly for Education, Grammarly Business, Pro, and Grammarly Enterprise accounts purchased through our Sales team, Product Improvement and Training is automatically off",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/terms/customer-business-agreement",
+          "quote": "will not use Customer Data to train any generative artificial intelligence models without Customer’s prior written consent.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://support.grammarly.com/hc/en-us/articles/25555503115277-Product-Improvement-and-Training-Control",
+          "quote": "Product Improvement and Training is on for individual users by default.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Institutional answer (Education and accounts bought through Sales). The help article says the control covers training and validating AI and ML models, so this is model training, not only service improvement. Non-content writing statistics may still be used. The privacy policy says AI service providers are restricted from training on user content."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "note": "No zero-retention or no-logging statement for model providers in the DPA, trust, security, privacy, responsible-AI or training-control pages. source blocked: https://help.superhuman.com/hc/en-us/articles/47716615380109-Superhuman-Go-Data-Privacy-FAQ (a Superhuman Go page, not Grammarly)."
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/edu",
+          "quote": "Account admins can control whether or not to turn on certain AI features",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Admins control 'certain' AI features. The responsible AI page adds that admins can restrict domains and apps."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act position or transparency statement on the AI, responsible-AI, trust or security pages. A Grammarly business explainer page describes the AI Act in general terms but gives no Grammarly position. ISO/IEC 42001 is claimed (see certifications)."
+    },
+    "certifications": {
+      "value": [
+        "iso27001",
+        "iso27701",
+        "iso27017",
+        "iso27018",
+        "iso42001",
+        "soc2-type2"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "Grammarly’s SOC 2 (Type 2) report validates our controls based on the security, privacy, availability, and confidentiality trust services criteria.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "Grammarly’s information security management system meets the requirements of ISO 27001 and 27002 international standards.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "Grammarly's privacy information management system meets the requirements of ISO 27701 international standards.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "Grammarly’s information security practices meet the requirements of ISO 27017 regarding our provision and use of cloud services.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "Grammarly meets the requirements of ISO 27018 regarding our protection of personally identifiable information (PII) in the cloud.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "Grammarly meets the requirements of ISO 42001 ensuring responsible AI development and use.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Claimed on the security page, which links certificates. The DPA security exhibit also states SOC 2 Type 2 and ISO 27001. The certificates and the SOC 2 report were not opened. SOC 3 is also claimed (not in the option list)."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/trust",
+          "quote": "Your trust is at the heart of everything we do at Grammarly.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest",
+        "customer-keys"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "Data transfer is protected using the industry-standard TLS 1.2 protocol",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "data at rest in AWS is encrypted using AES-256 server-side encryption",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "Enterprise clients can either provide their own encryption keys",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "we undergo third-party network penetration tests",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://support.grammarly.com/hc/en-us/articles/25555503115277-Product-Improvement-and-Training-Control",
+          "quote": "Grammarly engages a professional third-party firm to conduct annual penetration testing",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Annual third-party tests are stated. No summary or report is offered on the pages read."
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/.well-known/security.txt",
+          "quote": "Grammarly uses HackerOne for vulnerability coordination and as a bug bounty platform.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "incidents": {
+      "value": "unknown",
+      "note": "source blocked: https://www.courtlistener.com/?q=Angwin+Superhuman+Platform (bot check, earlier run). Press and law-firm pages report a 2026 proposed class action over the 'Expert Review' feature, but no court record was read, so it is not recorded. No regulator decision or vendor breach notice was found."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://status.grammarly.com",
+          "quote": "Get the Atom Feed or RSS Feed",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "sso": {
+      "value": [
+        "saml",
+        "google"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "SAML single sign-on",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.superhuman.com/legal/privacy-policy",
+          "quote": "If you use a single sign-on partner, like Google or Apple",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://support.grammarly.com/hc/en-us/articles/25045817701645-Set-up-multi-tenant-SSO-with-Microsoft-Entra-ID-Azure-AD",
+          "quote": "Set up multi-tenant SSO with Microsoft Entra ID (Azure AD)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "SAML for organisations, including Microsoft Entra ID set up through SAML (support article). Google is named for individual sign-in in the privacy policy, not as an admin SSO option. No OIDC documentation found."
+    },
+    "federation": {
+      "value": "none-found",
+      "note": "Web search for eduGAIN, SWAMID, InCommon and UK Access Management Federation listings returned no Grammarly entry. The federation participant lists themselves were not read."
+    },
+    "scim": {
+      "value": "yes",
+      "footnote": "Enterprise plans only.",
+      "evidence": [
+        {
+          "url": "https://support.grammarly.com/hc/en-us/articles/360058948112",
+          "quote": "Configure SCIM provisioning with Microsoft Entra ID (Azure AD) Included in: Grammarly Enterprise plans",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "multi-factor authentication is available for team members across your company",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/security",
+          "quote": "Administration tools make it easy to add, remove, or transfer accounts and to manage team member roles, permissions, and access within your company.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/plans",
+          "quote": "Audit Logs API",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Listed in the plans comparison. The cached table does not keep column positions, so the plan tier is not confirmed."
+    },
+    "lms_integration": {
+      "value": [
+        "lti",
+        "canvas",
+        "blackboard",
+        "moodle"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/edu",
+          "quote": "Canvas Microsoft Outlook Blackboard Moodle",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://support.grammarly.com/hc/en-us/articles/39577199384333-Setup-guide-for-Grammarly-Authorship-in-Canvas-LMS",
+          "quote": "In the Dynamic Registration URL field, enter the following URL and click Next : https://authorship.grammarly.com/lti/canvas/install",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/blog/product/grammarly-authorship-is-now-available-in-blackboard/",
+          "quote": "After integrating with Canvas LMS in September 2025, Grammarly Authorship now integrates with Blackboard",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Canvas uses an LTI app with dynamic registration (Authorship, Writing Score); the LTI version is not stated. The Blackboard integration is for Authorship. Moodle appears only as an integration logo on the education page."
+    },
+    "vpat": {
+      "value": "none-found",
+      "note": "The accessibility statement links no VPAT or ACR. A web search for a Grammarly VPAT or ACR returned none."
+    },
+    "wcag_level": {
+      "value": "none-claimed",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/accessibility-statement",
+          "quote": "applying the relevant accessibility standards",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The statement names no WCAG level."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/accessibility-statement",
+          "quote": "Grammarly Inc. is committed to providing a website and applications that are accessible to the widest possible audience",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "Looked at the education, trust and security pages and a web search for a Grammarly HECVAT. None published."
+    },
+    "ferpa": {
+      "value": "school-official-terms",
+      "evidence": [
+        {
+          "url": "https://sdpc.a4l.org/agreements/2024-11-07_12313_357_signed_agreement_file.pdf",
+          "quote": "the Provider shall be considered a School Official with a legitimate educational interest",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "From a Student Data Privacy Agreement (NDPA standard clauses v3.0) between Cayuga-Onondaga BOCES (New York) and Grammarly, Inc., filed in the SDPC registry as a signed agreement; signatures are not visible in the text copy. No FERPA statement on the grammarly.com pages read. source blocked: https://help.superhuman.com/hc/en-us/articles/48091672097677-FERPA-compliance-information-for-Superhuman-Docs (Docs, not Grammarly)."
+    },
+    "hipaa_baa": {
+      "value": "available",
+      "footnote": "Enterprise plans only.",
+      "evidence": [
+        {
+          "url": "https://support.grammarly.com/hc/en-us/articles/4403227220237-Is-Grammarly-HIPAA-compliant",
+          "quote": "currently, we can enter into BAAs only for Grammarly for Business Enterprise plans",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/terms/customer-business-agreement",
+          "quote": "Customer agrees not to submit any HIPAA Data to the Services unless it has entered into a BAA with Superhuman",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "No Section 508 statement found on the accessibility statement or other pages read."
+    },
+    "state_privacy": {
+      "value": [
+        "ccpa",
+        "sdpc-npdpa"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/privacy-policy",
+          "quote": "This section also serves as our California notice at collection.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://sdpc.a4l.org/agreements/2024-11-07_12313_357_signed_agreement_file.pdf",
+          "quote": "This Student Data Privacy Agreement (“ DPA ”) is entered into on the date of full execution",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "CCPA notice in the privacy policy. One SDPC registry agreement (Cayuga-Onondaga BOCES, New York, 2024, Grammarly, Inc. as Provider) was read; other state agreements were not checked. NY Ed Law 2-d terms were not confirmed in the text."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.superhuman.com/legal/dpa",
+          "quote": "the UK SCCs will apply",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "au_privacy": {
+      "value": "none-found",
+      "note": "No Australian Privacy Principles statement, IRAP assessment or Australian hosting found on the pages read."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "No NIS2 supply-chain statement found on the pages read."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/plans",
+          "quote": "Write without spelling and grammar mistakes.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Free plan at $0 per month, with a Pro trial also offered."
+    },
+    "price_individual": {
+      "value": "$12 USD per month (Pro plan, as published)",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/plans",
+          "quote": "$12 USD",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The plans page shows the unit '/ month'. It does not say whether billing is monthly or annual."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/about",
+          "quote": "Grammarly for Education gives students and institutions campus-wide access to writing support",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Enterprise and Education tiers are offered through sales, per the plans and education pages."
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/plans",
+          "quote": "Yes! Learn more about our discounts for educational institutions.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/plans",
+          "quote": "Looking for Enterprise? Contact Sales",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Free and Pro prices are published. Enterprise prices are not."
+    },
+    "capabilities": {
+      "value": [
+        "grammar",
+        "plagiarism-check",
+        "paraphrasing",
+        "translation",
+        "citation-formatting",
+        "ai-detection",
+        "academic-writing",
+        "general-ai-chat"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/plans",
+          "quote": "Write without spelling and grammar mistakes.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/plagiarism-checker",
+          "quote": "Ensure every word is your own with Grammarly’s AI-powered plagiarism checker",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.grammarly.com/paraphrasing-tool",
+          "quote": "Free Paraphrasing Tool | Paraphrase Instantly (No Sign-up)",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.grammarly.com/translate",
+          "quote": "Free AI Translator | Accurate Translations in 50+ Languages",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.grammarly.com/citations",
+          "quote": "Get well-formatted APA, MLA, and Chicago-style citations with a citation generator",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.grammarly.com/ai-detector",
+          "quote": "Navigate responsible AI use with our AI checker, trained to identify AI-generated text.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.grammarly.com/essay-checker",
+          "quote": "Grammarly’s free AI essay-checking tool reviews your papers for grammatical mistakes",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.grammarly.com/ai-chat",
+          "quote": "Ask questions, generate ideas, and improve your writing",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Only features shown on product pages. Docs real-time collaboration is marked 'Not yet' on the docs FAQ (earlier cache), so it is left out."
+    },
+    "primary_capability": {
+      "value": "other",
+      "others": [
+        "writing assistance"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/plans",
+          "quote": "Write without spelling and grammar mistakes.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Grammarly's main use is writing assistance (grammar, style, tone). None of the listed primary-use options fit it exactly."
+    },
+    "platforms": {
+      "value": [
+        "web",
+        "windows",
+        "macos",
+        "ios",
+        "android",
+        "browser-extension",
+        "word-addin"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/accessibility-statement",
+          "quote": "Grammarly.com and all Grammarly browser extensions are designed to be compatible",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/accessibility-statement",
+          "quote": "Grammarly for Windows and Grammarly for Mac are designed to be compatible with",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/accessibility-statement",
+          "quote": "Grammarly for iOS and iPadOS is designed to be compatible with",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.grammarly.com/mobile",
+          "quote": "which works across all of your iOS or Android apps",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.grammarly.com/browser",
+          "quote": "With Grammarly’s browser extensions, you’ll get industry-leading AI writing assistance",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.grammarly.com/microsoft-office",
+          "quote": "Grammarly works across both Windows and Mac in Word, Outlook, PowerPoint, and Teams.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "languages": {
+      "value": "Over 20 languages",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/languages",
+          "quote": "Write clearly and naturally in over 20 languages with Grammarly’s multilingual writing assistance.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Writing assistance in over 20 languages (languages page). The education page names English, Spanish, French, German, Portuguese and Italian, plus translation in 19 languages. No list of interface languages is published."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developer.grammarly.com",
+          "quote": "Welcome to Grammarly’s API developer documentation.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://developer.grammarly.com",
+          "quote": "The API is available through the HTTP REST interface.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Documented APIs: Analytics, License Management, Writing Score, AI Detection (beta), Plagiarism Detection (beta). Aimed at enterprise customers."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.grammarly.com/terms",
+          "quote": "reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Terms prohibit reverse engineering. No open-source licence is stated."
+    },
+    "self_host": {
+      "value": "unknown",
+      "note": "No self-hosted option is described. The vendor says its services run on AWS and GCP (DPA)."
+    }
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "id": "scite",
+  "name": "Scite",
+  "website": "https://scite.ai",
+  "tagline": "Search and AI assistant for scientific papers that labels each citation as supporting or contradicting a claim (Smart Citations), owned by Research Solutions",
+  "category": "ai",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Scite, LLC",
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "Scite, LLC, a Research Solutions Company", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "Henderson, NV 89052, USA", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "parent_company": {
+      "value": "Research Solutions, Inc.",
+      "evidence": [
+        { "url": "https://researchsolutions.investorroom.com/2023-11-27-Research-Solutions-Announces-Acquisition-of-scite", "quote": "today announced their acquisition of scite", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Privacy policy calls Scite a Research Solutions Company. Parent named in the 2023 acquisition press release (Nasdaq: RSSS)."
+    },
+    "parent_country": {
+      "value": "US",
+      "evidence": [
+        { "url": "https://researchsolutions.investorroom.com/2023-11-27-Research-Solutions-Announces-Acquisition-of-scite", "quote": "HENDERSON, Nev.", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "note": "Searched the privacy policy EU and UK section (section 12) and the whole policy; no Article 27 representative named."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "contact us at customersupport@researchsolutions.com", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Privacy requests go to a general customer support mailbox, no DPO named."
+    },
+    "hosting_regions": {
+      "value": ["US"],
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "personal information will be processed in the United States", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Policy states processing location for personal information, not a storage region list."
+    },
+    "local_first": {
+      "value": "unknown",
+      "note": "No statement on local-only use found on homepage, privacy policy or terms."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "note": "No EU data residency option found in the privacy policy or terms."
+    },
+    "cloud_providers": {
+      "value": "unknown",
+      "note": "Policy mentions unnamed service providers for IT outsourcing and hosting. Sub-processor page blocked: https://scite.ai/subprocessors"
+    },
+    "transfer_mechanism": {
+      "value": ["sccs"],
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "we implement the standard contractual clauses approved by the European Commission", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No EU-US Data Privacy Framework statement found in the cached pages."
+    },
+    "subprocessors_public": {
+      "value": "unknown",
+      "note": "source blocked: https://scite.ai/subprocessors"
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "note": "source blocked: https://scite.ai/subprocessors"
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "note": "source blocked: https://scite.ai/subprocessors"
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "note": "source blocked: https://scite.ai/subprocessors"
+    },
+    "dpa": {
+      "value": "unknown",
+      "note": "source blocked: https://scite.ai/dpa"
+    },
+    "role": {
+      "value": "controller",
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "We collect and use personal information for the following purposes:", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Describes its own collection and use of personal data for its own purposes, including marketing and analytics."
+    },
+    "privacy_policy_date": {
+      "value": "2026-03-26",
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "Effective Date: March 26, 2026", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "we typically retain such personal information for no longer than the period necessary to fulfill the purposes outlined in this Policy", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "upon request, we will securely delete such data in accordance with applicable law", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Deletion is on request. No deletion time frame after account termination found."
+    },
+    "data_export": {
+      "value": "unknown",
+      "note": "Privacy policy describes viewing, amending or deleting account information, not exporting content."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "note": "No breach notification window found in the privacy policy or terms."
+    },
+    "governing_law": {
+      "value": "US",
+      "evidence": [
+        { "url": "https://scite.ai/terms", "quote": "in accordance with the laws of the state of New York", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Disputes go to AAA arbitration under New York law."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "Scite is an AI-powered platform that helps researchers discover and evaluate scientific literature", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "ai_providers": {
+      "value": "unknown",
+      "note": "No model provider named in the cached homepage, policy, terms, pricing or llms.txt."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "we do not use Customer Data to train, fine-tune, retrain, or otherwise improve any large language models", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Stated for Customer Data, a term the privacy policy does not define. Terms section 7.3 limits Media licence to Service use."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "note": "Not stated in the cached pages."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "note": "No institution admin AI switch found in the cached pricing or policy pages."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act statement found in the cached pages."
+    },
+    "certifications": {
+      "value": "none-found",
+      "note": "https://scite.ai/security and https://scite.ai/trust both returned a 404 page. No certification named in the cached pages."
+    },
+    "trust_page": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://scite.ai/security", "quote": "404 | Not Found", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Security and trust paths return 404 on the public site."
+    },
+    "encryption": {
+      "value": "unknown",
+      "note": "Not stated in the cached privacy policy or terms."
+    },
+    "pentest": {
+      "value": "unknown",
+      "note": "Not stated in the cached pages."
+    },
+    "vuln_disclosure": {
+      "value": "unknown",
+      "note": "source blocked: https://scite.ai/.well-known/security.txt"
+    },
+    "incidents": {
+      "value": "unknown",
+      "note": "No incident search performed in this pass."
+    },
+    "status_page": {
+      "value": "unknown",
+      "note": "Homepage navigation shows a Status link (to status.scite.ai), but the link target is not in the cached page text and the status page was not opened."
+    },
+    "sso": {
+      "value": ["microsoft", "google"],
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "MS Azure, Google, Facebook", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Sign-in through Microsoft Azure and Google is named. Pricing page also says Enterprise access is via SSO, protocol not named."
+    },
+    "federation": {
+      "value": "unknown",
+      "note": "No eduGAIN or national federation listing checked in this pass."
+    },
+    "scim": {
+      "value": "unknown",
+      "note": "Not stated in the cached pages."
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "Not stated in the cached pages."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "note": "Not stated in the cached pages."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "note": "Not stated in the cached pages."
+    },
+    "lms_integration": {
+      "value": "unknown",
+      "note": "No LMS integration named in the cached homepage or pricing pages."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://scite.ai/accessibility-statement", "quote": "You can also view our Accessibility Conformance Report (VPAT) for a detailed, criterion-by-criterion breakdown.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The statement links to the VPAT. The linked document was not fetched in this pass."
+    },
+    "wcag_level": {
+      "value": "2.2-aa",
+      "evidence": [
+        { "url": "https://scite.ai/accessibility-statement", "quote": "Scite conforms to the Web Content Accessibility Guidelines (WCAG) 2.1 and 2.2, Level AA", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://scite.ai/accessibility-statement", "quote": "Scite is committed to ensuring digital accessibility for people with disabilities.", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "hecvat": {
+      "value": "unknown",
+      "note": "No HECVAT search performed in this pass."
+    },
+    "ferpa": {
+      "value": "school-official-terms",
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "The institution retains ownership and control of the education records we maintain on its behalf", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "Not stated in the cached pages."
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "Not stated in the cached pages."
+    },
+    "state_privacy": {
+      "value": ["ccpa"],
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "Additional Disclosures for California Users", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "note": "Privacy policy EU and UK section names SCCs but no UK addendum or IDTA."
+    },
+    "au_privacy": {
+      "value": "unknown",
+      "note": "Not stated in the cached pages."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "Not stated in the cached pages."
+    },
+    "free_plan": {
+      "value": "trial-only",
+      "evidence": [
+        { "url": "https://scite.ai/pricing", "quote": "Start free 7-day trial", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "price_individual": {
+      "value": "$12 per month, billed yearly (Basic plan)",
+      "evidence": [
+        { "url": "https://scite.ai/pricing", "quote": "Billed yearly Save $96", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://scite.ai/pricing", "quote": "Unlimited users with pooled usage", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Enterprise tier. Price on request via sales."
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://scite.ai/pricing", "quote": "We do offer discounts for students and academics", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://scite.ai/pricing", "quote": "Billed yearly Save $96", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "capabilities": {
+      "value": ["literature-search"],
+      "evidence": [
+        { "url": "https://scite.ai", "quote": "Full-text citation search", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Homepage also names an Assistant grounded in research; its exact scope is not described on the cached pages, so not listed as paper-chat."
+    },
+    "primary_capability": {
+      "value": "literature-search",
+      "evidence": [
+        { "url": "https://scite.ai/policy", "quote": "Scite is an AI-powered platform that helps researchers discover and evaluate scientific literature", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "platforms": {
+      "value": ["web", "browser-extension"],
+      "evidence": [
+        { "url": "https://scite.ai/terms", "quote": "Thank you for using the Scite website at https://scite.ai", "retrievedAt": "2026-11-16" },
+        { "url": "https://scite.ai", "quote": "Browser Extension Citation badges anywhere", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "languages": {
+      "value": "unknown",
+      "note": "No interface language list checked in this pass."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://scite.ai/pricing", "quote": "API access is included with Pro and Team.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Public docs at https://api.scite.ai/docs named in the llms.txt file."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://scite.ai/terms", "quote": "the Company owns all worldwide right, title and interest, including all intellectual property and other proprietary rights", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "self_host": {
+      "value": "unknown",
+      "note": "Not stated in the cached pages."
+    }
+  }
+}

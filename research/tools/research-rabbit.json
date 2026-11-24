@@ -1,0 +1,473 @@
+{
+  "id": "research-rabbit",
+  "name": "ResearchRabbit",
+  "website": "https://www.researchrabbit.ai",
+  "tagline": "Literature discovery tool that maps papers through their citation and author networks, with a free plan and a paid RR+ plan",
+  "category": "ai",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Litmap Limited",
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/legal/data-processing-addendum",
+          "quote": "Litmap Limited (“ResearchRabbit”, “Processor”)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Named in the DPA. ResearchRabbit is the trading name. The privacy and terms pages could not be read, so the contracting entity could not be confirmed there."
+    },
+    "vendor_country": {
+      "value": "NZ",
+      "evidence": [
+        {
+          "url": "https://litmaps.com/privacy-policy",
+          "quote": "Litmaps is based in New Zealand",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Taken from the sister product Litmaps, whose privacy policy names the same operator, Litmap Limited. No ResearchRabbit page states the country."
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No parent or owner named on researchrabbit.ai pages (about, pricing, DPA, subprocessors, help centre)."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "note": "No separate parent company found (see Parent company), so the vendor country applies."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Vendor is outside the EU. No Article 27 EU representative named on the DPA, subprocessor or help pages."
+    },
+    "dpo_contact": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No DPO or privacy contact found on the DPA, subprocessor page or help pages. Privacy policy body could not be read: source blocked: https://www.researchrabbit.ai/privacy-policy"
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Hosting location not stated. Infrastructure is AWS per the subprocessor list, with no region named."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://learn.researchrabbit.ai/en/articles/12796770-data-responsibility-tldr",
+          "quote": "We store your articles and notes to be able to let you do what you do within ResearchRabbit.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The product is a hosted service and the vendor states it stores articles and notes. No local-only mode found."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement on EU/EEA data residency found on the public pages reviewed."
+    },
+    "cloud_providers": {
+      "value": ["aws"],
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/legal/subprocessors",
+          "quote": "Amazon Web Services (AWS) – cloud hosting and data storage",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "transfer_mechanism": {
+      "value": ["sccs"],
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/legal/data-processing-addendum",
+          "quote": "Standard Contractual Clauses (SCCs), or",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA section 11 says safeguards include SCCs or other lawful transfer mechanisms. No DPF certification statement found."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/legal/subprocessors",
+          "quote": "ResearchRabbit uses the following subprocessors to provide its services.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "subprocessors_count": {
+      "value": 7,
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/legal/subprocessors",
+          "quote": "Brevo – marketing email delivery",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Counted each listed entry: Amazon Web Services, Stripe, Mixpanel, Amazon CloudWatch, Amazon SES, Brevo, Intercom."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The subprocessor list does not state processing locations for each entry."
+    },
+    "subprocessor_notice": {
+      "value": "page-only",
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/legal/data-processing-addendum",
+          "quote": "will provide notice by updating the subprocessor list",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA section 7.5 allows objection within 14 days of notice."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/legal/data-processing-addendum",
+          "quote": "forms part of the Terms of Service or any agreement",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Published as a web page on researchrabbit.ai. It is not a downloadable or self-signed file."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/legal/data-processing-addendum",
+          "quote": "Litmap Limited (ResearchRabbit) is the Processor",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "privacy_policy_date": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://www.researchrabbit.ai/privacy-policy (page renders heading and navigation only, no policy body)"
+    },
+    "retention_stated": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://www.researchrabbit.ai/privacy-policy. DPA section 4 gives duration only as 'for the duration of the Agreement'."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/legal/data-processing-addendum",
+          "quote": "Upon termination of the Agreement, ResearchRabbit will, at Customer’s choice:",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No time frame given in the DPA. Backups may keep data for a limited period, per DPA section 10."
+    },
+    "data_export": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No export feature described on the public help or product pages reviewed."
+    },
+    "breach_notice": {
+      "value": "without undue delay",
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/legal/data-processing-addendum",
+          "quote": "ResearchRabbit will notify Customer without undue delay after becoming aware of a Personal Data Breach",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "governing_law": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://www.researchrabbit.ai/terms-of-service. DPA section 14 says it is governed by the same law as the Agreement, but the Agreement's governing law is not readable."
+    },
+    "ai_features": {
+      "value": "none",
+      "evidence": [
+        {
+          "url": "https://learn.researchrabbit.ai/en/articles/13545441-environmental-impact-and-how-we-work",
+          "quote": "ResearchRabbit does not use large language models to power its core recommendation and discovery systems.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vendor states its core recommendation and discovery systems do not use large language models. No other generative AI feature found on public pages."
+    },
+    "ai_providers": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No model provider named. The vendor says its core discovery does not use LLMs."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://learn.researchrabbit.ai/en/articles/12796770-data-responsibility-tldr",
+          "quote": "We don't train AI models using your articles or notes",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Statement is in a help-centre article, not the privacy policy, which could not be read."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement on zero retention at a model provider found."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No institution admin control over AI features found."
+    },
+    "ai_act_statement": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Help article 'How ResearchRabbit uses AI, and where we don't' is a general AI approach page, not an EU AI Act statement."
+    },
+    "certifications": {
+      "value": ["none-found"],
+      "evidence": [],
+      "note": "No certification named. researchrabbit.ai/security, /trust and /legal/security all return 404."
+    },
+    "trust_page": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "researchrabbit.ai/security, /trust and /legal/security return 404. No trust centre link found on the homepage or pricing page."
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest"],
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/legal/data-processing-addendum",
+          "quote": "Encryption in transit (TLS)",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.researchrabbit.ai/legal/data-processing-addendum",
+          "quote": "Encryption at rest (where applicable)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "At-rest encryption is qualified in the DPA as 'where applicable'."
+    },
+    "pentest": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No penetration test statement found."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "https://www.researchrabbit.ai/.well-known/security.txt returns 404."
+    },
+    "incidents": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "One web search for breaches or fines found none. Press articles were not used. No regulator or vendor notice found."
+    },
+    "status_page": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No status page link found on the public pages reviewed."
+    },
+    "sso": {
+      "value": ["unknown"],
+      "evidence": [],
+      "note": "Sign-in options not checked. Logging in was out of scope."
+    },
+    "federation": {
+      "value": ["none-found"],
+      "evidence": [],
+      "note": "No eduGAIN or national federation listing found."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No user provisioning statement found."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No MFA statement found on public pages."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/pricing",
+          "quote": "Review usage statistics and learn about your researchers",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Listed under the Institution plan on the pricing page."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No audit log statement found."
+    },
+    "lms_integration": {
+      "value": ["none-found"],
+      "evidence": [],
+      "note": "Only library-link integration found (LibKey on the Institution plan). No LMS or LTI listing found."
+    },
+    "vpat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "https://www.researchrabbit.ai/accessibility returns 404."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No accessibility conformance claim found."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No accessibility statement found at researchrabbit.ai/accessibility (404)."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No HECVAT found on the public pages reviewed."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No FERPA statement found."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No BAA statement found."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No Section 508 statement found."
+    },
+    "state_privacy": {
+      "value": ["none-found"],
+      "evidence": [],
+      "note": "No SDPC, CCPA or NY Ed Law 2-d terms found."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "DPA section 11 refers to transfers out of the EEA or UK with safeguards, but names only SCCs. No UK addendum found."
+    },
+    "au_privacy": {
+      "value": ["none-found"],
+      "evidence": [],
+      "note": "No Australian privacy statement, IRAP or AU hosting found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 statement found."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/pricing",
+          "quote": "$0, Forever!",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "price_individual": {
+      "value": "$10* per month on the annual plan; $12.5* per month on the monthly plan (currency not stated)",
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/pricing",
+          "quote": "$10* per month",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Asterisk refers to special country discount codes. The page does not state the currency."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/pricing",
+          "quote": "Empowering research at scale",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Institution plan listed with volume discounts and manage-users features. No price published."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Only country discount codes are mentioned. No student or academic discount found."
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/pricing",
+          "quote": "$10* per month",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "capabilities": {
+      "value": ["literature-search", "citation-graph"],
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai/pricing",
+          "quote": "Unlimited searches across 310+ million articles",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.researchrabbit.ai/en/articles/12454660-how-does-researchrabbit-work",
+          "quote": "ResearchRabbit finds relevant research by using the citation network.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "primary_capability": {
+      "value": "literature-search",
+      "evidence": [
+        {
+          "url": "https://www.researchrabbit.ai",
+          "quote": "ResearchRabbit analyzes papers you love and finds the research you’ve been missing.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": ["unknown"],
+      "evidence": [],
+      "note": "No platform list found on the public pages. Only a web login link (app.researchrabbit.ai) is shown."
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No interface language list found."
+    },
+    "api": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No public API documentation found."
+    },
+    "open_source": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No licence statement found."
+    },
+    "self_host": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No self-hosting statement found."
+    }
+  }
+}

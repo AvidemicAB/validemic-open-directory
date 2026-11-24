@@ -1,0 +1,512 @@
+{
+  "id": "spss",
+  "name": "IBM SPSS Statistics",
+  "website": "https://www.ibm.com/products/spss-statistics",
+  "tagline": "Desktop statistical analysis software for regression, predictive modeling and forecasting; sold as subscription, perpetual and student or campus licences",
+  "category": "statistics",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "International Business Machines Corporation (IBM Corp.)",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/privacy",
+          "quote": "International Business Machines Corporation (IBM Corp.)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Named in the IBM Privacy Statement. IBM subsidiaries may be named as controller for specific interactions. SPSS licence terms were not read."
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/privacy",
+          "quote": "United States of America.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Privacy Statement gives the address as Armonk, New York."
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "IBM Corp. is the top entity named in the Privacy Statement. No parent or owner named for it on the pages checked."
+    },
+    "eu_representative": {
+      "value": "named",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/privacy",
+          "quote": "Where IBM Corp. or a subsidiary it controls is required to appoint a legal representative, the following representatives have been appointed.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Privacy Statement names IBM International Group B.V., Amsterdam, as EEA representative."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/privacy",
+          "quote": "IBM Corp. or our Chief Privacy & Responsible Technology Officer can be contacted at:",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No named DPO found. The Privacy Statement also links a Contact IBM Privacy webform."
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The GDPR documentation says the client software runs on the user's own desktop computer, so there is no vendor hosting for that edition. No country named for the cloud-based AI feature."
+    },
+    "local_first": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/docs/en/spss-statistics/31.0.0?topic=gdpr",
+          "quote": "It operates on your own desktop computer without connections to other parties.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Exceptions: licence activation needs an Internet connection (licence guide), and information sharing and error reporting can be switched off with the Configure NO command (ENABLE_CONNECTIONS). The AI Output Assistant uses watsonx.ai and can be disabled by an administrator in v32."
+    },
+    "eu_residency": {
+      "value": "not-applicable",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/docs/en/spss-statistics/31.0.0?topic=gdpr",
+          "quote": "It operates on your own desktop computer without connections to other parties.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Applies to the desktop client only. The AI Output Assistant's processing location is not stated."
+    },
+    "cloud_providers": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "No infrastructure provider named for SPSS Statistics. The AI Output Assistant is described as powered by watsonx.ai; hosting not stated."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "Privacy Statement names contractual clauses, DPF and BCRs for IBM generally. The DPF certified cloud services list does not include IBM SPSS Statistics, so no SPSS-specific mechanism was found."
+    },
+    "subprocessors_public": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No SPSS sub-processor list found. IBM's DPA exhibits list sub-processors per service, but no SPSS exhibit was found. The ibm.com/support/pages/ibm-subprocessors URL returned 404."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No SPSS sub-processor list found (see subprocessors_public)."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No SPSS sub-processor list found (see subprocessors_public)."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "IBM's IBM Systems and TSS DPA exhibits describe updating the sub-processor list, but no SPSS exhibit was found."
+    },
+    "dpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "ibm.com/dpa redirects to the IBM Terms page, which has no DPA text in the cached copy. No SPSS-specific DPA exhibit found in search."
+    },
+    "role": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The GDPR documentation says SPSS Statistics acts as a general tool that processes data on the customer's instructions. The Privacy Statement describes IBM as controller for website data. The role for SPSS customer content is not stated as processor or controller."
+    },
+    "privacy_policy_date": {
+      "value": "2026-08-25",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/privacy",
+          "quote": "This privacy statement is effective as of 25 August 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "IBM-wide Privacy Statement date, not an SPSS-specific policy."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/docs/en/spss-statistics/31.0.0?topic=gdpr",
+          "quote": "SPSS Statistics software does not store any personal data.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The vendor says the software keeps no personal data. A journal and trace log stay on the local machine and can be enabled or disabled by the operating system user."
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No deletion process on exit described. Data sits on the customer's own machine."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/products/spss-statistics",
+          "quote": "Create interactive tables exportable to Excel or PDF",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Tables export to Excel or PDF. Full data export in open formats was not confirmed."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No breach-notification window found in the Privacy Statement, the GDPR documentation or SPSS pages checked."
+    },
+    "governing_law": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The current SPSS licence page (ibm.com/software/sla) did not return licence text. A 2011 IBM International Program License Agreement names the country where the licence was obtained, with New York for some territories. That copy is old and not the current SPSS terms."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/products/spss-statistics",
+          "quote": "With integrated AI capabilities, including the AI Output Assistant, users can interact with results using natural language",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The AI Output Assistant is one feature alongside the statistics tools. An administrator can disable it in v32 (see ai_admin_off)."
+    },
+    "ai_providers": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Features page says the AI Output Assistant is powered by watsonx.ai, IBM's AI platform. The model providers behind watsonx.ai are not named for SPSS."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The GDPR documentation says IBM has no intention to use data processed in the client software. No statement covers AI Output Assistant inputs or training."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated for the SPSS AI Output Assistant."
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://community.ibm.com/community/user/blogs/anu-j-r/2026/04/22/ibm-spss-statistics-3200-release",
+          "quote": "Administrators can now completely disable and remove the AI Output Assistant from the user interface.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated in IBM's SPSS Statistics 32.0.0 release post on the IBM Community site. Not confirmed in the v32 product documentation."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No EU AI Act statement found for SPSS Statistics."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/trust",
+          "quote": "Protecting our customers and business with security and privacy practices and responsible AI",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "certifications": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "The IBM Trust Center lists IBM Cloud Compliance Programs, which were not matched to SPSS Statistics. A search for SPSS SOC 2, ISO 27001 and HECVAT returned nothing SPSS-specific."
+    },
+    "encryption": {
+      "value": [
+        "in-transit"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/docs/en/spss-statistics/31.0.0?topic=gdpr",
+          "quote": "Activate the encryption of data in motion (data that is transferred over a",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Encryption of data in motion is a setting for client-server deployments between the client and server. Not applicable to the desktop-only client. Encryption at rest not stated."
+    },
+    "pentest": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No penetration test summary found on the IBM PSIRT or trust pages checked."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/trust/security-psirt",
+          "quote": "Report product vulnerabilities by emailing IBM at psirt@us.ibm.com.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The PSIRT page also lists a HackerOne team. A security.txt file is published at ibm.com/.well-known/security.txt. No bounty amount stated on the pages checked."
+    },
+    "incidents": {
+      "value": "none found",
+      "evidence": [],
+      "note": "Searched for breaches and regulator fines. Found only IBM vulnerability bulletins (for example an April 2026 Java bulletin listing SPSS Statistics versions) and no breach or fine."
+    },
+    "status_page": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No SPSS status page found."
+    },
+    "sso": {
+      "value": [
+        "none"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/docs/en/spss-statistics/31.0.0?topic=gdpr",
+          "quote": "IBM doesn't provide authentication. Who can access the software depends on the native operating system control.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "For the desktop client, access is controlled by the operating system, so no SSO. The client-server deployment logs in with an operating-system user ID."
+    },
+    "federation": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No federation listing (eduGAIN, SWAMID, etc.) found for SPSS Statistics. Not searched in each federation directory."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No SCIM provisioning found."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Authentication for the desktop client is the operating system's. No MFA statement for SPSS found."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "IBM publishes an Authorized User License Administrator guide, which covers licence setup and not a user management console. No usage report console found."
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/docs/en/spss-statistics/31.0.0?topic=gdpr",
+          "quote": "The journal file records instrumentation of user operations including SPSS Statistics launch time, exit time, command executed, and timestamp.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Journal is a local file on the client machine, not a central admin audit log. Operating system authorized users can enable or disable the logs."
+    },
+    "lms_integration": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No LMS integration (LTI, Canvas, Moodle, etc.) found on the pages checked."
+    },
+    "vpat": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "IBM publishes Accessibility Conformance Reports on its Product Accessibility Reports page, but the cached page has no SPSS-specific report link. A third-party summary of an April 2025 SPSS VPAT exists but is not an IBM source. The v32 Accessibility.pdf is a setup guide, not a conformance report."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No WCAG level stated on the IBM accessibility pages checked."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "IBM Accessibility pages exist, but no SPSS-specific accessibility statement was found."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Searched for an SPSS HECVAT. None found on IBM pages or in search results."
+    },
+    "ferpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No FERPA statement or school-official terms found for SPSS Statistics."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No BAA offer found for SPSS Statistics."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Section 508 not stated on the IBM pages checked."
+    },
+    "state_privacy": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "No SDPC, CCPA or NY Ed Law 2-d terms found for SPSS Statistics."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Privacy Statement names a UK representative and BCR-C approval by the UK ICO. No UK IDTA or UK addendum for SPSS found."
+    },
+    "au_privacy": {
+      "value": [
+        "none-found"
+      ],
+      "evidence": [],
+      "note": "No Australian Privacy Principles statement, IRAP assessment or Australian hosting found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 statement found."
+    },
+    "free_plan": {
+      "value": "trial-only",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/products/spss-statistics",
+          "quote": "Start free trial",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Free trial offered. Student GradPack licences are paid."
+    },
+    "price_individual": {
+      "value": "from USD 99 per authorized user (Base subscription)",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/products/spss-statistics",
+          "quote": "Pricing : Starting at $99.00 USD USD Per Authorized User*",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Billing period is not shown next to this price. The campus and GradPack pages say prices shown are per month. Add-on bundles start from USD 79 per authorized user on the same page."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/products/spss-statistics/campus-editions",
+          "quote": "Empower your academic institution with just one license",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Campus editions are offered for academic institutions. Commercial site licence terms not checked."
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/products/spss-statistics/gradpack",
+          "quote": "Unlock your full potential with affordable statistical software for students and educators.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Student and faculty GradPack licences are sold through IBM-authorized vendors at academic pricing."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/products/spss-statistics",
+          "quote": "Pricing : Starting at $99.00 USD USD Per Authorized User*",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Starting prices are shown for some plans. Other licence types point to Contact us or a purchase advisor."
+    },
+    "capabilities": {
+      "value": [
+        "statistics",
+        "data-visualization"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/products/spss-statistics",
+          "quote": "IBM SPSS Statistics is a comprehensive statistical analysis platform designed to help organizations and individuals",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.ibm.com/products/spss-statistics/commercial-editions",
+          "quote": "The Base Edition provides capabilities that support the entire analytics process including data preparation, descriptive statistics, linear regression, visual graphing, and reporting.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Based on product and edition pages. Predictive modeling and forecasting also exist but are not listed as option values."
+    },
+    "primary_capability": {
+      "value": "statistics",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/products/spss-statistics",
+          "quote": "IBM SPSS Statistics is a comprehensive statistical analysis platform designed to help organizations and individuals",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": [
+        "windows",
+        "macos"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/products/spss-statistics/campus-editions",
+          "quote": "A Base plan plus three add-on options is available for Windows or macOS.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Desktop software. The IBM version 32 system requirements page was not in the cache."
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "IBM 31.0.2.0 documentation is published in several languages (for example German, Japanese), but interface languages were not confirmed on an IBM page."
+    },
+    "api": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Server and client-server architecture exists. A public API with documentation was not confirmed on the pages checked."
+    },
+    "open_source": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Commercial IBM licence. No open-source statement found."
+    },
+    "self_host": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.ibm.com/docs/en/spss-statistics/31.0.0?topic=gdpr",
+          "quote": "Aside from the client software, we also offer a client-server architecture that allows customers to connect to and operate data on a server environment.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "SPSS Statistics Server can run on a server the customer operates. Hosting on infrastructure of the customer's choice is implied by the server-environment wording, not stated as self-hosting."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "note": "No separate parent company found (see Parent company), so the vendor country applies."
+    }
+  }
+}

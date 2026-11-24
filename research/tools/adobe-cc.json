@@ -1,0 +1,836 @@
+{
+  "id": "adobe-cc",
+  "name": "Adobe Creative Cloud",
+  "website": "https://www.adobe.com/creativecloud.html",
+  "tagline": "Subscription suite of design, photo and video apps (Photoshop, Illustrator, Premiere and others) with cloud storage and generative AI features",
+  "category": "productivity",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Adobe Systems Software Ireland Limited",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/generalterms-na-2025v1.pdf",
+          "quote": "If the Products and Services are licensed in any other country(ies): Adobe Systems Software Ireland Limited, located in Ireland.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/privacy/policy.html",
+          "quote": "If you reside outside of North America and outside of Japan, your relationship is with Adobe Systems Software Ireland Limited (Adobe Ireland)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "footnote": "Institutions in the US, Canada and Mexico contract with Adobe Inc. (San Jose, California). Consumer users in Japan deal with Adobe KK.",
+      "note": "Enterprise General Terms (2025v1): Adobe Inc. for licences in the US, Canada and Mexico; Adobe Systems Software Ireland Limited for all other countries."
+    },
+    "vendor_country": {
+      "value": "IE",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/generalterms-na-2025v1.pdf",
+          "quote": "Adobe Systems Software Ireland Limited, located in Ireland.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "footnote": "US for institutions in North America (Adobe Inc.)."
+    },
+    "parent_company": {
+      "value": "Adobe Inc.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbeex211fy25.htm",
+          "quote": "Adobe Systems Software Ireland Limited Ireland",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbeex211fy25.htm",
+          "quote": "All subsidiaries of the registrant are wholly owned, directly or indirectly, by Adobe and do business under their legal names.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Adobe Inc. annual report (10-K FY2025), Exhibit 21.1 'Subsidiaries of the registrant', lists Adobe Systems Software Ireland Limited as a wholly owned subsidiary (as of 2025-11-28)."
+    },
+    "parent_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/about-adobe/contact/offices.html",
+          "quote": "Corporate headquarters 345 Park Avenue San Jose, CA 95110-2704",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Adobe Inc. is headquartered in San Jose, California. Laws that reach the US parent can reach the Irish subsidiary."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/policy.html",
+          "quote": "your relationship is with Adobe Systems Software Ireland Limited (Adobe Ireland), which is the controller",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The contracting entity for EU/EEA customers is established in Dublin, so a GDPR Art. 27 representative is not needed. Adobe Ireland is also named as EU authorised representative under the AI Act (see ai_act_statement)."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/policy.html",
+          "quote": "you can also get in touch with Adobe Ireland's data protection officer at DPO@Adobe.com",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "DPO email and Dublin postal address published; no DPO named."
+    },
+    "hosting_regions": {
+      "value": ["US", "IN"],
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/policy.html",
+          "quote": "The main locations where we process your personal information are the US and India",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/go/security-fact-sheet",
+          "quote": "stores Firefly input content in Amazon Web Services (AWS) data centers in the US-East and US-West, regardless of the user’s location",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Cross-border transfers page (updated 2025-11-17) names the US, Ireland and India as primary locations where Adobe handles personal data. The sub-processor page lists USA, EU, UK, Canada, India and Australia (Azure) and USA, EU, Australia, Singapore, Japan and India (AWS) as hosting options. Firefly generative AI inputs are processed in the US regardless of user location. The Creative Cloud hosting-locations page linked from the Trust Center redirected to the Trust Center home page, so default storage regions for Creative Cloud for enterprise were not confirmed."
+    },
+    "local_first": {
+      "value": "unknown",
+      "note": "Privacy policy says apps access content stored locally on the device ('Local Content') as well as cloud content, but no page read states that the apps can be used with nothing sent to Adobe (sign-in and licence activation are online). System requirements page on helpx was blocked. source blocked: https://helpx.adobe.com/creative-cloud/system-requirements.html"
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/sub-processors.html",
+          "quote": "For certain Adobe products, customer may have the ability to choose their primary hosting location subject to data center availability",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The sub-processor page offers a hosting-location choice for 'certain Adobe products' and points to per-product Security Whitepapers; the Creative Cloud whitepaper/hosting page could not be read (redirect to Trust Center home; guessed PDF paths return 404). The Firefly fact sheet says Firefly inputs are processed in the US regardless of the user's location, so EU-only processing is not available for generative AI features."
+    },
+    "cloud_providers": {
+      "value": ["aws", "azure"],
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/sub-processors.html",
+          "quote": "Microsoft Azure (Azure) provides cloud hosting services for Adobe Cloud Services (Experience Cloud, Creative Cloud, and Document Cloud)",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/privacy/sub-processors.html",
+          "quote": "Amazon Web Services (“AWS”) provides cloud hosting services for Adobe to host applications (including Experience Cloud, Creative Cloud and Document Cloud)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "CDN providers (Akamai, Cloudflare, Fastly) are listed for Creative Cloud on the same page but are not hosting providers. Google Cloud is listed only for Semrush."
+    },
+    "transfer_mechanism": {
+      "value": ["dpf", "sccs", "adequacy"],
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/eudatatransfers.html",
+          "quote": "Adobe relies on Standard Contractual Clauses (SCCs) and adequacy decisions about certain countries, as applicable",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/privacy/policy.html",
+          "quote": "Adobe complies with the EU-U.S., UK Extension to the EU-U.S., and Swiss-U.S. Data Privacy Framework",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "For business customers, Adobe Ireland transfers to non-EEA Adobe entities under SCCs and adequacy decisions; Adobe Ireland has published a transfer impact assessment summary. DPF is the vendor's own claim; the dataprivacyframework.gov list was not checked in this run."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/sub-processors.html",
+          "quote": "This page lists Adobe’s current sub-processors where Adobe is acting as a data processor for a customer acting as a data controller.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Single list for all Adobe Cloud Services (Experience Cloud, Document Cloud and Creative Cloud), last updated 2026-09-28."
+    },
+    "subprocessors_count": {
+      "value": 54,
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/sub-processors.html",
+          "quote": "These are the third party entities that support delivery of functions that Adobe has outsourced",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "54 distinct third-party companies (57 entries across storage/infrastructure 16, security 8, product functionality 10, AI models 11, customer support 12; Microsoft, Google and Amazon each appear twice). Adobe's 27 group affiliates are listed separately and not counted. The list covers all Adobe Cloud Services; many entries (e.g. Marketo, Workfront, Commerce tools) do not apply to Creative Cloud. Page dated 2026-09-28."
+    },
+    "subprocessors_non_eea": {
+      "value": 54,
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/sub-processors.html",
+          "quote": "Primary locations are: (1) country/region where the sub-processor is headquartered and (2) any countries/regions where a sub-processor has a key processing hub",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "All 54 third-party companies list at least one primary processing location outside the EU/EEA (USA for all but Kuaishou, Humain, BellSystem 24 and SCSK, which list Singapore, Saudi Arabia and Japan). Group companies not counted."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/sub-processors.html",
+          "quote": "Adobe will inform customers who have signed up to our sub-processor updates in advance of any new sub-processor being added",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/dpa-ww.pdf",
+          "quote": "at least fourteen (14) days in advance of allowing the new Sub-processor to Process Personal Data (the “Objection Period”)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Email subscription; 14 days notice with an objection period (DPA section 4.3)."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/legal/terms/enterprise-licensing/data-protection.html",
+          "quote": "Our Data Processing Addendum describes how Adobe processes and protects personal data",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/dpa-ww.pdf",
+          "quote": "Data Processing Addendum (Cloud Services Only)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "DPA (June 2024) is a downloadable PDF and was read in full; a signed version can be generated online by business customers. The cross-border transfers page still says enterprise customers can request a DPA."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/dpa-ww.pdf",
+          "quote": "Under this DPA, Customer is the Data Controller and Adobe is the Data Processor",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.adobe.com/privacy/policy.html",
+          "quote": "Adobe collects usage information from employee users of Adobe enterprise customers (unless otherwise directed by an enterprise customer)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Processor for Cloud Services content under the enterprise DPA. Controller for individual (direct-purchase) users and for usage information about enterprise users, per the privacy policy."
+    },
+    "privacy_policy_date": {
+      "value": "2025-10-24",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/policy.html",
+          "quote": "Last updated: October 24, 2025",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/dpa-ww.pdf",
+          "quote": "determined by Customer during the term of the Agreement via Customer’s use and configuration of the Cloud Services",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/trust-center/ungated/whitepapers/creative-cloud/adobe-firefly-fact-sheet.pdf",
+          "quote": "Inference generations are logged in the Ingest and Feedback Services Repository for 90 days.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Customer content: retention set by the customer (DPA Exhibit 1). Firefly for enterprise: generation history kept until deleted, inference logs 90 days, feedback 6 months. Privacy policy: contract and transaction data kept ten years after last interaction."
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/dpa-ww.pdf",
+          "quote": "Adobe will, at the choice of the Customer, delete or return to the Customer all Personal Data after the end of the applicable term",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/generalterms-na-2025v1.pdf",
+          "quote": "Customer Data stored within the Cloud Services will be available to Customer for 30 days after the termination or expiration",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Delete or return at the customer's choice after the term (DPA 9.4). The enterprise General Terms give a 30-day retrieval window after termination but no deadline by which deletion is completed. The consumer General Terms of Use were blocked. source blocked: https://www.adobe.com/legal/terms.html"
+    },
+    "data_export": {
+      "value": "unknown",
+      "note": "General Terms say customer data stays available for 30 days after termination 'in the same format then available'; the Firefly fact sheet says generated content can be exported to non-Adobe applications. No statement on exporting all stored content in open formats was found; help pages on helpx.adobe.com were blocked."
+    },
+    "breach_notice": {
+      "value": "without undue delay, per the notice provision in the Agreement",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/dpa-ww.pdf",
+          "quote": "If Adobe becomes aware of a Personal Data Breach, Adobe will notify Customer without undue delay per the notice provision in the Agreement.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No hour limit in the DPA, and none found in the enterprise General Terms (2025v1, North America version)."
+    },
+    "governing_law": {
+      "value": ["US", "IE", "JP"],
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/generalterms-na-2025v1.pdf",
+          "quote": "This Agreement is governed by and construed under the laws of the state of California",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/privacy/policy.html",
+          "quote": "your relationship is with Adobe Systems Software Ireland Limited (Adobe Ireland), which is the controller with regard to your personal information collected by Adobe, and the laws of Ireland apply",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/privacy/policy.html",
+          "quote": "your relationship is with Adobe KK, which is the controller with regard to your personal information collected by Adobe, and the laws of Japan apply",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "California law in the enterprise General Terms read (North America version, the only one linked from the licensing hub). Irish and Japanese law apply under the privacy policy by residence. An EU version of the enterprise terms was not found and the consumer General Terms of Use were blocked. source blocked: https://www.adobe.com/legal/terms.html"
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/pslt-creativecloudanddocumentcloudsubstance3d-ww-2026v1.pdf",
+          "quote": "Adobe may provide Customer with access to generative AI features as part of the On-demand Services.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/privacy/sub-processors.html",
+          "quote": "In Firefly Adobe users have control over which model(s) to use.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Firefly generative AI is built into the apps but can be turned on or off by admins (see ai_admin_off); the core editing apps are not AI products."
+    },
+    "ai_providers": {
+      "value": ["own", "openai", "azure-openai", "google", "other"],
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/trust-center/ungated/whitepapers/creative-cloud/adobe-firefly-fact-sheet.pdf",
+          "quote": "Adobe Firefly is a family of Adobe hosted generative AI models",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/privacy/sub-processors.html",
+          "quote": "OpenAI’s GPT image video generation and video-modification models are available for users within Adobe Firefly",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/privacy/sub-processors.html",
+          "quote": "Adobe also accesses OpenAI models through Azure OpenAI",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/privacy/sub-processors.html",
+          "quote": "Google’s Gemini and Veo image video generation and video-modification models are available for users within Adobe Firefly",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "others": ["Luma AI", "Black Forest Labs", "ElevenLabs", "Kuaishou Technology", "fal.ai", "Runway AI", "Topaz Labs", "BytePlus", "Humain"],
+      "note": "Adobe's own Firefly models by default. Partner models (listed on the sub-processor page) process data only when a user picks them; enterprise admins control access per role. Azure OpenAI is named for Acrobat AI Assistant (Acrobat Pro is part of Creative Cloud Pro)."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/sub-processors.html",
+          "quote": "Customer content is not used to train Adobe AI models or partner generative AI models",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/trust-center/ungated/whitepapers/creative-cloud/adobe-firefly-fact-sheet.pdf",
+          "quote": "Adobe does not include enterprise user content (including Firefly inputs and outputs) in datasets used to train Firefly foundation models.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/privacy/opt-out.html",
+          "quote": "Adobe does not analyze your content to train generative AI models, unless you choose to submit content to the Adobe Stock marketplace.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "footnote": "Individual (non-enterprise) accounts: Adobe may analyse cloud content with machine learning to improve products unless the user opts out; Adobe says this is not used to train generative AI models. Content submitted to Adobe Stock or to feedback programmes is excluded from the no-training statements.",
+      "note": "Enterprise General Terms 6.2 also let Adobe 'model' customer data 'for product improvement and development'; that clause does not say models are trained. The Firefly fact sheet excludes feedback/improvement programmes with an opt-in/opt-out menu from the enterprise no-training statement. The machine-learning FAQ on helpx was blocked. source blocked: https://helpx.adobe.com/manage-account/using/machine-learning-faq.html"
+    },
+    "ai_zero_retention": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/go/security-fact-sheet",
+          "quote": "Note: Partner models may store generated content before returning it to Adobe.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Partner model providers may store inputs/outputs under their own terms. For Adobe's own Firefly models, inference logs are kept 90 days (Firefly fact sheet). OpenAI is contractually barred from training on Adobe customer data, which is not a zero-retention statement."
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/trust-center/ungated/whitepapers/creative-cloud/adobe-firefly-fact-sheet.pdf",
+          "quote": "Administrators can also centrally turn Firefly features on or off for specific user groups",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/go/security-fact-sheet",
+          "quote": "the ability to determine which users can access which partner model/s, through centrally configured role-based access in the Adobe Admin Console",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "footnote": "Admin controls apply to Creative Cloud for enterprise (including education) accounts managed in the Admin Console; partner-model role control is stated for Edition 4 plans."
+    },
+    "ai_act_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/trust-center/ungated/whitepapers/creative-cloud/adobe-firefly-image-model-5-training-set.pdf",
+          "quote": "Public Summary of Training Content for General- Purpose AI Models for Adobe Firefly Image Model 5 as required by Article 53 (1)(d) of Regulation (EU) 2024/1689 (AI Act)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Training-content summary for Firefly Image Model 5 (November 2025), naming Adobe Systems Software Ireland Limited as EU authorised representative. It states user prompts and data from other Adobe products were not used to train the model. No general AI Act position page was found."
+    },
+    "certifications": {
+      "value": ["iso27001", "iso27017", "iso27018", "soc2-type2", "csa-star"],
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/trust/compliance/compliance-list.html",
+          "quote": "Adobe Creative Cloud for enterprise [2]",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/trust/compliance/compliance-list.html",
+          "quote": "SOC 2–Type 2 (Security, Availability, & Confidentiality)",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/trust/compliance/compliance-list.html",
+          "quote": "ISO 27001:2022",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/trust/compliance/compliance-list.html",
+          "quote": "CSA Star Level 2",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "footnote": "Listed for Creative Cloud for enterprise (including Express and Firefly); individual plans are not named in that row.",
+      "note": "Creative Cloud for enterprise row of the compliance list (last updated 2026-05-21) also lists SOC 3, ISO 9001, ISO 27017:2015, ISO 27018:2019, ISO 22301 and FedRAMP Tailored. TISAX applies to Adobe's San Jose and Dublin offices only, and C5 is listed for Document Cloud only, so both are excluded. Certificates themselves sit behind the Trust Center NDA."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/trust.html",
+          "quote": "Making great experiences requires trust.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Adobe Trust Center. The resource library needs an Adobe ID with a signed NDA."
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest"],
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/k12-student-page.html",
+          "quote": "Adobe encrypts Creative Cloud data in transit over HTTPS using TLS 1.2 or greater.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/trust-center/ungated/whitepapers/creative-cloud/adobe-firefly-fact-sheet.pdf",
+          "quote": "At rest – Data stored by the Adobe Firefly is encrypted using AES-256.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "At-rest encryption is stated in the Firefly and partner-model fact sheets; the general Creative Cloud for enterprise security whitepaper could not be located on adobe.com in this run. No customer-managed keys or end-to-end encryption statement found."
+    },
+    "pentest": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/trust/resources/security-testing-report-for-adobe-content-platform",
+          "quote": "Product-specific reports that provide a consolidated and measured view of the security posture and results of adversary resilience testing.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/trust-center/ungated/whitepapers/creative-cloud/adobe-firefly-fact-sheet.pdf",
+          "quote": "For the annual Security Testing Report for Adobe Firefly, please see the Adobe Firefly Security Testing Report (NDA required).",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Security testing reports for Enterprise Storage Management and Firefly are in the Trust Center resource library, available under NDA."
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/.well-known/security.txt",
+          "quote": "Contact: https://app.intigriti.com/programs/adobe/adobepublic/detail",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Public bug bounty on Intigriti; security.txt also lists psirt@adobe.com and a policy page on helpx.adobe.com."
+    },
+    "incidents": {
+      "value": "United States v. Adobe Inc. (N.D. Cal., filed June 2024): alleged, not ruled. DOJ alleged hidden early termination fees and obstructed cancellation under ROSCA (consumer protection, not a data breach). In March 2026 DOJ filed a proposed stipulated order ($75M civil penalty plus $75M in free services) that takes effect if entered by the court.",
+      "evidence": [
+        {
+          "url": "https://www.justice.gov/opa/pr/adobe-agrees-150-million-settlement-and-injunction-resolve-alleged-violations-restore-online",
+          "quote": "The proposed order requires Adobe to pay $75 million in civil penalties and offer customers $75 million in free services",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "No data-protection regulator fine or vendor breach notice for Adobe in the last five years was found in a web search (not an exhaustive check of every DPA register). Court entry of the order was not confirmed on the docket."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://status.adobe.com",
+          "quote": "Adobe System Status",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "sso": {
+      "value": "unknown",
+      "note": "Identity and SSO set-up documentation is on helpx.adobe.com, which refuses automated reading. The sub-processor page names Okta for Adobe's own authentication, which does not say what protocols customers can use. source blocked: https://helpx.adobe.com/enterprise/using/set-up-identity.html"
+    },
+    "federation": {
+      "value": "none-found",
+      "note": "Web search for an Adobe entity in eduGAIN, InCommon or SWAMID metadata found nothing; the eduGAIN entity database was not queried directly. Adobe pages read describe no federation membership."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [
+        {
+          "url": "https://developer.adobe.com/umapi/",
+          "quote": "With the Adobe User Management API, Enterprise customers can automatically provision users, synchronize user directories, and grant and remove access to Adobe products",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Automated provisioning exists via the User Management API and the open-source User Sync Tool (Active Directory/LDAP), but no page read names SCIM. The directory-sync help page was blocked. source blocked: https://helpx.adobe.com/enterprise/using/user-sync.html"
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/policy.html",
+          "quote": "We employ administrative, technical, and physical security controls where appropriate, such as encryption, 2-step verification",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Stated as a security control in the privacy policy. Admin settings for enforcing MFA were not readable (helpx blocked)."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/education.html",
+          "quote": "Adobe offers enterprise plans for education institutions that include centralized license management and deployment through the Adobe Admin Console.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/trust/compliance/compliance-list.html",
+          "quote": "Adobe Creative Cloud for enterprise includes Adobe Admin Console",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Usage reporting in the Admin Console was not confirmed (helpx blocked); content logs are described in the Firefly fact sheet."
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/trust-center/ungated/whitepapers/creative-cloud/adobe-firefly-fact-sheet.pdf",
+          "quote": "In addition to the standard fields and actions logged in the Adobe Admin Console for Creative Cloud users, administrators can use generation event details in content logs",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Admin Console content logs; the audit-log help page itself was blocked. source blocked: https://helpx.adobe.com/enterprise/using/audit-logs.html"
+    },
+    "lms_integration": {
+      "value": "unknown",
+      "note": "No LMS integration for Creative Cloud found on the adobe.com pages read; help pages on helpx.adobe.com were blocked. Adobe Learning Manager is a separate product."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/trust/accessibility/conformance-reports.html",
+          "quote": "Most reports listed on this page are Accessibility Conformance Reports that are based on the ITI VPAT 2.x® template",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/trust/accessibility/conformance/adobe-photoshop-win-acr.html",
+          "quote": "Adobe Accessibility Conformance Report (Based on VPAT® Version 2.4)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Per-app reports, e.g. Photoshop for Windows and macOS (version 21.1.2, October 2023) and Photoshop Web (December 2025). There is no single Creative Cloud report."
+    },
+    "wcag_level": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/accessibility/compliance/adobe-photoshop-web-2025-acr.html",
+          "quote": "Web: Most product functionality cannot be operated through a keyboard interface.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/trust/accessibility/conformance/adobe-photoshop-win-acr.html",
+          "quote": "Software: The product does not provide sufficient text alternatives for most non-text content",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The compliance list names WCAG 2.2 level AA as an Adobe-wide accessibility standard, but Adobe's own Photoshop conformance reports mark several WCAG A/AA criteria as 'Partially Supports' or 'Does Not Support'."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/trust/accessibility.html",
+          "quote": "Accessibility at Adobe",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.adobe.com/trust/compliance/compliance-list.html",
+          "quote": "European Accessibility Act",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Accessibility page with principles, a disability help desk and a link to a Global Accessibility Compliance Statement; the European Accessibility Act is listed under Adobe-wide accessibility."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "Web search for an Adobe Creative Cloud HECVAT and the Trust Center pages read found none; Trust Center library contents are behind an NDA."
+    },
+    "ferpa": {
+      "value": "school-official-terms",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/privacy/k12-student-page.html",
+          "quote": "To the extent that FERPA applies, Adobe acts as a “school official\" as that term is defined under the statute",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/trust/compliance/compliance-list.html",
+          "quote": "Under FERPA guidelines, Adobe can contractually agree to act as a “school official”",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Commitment set out in Adobe's Student Data Terms; Creative Cloud for enterprise is listed as FERPA ready."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "HIPAA ready is listed for Acrobat Sign, Experience Cloud, Managed Services and Commerce, not for the Creative Cloud for enterprise row. No BAA offer for Creative Cloud found."
+    },
+    "section_508": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/trust/compliance/compliance-list.html",
+          "quote": "Section 508 of the Rehabilitation Act of 1973 (United States only)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Listed as an Adobe-wide accessibility standard; per-product reports show partial support for several criteria (see wcag_level)."
+    },
+    "state_privacy": {
+      "value": ["ccpa"],
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/dpa-ww.pdf",
+          "quote": "Customer is the Data Controller and Adobe is the Data Processor (also referred to as a “service provider” under the CCPA)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "CCPA service-provider terms in the DPA. No Student Data Privacy Consortium or NY Ed Law 2-d agreement found on the pages read."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/dpa-ww.pdf",
+          "quote": "the international data transfer addendum (“UK SCCs”) approved by the UK Parliament for data transfers from the UK to third countries",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The DPA's definition of SCCs includes the UK international data transfer addendum; the DPF UK Extension is also claimed."
+    },
+    "au_privacy": {
+      "value": ["none-found"],
+      "note": "IRAP assessment is listed for Customer Journey Analytics, Acrobat Sign and AEM Gov Cloud, not Creative Cloud. Australia is listed as a hosting option for Azure and AWS on the sub-processor page, but not as Creative Cloud's default. No Australian Privacy Principles statement found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "No NIS2 statement found in the privacy, DPA, trust, compliance or licensing pages read. Adobe publishes a DORA addendum for financial-sector customers, which is a different regulation."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://main--cc--adobecom.aem.live/cc-shared/fragments/cco/q1-2026/faq",
+          "quote": "Adobe also offers a free Creative Cloud membership , which comes with a host of benefits.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "footnote": "The free membership covers the free Adobe Express plan, mobile apps and fonts, not the desktop apps such as Photoshop or Premiere, which need a paid plan (free trials exist).",
+      "note": "FAQ fragment embedded in adobe.com/creativecloud.html."
+    },
+    "price_individual": {
+      "value": "unknown",
+      "note": "Prices on creativecloud.html and plans.html are filled in by script; the cached text shows only placeholders (e.g. 'PRICE - ABM - Creative Cloud All Apps 100GB'), so no price could be quoted."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/education.html",
+          "quote": "Creative Cloud for education institutions is purchased by a school or university and managed centrally by IT administrators",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The plans page also has a Schools & Universities tab."
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/education.html",
+          "quote": "Adobe Creative Cloud for students and teachers is an offer for eligible students and educators to purchase directly at a significantly discounted price.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://main--cc--adobecom.aem.live/cc-shared/fragments/cco/q1-2026/faq",
+          "quote": "(All pricing is for the annual paid monthly plan.)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Individual plan prices are shown on the website (filled in by script); institutional and enterprise pricing is through sales. The actual figures were not captured."
+    },
+    "capabilities": {
+      "value": ["storage", "e-signature", "translation"],
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/creativecloud/business/teams.html",
+          "quote": "Get 1TB of cloud storage per user.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/creativecloud/buy/students.html",
+          "quote": "Create, edit, sign, and manage your PDFs — quickly, easily, anywhere.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/llms.txt",
+          "quote": "With Translate Video, you can sound just like a native speaker in more than 20 languages.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Main jobs are image, design, video and audio editing (Photoshop, Illustrator, InDesign, Premiere, After Effects and others), which have no matching option. E-signature comes via Acrobat Pro in the Creative Cloud Pro plan; translation is Firefly's video/audio translation."
+    },
+    "primary_capability": {
+      "value": "other",
+      "others": ["Creative design and media editing apps"],
+      "evidence": [
+        {
+          "url": "https://main--cc--adobecom.aem.live/cc-shared/fragments/cco/q1-2026/faq",
+          "quote": "Adobe {{creative-cloud}} provides apps, web services, and resources for all your creative projects — photography, graphic design, video editing, UX design",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "platforms": {
+      "value": ["web", "windows", "macos", "ios", "android"],
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/trust/accessibility/conformance/adobe-photoshop-win-acr.html",
+          "quote": "Name of Product/Version: Adobe Photoshop version 21.1.2 (Windows)",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/trust/accessibility/conformance/adobe-photoshop-macos-acr.html",
+          "quote": "Name of Product/Version: Adobe Photoshop version 21.1.2 (macOS)",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/accessibility/compliance/adobe-photoshop-web-2025-acr.html",
+          "quote": "Name of Product/Version: Adobe Photoshop Web Version 2025.22.1.0",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://www.adobe.com/go/security-fact-sheet",
+          "quote": "the Firefly mobile app on iOS or Android",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Platforms vary per app; the system-requirements page was blocked. No Linux desktop apps found. source blocked: https://helpx.adobe.com/creative-cloud/system-requirements.html"
+    },
+    "languages": {
+      "value": "unknown",
+      "note": "The language-versions help page was blocked. The status page offers 23 languages, but that is the status site, not the apps. source blocked: https://helpx.adobe.com/creative-cloud/help/language-versions.html"
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://developer.adobe.com/firefly-services/docs/",
+          "quote": "Firefly Services includes Firefly APIs, Lightroom APIs, Photoshop APIs, and Content Tagging APIs.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://developer.adobe.com/umapi/",
+          "quote": "The Adobe User Management REST API gives you programmatic access to users, groups, and entitlements for Adobe products and services.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Documented on developer.adobe.com; the Firefly Services APIs are sold separately."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/pdf/legal/terms/enterprise/pdfs/generalterms-na-2025v1.pdf",
+          "quote": "means technology owned by Adobe or licensed to Adobe by a third -party (including the Products and Services",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Proprietary licence; the General Terms also bar reverse engineering and decompiling. Adobe publishes some open-source tooling (e.g. the User Sync Tool), not the apps."
+    },
+    "self_host": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/trust.html",
+          "quote": "Adobe solutions are hosted in the data centers of leading cloud hosting providers worldwide.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Desktop apps install locally, but the cloud services (storage, Firefly, licensing) are run only by Adobe."
+    }
+  }
+}

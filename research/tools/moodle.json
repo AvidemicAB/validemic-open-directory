@@ -1,0 +1,415 @@
+{
+  "id": "moodle",
+  "name": "Moodle",
+  "website": "https://moodle.org",
+  "tagline": "Open-source learning management system run by Moodle Pty Ltd; also sold as hosted MoodleCloud and through partner-run Moodle Solutions",
+  "category": "lms",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Moodle Pty Ltd",
+      "evidence": [
+        { "url": "https://moodlecloud.com/app/terms", "quote": "These Terms of Service (“Terms”) are between Moodle Pty Ltd (ABN 55 116 513 636)", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Contracting entity for MoodleCloud and the 2025 DPA. The DPA also lists Moodle US LLC and Moodle India Information Solutions Pvt Ltd as possible processors."
+    },
+    "vendor_country": {
+      "value": "AU",
+      "evidence": [
+        { "url": "https://moodle.com/wp-content/uploads/2025/12/2025_DPA-Template-Moodle-Processor.pdf", "quote": "Moodle Pty Ltd being a company registered under the laws of Western Australia", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Read privacy notice, 2025 DPA, MoodleCloud terms, security page and accessibility pages. No parent or owner is named."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://moodle.com/privacy-notice/", "quote": "is the company at the heart of the open source Moodle Project", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No separate parent is named, so not applicable."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Privacy notice names an external Data Protection Officer (Data Compliance Europe Ltd., Dublin) and a supervisory authority. No GDPR Art. 27 EU representative is named."
+    },
+    "dpo_contact": {
+      "value": "named",
+      "evidence": [
+        { "url": "https://moodle.com/privacy-notice/", "quote": "Our independent Data Protection Officer is:", "retrievedAt": "2026-11-16" },
+        { "url": "https://moodle.com/privacy-notice/", "quote": "Data Compliance Europe Ltd.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The named DPO is a company (Data Compliance Europe Ltd.), not a person. Contact dpo@moodle.com."
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Push-notification (Airnotifier) data is processed on AWS servers in Ireland per DPA Schedule 1. The general hosting region of LMS and MoodleCloud data is not stated. MoodleCloud terms say data may be stored on servers outside the customer's country."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://moodle.com/products/moodle-app/", "quote": "With the Moodle App, you can ensure that all your learners have access to your Moodle site both online and offline", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Moodle is a server-based LMS. Offline use in the app works from content downloaded from the Moodle site. Self-hosting keeps data on the institution's own servers, not on the user's device."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement found on keeping customer content inside the EU/EEA by option or default. The DPA allows transfers outside the EEA only as set out in Schedule 1."
+    },
+    "cloud_providers": {
+      "value": ["aws"],
+      "evidence": [
+        { "url": "https://moodle.com/wp-content/uploads/2025/12/2025_DPA-Template-Moodle-Processor.pdf", "quote": "Amazon Web Services as a hosting provider, acting as a subprocessor for Moodle", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Applies to Moodle LMS, Moodle Workplace and MoodleCloud data as stated in DPA Schedule 1. Self-hosted or partner-hosted sites are hosted by the partner or institution."
+    },
+    "transfer_mechanism": {
+      "value": ["sccs"],
+      "evidence": [
+        { "url": "https://moodle.com/privacy-notice/", "quote": "Cross Border Standard Contract Clauses (SCCs) that will allow us to contract with you", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The DPA also refers to UK transfer addendum terms (see uk_gdpr). No EU-US Data Privacy Framework status was checked on dataprivacyframework.gov."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://moodle.com/wp-content/uploads/2022/06/Register-of-GDPR-Information.pdf", "quote": "Register of GDPR Information", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The only public register found is a PDF dated 2022 (URL path 2022/06). A current subprocessor list was not found on moodle.com."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not counted. The 2022 register lists many vendors across purposes, and the 2025 DPA Schedule 1 names AWS, Blindside Networks, Google, LogsHero, New Relic, Intercom and Moodle Spain. A current complete count was not confirmed."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not counted. Some named processors are outside the EEA (for example Blindside Networks in Canada and New Relic in the US), but no complete current list was confirmed."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "evidence": [
+        { "url": "https://moodle.com/wp-content/uploads/2025/12/2025_DPA-Template-Moodle-Processor.pdf", "quote": "the Processor may notify You thereof in writing", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "DPA clause 5.2 says the Processor may notify the customer of new subprocessors. It does not commit to notice before a change."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://moodle.com/privacy-notice/", "quote": "Our standard Data Processing Agreement (DPA) that covers all of our products and services", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The 2025 DPA template is downloadable. It is pre-signed by Moodle and can be accepted by return or by accepting the master agreement."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        { "url": "https://moodle.com/wp-content/uploads/2025/12/2025_DPA-Template-Moodle-Processor.pdf", "quote": "As Data Controller, You instruct Moodle, as Data Processor, to Process any and all Personal Data", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "For LMS and MoodleCloud data. The privacy notice says Moodle is controller for its own public websites, which use Google Analytics."
+    },
+    "privacy_policy_date": {
+      "value": "2025-10",
+      "evidence": [
+        { "url": "https://moodle.com/privacy-notice/", "quote": "Last updated: October 2025", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Only month and year are stated, so the day is not given."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://moodle.com/wp-content/uploads/2025/12/2025_DPA-Template-Moodle-Processor.pdf", "quote": "automated, scheduled tasks configured to ensure all backups are cleansed and deleted after clearly defined deadlines (usually 6 months, maximum a year)", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The stated time frame is for AWS backups. The privacy notice says personal data is kept only as long as necessary."
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "evidence": [
+        { "url": "https://moodle.com/wp-content/uploads/2025/12/2025_DPA-Template-Moodle-Processor.pdf", "quote": "On termination of the Master Agreement, or earlier as requested by You, the Processor will destroy", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "DPA clause 8.1 requires destruction, return or deletion on termination but gives no time frame. Backup clean-up is 6 months to a year."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://moodle.com/privacy-notice/", "quote": "enable users to easily request access or download their data", "retrievedAt": "2026-11-16" },
+        { "url": "https://moodlecloud.com/app/terms", "quote": "delete or export Your MoodleCloud site(s)", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The open file format of a site export is not stated."
+    },
+    "breach_notice": {
+      "value": "within 48 (forty-eight) hours of becoming aware of an actual or suspected Personal Data Breach",
+      "evidence": [
+        { "url": "https://moodle.com/wp-content/uploads/2025/12/2025_DPA-Template-Moodle-Processor.pdf", "quote": "within 48 (forty-eight) hours of becoming aware of an actual or suspected Personal Data Breach", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "governing_law": {
+      "value": "AU",
+      "evidence": [
+        { "url": "https://moodlecloud.com/app/terms", "quote": "These Terms are governed by the laws of Western Australia and the federal laws of the Commonwealth of Australia", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "MoodleCloud terms. The 2025 DPA is governed by the laws of Ireland (clause 10)."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        { "url": "https://moodle.com/solutions/moodle-and-ai/", "quote": "Decide whether AI is enabled, in which contexts, and for which actions", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "ai_providers": {
+      "value": ["openai", "azure-openai", "open-weights-self-hosted", "own"],
+      "evidence": [
+        { "url": "https://moodle.com/solutions/moodle-and-ai/", "quote": "Use OpenAI, Azure AI, local models, or your own infrastructure", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The provider is chosen by the institution. Moodle lists the options it supports, not a fixed provider. Azure AI is mapped to azure-openai."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "MoodleCloud terms grant Moodle a licence to use data 'for research and development as required for the improvement of MoodleCloud Services'. No statement on AI model training was found. source blocked: https://moodle.org/privacy"
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement on zero retention at AI providers was found on the pages checked."
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://moodle.com/solutions/moodle-and-ai/", "quote": "Decide whether AI is enabled, in which contexts, and for which actions", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "AI can be enabled or disabled at site, course, activity or role level."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The Moodle AI pages and principles were read. No EU AI Act statement was found."
+    },
+    "certifications": {
+      "value": ["soc2-type2"],
+      "evidence": [
+        { "url": "https://moodle.com/security-privacy/", "quote": "Moodle US has received certification for SOC2 Type 2", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Claimed by Moodle US, not Moodle Pty Ltd. The MoodleCloud FAQ says the hosting services Moodle uses are ISO-certified, but Moodle itself does not claim ISO certification."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://moodle.com/security-privacy/", "quote": "Moodle Security & Privacy Compliance", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "encryption": {
+      "value": ["in-transit"],
+      "evidence": [
+        { "url": "https://moodle.com/wp-content/uploads/2025/12/2025_DPA-Template-Moodle-Processor.pdf", "quote": "When in transit, Personal Data is always encrypted by Transport Layer Security (TLS) Protocols", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No statement on encryption at rest was found."
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        { "url": "https://moodle.com/security-privacy/", "quote": "enables global security researchers to test our platform continuously", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Continuous testing through a crowd-security programme (Bugcrowd). No penetration test summary was found."
+    },
+    "vuln_disclosure": {
+      "value": "policy",
+      "evidence": [
+        { "url": "https://moodle.com/security-privacy/", "quote": "submit any security issue they find through our Vulnerability Disclosure Program", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Run through Bugcrowd. The reward terms were not read."
+    },
+    "incidents": {
+      "value": "none found",
+      "evidence": [],
+      "note": "Web search found no regulator decision, court record or vendor breach notice for Moodle Pty Ltd. Press articles were not used as sources. The search was not exhaustive."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://moodlecloud.com/app/terms", "quote": "You can check Our service level by accessing Our status page", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "sso": {
+      "value": ["unknown"],
+      "evidence": [],
+      "note": "The app accessibility report says Moodle provides 'third-party OAuth and other SSO authentication mechanisms'. The specific protocols (SAML, OIDC, Google, Microsoft) are not named on the pages checked."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No SCIM provisioning mention found on the pages checked."
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://moodle.com/security-privacy/", "quote": "Multi-factor authentication", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Listed as a feature of Moodle 4.3 on the security page."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://moodlecloud.com/app/terms", "quote": "(d) view User and storage space use", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Quote is for MoodleCloud. Self-hosted LMS sites have site administration, shown on the security page as 'Security overview report (available to Admins.)'."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The security page names a 'Security overview report' for admins. Audit logs for site administrators were not confirmed."
+    },
+    "lms_integration": {
+      "value": ["lti"],
+      "evidence": [
+        { "url": "https://moodle.com/moodle-4/", "quote": "Integrate Moodle LMS securely with other platforms and external learning tools via the LTI 1.3 Advantage protocol", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://moodle.com/accessibility/lms-vpat/", "quote": "Moodle accessibility conformance report", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Published for Moodle LMS, Moodle Workplace and Moodle App."
+    },
+    "wcag_level": {
+      "value": "2.2-aa",
+      "evidence": [
+        { "url": "https://moodle.com/accessibility/lms-vpat/", "quote": "continuously improving conformance with the WCAG 2.2 Level AA success criteria", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The report is based on a GrackleDocs audit, with a statement of conformance dated 30 September 2026."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://moodle.com/accessibility/", "quote": "we commit our resources and collaborate with Moodle Certified Partners to continuously enhance the accessibility of our platform", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "A web search found no published Moodle HECVAT. The pages checked on moodle.com do not mention one."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "No FERPA statement or school-official terms were found on the pages checked."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No HIPAA or business associate statement was found on the pages checked."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The accessibility pages claim WCAG 2.2 AA. Section 508 is not mentioned."
+    },
+    "state_privacy": {
+      "value": ["ccpa"],
+      "evidence": [
+        { "url": "https://moodle.com/privacy-notice/", "quote": "the California Consumer Privacy Act 2018", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The privacy notice says it addresses CCPA. No separate CCPA terms document was found."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://moodle.com/wp-content/uploads/2025/12/2025_DPA-Template-Moodle-Processor.pdf", "quote": "the UK International Data Transfer Addendum or equivalent approved mechanism under UK", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "au_privacy": {
+      "value": ["none-found"],
+      "evidence": [],
+      "note": "The MoodleCloud terms require customers to comply with the Australian Privacy Act 1988 (Cth). No Australian Privacy Principles statement, IRAP assessment or Australian hosting was found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 supply-chain statement was found on the pages checked."
+    },
+    "free_plan": {
+      "value": "trial-only",
+      "evidence": [
+        { "url": "https://www.moodlecloud.com/pricing/", "quote": "MoodleCloud offers a free trial plan for 28 days", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The Moodle LMS software is free to download and self-host under its open-source licence. The MoodleCloud terms mention a 'Free Forever' service that is not on the current plans page."
+    },
+    "price_individual": {
+      "value": "USD 160 per year (MoodleCloud Starter plan, 50 users, billed annually)",
+      "evidence": [
+        { "url": "https://www.moodlecloud.com/pricing/", "quote": "Starter $230 AUD $160 USD", "retrievedAt": "2026-11-16" }
+      ],
+      "footnote": "MoodleCloud plans. Prices are also shown in AUD, EUR, GBP, CAD and INR. The Moodle App Premium plan is EUR 499 per year, free with MoodleCloud.",
+      "note": "Moodle LMS itself is free to self-host."
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Moodle Solutions are priced by quote from Certified Partners. No site or campus licence is stated."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The app page mentions volume licences for NGOs, government and similar organisations. No academic discount was found."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://moodle.com/products/workplace/", "quote": "is priced based on the hosting and services you require", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "MoodleCloud and the App plans are published. Moodle Workplace and Moodle Solutions are quote-only."
+    },
+    "capabilities": {
+      "value": ["lms", "video-meetings"],
+      "evidence": [
+        { "url": "https://moodle.com/products/lms/", "quote": "Engage your learners with flexible, secure, and accessible online learning spaces", "retrievedAt": "2026-11-16" },
+        { "url": "https://moodle.com/products/moodlecloud/", "quote": "Integrated video conferencing (up to 100 users)", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Video conferencing is BigBlueButton, provided by Blindside Networks (see DPA Schedule 1)."
+    },
+    "primary_capability": {
+      "value": "lms",
+      "evidence": [
+        { "url": "https://moodle.com/products/lms/", "quote": "Engage your learners with flexible, secure, and accessible online learning spaces", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "platforms": {
+      "value": ["web", "ios", "android"],
+      "evidence": [
+        { "url": "https://moodle.com/products/moodle-app/", "quote": "App in Apple store and Google Play", "retrievedAt": "2026-11-16" },
+        { "url": "https://moodle.com/products/moodle-app/", "quote": "You can use the responsive web version of Moodle", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Only the moodle.com website languages (EN, DE, ES, FR, IT, PT-BR) were seen. The LMS interface language list was not checked."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://moodle.com/security-privacy/", "quote": "Read once web service tokens", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Web service tokens are listed as a security feature. The API documentation on docs.moodle.org was not read."
+    },
+    "open_source": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://moodle.com/about/open-source/", "quote": "source code is licensed in a way that allows anyone to download the entire software for free", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The licence is not named on the pages checked."
+    },
+    "self_host": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://moodle.com/about/open-source/", "quote": "you just need to find your own resources for hosting and support", "retrievedAt": "2026-11-16" }
+      ]
+    }
+  }
+}

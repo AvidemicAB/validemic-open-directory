@@ -1,0 +1,835 @@
+{
+  "id": "kaltura",
+  "name": "Kaltura",
+  "website": "https://corp.kaltura.com",
+  "tagline": "Cloud video platform for universities and companies: video portal, lecture capture, LMS video, virtual classroom, webinars and AI video tools",
+  "category": "meetings",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Kaltura, Inc.",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/tos/customer-agreement/",
+          "quote": "is an agreement between Kaltura, Inc. (“Kaltura,” “we,” “us,” or “our”) and you or the entity you represent",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/tos/customer-agreement/",
+          "quote": "the contracting entity under this Agreement will be Kaltura Europe Ltd., a wholly-owned subsidiary of Kaltura organized under the laws of England and Wales",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "footnote": "For accounts billed to a UK or EU address, the Customer Agreement names Kaltura Europe Ltd. (England and Wales), a wholly-owned subsidiary, as contracting entity. The DPA itself is entered into by Kaltura, Inc."
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/privacy-policy/",
+          "quote": "Kaltura is a global organization headquartered in the United States (US)",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "Kaltura, Inc., a Delaware corporation, having its principal place of business at 860 Broadway, 3rd Floor, New York",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Read privacy policy, Customer Agreement, DPA, sub-processor list and company page. Kaltura, Inc. is named as the top entity; no separate parent or owner named."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [],
+      "note": "No separate parent company found (parent_company none-found)."
+    },
+    "eu_representative": {
+      "value": "named",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/privacy-policy/",
+          "quote": "Kaltura’s representative in the EU for the purposes of compliance with the GDPR is Kaltura Germany GmbH",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/privacy-policy/",
+          "quote": "should be directed to Kaltura’s data protection officer at: DPO@kaltura.com",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "DPO reachable by email; no DPO named."
+    },
+    "hosting_regions": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/gdpr-faqs/",
+          "quote": "Kaltura’s SaaS platform and associated customer data are currently hosted in the US.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Regional SaaS environments (Ireland, Canada, Singapore, Australia) are available on request, per the DPA."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/privacy-policy/",
+          "quote": "The Kaltura Platform is a set of online hosted software (“SaaS”) tools for hosting, managing and distributing video content over the Internet.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Cloud SaaS; a self-hosted On-Premises Edition exists (see self_host), but no local-only use on a device was found."
+    },
+    "eu_residency": {
+      "value": "option",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "where Customer selects one of Kaltura’s regional SaaS offerings, hosting of Customer’s media content, metadata, and User data on secure data centers located in Ireland",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/gdpr-faqs/",
+          "quote": "Regional cloud environments hosted in the EU, Singapore, Australia and Canada are also available for customers who have special requirements",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The GDPR FAQ says CDN delivery and support access (EU, UK, Israel, US and other locations) may still take place outside the region."
+    },
+    "cloud_providers": {
+      "value": [
+        "aws",
+        "gcp",
+        "azure"
+      ],
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/subprocessors-list/",
+          "quote": "Cloud infrastructure provider; content delivery network ; AI Services",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/subprocessors-list/",
+          "quote": "Cloud infrastructure Automated speech to text and translation ; optional AI services; fonts",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/subprocessors-list/",
+          "quote": "Azure Optional Infrastructure",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "AWS and Google LLC listed as cloud infrastructure; Azure listed as optional infrastructure. CDNs Akamai, Fastly, Cloudflare also listed."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "dpf",
+        "sccs",
+        "adequacy"
+      ],
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/privacy-policy/",
+          "quote": "Kaltura Inc. complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S DPF",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "Where a transfer of Personal Data is subject to the GDPR or the FADP, the SCCs shall apply.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/gdpr-faqs/",
+          "quote": "Kaltura relies on this “adequacy” decision as a lawful basis for the transfer.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "DPF status is the vendor's claim; dataprivacyframework.gov list not checked in this run. Adequacy is used for Israel."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/subprocessors-list/",
+          "quote": "Kaltura, Inc. Subprocessor List",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "subprocessors_count": {
+      "value": 47,
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/subprocessors-list/",
+          "quote": "Kaltura, Inc. Subprocessor List",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Counted distinct third parties across all tables (8 infrastructure, 10 support/billing/CRM, 3 REACH transcription, 20 optional, 6 optional plug-ins); Kaltura, Inc. itself (Kaltura Group row) not counted. Which apply varies by product."
+    },
+    "subprocessors_non_eea": {
+      "value": 45,
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/subprocessors-list/",
+          "quote": "Hive Streaming AB P2P eCDN solution Sweden",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/subprocessors-list/",
+          "quote": "AmberScript, B.V. Transcription and translation services E.U.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "All listed third parties except AmberScript (E.U.) and Hive Streaming (Sweden) list a location outside the EEA (U.S., UK, Israel, Australia or \"services provided globally\")."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "Kaltura shall inform Customer of any intended addition or replacement of Sub-Processors prior to such addition or replacement.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/subprocessors-list/",
+          "quote": "Customers can subscribe to updates to this list by sending an email to dpo@kaltura.com requesting such updates.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "This Data Processing Agreement, including the annexes hereto, (the “ DPA ”) is entered into between Kaltura, Inc.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "January 2026 DPA PDF linked from the legal menu (\"Data Processing Agreement (Customers)\"); the Customer Agreement link resolves to a May 2025 version. Incorporated by reference in the Customer Agreement."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "Customer is the Controller and Kaltura is the Processor of Personal Data",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "with respect to Customer Admins’ Personal Data, Kaltura acts as a separate independent Controller",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Processor for end-user data; controller for customer admin contact data. The privacy policy also says Kaltura generally acts as controller for avatar services offered directly to end users."
+    },
+    "privacy_policy_date": {
+      "value": "2026-10-21",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/privacy-policy/",
+          "quote": "These Privacy Notices were last reviewed on October 21 st , 2026.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "Personal Data shall be retained by Kaltura for the duration of the Agreement",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/gdpr-faqs/",
+          "quote": "In general, customer content and user data are retained throughout the entire contract term.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "Kaltura shall destroy the Personal Data within a reasonable amount of time at its discretion, not to exceed 90 days from the termination",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/gdpr-faqs/",
+          "quote": "Migration can be performed directly by the customer through Kaltura APIs or with the assistance of our Professional Services team.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/gdpr-faqs/",
+          "quote": "Kaltura is able to generate a copy of personal data in a commonly used and machine-readable format.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Export is via APIs or professional services; no statement that all content exports in open formats."
+    },
+    "breach_notice": {
+      "value": "without undue delay (no fixed hours)",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "notify Customer of such Security Incident without undue delay.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "governing_law": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/tos/customer-agreement/",
+          "quote": "This Agreement shall be governed by and construed under the laws of the State of New York.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "the SCCs shall be governed by the laws of the Republic of Ireland",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "footnote": "In the DPA, the SCCs are governed by the laws of the Republic of Ireland. Institutional contracts (Master License and Professional Services Agreement) were not public and may differ."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/tos/customer-agreement/",
+          "quote": "In the event that you are using Kaltura’s AI offerings, terms and conditions of the AI Addendum shall apply in addition to these general terms.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Core product is a video platform; AI features (Genie, Content Lab, avatars, captions) are separate offerings, often credit-based."
+    },
+    "ai_providers": {
+      "value": [
+        "openai",
+        "google",
+        "own",
+        "other"
+      ],
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/compliance/kalturas-artificial-intelligence-principles/",
+          "quote": "Certain AI Systems use third-party GenAI providers, such as AWS (Bedrock), Google (Gemini) and a self-hosted Speech to Text and Text to Video models.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/subprocessors-list/",
+          "quote": "OpenAI AI Research; Optional Infrastructure",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/subprocessors-list/",
+          "quote": "11Labs AI voice service",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "others": [
+        "AWS Bedrock",
+        "ElevenLabs (11Labs)",
+        "Cartesia",
+        "Soniox",
+        "OpenRouter",
+        "Replicate",
+        "FAL",
+        "Groq"
+      ],
+      "note": "own = self-hosted speech-to-text and text-to-video models per the AI Principles. Providers come from the AI Principles and the sub-processor list; which ones apply depends on the feature and order form."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/compliance/kalturas-artificial-intelligence-principles/",
+          "quote": "Kaltura does not use customer data to train its AI models, nor do we share customer data with third parties for the purpose of training their AI models.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/compliance/kalturas-artificial-intelligence-principles/",
+          "quote": "The third-party GenAI services that Kaltura uses do not use your data to train their model.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/tos/artificial-intelligence-addendum/",
+          "quote": "as solely and to the extent necessary to provide, maintain, and improve the Kaltura AI Offering.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The AI Addendum also grants Kaltura a licence to use Inputs and Outputs \"to provide, maintain, and improve the Kaltura AI Offering\" and lets it use aggregated, anonymized data for product improvement."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "AI Principles, AI Addendum, DPA and privacy policy say providers do not train on data, but no zero-retention / no-logging commitment at the model providers was found. The avatar section says transient inputs are not retained by Kaltura beyond the session."
+    },
+    "ai_admin_off": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/compliance/kalturas-artificial-intelligence-principles/",
+          "quote": "Customers will have the ability to opt-out from specific AI Systems and retain control over their AI preferences.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "ai_act_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/privacy-policy/",
+          "quote": "Compliance With GDPR, CCPA/CPRA, EU AI Act, and Other Applicable Laws",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/tos/artificial-intelligence-addendum/",
+          "quote": "for any purpose that is classified as “high risk” under the EU Artificial Intelligence Act (Regulation (EU) 2024/1689)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The privacy policy section covers the AI avatar features; the AI Addendum bars high-risk uses under the AI Act, including education admission and evaluation."
+    },
+    "certifications": {
+      "value": [
+        "iso27001",
+        "iso27701",
+        "soc2-type2",
+        "iso42001"
+      ],
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/regulations-certifications/",
+          "quote": "The ISO/IEC 27001:2022 is an international standard",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/regulations-certifications/",
+          "quote": "ISO/IEC 27701:2019 is an international standard specifying the requirements for a privacy information management system.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/blog/kaltura-achieves-soc2-type-ii-certification/",
+          "quote": "we’ve successfully renewed our SOC 2 Type II attestation, audited by Ernst & Young (EY)",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/legal/compliance/kalturas-artificial-intelligence-principles/",
+          "quote": "supported by our ISO/IEC 42001 certification",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Also claims ISO/IEC 27799 and ISO 22301 (not in the option list). Certificates themselves were not seen; the Security page is password protected."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/regulations-certifications/",
+          "quote": "Regulations and Certifications",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Public \"Regulations and Certifications\" page. A separate Security page (corp.kaltura.com/security-2025/) is password protected."
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest"
+      ],
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "Customer data is encrypted at-rest and in while transit over public or wireless networks using industry standard encryption protocols.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/developer-suite/video-security-privacy-and-compliance/",
+          "quote": "Annual penetration tests",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "No statement that reports or summaries are shared."
+    },
+    "vuln_disclosure": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://corp.kaltura.com/.well-known/security.txt (403). No bug bounty or disclosure policy found on the legal, certifications or security pages."
+    },
+    "incidents": {
+      "value": "none found",
+      "evidence": [],
+      "note": "Staan search \"Kaltura data breach notice\" and the legal pages turned up no regulator decision, court record or vendor breach notice. Third-party write-ups of 2026 player vulnerabilities (CVEs) were found; these are not breaches and are not primary sources."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://status.kaltura.com/",
+          "quote": "Kaltura System Status",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "sso": {
+      "value": [
+        "saml"
+      ],
+      "evidence": [
+        {
+          "url": "https://knowledge.kaltura.com/help/saml-module",
+          "quote": "This module enables admins to set up SSO authentication for their Video Portal using the SAML 2.0 standard.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "federation": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "One Staan search (\"Kaltura InCommon eduGAIN\") found nothing; federation metadata files were not checked."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Staan search \"Kaltura SCIM user provisioning\" found no official page; not stated on the pages read."
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://knowledge.kaltura.com/help/kmc-2-factor-authentication",
+          "quote": "This article is for customers who have accounts enabled with two -factor authentication ( 2FA ).",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "2FA is enabled on request via Customer Care."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://knowledge.kaltura.com/help/saml-module",
+          "quote": "Go to your Configuration Management console and click on the Saml module.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/education-video-platform/virtual-classroom/",
+          "quote": "Track participant attendance, measure engagement",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "audit_logs": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://knowledge.kaltura.com/help/audit-trail-tool",
+          "quote": "use the Audit Trail tool in Kaltura's Video Portal to review and audit a history of changes made to entries or categories.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "lms_integration": {
+      "value": [
+        "lti",
+        "canvas",
+        "blackboard",
+        "brightspace",
+        "moodle"
+      ],
+      "evidence": [
+        {
+          "url": "https://knowledge.kaltura.com/help/kalturas-support-for-the-learning-tools-interoperability-lti-standard",
+          "quote": "Kaltura provides official, certified LTI support, including LTI 1.1 and the modern LTI 1.3 Advantage standard",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://knowledge.kaltura.com/help/kalturas-support-for-the-learning-tools-interoperability-lti-standard",
+          "quote": "Canvas Blackboard Brightspace Moodle Sakai",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "LTI 1.1 and LTI 1.3 Advantage; Sakai also listed."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://knowledge.kaltura.com/help/accessibility-in-kalturas-products",
+          "quote": "provides VPAT (Voluntary Product Accessibility Template) documentation for the products listed in this article.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "VPAT 2.5Rev (WCAG 2.2) for Player v7, LMS Extensions and Content Hubs (May 2026); Kaltura Meetings (Classroom) VPAT is from Jan 2021."
+    },
+    "wcag_level": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/accessibility/accessibility-statement/",
+          "quote": "striving to fulfill accessibility guidelines such as 508, CVAA, WCAG 2.2 AA",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/education-video-platform/lms-video-integrations/",
+          "quote": "our products adhere to 508, CVAA, and WCAG 2.0 AA accessibility standards.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Accessibility statement says \"striving\" for WCAG 2.2 AA (a self-assessment); the LMS page claims WCAG 2.0 AA. Per-criterion detail is in the VPATs."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/accessibility/accessibility-statement/",
+          "quote": "This accessibility statement is based on a combination of automated and manual accessibility tests and audits",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Staan search \"Kaltura HECVAT\" found no Kaltura page; not mentioned on legal or certifications pages."
+    },
+    "ferpa": {
+      "value": "statement",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/tos/customer-agreement/",
+          "quote": "Kaltura maintains policies and procedures designed to comply with applicable requirements of student privacy laws including, without limitation, GDPR and the Family Educational Rights and Privacy Act (FERPA)",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Staan search \"Kaltura HIPAA business associate agreement\" found no official BAA statement; the legal pages do not mention one."
+    },
+    "section_508": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/regulations-certifications/",
+          "quote": "comply with accessibility guidelines such as the Web Content Accessibility Guidelines 2.0 for Level A and AA and Section 508.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "This claim is tied to an older VPAT 2.1 product scope."
+    },
+    "state_privacy": {
+      "value": [
+        "ccpa"
+      ],
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/privacy/privacy-policy/",
+          "quote": "Kaltura has certain obligations as a service provider towards Account Owners regarding your Personal Information under the California Consumer Privacy Act",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "the SCCs shall apply, as amended by the UK Addendum to the SCCs issued by the Information Commissioner’s Office",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "au_privacy": {
+      "value": [
+        "au-hosting"
+      ],
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/wp-content/uploads/2026/02/Kaltura-Inc.-Client-DPA-January-2026.pdf",
+          "quote": "on secure data centers located in Ireland, Canada, Singapore, or Australia, as applicable.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 mention in the privacy policy, DPA, Customer Agreement, GDPR FAQ or certifications page."
+    },
+    "free_plan": {
+      "value": "trial-only",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/legal/tos/free-trial-agreement/",
+          "quote": "THIS FREE TRIAL SERVICE AGREEMENT (“AGREEMENT”) GOVERNS YOUR ACQUISITION AND USE OF ANY FREE TRIAL SERVICE MADE AVAILABLE BY KALTURA, INC.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Pricing page offers free or limited trials for some products; no permanent free plan found."
+    },
+    "price_individual": {
+      "value": "USD 17 per organizer per month billed yearly (USD 19 monthly) for Virtual Classroom Basic",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/pricing/virtual-classroom/",
+          "quote": "Basic $19 $17 /month/organizer /month/organizer Up to 8 participants per session",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Video portal, lecture capture, LMS video and Meetings are quote-only."
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Education products on the pricing page are \"Get a quote\"; no site or campus licence terms published."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No student or academic discount stated on the pricing or higher-education pages."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/pricing/",
+          "quote": "Get the most out of Kaltura’s solutions with the right plan, or contact us to mix and match between solutions",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Prices published for Virtual Classroom, Webinars and some others; Video Portal, Meetings, Town Halls and Virtual Events are \"Get a quote\"."
+    },
+    "capabilities": {
+      "value": [
+        "video-meetings",
+        "lecture-capture",
+        "storage",
+        "translation"
+      ],
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/education-video-platform/virtual-classroom/",
+          "quote": "Use breakout rooms for focused discussions,",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/education-video-platform/lecture-capture/",
+          "quote": "One click to shoot videos, record lectures, and capture screens.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/pricing/",
+          "quote": "Your central hub for video creation, management, sharing, and collaboration.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://corp.kaltura.com/kaltura-ai-suite/",
+          "quote": "We offer captions and translations, providing live and on-demand transcription and machine translation in over 30 languages",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "primary_capability": {
+      "value": "other",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/pricing/",
+          "quote": "Your central hub for video creation, management, sharing, and collaboration.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "others": [
+        "Video platform (video portal, lecture capture, LMS video)"
+      ],
+      "note": "Kaltura is mainly a video hosting and lecture-capture platform; meetings/virtual classroom is one product among several."
+    },
+    "platforms": {
+      "value": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "evidence": [
+        {
+          "url": "https://knowledge.kaltura.com/help/video-conferencing-mobile-app",
+          "quote": "Join and run sessions from the mobile app on Android and iOS.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Desktop capture apps were not checked."
+    },
+    "languages": {
+      "value": "11 officially supported interface languages (incl. Finnish, German, French, Dutch) plus 8 unmaintained ones (incl. Swedish, Danish)",
+      "evidence": [
+        {
+          "url": "https://knowledge.kaltura.com/help/supported-languages-in-video-portal",
+          "quote": "Kaltura supports a consistent set of languages across its major platforms, allowing users to interact with the interface in their preferred language.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/developer-suite/",
+          "quote": "Kaltura offers a wide range of REST-based APIs and SDKs for various programming languages",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "open_source": {
+      "value": "partly",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/developer-suite/video-delivery-and-deployment/",
+          "quote": "Kaltura’s free, open-source, self-hosted version of the platform, supported by the Kaltura Community.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Community Edition is open source; the SaaS and On-Premises Edition are commercial. Licence not named on the page read."
+    },
+    "self_host": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://corp.kaltura.com/developer-suite/video-delivery-and-deployment/",
+          "quote": "Kaltura’s full-featured self-hosted Video Platform Software installed on your own servers or cloud and supported and maintained by Kaltura.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    }
+  }
+}

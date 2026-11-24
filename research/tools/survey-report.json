@@ -1,0 +1,530 @@
+{
+  "id": "survey-report",
+  "name": "Artologik Survey&Report",
+  "website": "https://www.artologik.com/en/survey-report",
+  "tagline": "Web-based survey and reporting software from Artisan Global Media (Sweden), sold as cloud subscription or on-premise licence, with a 30-day trial and an academic licence",
+  "category": "survey",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Artisan Global Media",
+      "evidence": [
+        {
+          "url": "https://download.artologik.com/files/serviceagreement_en.pdf",
+          "quote": "between the customer and Artisan Global Media, hereinafter referred to as",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Name used in the service agreement. Survey&Report is a product of this company."
+    },
+    "vendor_country": {
+      "value": "SE",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/company/about-us",
+          "quote": "Artisan Global Media is a Swedish company that develops and sells the Artologik series",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Checked the privacy policy, service agreement, security and about-us pages. No owner or parent named. Web search for ownership returned no reliable result."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/availability-and-security",
+          "quote": "Artisan Global Media is a Swedish company with headquarters in Sweden.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No separate parent company found."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/availability-and-security",
+          "quote": "Artisan Global Media is a Swedish company with headquarters in Sweden.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/privacy-policy",
+          "quote": "Email us at: info@artologik.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Privacy contact by general address. No named DPO found."
+    },
+    "hosting_regions": {
+      "value": [
+        "SE"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/availability-and-security",
+          "quote": "Artisan handles all data in Sweden.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "local_first": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Only SaaS (vendor-hosted) and on-premise server installs are described. No device-only use found."
+    },
+    "eu_residency": {
+      "value": "default",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/availability-and-security",
+          "quote": "Artisan handles all data in Sweden.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "cloud_providers": {
+      "value": [
+        "own"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/security",
+          "quote": "Our servers are located in our own data centre of the latest standard.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "transfer_mechanism": {
+      "value": [
+        "none-needed"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/availability-and-security",
+          "quote": "Artisan handles all data in Sweden.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated for customer data. Website analytics (Google Analytics, Nets) are listed separately in the privacy policy."
+    },
+    "subprocessors_public": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Checked /en/subprocessors, /en/security/subprocessors, security, GDPR and privacy pages (404 or no list). Not found in web search."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No sub-processor list found."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No sub-processor list found."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No sub-processor notice terms found."
+    },
+    "dpa": {
+      "value": "on-request",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/gdpr",
+          "quote": "All SaaS customers sign a Data Processing Agreement with Artisan Global Media.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Text not published on the pages read. Based on the Swedish IT and Telecom Industries standard agreement, per the GDPR page."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/gdpr",
+          "quote": "Artisan Global Media, providing the software, is the personal data processor.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "privacy_policy_date": {
+      "value": "2020-09-22",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/privacy-policy",
+          "quote": "This privacy policy was last updated on 22 September 2020.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "retention_stated": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Privacy policy says personal data is kept only as long as necessary for the purposes. No period stated."
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Deletion features exist within the product (GDPR and data deletion guide). No post-termination deletion time frame found."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/survey-report/features/all-features-list",
+          "quote": "Export raw data to Excel or Plain text",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Export is listed for survey responses and reports. No full account export found."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No breach notification window found in the privacy policy, service agreement or security pages."
+    },
+    "governing_law": {
+      "value": [
+        "SE"
+      ],
+      "evidence": [
+        {
+          "url": "https://download.artologik.com/files/serviceagreement_en.pdf",
+          "quote": "Swedish law without giving effect to conflicts of law principles shall apply",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "ai_features": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No generative AI feature found on the features list or product pages checked."
+    },
+    "ai_providers": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No AI model provider named."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement on training found."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No AI provider named."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No AI features found."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not found on pages checked."
+    },
+    "certifications": {
+      "value": [
+        "iso27001"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/iso-27001",
+          "quote": "Artisan Global Media is certified according to ISO/IEC 27001:2023",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "News item of 2026 states the ISO 27001 certification was renewed."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/security",
+          "quote": "How we create Safe and Secure Artologik Products",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "encryption": {
+      "value": [
+        "in-transit"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/security",
+          "quote": "For secure data transmission, our customers can use encryption certificate (https) for their website.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Encrypted database installation is mentioned as an option on request, not recorded as at-rest encryption."
+    },
+    "pentest": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No penetration test statement found."
+    },
+    "vuln_disclosure": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No disclosure policy found on pages read. The security.txt check did not return a readable result."
+    },
+    "incidents": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No incident search performed against primary sources."
+    },
+    "status_page": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No public status page found."
+    },
+    "sso": {
+      "value": [
+        "saml"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/survey-report/features/all-features-list",
+          "quote": "Secure log in with SAML 2.0 authentication",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "BankID and OAuth are also mentioned on the security page. They are not in the option list."
+    },
+    "federation": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not checked against federation metadata. The SUNET survey service is mentioned in news, but federation membership was not verified."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not found."
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/security",
+          "quote": "Two-factor authentication brings an additional security gain by ensuring secure access to an account.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "admin_console": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not described on pages checked."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not described on pages checked."
+    },
+    "lms_integration": {
+      "value": [
+        "lti"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/survey-report/features/all-features-list",
+          "quote": "SR-LTI",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "LTI version not stated."
+    },
+    "vpat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Not on the security or product pages. Web search did not find an Artologik VPAT. Contact is requested on the security page."
+    },
+    "wcag_level": {
+      "value": "2.1-aa",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/security",
+          "quote": "according to the standard WCAG 2.1 AA",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No accessibility statement found on pages checked."
+    },
+    "hecvat": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not searched specifically."
+    },
+    "ferpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not found."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not found."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not found. The vendor claims WCAG 2.1 AA instead."
+    },
+    "state_privacy": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not found."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not found."
+    },
+    "au_privacy": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not found."
+    },
+    "free_plan": {
+      "value": "trial-only",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/company/about-us",
+          "quote": "we always offer a free full version trial for 30 days",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "price_individual": {
+      "value": "95 EUR per month (Light cloud edition, excluding VAT, plus 220 EUR setup)",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/survey-report/pricing",
+          "quote": "All prices shown excluding VAT",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Price list is for organisations, not individuals. Light edition = 1 concurrent survey."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/survey-report/pricing",
+          "quote": "can be issued to either individual departments and faculties, or the entire organization",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Academic licence, not a standard price list."
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/survey-report/pricing",
+          "quote": "We also offer a discount for Schools, Colleges and Universities.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/survey-report/pricing",
+          "quote": "The Artologik Survey&Report editions are only defined by the maximum number of concurrently active surveys",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Cloud and on-premise editions are priced. Academic licence price is not published."
+    },
+    "capabilities": {
+      "value": [
+        "survey",
+        "data-visualization",
+        "lms"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/survey-report/features/all-features-list",
+          "quote": "Display multiple series in a chart or table",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.artologik.com/en/survey-report/features/all-features-list",
+          "quote": "Surveys via your LMS tool",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "primary_capability": {
+      "value": "survey",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/survey-report",
+          "quote": "Survey&Report Survey and Report Software",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": [
+        "web"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/survey-report/features/all-features-list",
+          "quote": "Web based",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Vendor says the software and surveys are multilingual. No list of interface languages found."
+    },
+    "api": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Features list mentions an API for importing respondents and users. Documentation not checked."
+    },
+    "open_source": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated on pages checked."
+    },
+    "self_host": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.artologik.com/en/security/availability-and-security",
+          "quote": "provides the software for installation on-premise and as a cloud solution",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    }
+  }
+}

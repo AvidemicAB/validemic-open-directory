@@ -1,0 +1,328 @@
+{
+  "id": "redcap",
+  "name": "REDCap",
+  "website": "https://www.project-redcap.org",
+  "tagline": "Web software for building online surveys and databases, licensed free to non-profit organisations and installed and run on each institution's own servers",
+  "category": "survey",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Vanderbilt University",
+      "evidence": [
+        { "url": "https://projectredcap.org/join/termsofuse/", "quote": "Vanderbilt University (“Vanderbilt”), a not-for-profit corporation duly organized and existing under the laws of Tennessee", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        { "url": "https://projectredcap.org/join/termsofuse/", "quote": "having offices at 2100 West End Ave, Suite 750, Nashville, Tennessee 37203", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "note": "Read the licence terms, FAQ, Join page and mobile app privacy policies. No parent or owner named; Vanderbilt is itself a not-for-profit corporation."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://projectredcap.org/join/termsofuse/", "quote": "Vanderbilt is the owner of all rights, title and interest in and to the Research Electronic Data Capture Software", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "No separate parent company, so no parent country."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "note": "Vendor is US-based. Searched the licence terms, FAQ, Join page and mobile app privacy policies; no EU representative named."
+    },
+    "dpo_contact": {
+      "value": "none-found",
+      "note": "Only a general help desk is published (redcap@vumc.org, for licence and general questions). No privacy or data protection contact found on project-redcap.org or in the mobile app privacy policy."
+    },
+    "hosting_regions": {
+      "value": "unknown",
+      "note": "Each partner institution installs REDCap on its own servers, so there is no vendor default region. Vanderbilt's own hosted option (redcap.vumc.org) is limited to US groups per the FAQ."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.project-redcap.org/software/mobile-app/", "quote": "The app cannot be used on its own but is a companion app that must be used alongside REDCap itself", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The mobile app can collect data offline on the device, but the project lives on the institution's REDCap server and data only leaves the device when it is sent there."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "note": "Set by each hosting institution. No vendor statement on EU/EEA residency found in the licence terms, FAQ or privacy pages."
+    },
+    "cloud_providers": {
+      "value": "unknown",
+      "note": "Partner institutions choose their own servers or cloud hosts. The licence says hosting companies must be hired by the licensee (section 2.1(b)); no named provider found."
+    },
+    "transfer_mechanism": {
+      "value": "unknown",
+      "note": "No EU-US Data Privacy Framework, SCC, BCR or adequacy statement found in the licence terms, FAQ, Join page or mobile app privacy policy."
+    },
+    "subprocessors_public": {
+      "value": "none-found",
+      "note": "Looked at the homepage, FAQ, licence terms, mobile app privacy policy and /subprocessors/ (404). No sub-processor list published. The FAQ says third parties may not help with installation, maintenance or support."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "note": "No sub-processor list published."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "note": "No sub-processor list published."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "note": "No sub-processor list or change notice found."
+    },
+    "dpa": {
+      "value": "none-found",
+      "note": "Searched /dpa/ and /legal/ (404) and the licence terms. The licence has no GDPR Art. 28 data processing agreement; section 7.5 covers HIPAA/PHI only. The FAQ says the vendor does not complete vendor or security documentation."
+    },
+    "role": {
+      "value": "unknown",
+      "note": "For institutional installs, the vendor does not host the data. The mobile app policy says the project owner owns data sent to the server. Vanderbilt's hosted service role is not stated."
+    },
+    "privacy_policy_date": {
+      "value": "not published",
+      "note": "No general REDCap privacy policy found on project-redcap.org (/privacy-policy/ is 404; /privacy/ shows the mobile app policy). The mobile app privacy policy shows no date."
+    },
+    "retention_stated": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://projectredcap.org/app-privacy-policy/", "quote": "governed entirely by the policies of the specific institution and project administrator hosting your study", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Vanderbilt does not set a retention period for institutional installs; the mobile app policy says retention is set by the hosting institution."
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "note": "Mobile app policy says deletion requests on the server go to the project administrator. No deletion-on-termination statement found."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://www.project-redcap.org/", "quote": "Export to common statistics packages", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Vendor states export to statistics packages. Open export formats are not named."
+    },
+    "breach_notice": {
+      "value": "none-found",
+      "note": "No breach notification window found in the licence terms, FAQ or privacy pages."
+    },
+    "governing_law": {
+      "value": "US",
+      "evidence": [
+        { "url": "https://projectredcap.org/join/termsofuse/", "quote": "in accordance with the federal laws of the United States and the State laws of Tennessee", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "ai_features": {
+      "value": "unknown",
+      "note": "Searched the homepage, FAQ, software pages and licence terms. No AI feature described."
+    },
+    "ai_providers": {
+      "value": "unknown",
+      "note": "No AI features described on the pages read."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "note": "No AI features described on the pages read; no statement on model training found."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "note": "No AI features described on the pages read."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "note": "No AI features described on the pages read."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act statement found on the pages read."
+    },
+    "certifications": {
+      "value": "none-found",
+      "note": "No certification found for the academic REDCap software. REDCap Cloud, a separate commercial company (nPhase), publishes its own certifications; those do not apply to the academic licence."
+    },
+    "trust_page": {
+      "value": "no",
+      "note": "project-redcap.org/security/ and /trust/ return 404. The only security document is the mobile app security PDF."
+    },
+    "encryption": {
+      "value": ["in-transit"],
+      "evidence": [
+        { "url": "https://www.project-redcap.org/wp-content/resources/about.pdf", "quote": "Data is transmitted securely to and from the REDCap server via SSL (https) if it is set up on the server.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Mobile app encrypts stored data on the device. Encryption at rest on the server is not stated; it depends on each hosting site."
+    },
+    "pentest": {
+      "value": "unknown",
+      "note": "No penetration test statement found."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "note": "project-redcap.org/.well-known/security.txt returns 404. No vulnerability disclosure policy found."
+    },
+    "incidents": {
+      "value": "none-found",
+      "note": "Searched for breach notices and regulator decisions; none found. Web results list several XSS and CSRF vulnerabilities in REDCap (CVE-2022-24004, CVE-2022-24127, CVE-2024-56376, CVE-2025-23113). These are vulnerabilities, not breaches, and were not checked against primary CVE records."
+    },
+    "status_page": {
+      "value": "no",
+      "note": "No status page link on the homepage, software pages or FAQ."
+    },
+    "sso": {
+      "value": "unknown",
+      "note": "No SSO protocol described on the pages read."
+    },
+    "federation": {
+      "value": "none-found",
+      "note": "No eduGAIN or national federation listing found."
+    },
+    "scim": {
+      "value": "unknown",
+      "note": "No provisioning statement found on the pages read."
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "No MFA statement found on the pages read."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "note": "Admin tools are inside each institution's own install; the public pages do not describe them."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "note": "The mobile app stores project logs for its own activity. No admin audit log statement for the web system."
+    },
+    "lms_integration": {
+      "value": "unknown",
+      "note": "No LMS integration described on the pages read."
+    },
+    "vpat": {
+      "value": "none-found",
+      "note": "No VPAT or Accessibility Conformance Report published on project-redcap.org (/accessibility/ returns 404). Web search found none for Vanderbilt REDCap."
+    },
+    "wcag_level": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://www.project-redcap.org/about/faq/", "quote": "Descriptive popups are WCAG compliant, thus they will work with screen readers.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The vendor claims WCAG compliance only for a specific feature (descriptive popups), not for the whole product."
+    },
+    "accessibility_statement": {
+      "value": "no",
+      "note": "/accessibility/ returns 404. No published accessibility statement found on project-redcap.org."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "Web search found no HECVAT for academic REDCap. Institutions publish their own reviews."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "note": "No FERPA statement or school official terms found."
+    },
+    "hipaa_baa": {
+      "value": "not-offered",
+      "evidence": [
+        { "url": "https://www.project-redcap.org/about/faq/", "quote": "We are unfortunately not able to complete such documentation.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Vendor does not complete business associate agreements or security questionnaires; the licence requires each institution to meet HIPAA itself (section 7.5)."
+    },
+    "section_508": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.project-redcap.org/about/faq/", "quote": "the default way survey webpages are displayed does comply with ADA Section 508", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Claim covers the default survey pages only. The FAQ says project design may affect or negate that compliance."
+    },
+    "state_privacy": {
+      "value": "none-found",
+      "note": "No SDPC, CCPA or NY Ed Law 2-d terms found."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "note": "No UK transfer terms found on the pages read."
+    },
+    "au_privacy": {
+      "value": "none-found",
+      "note": "No Australian privacy statement, IRAP assessment or AU hosting found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "No NIS2 statement found on the pages read."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://projectredcap.org/join/", "quote": "REDCap software and consortium support are available at no charge to non-profit organizations that join the REDCap consortium.", "retrievedAt": "2026-11-16" }
+      ],
+      "footnote": "Free only to non-profit organisations in the consortium. For-profit organisations cannot hold a licence. Vanderbilt's hosted option costs a monthly fee, and a one-week demo account is also available.",
+      "note": "Licence is free to non-profit organisations only."
+    },
+    "price_individual": {
+      "value": "not published",
+      "note": "Vendor states it does not offer individual or personal use licences (FAQ)."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.project-redcap.org/about/faq/", "quote": "One license corresponds to one organization.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "One licence per organization, which may run several installations."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "note": "No student or academic discount statement; the licence itself is free to non-profits."
+    },
+    "pricing_public": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://www.project-redcap.org/about/faq/", "quote": "there is no cost or fee of any kind", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "The licence cost is stated. Hosting prices and the REDCap+ add-on fee are not stated on the page."
+    },
+    "capabilities": {
+      "value": ["survey"],
+      "evidence": [
+        { "url": "https://www.project-redcap.org/", "quote": "Send custom surveys", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "Only the survey job is described on the product pages as a core feature. Other features listed on the site (data entry, multi-site studies) do not match an option in this list."
+    },
+    "primary_capability": {
+      "value": "survey",
+      "evidence": [
+        { "url": "https://www.project-redcap.org/", "quote": "REDCap is a secure web application for building and managing online surveys and databases.", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "platforms": {
+      "value": ["web", "ios", "android"],
+      "evidence": [
+        { "url": "https://www.project-redcap.org/software/mobile-app/", "quote": "Data can be collected on the REDCap Mobile App on an iPhone, iPad, or Android phone or tablet.", "retrievedAt": "2026-11-16" }
+      ],
+      "note": "iOS and Android apps are companions to the web system."
+    },
+    "languages": {
+      "value": "unknown",
+      "note": "Interface languages not listed. The site mentions Multi-Language Management for translating forms and surveys."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://projectredcap.org/privacy/", "quote": "The public API and a token are used to access the project.", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://www.project-redcap.org/about/faq/", "quote": "But because the license is always required in order to gain codebase access, REDCap is not considered open source", "retrievedAt": "2026-11-16" }
+      ]
+    },
+    "self_host": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://www.project-redcap.org/about/faq/", "quote": "This allows the non-profit organization to install/administer REDCap on their local servers", "retrievedAt": "2026-11-16" }
+      ]
+    }
+  }
+}

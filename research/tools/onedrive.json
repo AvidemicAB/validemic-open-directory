@@ -1,0 +1,459 @@
+{
+  "id": "onedrive",
+  "name": "Microsoft OneDrive",
+  "website": "https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage",
+  "tagline": "Microsoft cloud file storage and sharing for personal and work or school Microsoft accounts, part of Microsoft 365",
+  "category": "storage",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Microsoft Corporation",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/servicesagreement",
+          "quote": "you're contracting with Microsoft Corporation, One Microsoft Way, Redmond, WA 98052, U.S",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Services agreement names this entity for services other than those listed in its EEA paragraph. For EEA personal data the privacy statement names Microsoft Ireland Operations Limited as controller (see eu_representative)."
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/servicesagreement",
+          "quote": "you're contracting with Microsoft Corporation, One Microsoft Way, Redmond, WA 98052, U.S",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Read the services agreement, privacy statement and trust centre pages. No parent company is named; the contracting entity is Microsoft Corporation itself. Microsoft Ireland Operations Limited is named as an EEA controller affiliate, not as a parent."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [],
+      "note": "No separate parent company is named (parent_company none-found)."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Ireland Operations Limited are the data controllers for personal data we collect through the products subject to this statement",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "For EEA and UK personal data the privacy statement names Microsoft Ireland Operations Limited as controller, which is established in the EU. The page names a Swiss representative (Microsoft Schweiz GmbH) but no Article 27 EU representative."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Ireland Operations Limited, Attn: Data Protection Officer, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "A postal address for the Data Protection Officer is published. No named DPO found."
+    },
+    "hosting_regions": {
+      "value": ["US", "EU"],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft may store and process your personal data in your region, the United States",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/privacy/eudb/eu-data-boundary-learn",
+          "quote": "Customer Data and pseudonymized personal data are stored and processed",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The privacy statement says personal data may be stored in the United States. The EU Data Boundary page covers enterprise online services and says customer data is stored in EU or EFTA data centres for those services. No default storage region for OneDrive personal accounts is stated in the pages read."
+    },
+    "local_first": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Pages read describe OneDrive as a cloud storage and sync service. They do not state whether it can run with content kept only on the device. The OneDrive product pages were blocked."
+    },
+    "eu_residency": {
+      "value": "enterprise-only",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/privacy/eudb/eu-data-boundary-learn",
+          "quote": "store and process Customer Data and personal data for our Microsoft enterprise online services",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The EU Data Boundary page says customers with an EU or EFTA sign-up location are in scope for Microsoft 365 enterprise services, except Multi-Geo tenants. It does not name consumer OneDrive accounts."
+    },
+    "cloud_providers": {
+      "value": ["own"],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/trust-center/privacy/data-location",
+          "quote": "Microsoft maintains an ever-expanding network of data centers around the globe",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Pages read describe Microsoft's own data centres. No third-party cloud host is named for OneDrive."
+    },
+    "transfer_mechanism": {
+      "value": ["dpf", "sccs"],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Corporation has certified to the U.S. Department of Commerce that it adheres to the EU-U.S. Data Privacy Framework Principles",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/trust-center/privacy/data-location",
+          "quote": "many Microsoft business cloud services offer customers EU Standard Contractual Clauses that provide additional contractual guarantees around transfers of personal data",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The DPF list page cached for this run did not render entries, so the DPF certification is taken from Microsoft's own statement and not checked on dataprivacyframework.gov."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/trust-center/privacy/data-access",
+          "quote": "The Microsoft Online Services Subprocessor List identifies subprocessors authorized to subprocess customer or personal data in Microsoft Online Services",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The Service Trust Portal lists a version dated 2026-11-04. The list itself is a downloadable document that was not opened, so its count is not recorded."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/trust-center/privacy/data-access",
+          "quote": "To receive notifications of updates to this Subprocessor list, please follow the instructions that describe My library functionality",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA",
+          "quote": "The current and archived editions of the DPA are available for download",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The Products and Services DPA is listed as downloadable. The DPA text itself was not opened; the page cached is the index of editions."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Microsoft Corporation and, for those in the European Economic Area, the United Kingdom, and Switzerland",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The privacy statement says Microsoft is a controller for personal data it collects through its products. For customer content it refers to the DPA's data processing terms. The page read does not state the processor role for OneDrive content in words."
+    },
+    "privacy_policy_date": {
+      "value": "2026-11",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Last Updated: November 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The page gives only the month and year, not the day."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "when you store a document in OneDrive, we maintain the data until you actively delete it",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No deletion time frame after account closure was found in the privacy statement or services agreement pages read. The DPA text was not opened."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "You can view, download, and delete your files and photos in OneDrive",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Files can be downloaded. The pages read do not describe an export in open formats."
+    },
+    "breach_notice": {
+      "value": "Notify customers of a personal data breach within 72 hours of a breach being declared",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/compliance/regulatory/gdpr-breach-office365",
+          "quote": "Notify customers of a personal data breach within 72 hours of a breach being declared",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "This page is written for Microsoft 365 services, of which OneDrive is one."
+    },
+    "governing_law": {
+      "value": ["US"],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/servicesagreement",
+          "quote": "the laws of the state where you live (or, if a business, where your principal place of business is located) govern all claims",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The clause applies when the user lives in the United States. Users elsewhere are governed by the terms for their location, which were not read."
+    },
+    "ai_features": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The privacy statement has a section on Artificial Intelligence and Copilot capabilities. No statement for OneDrive alone on whether its AI features are optional was found."
+    },
+    "ai_providers": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The pages read do not name the model providers that process OneDrive content."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The privacy statement says Microsoft may use data to develop, train and fine-tune its AI models, but this is not specific to OneDrive files. Microsoft's business Copilot pages say prompts and responses are not used to train the underlying large language models. No statement about OneDrive file content was found."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated in the pages read."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Admin controls for Copilot were not checked in the pages cached for this run."
+    },
+    "ai_act_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/trust-center/compliance/eu-ai-act",
+          "quote": "As an AI system provider, Microsoft is implementing required generative AI disclosures",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "certifications": {
+      "value": ["iso27001", "iso27701", "iso27017", "iso27018", "soc2-type2"],
+      "evidence": [
+        {
+          "url": "https://servicetrust.microsoft.com/",
+          "quote": "Microsoft 365 - ISO 27001:2022 Certificate (2024-2027)",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://servicetrust.microsoft.com/",
+          "quote": "Online Services - ISO 27001 and ISO 27701 Certificate (6.25.2026)",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://servicetrust.microsoft.com/",
+          "quote": "Online Services - ISO 27001, 27017, 27018 and 27701 Statement of Applicability",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://servicetrust.microsoft.com/",
+          "quote": "Microsoft 365 Central Services - SOC 2 Type 2 Report (9-30-2025)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Listed on the Service Trust Portal under Microsoft 365 and Online Services. The certificates were not opened; the titles are quoted from the portal list."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://servicetrust.microsoft.com/",
+          "quote": "Service Trust Portal",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest"],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "Data in OneDrive is protected by OneDrive’s security controls, including encryption in transit and at rest",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        {
+          "url": "https://learn.microsoft.com/en-us/compliance/regulatory/gdpr-breach-office365",
+          "quote": "regularly conducts red-team exercises in which an internal penetration testing team simulates attacker behavior against the live environment",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The statement is about Office 365 internal testing. No shareable penetration test summary was found."
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/msrc/bounty",
+          "quote": "Report Security Vulnerability",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "incidents": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Trust centre and service pages were read for incident statements. Regulator decisions and court records were not searched in this pass."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://status.cloud.microsoft",
+          "quote": "Microsoft service health status",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/accessibility/conformance-reports",
+          "quote": "Use this page to find and evaluate ACRs from Microsoft",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The search page lists Accessibility Conformance Reports by product. The OneDrive report itself was not opened."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The Microsoft accessibility pages were read but no EU accessibility statement for OneDrive was found."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "The Microsoft HECVAT page in the Trust Center returned 404 when read. No HECVAT was found on the pages checked."
+    },
+    "ferpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The Microsoft FERPA pages returned 404 when read."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The Trust Center Section 508 page returned 404 when read."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The Trust Center UK GDPR page returned 404 when read."
+    },
+    "au_privacy": {
+      "value": ["none-found"],
+      "evidence": [],
+      "note": "The Trust Center Australia privacy page returned 404 when read."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The NIS2 compliance page was read; it does not contain a supply-chain statement in the cached text."
+    },
+    "free_plan": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://www.microsoft.com/en-us/microsoft-365/onedrive/onedrive-plans-and-pricing"
+    },
+    "price_individual": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://www.microsoft.com/en-us/microsoft-365/onedrive/onedrive-plans-and-pricing"
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://www.microsoft.com/en-us/microsoft-365/onedrive/onedrive-plans-and-pricing"
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://www.microsoft.com/en-us/microsoft-365/onedrive/onedrive-plans-and-pricing"
+    },
+    "pricing_public": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://www.microsoft.com/en-us/microsoft-365/onedrive/onedrive-plans-and-pricing"
+    },
+    "capabilities": {
+      "value": ["storage", "collaboration-docs"],
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "OneDrive lets you store and access your files on virtually any device",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The privacy statement also says OneDrive lets you share and collaborate on your files with others."
+    },
+    "primary_capability": {
+      "value": "storage",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
+          "quote": "OneDrive lets you store and access your files on virtually any device",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "source blocked: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage"
+    },
+    "api": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Developer documentation was not checked."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/servicesagreement",
+          "quote": "The Services are copyright © Microsoft Corporation and/or its suppliers",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The services agreement describes the Services as copyright Microsoft Corporation and/or its suppliers."
+    },
+    "self_host": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Not stated in the pages read."
+    }
+  }
+}

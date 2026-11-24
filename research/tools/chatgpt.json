@@ -1,0 +1,659 @@
+{
+  "id": "chatgpt",
+  "name": "ChatGPT (Free, Plus)",
+  "website": "https://chatgpt.com",
+  "tagline": "OpenAI's AI chat assistant on personal accounts (Free, Go, Plus, Pro), covered by the consumer privacy policy rather than a business DPA",
+  "category": "ai",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "OpenAI Ireland Limited",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "OpenAI Ireland Limited, with its registered office at",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Controller for users in the EEA or Switzerland. For users elsewhere the controller is OpenAI OpCo, LLC (San Francisco, US), per section 12 of the same policy."
+    },
+    "vendor_country": {
+      "value": [
+        "IE"
+      ],
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "Dublin 1, D01 YC43, Ireland",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "EEA controller is in Ireland. The non-EEA controller, OpenAI OpCo, LLC, is in the United States."
+    },
+    "parent_company": {
+      "value": "OpenAI, Inc. (through OpenAI Global, LLC)",
+      "evidence": [
+        {
+          "url": "https://www.lobbyregister.bundestag.de/media/7f/39/594238/OpenAI-Ireland-FY24-Abridged-Accounts.pdf",
+          "quote": "intermediate parent is OpenAI Global, LLC (Global), and its ultimate parent is OpenAI, Inc.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "From OpenAI Ireland Limited's abridged financial statements for 2024, filed in the German Bundestag lobby register. Later changes to the group structure were not checked (openai.com/about is blocked)."
+    },
+    "parent_country": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.lobbyregister.bundestag.de/media/7f/39/594238/OpenAI-Ireland-FY24-Abridged-Accounts.pdf",
+          "quote": "both registered and incorporated in the United States with a registered office in San Francisco",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Ultimate parent per OpenAI Ireland Limited's 2024 accounts."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "OpenAI Ireland Limited, with its registered office at",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The EEA controller is established in Ireland, so an Art. 27 representative is not required for EEA users."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "You can contact our Data Protection Officer at dpo@openai.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Email contact only; no DPO is named."
+    },
+    "hosting_regions": {
+      "value": [
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "processing and storing your Personal Data in our facilities and servers in the United States",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The policy adds that processing can also happen in countries where affiliates, partners, vendors and service providers are located."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "We collect Personal Data that you provide in the input to our Services (\"Content\"), including your prompts and other content you upload",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Prompts and uploads are sent to OpenAI for processing. No local-only mode is described for personal plans."
+    },
+    "eu_residency": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "OpenAI processes your Personal Data on servers located outside of the EEA, Switzerland and the UK",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "footnote": "Data residency controls are listed only for Enterprise and Edu (learn.chatgpt.com/docs/pricing; see the chatgpt-edu record).",
+      "note": "Personal-plan data is processed outside the EEA."
+    },
+    "cloud_providers": {
+      "value": "unknown",
+      "note": "Trust portal says 'Hosting Major Cloud Provider' without naming it. Not named on other pages read; openai.com security page blocked."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "adequacy",
+        "sccs"
+      ],
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "We rely on the European Commission's adequacy decisions",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "we rely on the Standard Contractual Clauses as approved by the European Commission",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The policy names adequacy decisions and SCCs, not the EU-US Data Privacy Framework. OpenAI's entry on dataprivacyframework.gov was not confirmed (the cached list page does not show entries)."
+    },
+    "subprocessors_public": {
+      "value": "none-found",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "we disclose Personal Data to vendors and service providers, including providers of hosting services",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The consumer policy lists vendor categories, not named sub-processors. The business list is blocked (source blocked: https://platform.openai.com/subprocessors; also https://openai.com/policies/sub-processor-list/).",
+      "footnote": "For business offerings the DPA points to a Sub-Processor List at platform.openai.com/subprocessors."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "note": "source blocked: https://platform.openai.com/subprocessors (business list). No consumer sub-processor list found, so no count of third-party or group companies is possible."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "note": "source blocked: https://platform.openai.com/subprocessors (business list). No consumer sub-processor list found."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "note": "The consumer policy only says updated versions are published with an effective date; it does not describe vendor-change notices.",
+      "footnote": "The business DPA (section 2.9) says OpenAI notifies customers of Sub-Processor List changes, by email if they subscribe."
+    },
+    "dpa": {
+      "value": "none-found",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "This Privacy Policy does not apply to content that we process on behalf of customers of our business offerings",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No DPA for personal accounts; OpenAI is controller.",
+      "footnote": "Business, Enterprise, Edu and API customers are covered by the OpenAI Data Processing Addendum (see the chatgpt-edu and openai-api records)."
+    },
+    "role": {
+      "value": "controller",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "is the controller and is responsible for the processing of your Personal Data",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "OpenAI acts as controller for personal-plan content under its own privacy policy."
+    },
+    "privacy_policy_date": {
+      "value": "unknown",
+      "note": "The maintainer-saved copy of the EU privacy policy has no 'last updated' date, and the live page refuses automated reading."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "we will remove it from our systems within 30 days",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "30 days after you delete data, with longer retention for legal, security and safety reasons (section 4). Temporary Chats are deleted automatically within 30 days."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "Once you choose to delete Personal Data, we will remove it from our systems within 30 days",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Account deletion is self-service. Exceptions in section 4; content already de-identified for training is not removed."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "You can export your ChatGPT history and data in your account's data controls.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Export is offered; the file format is not stated on pages read."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "note": "The consumer policy gives no breach-notification window.",
+      "footnote": "The business DPA says OpenAI will notify the customer 'without undue delay'; it does not cover personal accounts."
+    },
+    "governing_law": {
+      "value": "unknown",
+      "note": "source blocked: https://openai.com/policies/eu-terms-of-use/ (also https://openai.com/policies/terms-of-use/)."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        {
+          "url": "https://chatgpt.com",
+          "quote": "ChatGPT is AI.",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "ai_providers": {
+      "value": [
+        "openai"
+      ],
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "how we collect and use training information to develop our language models that power ChatGPT",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "OpenAI runs its own models; no third-party model provider is named."
+    },
+    "trains_on_content": {
+      "value": "opt-out",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "we may use Content you provide us to improve our Services, for example to train the models that power ChatGPT",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "You can easily choose whether your Content can be used to improve and train our models.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://chatgpt.com/pricing",
+          "quote": "Content is used to train our models",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The policy explicitly names model training, not only service improvement. The pricing page marks this row 'Opt-out available' for Free, Go, Plus and Pro. Temporary Chats are not used to improve models.",
+      "footnote": "Business, Enterprise and Edu: 'No training on your business data by default' (learn.chatgpt.com/docs/pricing; see the chatgpt-edu record)."
+    },
+    "ai_zero_retention": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "Temporary Chats will be automatically deleted within 30 days",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No zero-data-retention statement for personal plans; content is kept until deleted, and even Temporary Chats are kept up to 30 days."
+    },
+    "ai_admin_off": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://chatgpt.com/pricing",
+          "quote": "Go, Free, and Plus plans are designed to be used by individuals.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Personal plans have no institution admin.",
+      "footnote": "Business, Enterprise and Edu workspaces have admin controls (see the chatgpt-edu record)."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act statement on pages read; openai.com policy pages are blocked (e.g. source blocked: https://openai.com/policies/eu-terms-of-use/)."
+    },
+    "certifications": {
+      "value": "none-found",
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "for OpenAI’s API, ChatGPT Enterprise, and ChatGPT Edu services",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The ISO 27001/27017/27018/27701 certificate covers the API, ChatGPT Enterprise and Edu; the SOC 2 report covers API, Enterprise, Edu and Team. No certification is stated for personal plans.",
+      "footnote": "Enterprise and Edu: ISO 27001, 27017, 27018, 27701 and SOC 2 Type 2 per the trust portal."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "Welcome to our Trust Portal for OpenAI's ChatGPT services, including ChatGPT Enterprise and ChatGPT Edu.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The portal is written mainly for Enterprise and Edu customers."
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest"
+      ],
+      "evidence": [
+        {
+          "url": "https://chatgpt.com/pricing",
+          "quote": "All data is encrypted in transit (TLS 1.2). Data at rest is encrypted at rest (AES-256)",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "From the FAQ on the consumer pricing page. Customer-managed keys (EKM) are Enterprise/Edu only per learn.chatgpt.com/docs/pricing."
+    },
+    "pentest": {
+      "value": "unknown",
+      "note": "A 'Pentest Report' is listed on the trust portal behind 'Get access'; its scope for personal plans is not stated."
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [
+        {
+          "url": "https://trust.openai.com/",
+          "quote": "OpenAI invites security researchers, ethical hackers, and technology enthusiasts to report security issues via our Bug Bounty Program.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://chatgpt.com/.well-known/security.txt",
+          "quote": "Contact: https://bugcrowd.com/openai",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "OpenAI-wide bug bounty on Bugcrowd; chatgpt.com also publishes security.txt."
+    },
+    "incidents": {
+      "value": "Italian regulator (Garante) decision n. 755 of 2 Nov 2024: EUR 15 million fine for an unreported March 2023 breach and training without legal basis. The Court of Rome (judgment n. 4153/2026, 18 Mar 2026) upheld the appeal against the decision, per the Garante's notice.",
+      "evidence": [
+        {
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10085432",
+          "quote": "did not notify the Authority of the data breach it underwent in March 2023",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10085432",
+          "quote": "sentenza del Tribunale di Roma n. 4153/2026, pubbl. il 18/03/2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Regulator decision on ChatGPT consumer processing (primary source). The Garante says the decision was temporarily removed from its site after the court ruling; the judgment itself was not read."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://status.openai.com/",
+          "quote": "We’re not aware of any issues affecting our systems.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "sso": {
+      "value": [
+        "google",
+        "microsoft"
+      ],
+      "evidence": [
+        {
+          "url": "https://chatgpt.com",
+          "quote": "Continue with Google Continue with Microsoft Continue with Apple",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Personal social sign-in options (Google, Microsoft, Apple, phone), not institutional SSO.",
+      "footnote": "SAML SSO is offered on Business, Enterprise and Edu (learn.chatgpt.com/docs/pricing)."
+    },
+    "federation": {
+      "value": "none-found",
+      "note": "Personal accounts sign in by email, phone or social login. A web search found no OpenAI entry in eduGAIN, SWAMID or InCommon; federation metadata files were not checked directly."
+    },
+    "scim": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://chatgpt.com/pricing",
+          "quote": "Go, Free, and Plus plans are designed to be used by individuals.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://learn.chatgpt.com/docs/pricing",
+          "quote": "Enterprise-level security and controls, including SCIM, EKM, user",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "SCIM is listed under Enterprise & Edu only.",
+      "footnote": "Enterprise and Edu: SCIM available."
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.chatgpt.com/docs/auth.md",
+          "quote": "If you log in using an email and password, you must set up MFA on your account before accessing Codex cloud.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Personal accounts can set up MFA; social-login users can use MFA at their login provider."
+    },
+    "admin_console": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://chatgpt.com/pricing",
+          "quote": "Go, Free, and Plus plans are designed to be used by individuals.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Personal plans have no institution admin console.",
+      "footnote": "Business: 'essential admin controls'; Enterprise/Edu add user analytics (learn.chatgpt.com/docs/pricing)."
+    },
+    "audit_logs": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://chatgpt.com/pricing",
+          "quote": "Go, Free, and Plus plans are designed to be used by individuals.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://learn.chatgpt.com/docs/pricing",
+          "quote": "Audit logs and usage monitoring via the Compliance",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Audit logs are listed under Enterprise & Edu only.",
+      "footnote": "Enterprise and Edu: audit logs via the Compliance API."
+    },
+    "lms_integration": {
+      "value": "none-found",
+      "note": "No LMS integration described on the pricing, download or student pages read."
+    },
+    "vpat": {
+      "value": "unknown",
+      "note": "A VPAT is listed on the trust portal behind 'Get access' with no stated scope for personal plans. Accessibility page blocked (source blocked: https://openai.com/accessibility/)."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "note": "source blocked: https://openai.com/accessibility/"
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "note": "source blocked: https://openai.com/accessibility/"
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "HECVAT Full and Lite are listed on the trust portal (gated, written for Enterprise and Edu). None is stated for personal plans."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "note": "No FERPA terms for personal accounts found. FERPA school-official terms are in OpenAI's Student DPA for Edu (see the chatgpt-edu record)."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "Not stated for personal accounts on pages read."
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "source blocked: https://openai.com/accessibility/"
+    },
+    "state_privacy": {
+      "value": "unknown",
+      "note": "The US privacy policy is blocked (source blocked: https://openai.com/policies/row-privacy-policy/). The trust portal lists 'CCPA' as a compliance item without scope."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://openai.com/policies/eu-privacy-policy/",
+          "quote": "and on the UK International Data Transfer Addendum to the SCCs",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated in section 10 (data transfers) of the EU/UK privacy policy."
+    },
+    "au_privacy": {
+      "value": "none-found",
+      "note": "No Australian Privacy Principles statement, IRAP assessment or AU hosting found on pages read."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "Not found on pages read; openai.com policy pages are blocked."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://chatgpt.com/pricing",
+          "quote": "The free version of ChatGPT is available to everyone.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://learn.chatgpt.com/docs/pricing",
+          "quote": "$0 /month",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "price_individual": {
+      "value": "USD 8 per month (Go)",
+      "evidence": [
+        {
+          "url": "https://learn.chatgpt.com/docs/pricing",
+          "quote": "$8 /month",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Go is the cheapest paid plan on learn.chatgpt.com/docs/pricing. chatgpt.com/pricing did not render prices in the cached copy.",
+      "footnote": "Plus is USD 20 per month; Pro from USD 100 per month."
+    },
+    "institutional_licence": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://chatgpt.com/pricing",
+          "quote": "Go, Free, and Plus plans are designed to be used by individuals.",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Free, Go and Plus are individual plans.",
+      "footnote": "Universities can buy ChatGPT Edu, a separate plan (see the chatgpt-edu record): 'an affordable plan that lets universities deploy AI across their campus communities'."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "note": "No student or academic discount for Go/Plus found on the pricing or student pages. The pricing FAQ names a free ChatGPT for Teachers plan for verified U.S. K-12 educators and the separate Edu plan."
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://learn.chatgpt.com/docs/pricing",
+          "quote": "$20 /month",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Free, Go, Plus and Pro prices are published."
+    },
+    "capabilities": {
+      "value": [
+        "general-ai-chat",
+        "coding-assistant",
+        "data-visualization"
+      ],
+      "evidence": [
+        {
+          "url": "https://chatgpt.com",
+          "quote": "Chat with ChatGPT",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://learn.chatgpt.com/docs/pricing",
+          "quote": "Codex on the web, in the CLI, in the IDE extension, and on iOS",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://chatgpt.com/pricing",
+          "quote": "Plan: Plus, Feature: Interactive tables and charts, Yes",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "The pricing page also lists deep research, image generation, data analysis, voice, study mode and file uploads, which do not map cleanly to the option list."
+    },
+    "primary_capability": {
+      "value": "general-ai-chat",
+      "evidence": [
+        {
+          "url": "https://chatgpt.com",
+          "quote": "Chat with ChatGPT",
+          "retrievedAt": "2026-11-17"
+        }
+      ]
+    },
+    "platforms": {
+      "value": [
+        "web",
+        "windows",
+        "macos",
+        "linux",
+        "ios",
+        "android",
+        "browser-extension",
+        "word-addin"
+      ],
+      "evidence": [
+        {
+          "url": "https://chatgpt.com/pricing",
+          "quote": "Access on web, iOS, Android",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://learn.chatgpt.com/docs/quickstart.md",
+          "quote": "The ChatGPT desktop app is available for macOS, Windows, and Linux.",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://chatgpt.com/download",
+          "quote": "Download Chrome extension",
+          "retrievedAt": "2026-11-17"
+        },
+        {
+          "url": "https://chatgpt.com/pricing",
+          "quote": "Excel, Word, PowerPoint, and Google Sheets extensions",
+          "retrievedAt": "2026-11-17"
+        }
+      ],
+      "note": "Office extensions are limited on Free and Go."
+    },
+    "languages": {
+      "value": "unknown",
+      "note": "No count or list of interface languages found on pages read; help centre blocked."
+    },
+    "api": {
+      "value": "unknown",
+      "note": "ChatGPT itself has no documented public API on pages read. OpenAI's API is a separate product (see the openai-api record)."
+    },
+    "open_source": {
+      "value": "unknown",
+      "note": "Not stated on pages read."
+    },
+    "self_host": {
+      "value": "unknown",
+      "note": "Not stated on pages read; the service is run by OpenAI."
+    }
+  }
+}

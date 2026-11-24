@@ -1,0 +1,545 @@
+{
+  "id": "mendeley",
+  "name": "Mendeley",
+  "website": "https://www.mendeley.com",
+  "tagline": "Free reference manager from Elsevier to store, organize, annotate and cite academic papers, with web, desktop and Word add-in",
+  "category": "reference",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Mendeley Limited",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/legal/elsevier-mendeley-terms-and-conditions",
+          "quote": "The Services are provided by Mendeley Limited",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Mendeley Terms of Use name Mendeley Limited as provider. Terms are hosted on elsevier.com; mendeley.com itself was blocked."
+    },
+    "vendor_country": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Registered address of Mendeley Limited not on cached pages. Elsevier's group DPO post address is Elsevier Limited, 125 London Wall, London, UK (privacy policy), but that is a different entity name. Governing law is English (see governing_law)."
+    },
+    "parent_company": {
+      "value": "RELX",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/security",
+          "quote": "As part of RELX, Elsevier prioritizes environmental responsibility",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Elsevier security page says Elsevier is part of RELX. Elsevier privacy policy names Elsevier as the company that owns or administers the Service. RELX Group is the ultimate parent per that statement; RELX pages were blocked, so the ownership chain below Elsevier was not verified."
+    },
+    "parent_country": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Country of RELX headquarters is not named on any readable page: relx.com and relx.com/about-us were blocked (403), and the cached Elsevier About and privacy pages mention RELX without a headquarters country."
+    },
+    "eu_representative": {
+      "value": "named",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/legal/privacy-policy",
+          "quote": "is Elsevier B.V, Radarweg 29, 1043 Amsterdam, The Netherlands.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Privacy policy names Elsevier B.V as EU/Swiss representative for businesses established outside the EEA and Switzerland. Elsevier Limited (London) is the UK representative."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/legal/privacy-policy",
+          "quote": "contact the Elsevier Data Protection Officer via the Elsevier Privacy Support Hub",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Privacy policy gives a contact route through the Privacy Support Hub and post; no named DPO."
+    },
+    "hosting_regions": {
+      "value": [
+        "AU",
+        "FR",
+        "DE",
+        "IN",
+        "IE",
+        "NL",
+        "PH",
+        "SG",
+        "GB",
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/legal/privacy-policy",
+          "quote": "Your personal information may be stored and processed in your region or another country",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "List of countries where Elsevier companies and service providers maintain servers, from the privacy policy Locations of processing section. The policy says these are possible processing countries, not a default storage location for Mendeley content. Mendeley-specific storage not stated."
+    },
+    "local_first": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Elsevier LibGuide says the desktop library can be set to work offline and that the library automatically syncs with a cloud backup whenever references change. A local-only mode with nothing sent to the vendor is not stated."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No statement for Mendeley. Elsevier security page says AI services may be hosted in Europe or the US based on regulatory requirements, which is not a stated default for Mendeley content."
+    },
+    "cloud_providers": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "Elsevier security page says all Elsevier AI services are hosted on AWS or Microsoft Azure. That statement covers AI services, not confirmed for the Mendeley reference manager. Mendeley hosting provider not named on cached pages."
+    },
+    "transfer_mechanism": {
+      "value": [
+        "dpf"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/legal/privacy-policy",
+          "quote": "Elsevier Inc. has certified certain of its services to the EU-U.S. Data Privacy Framework",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vendor says Elsevier Inc. certified certain services to the EU-U.S. DPF, the UK Extension and the Swiss-U.S. DPF. Not confirmed on dataprivacyframework.gov (cached list page is a JavaScript shell with no entries). Not stated whether Mendeley is one of those services."
+    },
+    "subprocessors_public": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Searched the Elsevier privacy policy, DPA page, security page and product pages; no Mendeley sub-processor list found. Elsevier sub-processor URLs tried returned 404."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No sub-processor list found (see subprocessors_public)."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No sub-processor list found (see subprocessors_public)."
+    },
+    "subprocessor_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No sub-processor notice mechanism found on cached Elsevier pages."
+    },
+    "dpa": {
+      "value": "enterprise-only",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/legal/data-processing-terms",
+          "quote": "This addendum applies to the processing of personal data under applicable Elsevier subscription agreements.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Elsevier Data Processing Addendum is tied to subscription agreements. No self-serve DPA for individual Mendeley accounts found on cached pages."
+    },
+    "role": {
+      "value": "controller",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/legal/privacy-policy",
+          "quote": "is the primary controller of your personal information",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Elsevier privacy policy describes the Elsevier company as primary controller of personal information for the Service."
+    },
+    "privacy_policy_date": {
+      "value": "2026-09-01",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/legal/privacy-policy",
+          "quote": "Last updated: 01 September 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "This is the Elsevier group privacy policy that covers Mendeley. Mendeley's own privacy page was blocked."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/legal/privacy-policy",
+          "quote": "We retain your personal information for as long as necessary to provide the Service",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "General retention statement; no fixed periods given."
+    },
+    "deletion_on_exit": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Terms 5.1 let users delete their Content at any time with the automated account deactivation tool, and say a backup copy may be kept for a reasonable period. No time frame for deletion after termination is stated. Mendeley section of the privacy policy says information shared with others may remain visible after an account is closed."
+    },
+    "data_export": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Privacy policy lists a right to portability of personal information. Elsevier LibGuide describes importing references but not exporting a library in an open format. No export feature is described on the cached pages."
+    },
+    "breach_notice": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Searched the Elsevier privacy policy, Mendeley terms and security page; no breach-notification window stated."
+    },
+    "governing_law": {
+      "value": [
+        "GB"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/legal/elsevier-mendeley-terms-and-conditions",
+          "quote": "These terms of use are governed by English law.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "English law governs the Mendeley Terms of Use. English courts have non-exclusive jurisdiction."
+    },
+    "ai_features": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Elsevier Mendeley product page and LibGuide do not describe AI features. Mendeley AI pages were not reachable (mendeley.com blocked). A search returned only secondhand LeapSpace information, which is a separate product."
+    },
+    "ai_providers": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "Elsevier security page names OpenAI, Anthropic and others for Elsevier AI tools, not for Mendeley. Not confirmed for Mendeley."
+    },
+    "trains_on_content": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Elsevier security page says prompts and documents in Elsevier AI solutions are not used to train LLMs. That is for Elsevier AI tools, not confirmed for Mendeley. Mendeley terms say the Services may extract metadata from posted content for indexing."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Elsevier security page states zero-retention contracts with foundation model providers for Elsevier AI solutions. Not confirmed for Mendeley."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No institution admin control over AI features found on cached pages."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No EU AI Act statement found on cached Elsevier pages."
+    },
+    "certifications": {
+      "value": [
+        "iso27001"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/security",
+          "quote": "We maintain compliance with leading security frameworks and hold certifications such as ISO 27001",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Claim is made on Elsevier's group security page, not Mendeley-specific. No certificate found on the cached pages."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/security",
+          "quote": "Visit the Trust Center",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Elsevier group Trust Center linked from the security page."
+    },
+    "encryption": {
+      "value": [
+        "in-transit",
+        "at-rest"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/security",
+          "quote": "encrypted at rest using AES-256 within the trusted Elsevier environment",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Statement is in the Elsevier AI tools security FAQ. TLS 1.2 or higher is also stated there. Not confirmed separately for Mendeley."
+    },
+    "pentest": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Elsevier security page mentions vulnerability scanning and secure code reviews but no penetration test report or summary. Looked at the security page."
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/security",
+          "quote": "We use industry best practices such as web application firewalls, application and infrastructure vulnerability scanning, secure code reviews, bug bounties",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Group-wide statement on the Elsevier security page, listed as a practice. No separate bounty program page cached."
+    },
+    "incidents": {
+      "value": "none found",
+      "evidence": [],
+      "note": "One web search for Mendeley with breach, ICO and fine terms returned no Mendeley result. No regulator decision, court record or vendor notice was found."
+    },
+    "status_page": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No status page link found on cached Elsevier or Mendeley product pages."
+    },
+    "sso": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "Terms say one email and password can sign in to all Elsevier websites on the platform, which is not SSO. An Okta integration listing exists (third-party) but no Elsevier SSO page was cached."
+    },
+    "federation": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "Searched for Mendeley institutional SSO and federation; no eduGAIN, SWAMID, Haka, Feide, WAYF, InCommon or UK Federation listing found in results."
+    },
+    "scim": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No provisioning statement found on cached pages."
+    },
+    "mfa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No multi-factor statement found on cached pages."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Privacy policy describes institution administrators for Elsevier subscriptions, not confirmed as a Mendeley admin console."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No audit log statement found on cached pages."
+    },
+    "lms_integration": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "No LMS integration statement found on cached Elsevier pages."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/about/accessibility/acr",
+          "quote": "Accessibility Conformance Reports for Elsevier’s products and services, based on the Voluntary Product Accessibility Template (VPAT).",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Elsevier ACR directory lists Mendeley Reference Manager, Mendeley Cite and Mendeley.com reports. The reports themselves were not cached."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Mendeley reference manager accessibility statement not cached. The only accessibility statement found on data.mendeley.com is for Mendeley Data (a different product) and is internally inconsistent; not used. A mirror copy of a Mendeley page claims partial WCAG 2.1 AA and is not from a primary source."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/about/accessibility/acr",
+          "quote": "Accessibility Statement",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Elsevier ACR directory lists a Mendeley Accessibility Statement. The statement itself was not cached for the reference manager."
+    },
+    "hecvat": {
+      "value": "none-found",
+      "evidence": [],
+      "note": "Searched for Mendeley HECVAT; no result. Elsevier security and privacy pages do not mention a HECVAT."
+    },
+    "ferpa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No FERPA statement found on cached Elsevier or Mendeley pages."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No HIPAA statement found on cached pages."
+    },
+    "section_508": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "The Mendeley Data accessibility page (a different product, data.mendeley.com) says Elsevier endeavors to meet Section 508. Not confirmed for the reference manager."
+    },
+    "state_privacy": {
+      "value": [
+        "ccpa"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/legal/privacy-policy",
+          "quote": "For information about our processing of personal information as required by applicable U.S. laws, see our U.S. Consumer Privacy Notice",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Elsevier group U.S. Consumer Privacy Notice is linked from the privacy policy. Only a notice is cited; no CCPA contract terms were cached."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Privacy policy names Elsevier Limited as UK data protection representative and cites the UK Extension to the EU-U.S. DPF. No UK IDTA or UK addendum transfer terms are stated, and the DPF extension is not the same mechanism."
+    },
+    "au_privacy": {
+      "value": [
+        "unknown"
+      ],
+      "evidence": [],
+      "note": "Elsevier privacy policy lists Australia among storage countries but gives no Australian Privacy Principles statement, IRAP assessment or Australian hosting claim."
+    },
+    "nis2": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No NIS2 statement found on cached pages."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/products/mendeley",
+          "quote": "A free reference manager that can help you store, organize, note, share and cite references and research data.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Elsevier product page calls Mendeley free. Storage limits and paid tiers were not found on Elsevier's pages (pricing page blocked)."
+    },
+    "price_individual": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Mendeley pricing page blocked (https://www.mendeley.com/pricing). Elsevier product page shows no prices. Third-party sites report paid tiers but those are not primary sources, so not used."
+    },
+    "institutional_licence": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Old Mendeley Institutional Edition references exist on third-party library sites (for example a note of an end date of 31 March 2022), but no current institutional licence page was cached."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No academic discount found on Elsevier product or LibGuide pages. The product is already free."
+    },
+    "pricing_public": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Mendeley pricing page blocked. Elsevier product page shows no price list."
+    },
+    "capabilities": {
+      "value": [
+        "reference-management",
+        "citation-formatting",
+        "notes"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/products/mendeley",
+          "quote": "Automatically generate bibliographies",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://elsevier.libguides.com/Mendeley/mendeley-reference-manager",
+          "quote": "Annotate PDFs with sticky notes",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.elsevier.com/legal/elsevier-mendeley-terms-and-conditions",
+          "quote": "cataloguing and managing your academic papers and articles",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "From Elsevier product page, LibGuide and Terms of Use. Literature search and recommendation features were not counted as literature-search."
+    },
+    "primary_capability": {
+      "value": "reference-management",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/legal/elsevier-mendeley-terms-and-conditions",
+          "quote": "cataloguing and managing your academic papers and articles",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "platforms": {
+      "value": [
+        "web",
+        "browser-extension",
+        "word-addin"
+      ],
+      "evidence": [
+        {
+          "url": "https://elsevier.libguides.com/Mendeley/mendeley-reference-manager",
+          "quote": "Access Mendeley Reference Manager web",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://elsevier.libguides.com/Mendeley/mendeley-reference-manager",
+          "quote": "Mendeley Web Importer is available for Google Chrome, Firefox and Microsoft Edge.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://elsevier.libguides.com/Mendeley/mendeley-reference-manager",
+          "quote": "Mendeley Cite is compatible with Microsoft Word 2016 or above",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Desktop app exists (LibGuide: 'both a desktop and web app') but the desktop operating systems are not named on cached Elsevier pages, so no windows/macos/linux value is given. Mobile apps not found."
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "Interface languages not stated on cached Elsevier or Mendeley pages."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://dev.mendeley.com",
+          "quote": "Core API Resources",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Mendeley Developer Portal lists Core and Datasets API resources and quick start guides. The portal front page also carries a notice about API changes from 2021, so current scope was not confirmed."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.elsevier.com/legal/elsevier-mendeley-terms-and-conditions",
+          "quote": "you have no rights in or to our Software other than the right to use the Software in accordance with these Terms of Use",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Terms prohibit decompiling and reverse engineering the Software and give users no rights beyond use."
+    },
+    "self_host": {
+      "value": "unknown",
+      "evidence": [],
+      "note": "No self-hosting option for the reference manager found on cached Elsevier pages. The product sync uses Elsevier cloud storage as described in the LibGuide."
+    }
+  }
+}

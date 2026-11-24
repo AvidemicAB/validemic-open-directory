@@ -1,0 +1,456 @@
+{
+  "id": "elicit",
+  "name": "Elicit",
+  "website": "https://elicit.com",
+  "tagline": "AI research assistant that searches academic papers, summarizes them, extracts data into tables and runs systematic reviews.",
+  "category": "ai",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Elicit Research, PBC",
+      "evidence": [
+        { "url": "https://elicit.com/operations/terms", "quote": "We are Elicit Research, PBC, and we and/or our affiliates", "retrievedAt": "2026-11-14" },
+        { "url": "https://support.elicit.com/en/articles/14759345-elicit-vendor-information-taxpayer-id-vat-number-w-9-sales-tax", "quote": "Company name: Elicit Research PBC (dba Elicit)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Same entity in the Authorized User Terms (Team, Institutional and Enterprise users) and the DPA. The site footer says \"Elicit, inc.\"."
+    },
+    "vendor_country": {
+      "value": ["US"],
+      "evidence": [
+        { "url": "https://support.elicit.com/en/articles/14759345-elicit-vendor-information-taxpayer-id-vat-number-w-9-sales-tax", "quote": "Elicit is a US-based company. We do not have a VAT ID", "retrievedAt": "2026-11-17" },
+        { "url": "https://elicit.com/operations/privacy", "quote": "Covina, CA 91723", "retrievedAt": "2026-11-14" }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "evidence": [
+        { "url": "https://ought.org/updates/2023-09-25-spinoff", "quote": "Ought has spun off Elicit as a public benefit corporation, selling its IP and transferring most of its staff.", "retrievedAt": "2026-11-17" },
+        { "url": "https://elicit.com/careers", "quote": "We're backed by an outstanding group of investors, including deep tech seed fund Fifty Years", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Elicit was spun off from the nonprofit Ought (San Francisco) in 2023. Ought keeps an \"equity stake\" in Elicit, but no page says Ought or anyone else controls or owns the company. Investors are venture funds and angels. Checked terms, privacy policy, DPA, team, careers and the Ought announcement."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://ought.org/updates/2023-09-25-spinoff", "quote": "based on the value of the equity stake Ought now holds in Elicit", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No parent company found (see parent_company). Ought, the former parent organisation and a shareholder, is US-based."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "evidence": [
+        { "url": "https://elicit.com/operations/privacy", "quote": "Our servers are located in the United States.", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "US vendor. The privacy policy and DPA name no GDPR Art. 27 EU representative; for EEA residents the policy names an individual as data controller instead."
+    },
+    "dpo_contact": {
+      "value": "named",
+      "evidence": [
+        { "url": "https://elicit.com/operations/privacy", "quote": "the “data controller” of your personal information is James Brady. You can contact them directly regarding the processing of your information, by email at dpo@elicit.com", "retrievedAt": "2026-11-14" },
+        { "url": "https://elicit.com/operations/privacy", "quote": "email our Privacy Officer at operations@elicit.com", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "The policy calls the named person the EEA \"data controller\" (not DPO) and gives a dpo@elicit.com address. The team page lists James Brady as Head of Government Partnerships. The trust centre also gives privacy@elicit.com."
+    },
+    "hosting_regions": {
+      "value": ["US"],
+      "evidence": [
+        { "url": "https://elicit.com/operations/privacy", "quote": "Our servers are located in the United States.", "retrievedAt": "2026-11-14" },
+        { "url": "https://trust.elicit.com/subprocessors", "quote": "Versioned storage and retrieval of customer workspace content data and artifacts", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Every listed sub-processor, including the content storage provider, is listed with location US."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://elicit.com/operations/authorized-user-terms", "quote": "This license includes the right to process User Materials through Elicit's AI models and systems to generate Outputs.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Web service; content is processed and stored by Elicit."
+    },
+    "eu_residency": {
+      "value": "unknown",
+      "evidence": [
+        { "url": "https://elicit.com/operations/privacy", "quote": "Our servers are located in the United States.", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "No EU/EEA residency option found in the privacy policy, DPA, trust centre or pricing page. Enterprise offers \"custom deployments (e.g. single-tenancy)\" with no region stated."
+    },
+    "cloud_providers": {
+      "value": ["aws", "other"],
+      "others": ["CoreWeave", "Code Storage"],
+      "evidence": [
+        { "url": "https://trust.elicit.com/subprocessors", "quote": "Amazon Web Services • Cloud service provider", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.elicit.com/subprocessors", "quote": "Coreweave • Hosting custom ML models", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Code Storage (added 2026-10-15) stores customer workspace content and artifacts."
+    },
+    "transfer_mechanism": {
+      "value": ["sccs"],
+      "evidence": [
+        { "url": "https://elicit.com/operations/dpa", "quote": "such transfer shall be governed by the Standard Contractual Clauses", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "DPA uses EU SCCs (2021/914, Modules Two and Three) with UK Addendum and Swiss changes. No DPF statement in the vendor's pages and no DPF listing found by web search (the dataprivacyframework.gov list itself was not read)."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://elicit.com/operations/dpa", "quote": "including those Subprocessors listed at https://trust.elicit.com/subprocessors", "retrievedAt": "2026-11-14" }
+      ]
+    },
+    "subprocessors_count": {
+      "value": 15,
+      "evidence": [
+        { "url": "https://trust.elicit.com/subprocessors", "quote": "1-10 of 15 results", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Counted on the All subprocessors list: AWS, Anthropic, OpenAI, Customer.io, CoreWeave, Datadog, Deepnote, Google Workspace, Segment, Mixpanel, Heap, Stripe, Attio, Intercom, Code Storage. All are third-party companies; no Elicit group companies are listed."
+    },
+    "subprocessors_non_eea": {
+      "value": 15,
+      "evidence": [
+        { "url": "https://trust.elicit.com/subprocessors", "quote": "Code Storage Versioned storage and retrieval of customer workspace content data and artifacts US", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.elicit.com/subprocessors", "quote": "Anthropic Anthropic's models are used to give AI responses. US", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "All 15 listed sub-processors have location US."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        { "url": "https://elicit.com/operations/dpa", "quote": "to receive email updates when the Subprocessor List is updated", "retrievedAt": "2026-11-14" },
+        { "url": "https://trust.elicit.com/updates", "quote": "we will be partnering with Code Storage effective 10/15/2026", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Email updates by subscription on the trust centre. The Code Storage notice was published 2026-09-16, a month before the change."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://elicit.com/operations/dpa", "quote": "This Data Processing Addendum, including its Annexes and the Standard Contractual Clauses", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "Full text is public at elicit.com/operations/dpa and in help article 14823900. It forms part of the Master Services Agreement (institutional/enterprise contracts)."
+    },
+    "role": {
+      "value": "processor",
+      "evidence": [
+        { "url": "https://elicit.com/operations/dpa", "quote": "This DPA applies when Customer Personal Data is processed by Elicit as a processor", "retrievedAt": "2026-11-14" }
+      ],
+      "footnote": "Individual Basic/Plus/Pro users sign the consumer Terms of Service and privacy policy, where Elicit decides the purposes itself.",
+      "note": "Under the DPA, Elicit processes only on the customer's documented instructions."
+    },
+    "privacy_policy_date": {
+      "value": "2023-09-12",
+      "evidence": [
+        { "url": "https://elicit.com/operations/privacy", "quote": "Last updated: September 12, 2023", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "The Terms of Service show the same date. The DPA was last updated 2025-04-01."
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://elicit.com/operations/dpa", "quote": "Elicit will retain Customer Personal Data for the term of the Agreement and any period after the termination", "retrievedAt": "2026-11-14" },
+        { "url": "https://support.elicit.com/en/articles/14758043-privacy-for-uploaded-papers", "quote": "PDFs you upload are encrypted and remain private to your account only, until you choose to delete them.", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "Retention is tied to the contract term. No fixed period is stated."
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://elicit.com/operations/dpa", "quote": "the certification of deletion described in Clause 16(d) of the SCCs shall be provided by Elicit to Customer upon Customer's written request", "retrievedAt": "2026-11-14" },
+        { "url": "https://trust.elicit.com/controls", "quote": "The company purges or removes customer data containing confidential information from the application environment, in accordance with best practices, when customers leave the service.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Deletion on leaving is stated as a control but no time frame is given. Users can also delete their own account (help article 14759318)."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://support.elicit.com/en/articles/14758189-export-your-data-from-elicit", "quote": "Your Elicit Library can be exported as a .ris file", "retrievedAt": "2026-11-17" },
+        { "url": "https://support.elicit.com/en/articles/14758189-export-your-data-from-elicit", "quote": "Tables can be exported in CSV and Excel format.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Table export from Research Agent sessions needs Plus or higher; Systematic Review tables need Pro, Scale or Enterprise. Reports export as PDF or Word on every plan.",
+      "note": "Exports per item (reports, tables, library). No whole-account export found."
+    },
+    "breach_notice": {
+      "value": "without undue delay, max 72h",
+      "evidence": [
+        { "url": "https://elicit.com/operations/dpa", "quote": "notify Customer in writing without undue delay and in no event later than seventy-two (72) hours after becoming aware", "retrievedAt": "2026-11-14" }
+      ]
+    },
+    "governing_law": {
+      "value": ["US"],
+      "evidence": [
+        { "url": "https://elicit.com/operations/authorized-user-terms", "quote": "the laws of the State of California, without regard to its conflicts of laws provisions", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "For institutional users the Enterprise Agreement's governing law wins over the Authorized User Terms if they conflict.",
+      "note": "California law, with mandatory arbitration for US users. The DPA's SCCs are governed by Irish law (courts of Ireland)."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        { "url": "https://elicit.com/operations/authorized-user-terms", "quote": "The Elicit Platform is an AI-powered research assistant that uses language models to automate critical research workflows", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "ai_providers": {
+      "value": ["anthropic", "openai", "own"],
+      "evidence": [
+        { "url": "https://trust.elicit.com/subprocessors", "quote": "Anthropic • Anthropic's models are used to give AI responses.", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.elicit.com/subprocessors", "quote": "OpenAI • OpenAI's models are used to give AI responses.", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.elicit.com/subprocessors", "quote": "Coreweave • Hosting custom ML models", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "\"own\" = Elicit's custom ML models hosted on CoreWeave; the page does not say whether they are built on open-weights models."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://elicit.com/pricing", "quote": "No training on your data by default", "retrievedAt": "2026-11-14" },
+        { "url": "https://elicit.com/industries/pharma", "quote": "Enterprise customer data is fully redacted. We do not train on this data.", "retrievedAt": "2026-11-14" },
+        { "url": "https://elicit.com/operations/authorized-user-terms", "quote": "solely for the purpose of providing the Platform and related services to User", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Stated for Enterprise (\"by default\"). For Basic, Plus, Pro and Scale no training statement was found; the Terms of Service licence to Your Content covers providing the Service, and the \"improve and market the Service\" clause covers only de-identified usage and telemetry data.",
+      "note": "Institutional (Enterprise) answer. The Authorized User Terms for Team, Institutional and Enterprise users license content only to provide the Platform."
+    },
+    "ai_zero_retention": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://elicit.com/industries/pharma", "quote": "Our third party model providers also have zero data retention policies and guarantee no training.", "retrievedAt": "2026-11-14" }
+      ],
+      "footnote": "Stated on the enterprise (pharma) page; not stated for individual plans.",
+      "note": "Vendor's claim about its model providers. Not checked against the providers' own terms."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "note": "No admin switch for AI features found in the pricing page, Scale plan help article, terms or trust centre. AI is the core of the product."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act statement found in the terms, privacy policy, DPA, trust centre, help centre or a web search."
+    },
+    "certifications": {
+      "value": ["soc2-type2", "cyber-essentials"],
+      "evidence": [
+        { "url": "https://trust.elicit.com/resources", "quote": "Elicit Research, PBC SOC 2 Type 2 Report 7.22.26", "retrievedAt": "2026-11-17" },
+        { "url": "https://trust.elicit.com/resources", "quote": "[Elicit] Cyber Essentials Certification", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Both listed on the trust centre; the SOC 2 Type 2 report and Cyber Essentials certificate are behind \"Request access\". A SOC 3 report (7.22.26) is viewable. Documents themselves not read."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://trust.elicit.com", "quote": "Elicit's Trust Center", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "trust.elicit.com (Vanta). elicit.com/trust and elicit.com/security were blocked."
+    },
+    "encryption": {
+      "value": ["at-rest"],
+      "evidence": [
+        { "url": "https://trust.elicit.com/controls", "quote": "The company's datastores housing sensitive customer data are encrypted at rest.", "retrievedAt": "2026-11-17" },
+        { "url": "https://support.elicit.com/en/articles/14758043-privacy-for-uploaded-papers", "quote": "PDFs you upload are encrypted and remain private to your account only", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "Encryption in transit for customer traffic is not stated (only encrypted remote access for staff)."
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        { "url": "https://trust.elicit.com/controls", "quote": "The company's penetration testing is performed at least annually.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No pentest report or summary is listed among the trust centre resources."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "evidence": [
+        { "url": "https://elicit.com/.well-known/security.txt", "quote": "Cannot GET /.well-known/security.txt", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "security.txt returns 404. The trust centre gives security@elicit.com but no disclosure policy or bug bounty. elicit.com/security was blocked (source blocked: https://elicit.com/security)."
+    },
+    "incidents": {
+      "value": "none found",
+      "note": "Web search for an Elicit breach notice or regulator decision found none; the trust centre updates list no incident notice."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://status.elicit.com", "quote": "Elicit - Status Page", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "sso": {
+      "value": ["saml", "google"],
+      "evidence": [
+        { "url": "https://elicit.com/pricing", "quote": "Enterprise-level security and controls, including SSO & SAML, 2FA, user analytics, domain verification", "retrievedAt": "2026-11-14" },
+        { "url": "https://support.elicit.com/en/articles/14759348-change-your-password-or-email-address", "quote": "You should continue using your Google/GitHub account to log in to Elicit", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "SAML SSO is an Enterprise feature. Google and GitHub sign-in are available to all users.",
+      "note": "GitHub login is not an option value."
+    },
+    "federation": {
+      "value": "none-found",
+      "note": "Web search for Elicit in eduGAIN, InCommon, SWAMID or other federation metadata found nothing. Federation metadata files were not parsed."
+    },
+    "scim": {
+      "value": "unknown",
+      "note": "No SCIM provisioning mention on the pricing page, Scale plan article, terms or trust centre."
+    },
+    "mfa": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://elicit.com/pricing", "quote": "including SSO & SAML, 2FA, user analytics", "retrievedAt": "2026-11-14" }
+      ],
+      "footnote": "2FA is listed under Enterprise-level security; not stated for individual accounts."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://elicit.com/pricing", "quote": "Admin panel with usage tracking and seat management", "retrievedAt": "2026-11-14" },
+        { "url": "https://support.elicit.com/en/articles/14759330-elicit-s-scale-plan-for-teams", "quote": "Team admins have access to an Admin Dashboard to invite or remove team members, view usage, and purchase additional seats.", "retrievedAt": "2026-11-14" }
+      ],
+      "footnote": "Scale and Enterprise plans; Enterprise adds user analytics."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "note": "No admin-visible audit log found on the pricing page, Scale plan article or trust centre."
+    },
+    "lms_integration": {
+      "value": "none-found",
+      "note": "No LMS or LTI integration found on the pricing page, help centre collections or product pages."
+    },
+    "vpat": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://trust.elicit.com/resources", "quote": "Request access [Elicit] VPAT", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Listed on the trust centre behind \"Request access\"; contents not read."
+    },
+    "wcag_level": {
+      "value": "unknown",
+      "note": "source blocked: https://elicit.com/accessibility. The VPAT is on request only and was not read."
+    },
+    "accessibility_statement": {
+      "value": "unknown",
+      "note": "source blocked: https://elicit.com/accessibility"
+    },
+    "hecvat": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://trust.elicit.com/resources", "quote": "Request access [Elicit] HECVAT", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Version (Full/Lite) not shown."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "note": "No FERPA statement in the terms, Authorized User Terms, privacy policy, DPA or trust centre."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "No HIPAA or BAA mention on the pricing, pharma, terms, DPA or trust centre pages."
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "No Section 508 claim on public pages; the VPAT is on request and not read. elicit.com/accessibility was blocked."
+    },
+    "state_privacy": {
+      "value": ["ccpa"],
+      "evidence": [
+        { "url": "https://support.elicit.com/en/articles/14823900-data-processing-addendum", "quote": "Elicit shall not sell or share information as those terms are defined under the CCPA.", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "DPA section 10 (CCPA Compliance). No SDPC or NY Ed Law 2-d agreement found."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://elicit.com/operations/dpa", "quote": "the SCCs shall be modified and interpreted in accordance with Part 2 of the UK Addendum", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "UK Addendum version B1.0."
+    },
+    "au_privacy": {
+      "value": "none-found",
+      "note": "No Australian Privacy Principles statement, IRAP or Australian hosting in the privacy policy, DPA or trust centre."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "No NIS2 mention on the DPA, terms or trust centre."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://elicit.com/pricing", "quote": "Limited usage for Research Agent and Research Reports", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "Basic plan is free with limited usage."
+    },
+    "price_individual": {
+      "value": "$11 per user/month on Plus, billed yearly ($132 a year)",
+      "evidence": [
+        { "url": "https://elicit.com/pricing", "quote": "Per user/month, billed as $132 annually", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "Pro is $39 and Scale $89 per user/month billed yearly. The monthly-billing prices were not shown in the cached page."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://support.elicit.com/en/articles/14759317-save-on-elicit-annual-discount-institutional-contracts", "quote": "ask them to purchase an institutional subscription to Elicit", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "Enterprise plan is described as for companies and schools."
+    },
+    "edu_discount": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://support.elicit.com/en/articles/16631472-academic-and-nonprofit-pricing", "quote": "Elicit provides discounted plans specifically designed for academic users.", "retrievedAt": "2026-11-14" }
+      ]
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://elicit.com/pricing", "quote": "Pick a plan that's right for you", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "Basic to Scale prices are published; Enterprise is custom."
+    },
+    "capabilities": {
+      "value": ["literature-search", "paper-chat", "summarize-papers", "systematic-review", "reference-management", "collaboration-docs"],
+      "evidence": [
+        { "url": "https://elicit.com/pricing", "quote": "Unlimited search across more than 138 million papers", "retrievedAt": "2026-11-14" },
+        { "url": "https://elicit.com/pricing", "quote": "Unlimited chat with papers with full-text access", "retrievedAt": "2026-11-14" },
+        { "url": "https://elicit.com/pricing", "quote": "Unlimited summaries across as many papers as you", "retrievedAt": "2026-11-14" },
+        { "url": "https://elicit.com/pricing", "quote": "Dedicated Systematic Review Workflow that can screen 5,000 papers", "retrievedAt": "2026-11-14" },
+        { "url": "https://support.elicit.com/en/articles/14758189-export-your-data-from-elicit", "quote": "Your Elicit Library can be exported as a .ris file, which imports into Zotero, Mendeley, EndNote, or another reference manager.", "retrievedAt": "2026-11-17" },
+        { "url": "https://elicit.com/pricing", "quote": "Live editing and real-time collaboration with your team", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "Reference management = the Library (Zotero import, collections, tags, RIS export)."
+    },
+    "primary_capability": {
+      "value": "literature-search",
+      "evidence": [
+        { "url": "https://elicit.com/pricing", "quote": "Unlimited search across more than 138 million papers", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "Judgement from the pricing page: paper search is on every plan and listed first. Systematic review is the other main use (Pro and up)."
+    },
+    "platforms": {
+      "value": ["web", "browser-extension"],
+      "evidence": [
+        { "url": "https://support.elicit.com/en/articles/14758223-technical-requirements-troubleshooting", "quote": "Elicit is designed to work with the latest version of Chrome, Firefox, Safari, or Edge", "retrievedAt": "2026-11-17" },
+        { "url": "https://support.elicit.com/en/articles/14759113-elicit-browser-extension", "quote": "Download and install the Elicit Browser Extension for your browser:", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Browser extension for Chrome and Edge, used for full-text retrieval in Systematic Reviews (Pro and up). An MCP server is also offered."
+    },
+    "languages": {
+      "value": "English",
+      "evidence": [
+        { "url": "https://support.elicit.com/en/articles/14758084-languages-other-than-english", "quote": "Elicit is designed for use in English.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Queries in other languages may work in some workflows, with varying quality."
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://support.elicit.com/en/articles/14757400-elicit-s-api", "quote": "The Elicit API is available on the Pro, Scale, and Enterprise plans.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Pro, Scale and Enterprise plans only.",
+      "note": "Public API docs at docs.elicit.com (llms.txt cached)."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://elicit.com/operations/terms", "quote": "constitutes our exclusive property and is protected by copyright, trademark, and other intellectual property", "retrievedAt": "2026-11-14" }
+      ]
+    },
+    "self_host": {
+      "value": "unknown",
+      "evidence": [
+        { "url": "https://elicit.com/pricing", "quote": "custom deployments (e.g. single-tenancy)", "retrievedAt": "2026-11-14" }
+      ],
+      "note": "Enterprise custom deployments are mentioned; hosting on the institution's own infrastructure is not stated."
+    }
+  }
+}

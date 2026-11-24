@@ -1,0 +1,652 @@
+{
+  "id": "canvas",
+  "name": "Canvas",
+  "website": "https://www.instructure.com/canvas",
+  "tagline": "Learning management system for courses, assignments, grading and communication, made by Instructure, Inc.",
+  "category": "lms",
+  "checkedAt": "2026-11-16",
+  "facts": {
+    "vendor_entity": {
+      "value": "Instructure, Inc.",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/mastertermsconditions",
+          "quote": "the Instructure entity identified on the Order Form is Instructure, Inc.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Master Terms name Instructure, Inc. for the US entity; Instructure Global Limited (England and Wales) for the UK entity."
+    },
+    "vendor_country": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/privacy-security",
+          "quote": "Salt Lake City, UT 84121, USA",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "North America office in Salt Lake City, Utah. Also offices in London and Quezon City."
+    },
+    "parent_company": {
+      "value": "none-found",
+      "note": "Looked at the privacy, legal, trust and terms pages. No parent or owner named."
+    },
+    "eu_representative": {
+      "value": "none-found",
+      "note": "Vendor is US-based. No GDPR Art. 27 EU representative named on the privacy pages checked. The privacy notice names a UK office and a UK-based DPO contact email."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/product-privacy-policy",
+          "quote": "To contact our Data Protection Officer, please use the following email address privacy@instructure.com",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "No named DPO found."
+    },
+    "hosting_regions": {
+      "value": [
+        "IE",
+        "DE",
+        "AU",
+        "SG",
+        "CA",
+        "US"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "EU, EEA, or UK based customers: Ireland or Germany.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "Australia: Australia, Singapore, India (Impact only)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Data centre regions for the Services by customer location (DPA Schedule). India is listed for the Impact product only and is left out. Mastery and Elevate are US-only. Support processing may happen outside the home region (DPA)."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/trust-center/security",
+          "quote": "The Instructure learning platform is hosted on Amazon Web Services (AWS)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Canvas is delivered as a hosted service. The vendor describes no local-only mode."
+    },
+    "eu_residency": {
+      "value": "default",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "EU, EEA, or UK based customers: Ireland or Germany.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The DPA says Services data centres are chosen by customer location. Support processing outside the home region is allowed (DPA)."
+    },
+    "cloud_providers": {
+      "value": [
+        "aws"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/trust-center/security",
+          "quote": "The Instructure learning platform is hosted on Amazon Web Services (AWS)",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "transfer_mechanism": {
+      "value": [
+        "dpf",
+        "sccs"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/product-privacy-policy",
+          "quote": "Instructure (which includes Parchment) complies with the EU-U.S. Data Privacy Framework",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "Standard Contractual Clauses: A valid transfer mechanism referred in Section 4 is:",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vendor states DPF self-certification. dataprivacyframework.gov/list was fetched but the page rendered without its entries, so the listing was not confirmed there."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "a link to a website where the information about the Sub-processors is kept up-to-date",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The list is in the Trust Center portal (trust.instructure.com, document 'Third-Party Service Provider Guide'). The portal is a JavaScript app and its content was not readable here."
+    },
+    "subprocessors_count": {
+      "value": "unknown",
+      "note": "WebFetch of the trust portal sub-processor document found no list on the page. The Third-Party Service Provider Guide itself is not readable."
+    },
+    "subprocessors_non_eea": {
+      "value": "unknown",
+      "note": "Sub-processor list not readable (see subprocessors_count)."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "Instructure shall inform Customer of any replacement or addition to its Sub-processors at least 30 days prior to such change.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Customers may object within 30 days (DPA)."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/trust-center/legal",
+          "quote": "Instructure's Data Processing Addendum outlines how we process, protect, and govern personal data under our customer agreements",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Full DPA published at instructure.com/policies/data-processing-addendum (last updated 01 October 2024), with SCCs, UK addendum and FERPA schedule."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "Customer and Instructure are both independent Controllers (and not joint Controllers)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Processor for customer personal data (DPA: Customer is the Controller and Instructure is the Processor). Independent controller for account data."
+    },
+    "privacy_policy_date": {
+      "value": "2026-07-10",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/product-privacy-policy",
+          "quote": "Effective Date: July 10, 2026",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "Processor will process Customer Personal Data for the duration of the Agreement.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated as the duration of the agreement. The privacy notice says some data in archives may be impossible to delete."
+    },
+    "deletion_on_exit": {
+      "value": "stated",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "Within 90 days after termination or expiration of the Agreement",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "provide functionality for Customer to download its Customer Personal Data stored in the Services to the extent possible",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "breach_notice": {
+      "value": "without undue delay (no hour limit stated)",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "notify Customer of the Security Breach without undue delay after becoming aware of the Security Breach",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "governing_law": {
+      "value": "US",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/mastertermsconditions",
+          "quote": "shall be interpreted, governed, and construed by the laws of the State of Delaware",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Delaware law for Instructure, Inc. Instructure Global Limited contracts are governed by the laws of England and Wales."
+    },
+    "ai_features": {
+      "value": "optional",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/igniteai",
+          "quote": "Institutions stay in control with opt-in features",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "ai_providers": {
+      "value": [
+        "anthropic",
+        "meta",
+        "other"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/artificial-intelligence-privacy",
+          "quote": "Our AI Tools use third-party base models such as Claude 3 Haiku, Meta M2M-100, and Cohere Embed Multilingual.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Hosting location of the model providers is not stated. 'other' is Cohere.",
+      "others": [
+        "Cohere"
+      ]
+    },
+    "trains_on_content": {
+      "value": "opt-in",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/trust-center/ai-governance-responsibility",
+          "quote": "Customer data is not used to develop or train our AI systems unless your institution authorizes it.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "The AI privacy notice also says AI Tools data is used 'to operate, customize, and improve our AI Tools' and that student data is not used for training. The two statements are not fully reconciled on the pages."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "note": "Instructure AI Nutrition Facts framework has a Data Retention field per feature. First-party per-feature labels in the AI in Education community group were not reached."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "note": "Nutrition Facts framework lists an on/off control as a question for buyers, not as a vendor statement. Per-feature labels not reached."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No EU AI Act statement found on the pages checked. The AI Governance page covers principles only."
+    },
+    "certifications": {
+      "value": [
+        "iso27001",
+        "soc2-type2",
+        "cyber-essentials"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/trust-center/compliance",
+          "quote": "SOC 2 Type 2, ISO 27001, and NIST 800-53",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://trust.instructure.com/",
+          "quote": "Instructure ISO 27001 Compliance Certificate",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://trust.instructure.com/",
+          "quote": "Cyber Essentials Plus",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "ISO 27001 and SOC 2 are listed as documents in the Trust Center. Cyber Essentials Plus appears as a trust portal badge. The reports themselves were not opened."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://trust.instructure.com/",
+          "quote": "Everything you need to complete your security review is here.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "pentest": {
+      "value": "claimed",
+      "evidence": [
+        {
+          "url": "https://trust.instructure.com/",
+          "quote": "Annual third-party penetration testing",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Trust portal lists a 'Canvas LMS Penetration Test' document; it was not opened, so the summary is not confirmed as shareable."
+    },
+    "vuln_disclosure": {
+      "value": "bug-bounty",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/trust-center/security",
+          "quote": "a responsible vulnerability disclosure policy and a private bug bounty program",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Private bug bounty run through Bugcrowd, plus a disclosure form."
+    },
+    "incidents": {
+      "value": "Yes. Unauthorized access to Canvas detected April 29, 2026, and a second attack on May 7, 2026 (vendor's own incident notice, latest update 9/29/2026). Data fields the vendor names: usernames, email addresses, course names, enrollment information and messages. No regulator decision or court record was checked.",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/incident_update",
+          "quote": "On April 29, we detected unauthorized activity in Canvas by Instructure.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.instructure.com/incident_update",
+          "quote": "This incident involved unauthorized access to part of our environment.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Primary source is the vendor's own incident page. The vendor says the data was returned and the actor agreed to destroy it, and that the forensic review is complete (9/29/2026). Not checked for regulator fines or court records."
+    },
+    "status_page": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://trust.instructure.com/",
+          "quote": "Has a status page",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Public status page at status.instructure.com, with incident history and 90-day uptime. Fetched with WebFetch; the fetch-page script was refused on that URL."
+    },
+    "vpat": {
+      "value": "public",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/accessibility",
+          "quote": "Review accessibility documentation, including VPATs and ACRs, for the full Instructure learning ecosystem.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "wcag_level": {
+      "value": "2.2-aa",
+      "evidence": [
+        {
+          "url": "https://trust.instructure.com/",
+          "quote": "now meet the AA level of the Web Content Accessibility Guidelines (WCAG) 2.2 accessibility standards",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Stated for several product VPATs, not all Canvas components."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/accessibility",
+          "quote": "We believe in accessibility for all.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Not checked against EU Accessibility Act statement content requirements."
+    },
+    "hecvat": {
+      "value": "unknown",
+      "note": "Trust portal announces a Canvas LMS HECVAT v4 (2025-06-05) under Security Questionnaires. The file is behind the portal and was not readable. Public search found no HECVAT copy."
+    },
+    "ferpa": {
+      "value": "school-official-terms",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "Instructure operates as a School Official under FERPA",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "Section 508 not found on the cached accessibility, trust or VPAT pages. Trust portal VPAT documents are not readable."
+    },
+    "uk_gdpr": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "UK International Data Transfer Addendum to the EU Commission Standard Contractual Clauses",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "au_privacy": {
+      "value": [
+        "au-hosting"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/data-processing-addendum",
+          "quote": "Australia: Australia, Singapore, India (Impact only)",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Australian hosting region listed in the DPA. No Australian Privacy Principles statement or IRAP assessment found."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "No NIS2 statement found on the pages checked."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/try-canvas",
+          "quote": "It's free to get started",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Canvas Lite gives individual educators a free account. The incident page says the earlier Free-for-Teacher product was permanently discontinued, so the free tier may be limited. Not confirmed as permanent."
+    },
+    "price_individual": {
+      "value": "not published",
+      "note": "instructure.com/pricing and /canvas/pricing returned 404. The product pages checked show no prices. Institutional pricing is by quote."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/try-canvas",
+          "quote": "without needing a school or institution to set up a full Canvas license",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "note": "No student or educator discount stated on the pages checked."
+    },
+    "capabilities": {
+      "value": [
+        "lms",
+        "translation"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/canvas",
+          "quote": "Deliver dynamic learning experiences to every student, everywhere.",
+          "retrievedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.instructure.com/policies/artificial-intelligence-privacy",
+          "quote": "Canvas Inbox and Course Translation uses AI to translate inbox messages and discussion threads across 100 languages",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "primary_capability": {
+      "value": "lms",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/canvas",
+          "quote": "Deliver dynamic learning experiences to every student, everywhere.",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "api": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://trust.instructure.com/",
+          "quote": "Has an API available",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "open_source": {
+      "value": "partly",
+      "evidence": [
+        {
+          "url": "https://github.com/instructure/canvas-lms",
+          "quote": "AGPL-3.0 license",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Canvas LMS source code is AGPL-3.0 on GitHub. Other Instructure products (Parchment, Mastery, Studio, Catalog) are not shown as open source."
+    },
+    "self_host": {
+      "value": "yes",
+      "note": "Vendor wiki gives production install steps for the open-source Canvas LMS. Hardware and Ruby versions in community reports differ; not verified.",
+      "evidence": [
+        {
+          "url": "https://github.com/instructure/canvas-lms/wiki/Production-Start",
+          "quote": "get a production-ready instance of Instructure 's open source Canvas LMS running and serving your users",
+          "retrievedAt": "2026-11-16"
+        }
+      ]
+    },
+    "sso": {
+      "value": [
+        "saml",
+        "oidc",
+        "google",
+        "microsoft"
+      ],
+      "evidence": [
+        {
+          "url": "https://developerdocs.instructure.com/services/canvas/resources/authentication_providers",
+          "quote": "Services may be Apple, CAS, Facebook, GitHub, Google, LDAP, LinkedIn, Microsoft, OpenID Connect, or SAML.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Authentication providers API lists these login services. Customer-facing SAML setup guides exist on the Instructure community, but those pages were not readable in this pass. CAS and LDAP are listed but not in the factor options."
+    },
+    "admin_console": {
+      "value": "yes",
+      "evidence": [
+        {
+          "url": "https://community.canvaslms.com/t5/Canvas-Question-Forum/How-do-I-see-what-account-level-permissions-a-user-has/td-p/603665",
+          "quote": "You can run a provisioning report to discover what users have admin roles.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Admin pages and Settings > Reports are used to manage admins. Community answer by Instructure staff; no separate admin console page was cached."
+    },
+    "lms_integration": {
+      "value": [
+        "lti"
+      ],
+      "evidence": [
+        {
+          "url": "https://developerdocs.instructure.com/services/canvas/external-tools/lti/file.provisioning",
+          "quote": "depending on the version of LTI used",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Canvas is itself the LMS. Its developer docs describe LTI external tools; LTI version not stated in the quote."
+    },
+    "platforms": {
+      "value": [
+        "ios",
+        "android"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/en-au/resources/blog/top-tips-everything-you-need-know-about-using-canvas-mobile-apps",
+          "quote": "Both the Canvas Teacher and Canvas Student apps are available for iOS and Android users on the iOS App Store and Google Play.",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Mobile apps only. Web access to Canvas is not restated in the quoted sources."
+    },
+    "languages": {
+      "value": "unknown",
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/canvas",
+          "quote": "Canvas is available in 100+ countries",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "Vendor gives a country count, not interface languages. Developer languages page returned 404."
+    },
+    "state_privacy": {
+      "value": [
+        "ccpa"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.instructure.com/policies/california-privacy-policy",
+          "quote": "contains disclosures required by the California Consumer Privacy Act",
+          "retrievedAt": "2026-11-16"
+        }
+      ],
+      "note": "CCPA notice published. No Student Data Privacy Consortium, NY Ed Law 2-d or other state agreement found on the pages checked."
+    },
+    "pricing_public": {
+      "value": "unknown",
+      "note": "instructure.com/pricing, /canvas/pricing and /contact all returned 404 in this pass. No prices on the product pages checked."
+    },
+    "encryption": {
+      "value": "unknown",
+      "note": "Trust center security page does not state encryption details. The trust portal FAQ (Encryption section) is JavaScript-only and was not readable. A TLS 1.2+ claim seen in search results could not be confirmed on a vendor page."
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "Community MFA guides returned 404 in this pass. Search results describe MFA as set up by the institution through Instructure, but no vendor quote was cached."
+    },
+    "scim": {
+      "value": "unknown",
+      "note": "No SCIM documentation found. Developer provisioning doc covers LTI. A community idea thread asks for SCIM 2.0 support, which is not a vendor statement."
+    },
+    "federation": {
+      "value": "unknown",
+      "note": "Searched InCommon, eduGAIN, SWAMID and Haka. No Canvas entry found in the results. Federation metadata lookups were not run."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "note": "Community answers say no single audit log of admin role changes exists; activity logs are limited to page views and provisioning reports. Not confirmed as a vendor statement."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "No vendor HIPAA statement found. Archived community thread about HIPAA returned 404. DPA is a privacy addendum, not a BAA."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "note": "No separate parent company found (see Parent company), so the vendor country applies."
+    }
+  }
+}

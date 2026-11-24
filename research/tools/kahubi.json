@@ -1,0 +1,428 @@
+{
+  "id": "kahubi",
+  "name": "Kahubi",
+  "website": "https://kahubi.com",
+  "tagline": "Web app for researchers: chat with your reference library, write manuscripts, run systematic reviews, surveys and statistics, and transcribe and analyse interviews",
+  "category": "ai",
+  "checkedAt": "2026-11-17",
+  "facts": {
+    "vendor_entity": {
+      "value": "Avidemic AB",
+      "evidence": [
+        { "url": "https://kahubi.com/legal/Kahubi-DPA-2026-10.pdf", "quote": "Avidemic AB (\"Data Processor\"), a company incorporated under the laws of Sweden", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/compliance", "quote": "Kahubi is built and operated by Avidemic AB, a company registered in Sweden", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Org. number 559252-4267 (about page). Terms call it a Swedish limited liability company."
+    },
+    "vendor_country": {
+      "value": ["SE"],
+      "evidence": [
+        { "url": "https://kahubi.com/about", "quote": "Kahubi is built by Avidemic AB , a Swedish company in Gothenburg", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "parent_company": {
+      "value": "none-found",
+      "note": "Checked the about, compliance, privacy, terms and DPA pages, llms.txt, and the filed annual reports for 2023 and 2024 (risika.dk copies of the årsredovisning, cached). No parent, owner or group (koncern) is named; the about page and llms.txt name Avidnote only as a sister product of the same company. Shareholders are not listed in any of these."
+    },
+    "parent_country": {
+      "value": "not-applicable",
+      "evidence": [
+        { "url": "https://kahubi.com/about", "quote": "Kahubi is built by Avidemic AB , a Swedish company in Gothenburg", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No separate parent company found (see parent_company), so the vendor country applies."
+    },
+    "eu_representative": {
+      "value": "not-needed",
+      "evidence": [
+        { "url": "https://kahubi.com/compliance", "quote": "Kahubi is built and operated by Avidemic AB, a company registered in Sweden and supervised by the Swedish data protection authority (IMY)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Vendor is established in Sweden (EU)."
+    },
+    "dpo_contact": {
+      "value": "contact-only",
+      "evidence": [
+        { "url": "https://kahubi.com/privacy", "quote": "Privacy questions and requests: team@kahubi.com or the contact form", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No named Data Protection Officer in the privacy policy, compliance page or DPA."
+    },
+    "hosting_regions": {
+      "value": ["SE", "DE"],
+      "evidence": [
+        { "url": "https://kahubi.com/legal/Kahubi-DPA-2026-10.pdf", "quote": "stored on servers operated by Hostup AB in data centres in Sweden", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/privacy", "quote": "Data is stored on GDPR-compliant, encrypted infrastructure in Sweden, with backups in EU data centres (Stockholm, Sweden, and Germany).", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Primary hosting in Sweden; backup and redundancy by Bunny in Stockholm and Germany."
+    },
+    "local_first": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://kahubi.com/", "quote": "Kahubi runs in the browser, so there is nothing to install and nothing to sync.", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/compliance", "quote": "Primary hosting: the servers that run Kahubi and store your account, library, and project data", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Hosted web service; content is stored on the vendor's servers. No local-only mode described."
+    },
+    "eu_residency": {
+      "value": "default",
+      "evidence": [
+        { "url": "https://kahubi.com/legal/Kahubi-DPA-2026-10.pdf", "quote": "Personal Data shall at all times be stored within the European Union.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "cloud_providers": {
+      "value": ["other"],
+      "others": ["Hostup AB", "BunnyWay d.o.o. (Bunny)"],
+      "evidence": [
+        { "url": "https://kahubi.com/legal/Kahubi-DPA-2026-10.pdf", "quote": "stored on servers operated by Hostup AB in data centres in Sweden, with redundancy provided by BunnyWay d.o.o. (Bunny, Slovenia, EU)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Hostup AB (Sweden) hosts the service; Bunny (Slovenia) provides CDN, DNS and backup storage. Neither is in the option list."
+    },
+    "transfer_mechanism": {
+      "value": ["none-needed"],
+      "evidence": [
+        { "url": "https://kahubi.com/legal/Kahubi-DPA-2026-10.pdf", "quote": "No Personal Data is transferred outside the EEA by the Subprocessors listed in Annex 1.", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "This is the institutional answer (DPA 10.2 is stated 'for institutional customers'). The privacy policy, which covers all accounts, says that where a subprocessor processes data outside the EU/EEA, transfers rely on safeguards such as the Standard Contractual Clauses; no such subprocessor is named.",
+      "note": "dataprivacyframework.gov not checked, since no US recipient is named."
+    },
+    "subprocessors_public": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://kahubi.com/compliance", "quote": "We use a small, documented set of GDPR-compliant subprocessors, each limited to a single purpose and bound by a data processing agreement.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Listed on kahubi.com/compliance and in DPA Annex 1."
+    },
+    "subprocessors_count": {
+      "value": 12,
+      "evidence": [
+        { "url": "https://kahubi.com/compliance", "quote": "For institutional customers (invoice billing), every subprocessor is a European company processing data in the EU.", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/legal/Kahubi-DPA-2026-10.pdf", "quote": "Annex 1 – Approved Subprocessors", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Self-serve (card-paying) accounts add Stripe (Stripe Payments Europe Ltd, Ireland), so the compliance page lists 13 companies in total. Stripe is stated as not applicable to institutional buyers.",
+      "note": "Institutional answer: 12 third-party companies in DPA Annex 1: Hostup, TensorX, GreenPT, Inceptron, Berget AI, Scaleway, Gladia, Lemonfox, Staan, Bunny, Visma, Lettermint (Berget AI counted once, though the compliance page also lists it for transcription). No group companies are listed; the self-hosted OpenPanel analytics is not a third party."
+    },
+    "subprocessors_non_eea": {
+      "value": 0,
+      "evidence": [
+        { "url": "https://kahubi.com/legal/Kahubi-DPA-2026-10.pdf", "quote": "No Personal Data is transferred outside the EEA by the Subprocessors listed in Annex 1.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Per the vendor's own statement; every Annex 1 entry gives an EU location. Stripe (self-serve only) is contracted via its Irish entity; any processing beyond that is not described."
+    },
+    "subprocessor_notice": {
+      "value": "notified",
+      "evidence": [
+        { "url": "https://kahubi.com/legal/Kahubi-DPA-2026-10.pdf", "quote": "shall automatically notify subscribers when it is updated", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/compliance", "quote": "To be notified by email when this list changes, write to team@kahubi.com with the subject “Subprocessor updates”.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "At least 30 days' notice for hosting and storage providers (DPA 4.4); 14-day objection window (DPA 4.7). Changes of model version with an existing subprocessor need no notice (DPA 4.6)."
+    },
+    "dpa": {
+      "value": "public",
+      "evidence": [
+        { "url": "https://kahubi.com/compliance", "quote": "Download the DPA (PDF, October 2026) . For a signed copy or special provisions, contact team@kahubi.com .", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Standard DPA at kahubi.com/legal/Kahubi-DPA-2026-10.pdf."
+    },
+    "role": {
+      "value": "mixed",
+      "evidence": [
+        { "url": "https://kahubi.com/legal/Kahubi-DPA-2026-10.pdf", "quote": "This Agreement governs the processing of personal data by the Data Processor on behalf of the Data", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/privacy", "quote": "Our legal basis for this processing is legitimate interest (Art. 6(1)(f) GDPR) in making the public scholarly record searchable and browsable", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Processor for customer content under the DPA. The privacy policy sets its own purposes and legal bases for product analytics, marketing and public author profile pages built from OpenAlex data."
+    },
+    "privacy_policy_date": {
+      "value": "2026-10-27",
+      "evidence": [
+        { "url": "https://kahubi.com/privacy", "quote": "Last updated: October 27, 2026", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "retention_stated": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://kahubi.com/privacy", "quote": "We keep your content for as long as your account exists.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Deleted content expires from backups 'on a rolling basis'; no backup period stated."
+    },
+    "deletion_on_exit": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://kahubi.com/legal/Kahubi-DPA-2026-10.pdf", "quote": "Upon termination of this Agreement or upon the Data Controller’s request, the Data Processor will delete or return all Personal Data", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/privacy", "quote": "we delete your account and associated content from our systems", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Deletion or return on termination or request; no time frame stated in the DPA, privacy policy, terms or compliance page."
+    },
+    "data_export": {
+      "value": "partial",
+      "evidence": [
+        { "url": "https://kahubi.com/compliance", "quote": "You can export your library (BibTeX, RIS, CSL-JSON) and your manuscripts (.tex, .docx, PDF) at any time.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Export of chats, datasets, survey responses or transcripts is not stated."
+    },
+    "breach_notice": {
+      "value": "promptly notify the Data Controller in writing upon becoming aware (no hour window stated)",
+      "evidence": [
+        { "url": "https://kahubi.com/legal/Kahubi-DPA-2026-10.pdf", "quote": "The Data Processor shall promptly notify the Data Controller in writing upon becoming aware of any", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "governing_law": {
+      "value": ["SE"],
+      "evidence": [
+        { "url": "https://kahubi.com/terms", "quote": "These Terms are governed by the substantive laws of Sweden.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Disputes go to arbitration at the Stockholm Chamber of Commerce (terms section 16). The DPA is governed by Swedish law and GDPR."
+    },
+    "ai_features": {
+      "value": "core",
+      "evidence": [
+        { "url": "https://kahubi.com/", "quote": "The AI workspace for research", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "ai_providers": {
+      "value": ["other"],
+      "others": ["TensorX", "GreenPT", "Inceptron", "Berget AI", "Scaleway"],
+      "evidence": [
+        { "url": "https://kahubi.com/compliance", "quote": "Primary: TensorX (Ireland). Backup: GreenPT (Netherlands), Inceptron (Sweden), Berget AI (Sweden), Scaleway (France)", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/legal/Kahubi-DPA-2026-10.pdf", "quote": "AI processing is carried out with open-source models running entirely in EU data centres", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "This is the institutional answer (DPA 10.2). The journal-editors page says a sealed review refuses non-EU AI providers 'even if your account is set up with a different one', which suggests other providers can apply to some accounts; none are named.",
+      "note": "Third-party EU companies running open-source models; the model names and their developers are not stated."
+    },
+    "trains_on_content": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://kahubi.com/privacy", "quote": "We do not use your research content to train AI models — neither our own nor third parties'.", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/compliance", "quote": "our AI subprocessors are used via API agreements that exclude training on customer data", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Terms section 4 says the same. The privacy policy's 'improve the Service' purpose is limited to aggregate, de-identified usage analytics, not model training."
+    },
+    "ai_zero_retention": {
+      "value": "unknown",
+      "note": "No zero-data-retention statement for the AI providers in the privacy policy, compliance page, DPA or terms. The journal-editors page says the text is held in the EU model provider's memory while it works, under a DPA, but does not state the provider's retention or logging."
+    },
+    "ai_admin_off": {
+      "value": "unknown",
+      "note": "No institution control to switch off AI found. The journal-editors page describes a team owner switch that makes reviews 'sealed', which is not an AI off switch."
+    },
+    "ai_act_statement": {
+      "value": "unknown",
+      "note": "No Kahubi EU AI Act position on the compliance, privacy, terms, about pages or llms.txt. llms.txt lists general guides that discuss the AI Act, which are not a statement about Kahubi."
+    },
+    "certifications": {
+      "value": ["none-found"],
+      "note": "No ISO, SOC or other certificate named on the compliance page, privacy policy, DPA or llms.txt. Web search found nothing."
+    },
+    "trust_page": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://kahubi.com/", "quote": "Read our compliance & security overview", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Served at kahubi.com/compliance. /security, /trust and /subprocessors return 404."
+    },
+    "encryption": {
+      "value": ["in-transit", "at-rest"],
+      "evidence": [
+        { "url": "https://kahubi.com/privacy", "quote": "Passwords are hashed, transport is encrypted (TLS), and access to production systems is restricted.", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/privacy", "quote": "Data is stored on GDPR-compliant, encrypted infrastructure in Sweden", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Sealed editor reviews use a per-review key held by the vendor; customer-managed keys are not described."
+    },
+    "pentest": {
+      "value": "unknown",
+      "note": "No penetration test statement on the compliance page, privacy policy, DPA or llms.txt."
+    },
+    "vuln_disclosure": {
+      "value": "none-found",
+      "evidence": [
+        { "url": "https://kahubi.com/compliance", "quote": "Found a vulnerability, or need a Data Processing Agreement", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The compliance page gives a reporting address (team@kahubi.com) but no disclosure policy or bug bounty. kahubi.com/.well-known/security.txt redirects to localhost:3000 (checked 2026-11-17), so no security.txt is served."
+    },
+    "incidents": {
+      "value": "none found",
+      "note": "Vendor pages checked: none. WebSearch 2026-11-17 for Kahubi / Avidemic AB breach, IMY or incident returned only unrelated cases (e.g. Miljödata)."
+    },
+    "status_page": {
+      "value": "no",
+      "note": "No status page linked from the homepage or footer; kahubi.com/status returns 404."
+    },
+    "sso": {
+      "value": ["unknown"],
+      "note": "The login page shows email and password only. No SAML, OIDC, Google or Microsoft sign-in is named on the pricing, compliance, terms pages or llms.txt."
+    },
+    "federation": {
+      "value": ["none-found"],
+      "note": "No eduGAIN or national federation membership on vendor pages; web search found no Kahubi entry."
+    },
+    "scim": {
+      "value": "unknown",
+      "note": "No provisioning statement found."
+    },
+    "mfa": {
+      "value": "unknown",
+      "note": "No multi-factor statement on public pages; the login page shows email and password only."
+    },
+    "admin_console": {
+      "value": "unknown",
+      "note": "llms.txt says institutional licences have a seat limit 'managed by a named licence admin at the customer', and team owners can suspend or remove members (terms section 6). No admin console or usage reports are described."
+    },
+    "audit_logs": {
+      "value": "unknown",
+      "note": "No audit-log statement found."
+    },
+    "lms_integration": {
+      "value": ["none"],
+      "note": "No LTI or named LMS (Canvas, Moodle, Blackboard, Brightspace, itslearning) on the homepage, educators page, integrations page or llms.txt."
+    },
+    "vpat": {
+      "value": "on-request",
+      "evidence": [
+        { "url": "https://kahubi.com/accessibility", "quote": "Universities evaluating Kahubi can request our current conformance documentation through the same address.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The page does not name a VPAT or ACR; it offers 'conformance documentation' on request."
+    },
+    "wcag_level": {
+      "value": "2.1-aa",
+      "evidence": [
+        { "url": "https://kahubi.com/accessibility", "quote": "Kahubi aims to conform to the Web Content Accessibility Guidelines (WCAG) 2.1, level AA", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Stated as a target ('aims to conform'); conformance work described as ongoing."
+    },
+    "accessibility_statement": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://kahubi.com/accessibility", "quote": "This statement was last reviewed in August 2026.", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "hecvat": {
+      "value": "none-found",
+      "note": "No HECVAT on kahubi.com; web search found none."
+    },
+    "ferpa": {
+      "value": "none-found",
+      "note": "No FERPA statement on public pages."
+    },
+    "hipaa_baa": {
+      "value": "unknown",
+      "note": "Clinicians are a target audience, but no HIPAA or BAA statement found."
+    },
+    "section_508": {
+      "value": "unknown",
+      "note": "The accessibility page says WCAG 2.1 AA is referenced by Section 508; this is not a Section 508 conformance claim."
+    },
+    "state_privacy": {
+      "value": ["ccpa"],
+      "evidence": [
+        { "url": "https://kahubi.com/privacy", "quote": "We offer the same level of protection to users outside the EU (including under the CCPA and the Australian Privacy Act)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "A general statement in the privacy policy, not contract terms. No SDPC or NY Ed Law 2-d agreements found."
+    },
+    "uk_gdpr": {
+      "value": "unknown",
+      "note": "No UK IDTA or UK addendum in the privacy policy, compliance page or DPA."
+    },
+    "au_privacy": {
+      "value": ["app-statement"],
+      "evidence": [
+        { "url": "https://kahubi.com/privacy", "quote": "We offer the same level of protection to users outside the EU (including under the CCPA and the Australian Privacy Act)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "No IRAP assessment or Australian hosting stated."
+    },
+    "nis2": {
+      "value": "unknown",
+      "note": "NIS2 not mentioned on public pages."
+    },
+    "free_plan": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://kahubi.com/pricing", "quote": "The Free plan is a real plan, not a demo", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Free plan: 25 AI messages a month, 2 projects, 200 library papers, one-time 30-minute transcription trial."
+    },
+    "price_individual": {
+      "value": "USD 29 per month (Starter, billed monthly); yearly billing gives 2 months free",
+      "evidence": [
+        { "url": "https://kahubi.com/pricing", "quote": "Starter $29/mo · 2 months free yearly", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/pricing", "quote": "Prices in USD, billed monthly", "retrievedAt": "2026-11-17" }
+      ],
+      "footnote": "Lower Starter and Growth prices for researchers in 134 countries, shown after sign-up.",
+      "note": "Prices exclusive of VAT (terms section 3)."
+    },
+    "institutional_licence": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://kahubi.com/pricing", "quote": "For department- or university-wide licensing, trials for your whole email domain, or invoicing, contact us", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "On request; no published institutional price."
+    },
+    "edu_discount": {
+      "value": "unknown",
+      "note": "No student or academic discount on the pricing page or FAQ. The pricing page offers lower prices by country ('researchers in 134 countries'), which is regional pricing, not an academic discount."
+    },
+    "pricing_public": {
+      "value": "yes",
+      "evidence": [
+        { "url": "https://kahubi.com/pricing", "quote": "Prices in USD, billed monthly", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "capabilities": {
+      "value": ["literature-search", "paper-chat", "summarize-papers", "translation", "systematic-review", "reference-management", "citation-formatting", "academic-writing", "survey", "interview-transcription", "qualitative-coding", "statistics", "data-visualization", "notes", "collaboration-docs", "general-ai-chat"],
+      "evidence": [
+        { "url": "https://kahubi.com/", "quote": "Agent searches OpenAlex and the web, and imports papers for you", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "Chat with your library, not a generic chatbot", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "Select text in any PDF to explain, summarize, or translate it", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "Run a systematic review, end to end", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "Import from Zotero, Mendeley, BibTeX or PDFs in minutes.", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "APA, MLA, Chicago, Harvard, IEEE, and Vancouver", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "Write accurate manuscripts, grounded in your sources", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "Design, host, and analyze surveys — in one flow", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "Transcribe and analyze interviews in 99+ languages", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "Thematic, narrative, and grounded-theory analysis across all transcripts", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "Run real statistics on your own data", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "Charts and a written interpretation, ready to cite in your manuscript", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "Your personal library, notes, and memory stay private unless you share a project.", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "Comment on any answer, draft, or paper; everything is threaded", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/", "quote": "Ask the AI anything about your research", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Also rubric-based grading (educators page) and AI desk review of manuscripts (editors page), which have no option value. The educators page says Kahubi does not do plagiarism or AI-text detection; the editors page's 'similarity check' is not described as plagiarism detection, so plagiarism-check is not listed. No video meetings, lecture capture, exam, citation graph or coding assistant features."
+    },
+    "primary_capability": {
+      "value": "other",
+      "evidence": [
+        { "url": "https://kahubi.com/", "quote": "Kahubi helps you write papers in your own style, read and question your library, and analyze your data and interviews.", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The vendor presents one all-in-one research workspace; no single primary job is stated."
+    },
+    "platforms": {
+      "value": ["web", "word-addin", "browser-extension"],
+      "evidence": [
+        { "url": "https://kahubi.com/", "quote": "Kahubi runs in the browser, so there is nothing to install and nothing to sync.", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/word-addin", "quote": "Word 2016 or newer on Windows and Mac, and Word for the web.", "retrievedAt": "2026-11-17" },
+        { "url": "https://kahubi.com/pricing", "quote": "Word add-in & Chrome extension", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "The Chrome extension is named only in the pricing table; the kahubi.com/chrome-extension page linked from llms.txt returned 404. No native desktop or mobile apps; the homepage refers to using the web app from a phone."
+    },
+    "languages": {
+      "value": "16 interface languages: Arabic, Chinese (Simplified), Danish, English, Finnish, French, German, Icelandic, Indonesian, Japanese, Korean, Norwegian (bokmål), Portuguese, Spanish, Swedish, Turkish",
+      "evidence": [
+        { "url": "https://kahubi.com/", "quote": "Danish · Dansk English Finnish · Suomi French · Français German · Deutsch Icelandic · Íslenska", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "From the interface-language menu on the site. Transcription covers 99+ languages (separate from the interface)."
+    },
+    "api": {
+      "value": "unknown",
+      "note": "No public API documentation found. Kahubi connects to external MCP servers and public databases, which is not a public API for Kahubi."
+    },
+    "open_source": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://kahubi.com/terms", "quote": "Kahubi and its licensors retain all rights to the Services themselves", "retrievedAt": "2026-11-17" }
+      ]
+    },
+    "self_host": {
+      "value": "no",
+      "evidence": [
+        { "url": "https://kahubi.com/legal/Kahubi-DPA-2026-10.pdf", "quote": "The Data Processor provides a web-based research workspace (Kahubi)", "retrievedAt": "2026-11-17" }
+      ],
+      "note": "Hosted service only; no self-hosted option described on any page."
+    }
+  }
+}
